@@ -2,7 +2,7 @@ import axios from 'axios'
 import { messageTip } from '@/tool/tool'
 import throttle from 'lodash.throttle'
 import * as Tool from '@/tool/tool.js'
-import { globals } from '../main'
+import { globals, hworkJSApi } from '../main'
 import * as Const from '@/tool/const.js'
 
 const HWORK_URL = import.meta.env.VITE_HWORK_URL
@@ -13,7 +13,7 @@ const service = axios.create({
   timeout: 180 * 1000
 })
 
-const error2Message = throttle(error => {
+const error2Message = throttle((error) => {
   let message = ''
   if (Const.HWORK_DOMAIN_INNER_ARR.includes(error?.config?.baseURL)) {
     return
@@ -44,10 +44,10 @@ const error2Message = throttle(error => {
 }, 3000)
 
 service.interceptors.request.use(
-  async config => {
+  async (config) => {
     if (config.needRefreshToken && window?.hwork?.getToken) {
       const obj = await window.hwork.getToken(config.needRefreshToken)
-      console.log('401第二次获取', obj);
+      console.log('401第二次获取', obj)
     }
     const hworkToken = hworkJSApi?.getToken()
 
@@ -76,15 +76,16 @@ service.interceptors.request.use(
       delete config.data.refreshToken
     }
 
-    if (config.params?.extraHeader) { // 部分接口有额外的请求头，如强通知ejectIKnow
+    if (config.params?.extraHeader) {
+      // 部分接口有额外的请求头，如强通知ejectIKnow
       config.headers[config.params.extraHeader] = config.params?.extraHeaderVal
-      delete config.params.extraHeader;
-      delete config.params.extraHeaderVal;
+      delete config.params.extraHeader
+      delete config.params.extraHeaderVal
     }
 
     return config
   },
-  error => {
+  (error) => {
     // do something with request error
     return Promise.reject(error)
   }
@@ -92,7 +93,7 @@ service.interceptors.request.use(
 
 // response interceptor
 service.interceptors.response.use(
-  response => {
+  (response) => {
     const res = response.data
     if (Tool.webEnv() === 'qiankun') {
       if (response.config.responseType === 'blob') {
@@ -102,7 +103,15 @@ service.interceptors.response.use(
     }
     if (res.code === 40001 || res.code === 900 || res.code === 20203 || res.code === 15000) {
       handle_401(res.msg || res.message || 'Error')
-    } else if (res.code && res.code !== 10000 && res.code !== 10001 && res.code !== 200 && res.code !== 1 && !response.config.headers.ignoreTip && !res.success) {
+    } else if (
+      res.code &&
+      res.code !== 10000 &&
+      res.code !== 10001 &&
+      res.code !== 200 &&
+      res.code !== 1 &&
+      !response.config.headers.ignoreTip &&
+      !res.success
+    ) {
       if (Const.IS_NEW_DESKTOP) {
         window?.hwork?.showToast({
           type: 'error',
@@ -135,7 +144,7 @@ service.interceptors.response.use(
   }
 )
 
-function handle_401 (error) {
+function handle_401(error) {
   let errMsg = ''
 
   if (typeof error === 'string') {
@@ -156,7 +165,8 @@ function handle_401 (error) {
     } else {
       // todo
     }
-  } else { // 跳转到桌面端的登录页，不显示报错提示
+  } else {
+    // 跳转到桌面端的登录页，不显示报错提示
     window?.ipcMethod?.jumpToLogin({
       errMsg,
       aimPath: '/home/workbench'
@@ -164,18 +174,18 @@ function handle_401 (error) {
   }
 }
 
-async function newDesktop_401 (error) {
-  console.log('token已过期');
+async function newDesktop_401(error) {
+  console.log('token已过期')
   if (!error.config.needRefreshToken) {
     return service({
       ...error.config,
       needRefreshToken: true
-    });
+    })
   }
-  return Promise.reject(new Error(error?.data?.message || ''));
+  return Promise.reject(new Error(error?.data?.message || ''))
 }
 
-function rememberFrom () {
+function rememberFrom() {
   const { pathname, href } = window.location
   const list = ['/', '/register']
   if (list.indexOf(pathname) === -1) {
