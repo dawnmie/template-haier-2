@@ -269,8 +269,8 @@ module.exports = {
     ],
     'no-extra-boolean-cast': 0,
     'no-async-promise-executor': 0,
-    'no-unused-vars': 0,
-    '@typescript-eslint/no-unused-vars': 0,
+    'no-unused-vars': [1, { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
+    '@typescript-eslint/no-unused-vars': [1, { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
     'space-before-function-paren': 0, // 定义函数，函数名和参数之间有空格
     'array-bracket-spacing': [2, 'never'], // 要求数组方括号中使用一致的空格
     // vue 语法配置

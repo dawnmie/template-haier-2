@@ -42,9 +42,9 @@ export function getSupabaseUrl() {
     if (import.meta.env.DEV) {
       return origin
     }
-    const id = resolveInstanceIdForProd()
-    if (!id) return origin
   }
+  const id = resolveInstanceIdForProd()
+  if (!id) return origin
 
   return `${origin}/rd/obaas/instances/${id}`
 }
