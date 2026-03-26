@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js'
 import { resolveHworkBearerToken } from '@/services/hwork-context.js'
 import { hworkJSApi } from '../main'
-
+import * as Const from '@/tool/const.js'
 /**
  * 页面与应用 API 同源时用 location.origin；若前端与网关不同源，可设 VITE_SUPABASE_PUBLIC_URL。
  */
@@ -35,7 +35,7 @@ function resolveInstanceIdForProd() {
 /** 与 createClient 使用的绝对 URL 一致（OAuth authorize 也必须指向此根路径） */
 export function getSupabaseUrl() {
   let origin
-  if (IS_HWORK_QIANKUN) {
+  if (Const.IS_HWORK_QIANKUN) {
     origin = import.meta.env.VITE_BASE_URL
   } else {
     const origin = getSiteOrigin()
@@ -50,7 +50,7 @@ export function getSupabaseUrl() {
 }
 
 const SUPABASE_URL = getSupabaseUrl()
-const SUPABASE_ANON_KEY = IS_HWORK_QIANKUN
+const SUPABASE_ANON_KEY = Const.IS_HWORK_QIANKUN
   ? 'Bearer ' + hworkJSApi.getToken()
   : import.meta.env.VITE_SUPABASE_ANON_KEY || 'your-anon-key'
 
