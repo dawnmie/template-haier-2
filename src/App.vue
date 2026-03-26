@@ -23,7 +23,7 @@ const ENV_QIANKUN = qiankunWindow.__POWERED_BY_QIANKUN__
 if (!ENV_QIANKUN) {
   const { loading } = useAppAuth()
   watch(
-    () => loading,
+    () => loading.value,
     () => {
       pageLoading.value = loading.value
     }
