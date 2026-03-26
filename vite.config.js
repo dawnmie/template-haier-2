@@ -2,7 +2,7 @@ import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite'
 import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
-import qiankun from 'vite-plugin-qiankun';
+import qiankun from 'vite-plugin-qiankun'
 import { join } from 'path'
 
 /** build 时静态资源根：来自 VITE_DEPLOY_CDN_HOST（主机名或完整 https:// 前缀） */
@@ -35,26 +35,26 @@ export default defineConfig(({ mode, command }) => {
   const name = resolveQiankunAppName(env)
   const deployOrigin = resolveDeployCdnOrigin(env)
   const baseMap = {
-    'development': `/${name}/`,
-    'test': `${deployOrigin}/${name}/`,
-    'pre': `${deployOrigin}/${name}/`,
-    'prod': `${deployOrigin}/${name}/`,
+    development: `/${name}/`,
+    test: `${deployOrigin}/${name}/`,
+    pre: `${deployOrigin}/${name}/`,
+    prod: `${deployOrigin}/${name}/`
   }
 
   const default_config = {
     base: command === 'serve' ? './' : baseMap[env.VITE_NODE_ENV],
     define: {
       'process.env.COMMAND': `"${command}"`, // serve：本地(vite) build：打包(vite build)
-      'import.meta.env.VITE_SUB_APP_NAME': JSON.stringify(name),
+      'import.meta.env.VITE_SUB_APP_NAME': JSON.stringify(name)
     },
     build: {
-      sourcemap: false// 开启sourceMap
+      sourcemap: false // 开启sourceMap
     },
     server: {
       // 须与平台 Traefik 一致：instances 将 preview-* 路由到 dev 容器 :5173（见 getDevSandboxTraefikLabels）
       host: '0.0.0.0',
       origin: 'http://localhost:5173',
-      port: 5173,
+      port: 9550,
       allowedHosts: true,
       // pnpm store-dir 若在项目下（如 .pnpm-store），文件极多；默认 watch 不忽略，会占满 inotify
       watch: { ignored: ['**/.pnpm-store/**'] },
@@ -80,9 +80,11 @@ export default defineConfig(({ mode, command }) => {
     plugins: [
       vue(),
       Components({
-        resolvers: [AntDesignVueResolver({
-          importStyle: false // css in js
-        })]
+        resolvers: [
+          AntDesignVueResolver({
+            importStyle: false // css in js
+          })
+        ]
       })
     ],
     optimizeDeps: {
@@ -109,16 +111,19 @@ export default defineConfig(({ mode, command }) => {
 
 function web_config(default_config, name) {
   return {
-    plugins: [...default_config.plugins, ...[
-      // 接入qiankun
-      qiankun(name, {
-        useDevMode: true
-      })
-    ]],
+    plugins: [
+      ...default_config.plugins,
+      ...[
+        // 接入qiankun
+        qiankun(name, {
+          useDevMode: true
+        })
+      ]
+    ],
     build: {
       ...default_config.build,
       rollupOptions: {
-        ...default_config.build.rollupOptions,
+        ...default_config.build.rollupOptions
       }
     }
   }

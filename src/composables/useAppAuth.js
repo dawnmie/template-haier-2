@@ -4,10 +4,14 @@ import { getHaierAuthorizeUrl } from '@/services/config'
 
 /** 用 GoTrue 校验 JWT；短延迟二次请求便于微前端异步注入 token / session */
 async function fetchValidatedUser() {
-  const { data: { user } } = await supabase.auth.getUser()
+  const {
+    data: { user }
+  } = await supabase.auth.getUser()
   if (user) return user
   await new Promise((r) => setTimeout(r, 120))
-  const { data: { user: retryUser } } = await supabase.auth.getUser()
+  const {
+    data: { user: retryUser }
+  } = await supabase.auth.getUser()
   return retryUser ?? null
 }
 
@@ -40,16 +44,22 @@ export function useAppAuth() {
 
       try {
         if (accessToken) {
-          const { data: { session }, error } = await supabase.auth.setSession({
+          const {
+            data: { session },
+            error
+          } = await supabase.auth.setSession({
             access_token: accessToken,
-            refresh_token: refreshToken || '',
+            refresh_token: refreshToken || ''
           })
           if (!mounted) return
           if (error || !session) {
             redirectToHaierOAuth()
             return
           }
-          const { data: { user: validated }, error: userErr } = await supabase.auth.getUser()
+          const {
+            data: { user: validated },
+            error: userErr
+          } = await supabase.auth.getUser()
           if (!mounted) return
           if (userErr || !validated) {
             redirectToHaierOAuth()
@@ -74,7 +84,9 @@ export function useAppAuth() {
       if (!mounted) return
       loading.value = false
 
-      const { data: { subscription: sub } } = supabase.auth.onAuthStateChange(async (event, session) => {
+      const {
+        data: { subscription: sub }
+      } = supabase.auth.onAuthStateChange(async (event, session) => {
         if (!mounted) return
         if (!session) {
           user.value = null
@@ -83,7 +95,10 @@ export function useAppAuth() {
           }
           return
         }
-        const { data: { user: u }, error } = await supabase.auth.getUser()
+        const {
+          data: { user: u },
+          error
+        } = await supabase.auth.getUser()
         if (!mounted) return
         user.value = !error && u ? u : null
       })
