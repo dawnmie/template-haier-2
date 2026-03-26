@@ -1,11 +1,16 @@
 import { createClient } from '@supabase/supabase-js'
 import { resolveHworkBearerToken } from '@/services/hwork-context.js'
+import { hworkJSApi } from '../main'
 
 /**
  * 页面与应用 API 同源时用 location.origin；若前端与网关不同源，可设 VITE_SUPABASE_PUBLIC_URL。
  */
 function getSiteOrigin() {
-  const fromEnv = (import.meta.env.VITE_SUPABASE_PUBLIC_URL || import.meta.env.VITE_PUBLIC_APP_ORIGIN || '').trim()
+  const fromEnv = (
+    import.meta.env.VITE_SUPABASE_PUBLIC_URL ||
+    import.meta.env.VITE_PUBLIC_APP_ORIGIN ||
+    ''
+  ).trim()
   if (fromEnv) return fromEnv.replace(/\/$/, '')
   return window.location.origin.replace(/\/$/, '')
 }
@@ -29,17 +34,25 @@ function resolveInstanceIdForProd() {
 
 /** 与 createClient 使用的绝对 URL 一致（OAuth authorize 也必须指向此根路径） */
 export function getSupabaseUrl() {
-  const origin = getSiteOrigin()
-  if (import.meta.env.DEV) {
-    return origin
+  let origin
+  if (IS_HWORK_QIANKUN) {
+    origin = import.meta.env.VITE_BASE_URL
+  } else {
+    const origin = getSiteOrigin()
+    if (import.meta.env.DEV) {
+      return origin
+    }
+    const id = resolveInstanceIdForProd()
+    if (!id) return origin
   }
-  const id = resolveInstanceIdForProd()
-  if (!id) return origin
+
   return `${origin}/rd/obaas/instances/${id}`
 }
 
 const SUPABASE_URL = getSupabaseUrl()
-const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || 'your-anon-key'
+const SUPABASE_ANON_KEY = IS_HWORK_QIANKUN
+  ? 'Bearer ' + hworkJSApi.getToken()
+  : import.meta.env.VITE_SUPABASE_ANON_KEY || 'your-anon-key'
 
 /**
  * 在 Supabase 未自带 Authorization 时注入 Hwork / iamToken（便于 getUser 等 /auth/v1 请求）。
@@ -60,15 +73,17 @@ export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
     persistSession: true,
     autoRefreshToken: true,
     detectSessionInUrl: true,
-    storageKey: 'supabase-auth-haier2',
+    storageKey: 'supabase-auth-haier2'
   },
   global: {
-    fetch: supabaseCustomFetch,
-  },
+    fetch: supabaseCustomFetch
+  }
 })
 
 export async function getAccessToken() {
-  const { data: { session } } = await supabase.auth.getSession()
+  const {
+    data: { session }
+  } = await supabase.auth.getSession()
   return session?.access_token || null
 }
 

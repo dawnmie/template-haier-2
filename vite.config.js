@@ -54,7 +54,7 @@ export default defineConfig(({ mode, command }) => {
       // 须与平台 Traefik 一致：instances 将 preview-* 路由到 dev 容器 :5173（见 getDevSandboxTraefikLabels）
       host: '0.0.0.0',
       origin: 'http://localhost:5173',
-      port: 9550,
+      port: 5173,
       allowedHosts: true,
       // pnpm store-dir 若在项目下（如 .pnpm-store），文件极多；默认 watch 不忽略，会占满 inotify
       watch: { ignored: ['**/.pnpm-store/**'] },
