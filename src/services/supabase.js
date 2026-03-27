@@ -1,6 +1,5 @@
 import { createClient } from '@supabase/supabase-js'
 import { resolveHworkBearerToken } from '@/services/hwork-context.js'
-import { hworkJSApi } from '../main'
 import * as Const from '@/tool/const.js'
 /**
  * 页面与应用 API 同源时用 location.origin；若前端与网关不同源，可设 VITE_SUPABASE_PUBLIC_URL。
@@ -50,9 +49,7 @@ export function getSupabaseUrl() {
 }
 
 const SUPABASE_URL = getSupabaseUrl()
-const SUPABASE_ANON_KEY = Const.IS_HWORK_QIANKUN
-  ? 'Bearer ' + hworkJSApi.getToken()
-  : import.meta.env.VITE_SUPABASE_ANON_KEY || 'your-anon-key'
+const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || 'your-anon-key'
 
 /**
  * 在 Supabase 未自带 Authorization 时注入 Hwork / iamToken（便于 getUser 等 /auth/v1 请求）。
@@ -61,7 +58,7 @@ const SUPABASE_ANON_KEY = Const.IS_HWORK_QIANKUN
 async function supabaseCustomFetch(input, init = {}) {
   const h = init.headers
   const headers = h instanceof Headers ? new Headers(h) : new Headers(h || {})
-  if (!headers.has('Authorization')) {
+  if (Const.IS_HWORK_QIANKUN) {
     const bearer = await resolveHworkBearerToken()
     if (bearer) headers.set('Authorization', `Bearer ${bearer}`)
   }
