@@ -61,7 +61,7 @@ import { ConfigProvider } from 'ant-design-vue'
 
 > **🖥️ 运行环境**: 你运行在平台提供的**安全开发沙箱**中。沙箱侧已默认启动 **Vite 开发服务器（通常监听 `5173` 端口）**；用户通过网页控制台与你对话，预览区通过 iframe 加载该地址，可**实时看到保存代码后的热更新（HMR）**。因此你**无需也请不要自行执行 `pnpm dev`**——开发时的界面反馈由环境接管。你应关注：**`pnpm install`** 确保依赖就绪。
 >
-> **✅ 构建自检（必须）**: **每次**完成一批代码写入或修改（尤其是 `src/`、`package.json`、静态资源等与构建相关的变更）后，**必须**在项目根目录执行 **`pnpm build`**，确认当前代码在生产构建下无报错；若有错误，须根据输出逐项修复并**再次** `pnpm build` 直至通过。**不要**仅凭 HMR 或预览正常就推断构建一定成功——类型检查、Tree-shaking、生产打包等问题往往只在 `pnpm build` 阶段暴露。
+> **✅ 代码自检（必须）**: **每次**完成一批代码写入或修改（尤其是 `src/` 下的 `.js`、`.vue` 文件）后，**必须**在项目根目录执行 **`pnpm fix`**（即 `eslint --fix --ext .js,.vue src`），自动修复可修复的 lint 问题并确认无剩余报错；若仍有错误，须根据输出逐项修复并**再次** `pnpm fix` 直至通过。
 
 > **⚠️ 重要提示**: 基于 OceanBase SeekDB 的 BaaS。**登录与 `template-haier` 对齐**：`main` 挂载时注入 `HworkJSApi` / `window.hwork`（`src/services/hwork-context.js`），`supabase` 自定义 `fetch` 在缺少 `Authorization` 时自动带上 **Hwork token** 或 **`hwork_iamAccessToken`**（见 `src/services/supabase.js`）。`App.vue` 经 **`useAppAuth`**：`getUser` 无效则整页跳转 GoTrue **`provider=hwork`** OAuth；回调 hash/query 带 token 时 `setSession`。表数据仍须通过 **`supabase.rpc()`**。
 
