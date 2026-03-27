@@ -174,6 +174,7 @@ module.exports = {
     'no-self-compare': 2, // 禁止自身比较表达式
     'no-useless-return': 2, // 禁止不必要的return语句
     'no-sequences': 2,
+    'no-shadow': [2, { builtinGlobals: false, hoist: 'functions' }], // 禁止内层作用域遮蔽外层变量。
     'no-shadow-restricted-names': 2,
     'no-spaced-func': 2,
     'no-sparse-arrays': 2,
