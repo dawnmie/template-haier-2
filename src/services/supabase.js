@@ -37,7 +37,7 @@ export function getSupabaseUrl() {
   if (Const.IS_HWORK_QIANKUN) {
     origin = import.meta.env.VITE_BASE_URL
   } else {
-    const origin = getSiteOrigin()
+    origin = getSiteOrigin()
     if (import.meta.env.DEV) {
       return origin
     }
