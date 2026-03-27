@@ -12,7 +12,7 @@
 export async function storageEnsureBucket(client, bucket, options = {}) {
   const { error } = await client.storage.createBucket(bucket, {
     public: options.public ?? false,
-    fileSizeLimit: options.fileSizeLimit ?? 5_242_880,
+    fileSizeLimit: options.fileSizeLimit ?? 5_242_880
   })
   if (error && !/already exists|Bucket already exists|Duplicate/i.test(error.message)) {
     throw new Error(error.message)
@@ -23,7 +23,7 @@ export async function storageEnsureBucket(client, bucket, options = {}) {
 export async function storageUpload(client, bucket, path, body, opts = {}) {
   const { data, error } = await client.storage.from(bucket).upload(path, body, {
     upsert: opts.upsert ?? true,
-    contentType: opts.contentType,
+    contentType: opts.contentType
   })
   if (error) throw new Error(error.message)
   return data?.path ?? path
@@ -33,7 +33,7 @@ export async function storageUpload(client, bucket, path, body, opts = {}) {
 export async function storageDownloadText(client, bucket, path) {
   const { data, error } = await client.storage.from(bucket).download(path)
   if (error) throw new Error(error.message)
-  return await data.text()
+  return data.text()
 }
 
 /** @param {import('@supabase/supabase-js').SupabaseClient} client */
@@ -41,7 +41,7 @@ export async function storageList(client, bucket, folder, listOpts = {}) {
   const { data, error } = await client.storage.from(bucket).list(folder, {
     limit: listOpts.limit ?? 100,
     offset: listOpts.offset ?? 0,
-    sortBy: listOpts.sortBy ?? { column: 'name', order: 'asc' },
+    sortBy: listOpts.sortBy ?? { column: 'name', order: 'asc' }
   })
   if (error) throw new Error(error.message)
   return data ?? []
@@ -60,9 +60,7 @@ export function storageGetPublicUrl(client, bucket, path) {
 
 /** @param {import('@supabase/supabase-js').SupabaseClient} client */
 export async function storageCreateSignedUrl(client, bucket, path, expiresInSeconds) {
-  const { data, error } = await client.storage
-    .from(bucket)
-    .createSignedUrl(path, expiresInSeconds)
+  const { data, error } = await client.storage.from(bucket).createSignedUrl(path, expiresInSeconds)
   if (error) throw new Error(error.message)
   if (!data?.signedUrl) throw new Error('createSignedUrl: empty signedUrl')
   return data.signedUrl

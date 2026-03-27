@@ -1,8 +1,9 @@
-function collection(event) {
+function collection(_event) {
   const performance = window.performance
 
   if (performance) {
-    setTimeout(() => { // 异步获取，同步获取时duration等值可能获取不到
+    setTimeout(() => {
+      // 异步获取，同步获取时duration等值可能获取不到
       const pnt = performance.getEntriesByType('navigation')[0]
       console.log(pnt, 'performance')
 

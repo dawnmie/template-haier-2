@@ -2,12 +2,11 @@ import * as vue from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import routes from './router'
-import '@/styles/iconfont/iconfont.css'
 import 'ant-design-vue/dist/reset.css'
 import { renderWithQiankun } from 'vite-plugin-qiankun/dist/helper'
 
 const name = import.meta.env.VITE_SUB_APP_NAME
-import * as Tool from '@/tool/tool.js'
+import * as _Tool from '@/tool/tool.js'
 import * as Const from '@/tool/const.js'
 import { setHworkJSApi } from '@/services/hwork-context.js'
 import pinia, { userStore } from '@/pinia'

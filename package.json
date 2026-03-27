@@ -11,6 +11,7 @@
     "build:pre": "vite build --mode pre",
     "build:prod": "vite build --mode prod",
     "build": "vite build --mode prod",
+    "lint": "eslint --ext .js,.vue src",
     "fix": "eslint --fix --ext .js,.vue src"
   },
   "dependencies": {

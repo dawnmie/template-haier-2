@@ -44,7 +44,9 @@ export const isUrl = (url) => {
 export const recordLog = (type, ...args) => {
   const isDev = import.meta.env.VITE_TARGET_ENV === 'development'
   if (isDev) {
-    console[type] && console[type](...args);
+    if (console[type]) {
+      console[type](...args)
+    }
   }
 }
 
@@ -63,7 +65,9 @@ export const parseUrl = (url) => {
       const seg = a.search.replace(/^\?/, '').split('&')
       let s
       for (let i = 0; i < seg.length; i++) {
-        if (!seg[i]) { continue; }
+        if (!seg[i]) {
+          continue
+        }
         s = seg[i].split('=')
         ret[s[0]] = s[1]
       }
@@ -80,7 +84,7 @@ export const parseUrl = (url) => {
 }
 
 // 年月日 时分秒
-export const formatDate = function(date, fmt) {
+export const formatDate = function (date, fmt) {
   const o = {
     'M+': date.getMonth() + 1,
     'd+': date.getDate(),
@@ -90,9 +94,16 @@ export const formatDate = function(date, fmt) {
     'q+': Math.floor((date.getMonth() + 3) / 3),
     S: date.getMilliseconds() // 毫秒
   }
-  if (/(y+)/.test(fmt)) { fmt = fmt.replace(RegExp.$1, (date.getFullYear() + '').substr(4 - RegExp.$1.length)) }
+  if (/(y+)/.test(fmt)) {
+    fmt = fmt.replace(RegExp.$1, (date.getFullYear() + '').substr(4 - RegExp.$1.length))
+  }
   for (const k in o) {
-    if (new RegExp('(' + k + ')').test(fmt)) { fmt = fmt.replace(RegExp.$1, (RegExp.$1.length === 1) ? (o[k]) : (('00' + o[k]).substr(('' + o[k]).length))) }
+    if (new RegExp('(' + k + ')').test(fmt)) {
+      fmt = fmt.replace(
+        RegExp.$1,
+        RegExp.$1.length === 1 ? o[k] : ('00' + o[k]).substr(('' + o[k]).length)
+      )
+    }
   }
   return fmt
 }

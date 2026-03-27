@@ -1,6 +1,6 @@
-import service from './request';
-import Qs from 'qs';
-import { webEnv } from '@/tool/tool';
+import service from './request'
+import Qs from 'qs'
+import { webEnv } from '@/tool/tool'
 /**
  * 封装get方法
  * @param url
@@ -14,20 +14,20 @@ export function $fetch(url, params = {}) {
       .get(url, {
         params: params,
         paramsSerializer: {
-          serialize: function (params) {
-            return Qs.stringify(params, {
+          serialize: function (queryParams) {
+            return Qs.stringify(queryParams, {
               arrayFormat: 'repeat'
-            });
+            })
           }
         }
       })
       .then((response) => {
-        resolve(response);
+        resolve(response)
       })
       .catch((err) => {
-        reject(err);
-      });
-  });
+        reject(err)
+      })
+  })
 }
 
 /**
@@ -41,13 +41,13 @@ export function $post(url, data = {}) {
   return new Promise((resolve, reject) => {
     service.post(url, data).then(
       (response) => {
-        resolve(response);
+        resolve(response)
       },
       (err) => {
-        reject(err);
+        reject(err)
       }
-    );
-  });
+    )
+  })
 }
 
 /**
@@ -57,7 +57,7 @@ export function $post(url, data = {}) {
  * @param callback
  * @returns {Promise}
  */
-export function $post_file (url, data = {}, callback) {
+export function $post_file(url, data = {}, callback) {
   return new Promise((resolve, reject) => {
     service({
       method: 'post',
@@ -68,10 +68,10 @@ export function $post_file (url, data = {}, callback) {
         callback(progressEvent)
       }
     }).then(
-      response => {
+      (response) => {
         resolve(response)
       },
-      err => {
+      (err) => {
         reject(err)
       }
     )
@@ -87,17 +87,15 @@ export function $post_file (url, data = {}, callback) {
 
 export function $post_form(url, data = {}) {
   return new Promise((resolve, reject) => {
-    service
-      .post(url, data, { headers: { 'Content-Type': 'multipart/form-data' }})
-      .then(
-        (response) => {
-          resolve(response);
-        },
-        (err) => {
-          reject(err);
-        }
-      );
-  });
+    service.post(url, data, { headers: { 'Content-Type': 'multipart/form-data' }}).then(
+      (response) => {
+        resolve(response)
+      },
+      (err) => {
+        reject(err)
+      }
+    )
+  })
 }
 
 /**
@@ -111,13 +109,13 @@ export function $patch(url, data = {}) {
   return new Promise((resolve, reject) => {
     service.patch(url, data).then(
       (response) => {
-        resolve(response);
+        resolve(response)
       },
       (err) => {
-        reject(err);
+        reject(err)
       }
-    );
-  });
+    )
+  })
 }
 
 /**
@@ -131,13 +129,13 @@ export function $put(url, data = {}) {
   return new Promise((resolve, reject) => {
     service.put(url, data).then(
       (response) => {
-        resolve(response);
+        resolve(response)
       },
       (err) => {
-        reject(err);
+        reject(err)
       }
-    );
-  });
+    )
+  })
 }
 
 export function $delete(url, data = {}) {
@@ -148,13 +146,13 @@ export function $delete(url, data = {}) {
       })
       .then(
         (response) => {
-          resolve(response);
+          resolve(response)
         },
         (err) => {
-          reject(err);
+          reject(err)
         }
-      );
-  });
+      )
+  })
 }
 
 export function $preview(url, params) {
@@ -166,12 +164,12 @@ export function $preview(url, params) {
       responseType: 'blob'
     })
       .then((res) => {
-        resolve(res.data);
+        resolve(res.data)
       })
       .catch((err) => {
-        reject(err.data);
-      });
-  });
+        reject(err.data)
+      })
+  })
 }
 export function $download(url, params, fileName) {
   return new Promise((resolve, reject) => {
@@ -183,13 +181,13 @@ export function $download(url, params, fileName) {
       timeout: 180 * 1000
     })
       .then((res) => {
-        downloadFile(res.data || res, fileName);
-        resolve(res);
+        downloadFile(res.data || res, fileName)
+        resolve(res)
       })
       .catch((err) => {
-        reject(err.data);
-      });
-  });
+        reject(err.data)
+      })
+  })
 }
 export function $download_post(url, params, fileName) {
   return new Promise((resolve, reject) => {
@@ -204,16 +202,16 @@ export function $download_post(url, params, fileName) {
         // console.log(res,'《《《后台导出接口返回的信息,前台入参》》',params);
         const blob = new Blob([res], {
           type: 'application/vnd.ms-excel;charset=utf-8'
-        });
+        })
         //   downloadFile(res.data, fileName)
-        downloadFile(webEnv() === 'qiankun' ? res.data : blob, fileName);
-        resolve(res);
+        downloadFile(webEnv() === 'qiankun' ? res.data : blob, fileName)
+        resolve(res)
       })
       .catch((err) => {
-        console.log(err.response);
-        reject(err.data);
-      });
-  });
+        console.log(err.response)
+        reject(err.data)
+      })
+  })
 }
 
 // 返回响应内容
@@ -224,32 +222,32 @@ export function $downloadResponse(url, params) {
       url: url,
       params: params,
       responseType: 'blob',
-      onDownloadProgress: (progress) => {}
+      onDownloadProgress: (_progress) => {}
     })
       .then((res) => {
-        resolve(res);
+        resolve(res)
         // downloadFile(res.data || res, fileName)
       })
       .catch((err) => {
-        reject(err.data);
-      });
-  });
+        reject(err.data)
+      })
+  })
 }
 
 function downloadFile(blob, fileName) {
-  console.log(blob, fileName);
+  console.log(blob, fileName)
   if (!blob) {
-    return;
+    return
   }
-  const url = window.URL.createObjectURL(new Blob([blob]));
-  console.log(new Blob([blob]));
+  const url = window.URL.createObjectURL(new Blob([blob]))
+  console.log(new Blob([blob]))
 
-  const link = document.createElement('a');
-  link.style.display = 'none';
-  link.href = url;
-  link.setAttribute('download', fileName);
+  const link = document.createElement('a')
+  link.style.display = 'none'
+  link.href = url
+  link.setAttribute('download', fileName)
 
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
+  document.body.appendChild(link)
+  link.click()
+  document.body.removeChild(link)
 }
