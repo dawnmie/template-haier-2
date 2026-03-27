@@ -34,18 +34,21 @@ export default defineConfig(({ mode, command }) => {
   const env = loadEnv(mode, process.cwd())
   const name = resolveQiankunAppName(env)
   const deployOrigin = resolveDeployCdnOrigin(env)
+  const gitBranch = process.env.VITE_GIT_BRANCH || ''
+  const isNonMainBranch = gitBranch && gitBranch !== 'main' && gitBranch !== 'master'
   const baseMap = {
     development: `/${name}/`,
-    test: `${deployOrigin}/${name}/`,
-    pre: `${deployOrigin}/${name}/`,
-    prod: `${deployOrigin}/${name}/`
+    test: isNonMainBranch ? '/' : `${deployOrigin}/${name}/`,
+    pre: isNonMainBranch ? '/' : `${deployOrigin}/${name}/`,
+    prod: isNonMainBranch ? '/' : `${deployOrigin}/${name}/`
   }
 
   const default_config = {
     base: command === 'serve' ? './' : baseMap[env.VITE_NODE_ENV],
     define: {
-      'process.env.COMMAND': `"${command}"`, // serve：本地(vite) build：打包(vite build)
-      'import.meta.env.VITE_SUB_APP_NAME': JSON.stringify(name)
+      'process.env.COMMAND': `"${command}"`,
+      'import.meta.env.VITE_SUB_APP_NAME': JSON.stringify(name),
+      'import.meta.env.VITE_GIT_BRANCH': JSON.stringify(gitBranch)
     },
     build: {
       sourcemap: false // 开启sourceMap

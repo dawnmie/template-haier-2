@@ -38,9 +38,13 @@ export function getSupabaseUrl() {
     origin = import.meta.env.VITE_BASE_URL
   } else {
     origin = getSiteOrigin()
-    if (import.meta.env.DEV) {
+    if (import.meta.env.DEV || import.meta.env.VITE_NODE_ENV === 'pre') {
       return origin
     }
+  }
+  const branch = (import.meta.env.VITE_GIT_BRANCH || '').trim()
+  if (branch && branch !== 'main' && branch !== 'master') {
+    return origin
   }
   const id = resolveInstanceIdForProd()
   if (!id) return origin

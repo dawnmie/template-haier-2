@@ -118,7 +118,9 @@ function createDefaultApp(props = {}) {
   // app.config.globalProperties.$echarts = echarts
   let history = null
 
-  history = createWebHistory(Const.IS_HWORK_QIANKUN ? props?.routerBase || '' : name)
+  const branch = (import.meta.env.VITE_GIT_BRANCH || '').trim()
+  const isNonMainBranch = branch && branch !== 'main' && branch !== 'master'
+  history = createWebHistory(Const.IS_HWORK_QIANKUN ? props?.routerBase || '' : (isNonMainBranch ? '' : name))
 
   const router = createRouter({
     history,
