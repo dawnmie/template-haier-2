@@ -119,7 +119,7 @@ if (!Const.IS_HWORK_QIANKUN) {
       }
       // 销毁 history 监听器，避免内存泄漏
       if (history) {
-        history.destroy()
+        history?.destroy()
       }
     }
   })
