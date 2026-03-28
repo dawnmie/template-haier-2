@@ -16,9 +16,9 @@
 
 ## 组件库
 
-- 使用 `@hwork/ant-design-vue` 组件库（基于 Ant Design Vue 4） **禁止直接使用 `ant-design-vue`**
+- 使用 `@hwork/ant-design-vue` 组件库（基于 Ant Design Vue 4） **禁止使用 `ant-design-vue`**
 - 业务组件使用 `@hwork/hwork-business-components`
-- icon 图标使用 `@hwork/icon` **禁止直接使用 `@ant-design/icons-vue`**
+- icon 图标使用 `@hwork/icon` **禁止使用 `@ant-design/icons-vue`**
 - 列表页用 **`a-card` + `a-form` + `a-table`** 等标准组件；表单提交示例见 **`src/examples/antd-form-submit.vue`**
 
 ## 导入规范

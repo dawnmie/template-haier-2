@@ -10,9 +10,9 @@ alwaysApply: true
 
 ## 组件库
 
-- 使用 **`@hwork/ant-design-vue`**（基于 Ant Design Vue 4 二次开发）
-- 按需自动引入：`unplugin-vue-components` + `AntDesignVueResolver`（见 `vite.config.js`）
-- 图标库使用 `@hwork/icon`
+- 使用 **`@hwork/ant-design-vue`**（基于 Ant Design Vue 4 二次开发）使用方式 ，禁止使用 `ant-design-vue` 组件库
+- 按需自动引入：`@hwork/unplugin-vue-components` + `AntDesignVueResolver`（见 `vite.config.js`）
+- 图标库使用 `@hwork/icon` 禁止使用 `@ant-design/icons-vue`
 
 ## 导入规范
 
