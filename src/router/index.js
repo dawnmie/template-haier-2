@@ -1,8 +1,13 @@
 const routes = [
   {
     path: '/',
-    name: 'welcome',
-    component: () => import('@/views/welcome.vue')
+    name: 'index',
+    component: () => import('@/views/index.vue')
+  },
+  {
+    path: '/demo/table',
+    name: 'demo-table',
+    component: () => import('@/views/demo/table.vue')
   }
 ]
 

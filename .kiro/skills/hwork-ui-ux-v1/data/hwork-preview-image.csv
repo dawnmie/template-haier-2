@@ -1,0 +1,243 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Preview Container Width,100vw,预览容器宽度,预览容器宽度100vw,High
+Size,Preview Container Height,100vh,预览容器高度,预览容器高度100vh,High
+Size,Preview Image Max Width,90vw,预览图片最大宽度,预览图片最大宽度90vw,High
+Size,Preview Image Max Height,90vh,预览图片最大高度,预览图片最大高度90vh,High
+Size,Preview Toolbar Height,56px,预览工具栏高度,预览工具栏高度56px,High
+Size,Preview Toolbar Icon Size,20px,工具栏图标尺寸,工具栏图标尺寸20px,High
+Size,Preview Toolbar Icon Gap,16px,工具栏图标间距,工具栏图标间距16px,Medium
+Size,Preview Toolbar Padding,0 24px,工具栏内边距,工具栏左右内边距24px,Medium
+Size,Preview Arrow Size,40px,箭头按钮尺寸,箭头按钮尺寸40px,High
+Size,Preview Arrow Icon Size,24px,箭头图标尺寸,箭头图标尺寸24px,High
+Size,Preview Close Icon Size,20px,关闭图标尺寸,关闭图标尺寸20px,High
+Size,Preview Thumbnail Size,64px,缩略图尺寸,缩略图尺寸64px,Medium
+Size,Preview Thumbnail Gap,8px,缩略图间距,缩略图间距8px,Medium
+Size,Preview Thumbnail Border Radius,4px,缩略图圆角,缩略图圆角4px,Low
+Size,Preview Loading Icon Size,48px,加载图标尺寸,加载图标尺寸48px,Medium
+Size,Preview Error Icon Size,64px,错误图标尺寸,错误图标尺寸64px,Medium
+Size,Preview Info Height,48px,信息栏高度,信息栏高度48px,Medium
+Size,Preview Info Font Size,14px,信息栏字号,信息栏字号14px,Medium
+Size,Preview Counter Font Size,14px,计数器字号,计数器字号14px,Medium
+Color,Preview Background,rgba(0 0 0 0.85),预览背景,预览半透明黑色背景#000 85%,High
+Color,Preview Toolbar Background,rgba(0 0 0 0.5),工具栏背景,工具栏半透明黑色背景#000 50%,High
+Color,Preview Toolbar Icon Color,#FFFFFF,工具栏图标颜色,工具栏白色图标#FFFFFF,High
+Color,Preview Toolbar Icon Hover Color,#165DFF,工具栏图标悬停颜色,工具栏图标悬停蓝色#165DFF,Medium
+Color,Preview Arrow Background,rgba(0 0 0 0.5),箭头背景,箭头半透明黑色背景#000 50%,High
+Color,Preview Arrow Icon Color,#FFFFFF,箭头图标颜色,箭头白色图标#FFFFFF,High
+Color,Preview Arrow Hover Background,rgba(0 0 0 0.7),箭头悬停背景,箭头悬停深色背景#000 70%,Medium
+Color,Preview Close Icon Color,#FFFFFF,关闭图标颜色,关闭白色图标#FFFFFF,High
+Color,Preview Close Hover Color,#F53F3F,关闭悬停颜色,关闭悬停红色#F53F3F,Medium
+Color,Preview Thumbnail Border,2px solid transparent,缩略图边框,缩略图透明边框,Low
+Color,Preview Thumbnail Active Border,2px solid #165DFF,缩略图激活边框,缩略图激活蓝色边框,High
+Color,Preview Loading Color,#FFFFFF,加载颜色,加载白色#FFFFFF,Medium
+Color,Preview Error Color,#F53F3F,错误颜色,错误红色#F53F3F,Medium
+Color,Preview Info Background,rgba(0 0 0 0.5),信息栏背景,信息栏半透明黑色背景,Medium
+Color,Preview Info Text Color,#FFFFFF,信息栏文字颜色,信息栏白色文字#FFFFFF,Medium
+Color,Preview Counter Color,#FFFFFF,计数器颜色,计数器白色文字#FFFFFF,High
+Toolbar,Toolbar Visible,true,显示工具栏,显示预览工具栏,High
+Toolbar,Toolbar Hidden,false,隐藏工具栏,隐藏预览工具栏,Low
+Toolbar,Toolbar Position,top-right,工具栏位置,工具栏在右上角,High
+Toolbar,Toolbar Position Top,top,工具栏顶部位置,工具栏在顶部,Medium
+Toolbar,Toolbar Position Bottom,bottom,工具栏底部位置,工具栏在底部,Low
+Toolbar,Toolbar Height,56px,工具栏高度,工具栏高度56px,High
+Toolbar,Toolbar Padding,0 24px,工具栏内边距,工具栏内边距,Medium
+Toolbar,Toolbar Background,rgba(0 0 0 0.5),工具栏背景,工具栏半透明背景,High
+Toolbar,Toolbar Border Radius,0,工具栏圆角,工具栏圆角0,Low
+Actions,Action Zoom In,zoom-in,放大操作,放大图片操作,High
+Actions,Action Zoom Out,zoom-out,缩小操作,缩小图片操作,High
+Actions,Action Rotate Left,rotate-left,左旋转操作,左旋转图片操作,High
+Actions,Action Rotate Right,rotate-right,右旋转操作,右旋转图片操作,High
+Actions,Action Flip Horizontal,flip-horizontal,水平翻转操作,水平翻转图片操作,Medium
+Actions,Action Flip Vertical,flip-vertical,垂直翻转操作,垂直翻转图片操作,Medium
+Actions,Action Reset,reset,重置操作,重置图片操作,High
+Actions,Action Download,download,下载操作,下载图片操作,High
+Actions,Action Close,close,关闭操作,关闭预览操作,High
+Actions,Action Fullscreen,fullscreen,全屏操作,全屏预览操作,Medium
+Zoom,Zoom Default,1,默认缩放,默认缩放比例1,High
+Zoom,Zoom Min,0.1,最小缩放,最小缩放比例0.1,High
+Zoom,Zoom Max,10,最大缩放,最大缩放比例10,High
+Zoom,Zoom Step,0.1,缩放步长,缩放步长0.1,Medium
+Zoom,Zoom Wheel Enabled,true,启用滚轮缩放,启用鼠标滚轮缩放,High
+Zoom,Zoom Wheel Step,0.1,滚轮缩放步长,滚轮缩放步长0.1,Medium
+Zoom,Zoom Double Click,true,双击缩放,双击放大缩小,High
+Zoom,Zoom Pinch Enabled,true,启用捏合缩放,启用触摸捏合缩放,Medium
+Rotate,Rotate Default,0deg,默认旋转,默认旋转角度0度,High
+Rotate,Rotate Step,90deg,旋转步长,旋转步长90度,High
+Rotate,Rotate Left Step,-90deg,左旋转步长,左旋转步长-90度,High
+Rotate,Rotate Right Step,90deg,右旋转步长,右旋转步长90度,High
+Flip,Flip Horizontal Default,1,默认水平翻转,默认水平翻转值1,Medium
+Flip,Flip Horizontal Flipped,-1,水平翻转,水平翻转值-1,Medium
+Flip,Flip Vertical Default,1,默认垂直翻转,默认垂直翻转值1,Medium
+Flip,Flip Vertical Flipped,-1,垂直翻转,垂直翻转值-1,Medium
+Arrow,Arrow Visible,true,显示箭头,显示切换箭头,High
+Arrow,Arrow Hidden,false,隐藏箭头,隐藏切换箭头,Low
+Arrow,Arrow Size,40px,箭头尺寸,箭头按钮尺寸40px,High
+Arrow,Arrow Icon Size,24px,箭头图标尺寸,箭头图标尺寸24px,High
+Arrow,Arrow Position Left,left,左箭头位置,左箭头在左侧,High
+Arrow,Arrow Position Right,right,右箭头位置,右箭头在右侧,High
+Arrow,Arrow Offset,24px,箭头偏移,箭头距离边缘偏移24px,Medium
+Arrow,Arrow Background,rgba(0 0 0 0.5),箭头背景,箭头半透明背景,High
+Arrow,Arrow Border Radius,50%,箭头圆角,箭头圆形50%,Medium
+Arrow,Arrow Hover Background,rgba(0 0 0 0.7),箭头悬停背景,箭头悬停深色背景,Medium
+Close,Close Visible,true,显示关闭,显示关闭按钮,High
+Close,Close Hidden,false,隐藏关闭,隐藏关闭按钮,Low
+Close,Close Position,top-right,关闭位置,关闭按钮在右上角,High
+Close,Close Icon Size,20px,关闭图标尺寸,关闭图标尺寸20px,High
+Close,Close Icon Color,#FFFFFF,关闭图标颜色,关闭白色图标#FFFFFF,High
+Close,Close Hover Color,#F53F3F,关闭悬停颜色,关闭悬停红色#F53F3F,Medium
+Close,Close On ESC,true,ESC关闭,按ESC键关闭预览,High
+Close,Close On Click Mask,true,点击遮罩关闭,点击遮罩关闭预览,High
+Thumbnail,Thumbnail Visible,false,显示缩略图,不显示缩略图列表,Low
+Thumbnail,Thumbnail Hidden,true,隐藏缩略图,隐藏缩略图列表,Low
+Thumbnail,Thumbnail Size,64px,缩略图尺寸,缩略图尺寸64px,Medium
+Thumbnail,Thumbnail Gap,8px,缩略图间距,缩略图间距8px,Medium
+Thumbnail,Thumbnail Border Radius,4px,缩略图圆角,缩略图圆角4px,Low
+Thumbnail,Thumbnail Border,2px solid transparent,缩略图边框,缩略图透明边框,Low
+Thumbnail,Thumbnail Active Border,2px solid #165DFF,缩略图激活边框,缩略图激活蓝色边框,High
+Thumbnail,Thumbnail Position,bottom,缩略图位置,缩略图在底部,Low
+Thumbnail,Thumbnail Background,rgba(0 0 0 0.5),缩略图背景,缩略图半透明背景,Low
+Loading,Loading Visible,true,显示加载,显示加载状态,High
+Loading,Loading Icon Size,48px,加载图标尺寸,加载图标尺寸48px,Medium
+Loading,Loading Color,#FFFFFF,加载颜色,加载白色#FFFFFF,Medium
+Loading,Loading Text,加载中...,加载文字,加载提示文字,Medium
+Loading,Loading Background,rgba(0 0 0 0.85),加载背景,加载半透明背景,High
+Error,Error Visible,true,显示错误,显示错误状态,High
+Error,Error Icon Size,64px,错误图标尺寸,错误图标尺寸64px,Medium
+Error,Error Color,#F53F3F,错误颜色,错误红色#F53F3F,Medium
+Error,Error Text,加载失败,错误文字,错误提示文字,High
+Error,Error Retry,true,错误重试,支持错误重试,Medium
+Info,Info Visible,false,显示信息,不显示信息栏,Low
+Info,Info Height,48px,信息栏高度,信息栏高度48px,Medium
+Info,Info Font Size,14px,信息栏字号,信息栏字号14px,Medium
+Info,Info Background,rgba(0 0 0 0.5),信息栏背景,信息栏半透明背景,Medium
+Info,Info Text Color,#FFFFFF,信息栏文字颜色,信息栏白色文字#FFFFFF,Medium
+Info,Info Position,bottom,信息栏位置,信息栏在底部,Low
+Counter,Counter Visible,true,显示计数器,显示图片计数器,High
+Counter,Counter Format,{current}/{total},计数器格式,计数器显示格式,High
+Counter,Counter Font Size,14px,计数器字号,计数器字号14px,Medium
+Counter,Counter Color,#FFFFFF,计数器颜色,计数器白色文字#FFFFFF,High
+Counter,Counter Position,top-left,计数器位置,计数器在左上角,High
+Counter,Counter Background,rgba(0 0 0 0.5),计数器背景,计数器半透明背景,Medium
+Counter,Counter Padding,8px 16px,计数器内边距,计数器内边距,Medium
+Counter,Counter Border Radius,4px,计数器圆角,计数器圆角4px,Low
+Drag,Drag Enabled,true,启用拖拽,启用图片拖拽,High
+Drag,Drag Cursor,grab,拖拽光标,拖拽时抓手光标,Medium
+Drag,Drag Active Cursor,grabbing,拖拽激活光标,拖拽中抓取光标,Medium
+Drag,Drag Inertia,true,拖拽惯性,启用拖拽惯性效果,Low
+Drag,Drag Boundary,true,拖拽边界,启用拖拽边界限制,Medium
+Animation,Animation Duration,0.3s,动画时长,预览动画时长0.3s,Medium
+Animation,Animation Timing,ease,动画曲线,预览动画曲线ease,Medium
+Animation,Animation Zoom Duration,0.3s,缩放动画时长,缩放动画时长0.3s,Medium
+Animation,Animation Rotate Duration,0.3s,旋转动画时长,旋转动画时长0.3s,Medium
+Animation,Animation Flip Duration,0.3s,翻转动画时长,翻转动画时长0.3s,Medium
+Animation,Animation Fade In Duration,0.3s,淡入时长,淡入动画时长0.3s,Medium
+Animation,Animation Fade Out Duration,0.3s,淡出时长,淡出动画时长0.3s,Medium
+Mask,Mask Visible,true,显示遮罩,显示背景遮罩,High
+Mask,Mask Background,rgba(0 0 0 0.85),遮罩背景,遮罩半透明黑色背景,High
+Mask,Mask Closable,true,遮罩可关闭,点击遮罩关闭预览,High
+Mask,Mask Z Index,1000,遮罩层级,遮罩层级1000,High
+ZIndex,Z Index,1000,层级,预览层级1000,High
+ZIndex,Z Index Toolbar,1001,工具栏层级,工具栏层级1001,Medium
+ZIndex,Z Index Arrow,1001,箭头层级,箭头层级1001,Medium
+ZIndex,Z Index Close,1002,关闭层级,关闭按钮层级1002,Medium
+Position,Position Fixed,fixed,固定定位,预览固定定位,High
+Position,Position Top,0,顶部位置,预览顶部位置0,High
+Position,Position Left,0,左侧位置,预览左侧位置0,High
+Position,Position Width,100vw,宽度,预览宽度100vw,High
+Position,Position Height,100vh,高度,预览高度100vh,High
+Display,Display Flex,flex,弹性显示,预览容器弹性盒显示,High
+Display,Display Align Items,center,垂直对齐,预览内容垂直居中,High
+Display,Display Justify Content,center,水平对齐,预览内容水平居中,High
+Image,Image Max Width,90vw,图片最大宽度,图片最大宽度90vw,High
+Image,Image Max Height,90vh,图片最大高度,图片最大高度90vh,High
+Image,Image Object Fit,contain,图片适应,图片包含适应,High
+Image,Image User Select,none,图片选择,图片不可选择,Medium
+Image,Image Drag,false,图片拖拽,图片不可拖拽,Medium
+Transform,Transform Origin,center,变换原点,变换原点中心,High
+Transform,Transform Transition,transform 0.3s ease,变换过渡,变换过渡效果,Medium
+Transform,Transform Scale,scale(1),缩放变换,缩放变换函数,High
+Transform,Transform Rotate,rotate(0deg),旋转变换,旋转变换函数,High
+Transform,Transform Translate,translate(0 0),平移变换,平移变换函数,High
+Keyboard,Keyboard ESC,close,ESC键,ESC键关闭预览,High
+Keyboard,Keyboard Left Arrow,prev,左箭头键,左箭头键上一张,High
+Keyboard,Keyboard Right Arrow,next,右箭头键,右箭头键下一张,High
+Keyboard,Keyboard Plus,zoom-in,加号键,加号键放大,Medium
+Keyboard,Keyboard Minus,zoom-out,减号键,减号键缩小,Medium
+Keyboard,Keyboard Space,toggle-toolbar,空格键,空格键切换工具栏,Low
+Touch,Touch Pinch Zoom,true,触摸捏合缩放,支持触摸捏合缩放,Medium
+Touch,Touch Drag,true,触摸拖拽,支持触摸拖拽,High
+Touch,Touch Double Tap,zoom,触摸双击,双击放大缩小,High
+Touch,Touch Swipe,switch,触摸滑动,滑动切换图片,High
+Responsive,Mobile Toolbar Height,48px,移动端工具栏高度,移动端工具栏高度48px,Medium
+Responsive,Mobile Toolbar Icon Size,18px,移动端图标尺寸,移动端图标尺寸18px,Medium
+Responsive,Mobile Arrow Size,36px,移动端箭头尺寸,移动端箭头尺寸36px,Medium
+Responsive,Mobile Counter Font Size,12px,移动端计数器字号,移动端计数器字号12px,Medium
+Responsive,Tablet Toolbar Height,52px,平板端工具栏高度,平板端工具栏高度52px,Low
+Responsive,Tablet Arrow Size,40px,平板端箭头尺寸,平板端箭头尺寸40px,Low
+Usage,Gallery Usage,图片画廊,图片画廊场景,用于图片画廊预览,High
+Usage,Product Usage,商品图片,商品图片场景,用于商品图片预览,High
+Usage,Photo Usage,照片预览,照片预览场景,用于照片预览,High
+Usage,Document Usage,文档预览,文档预览场景,用于文档图片预览,Medium
+Usage,Avatar Usage,头像预览,头像预览场景,用于头像预览,Medium
+Guideline,Show Toolbar,true,显示工具栏,建议显示工具栏,High
+Guideline,Show Counter,true,显示计数器,建议显示计数器,High
+Guideline,Enable Zoom,true,启用缩放,建议启用缩放功能,High
+Guideline,Enable Rotate,true,启用旋转,建议启用旋转功能,High
+Guideline,Enable Download,true,启用下载,建议启用下载功能,Medium
+Guideline,Enable Keyboard,true,启用键盘,建议启用键盘操作,High
+Guideline,Close On ESC,true,ESC关闭,建议支持ESC关闭,High
+Guideline,Close On Mask,true,遮罩关闭,建议支持点击遮罩关闭,High
+Guideline,Show Loading,true,显示加载,建议显示加载状态,High
+Guideline,Show Error,true,显示错误,建议显示错误状态,High
+Accessibility,ARIA Role,dialog,ARIA角色,使用dialog角色,High
+Accessibility,ARIA Modal,true,ARIA模态,使用aria-modal属性,High
+Accessibility,ARIA Label,图片预览,ARIA标签,使用aria-label属性,High
+Accessibility,Keyboard Navigation,supported,键盘导航,支持键盘导航,High
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,Focus Trap,true,焦点捕获,启用焦点捕获,High
+Accessibility,Focus Visible,true,焦点可见,焦点状态可见,High
+Performance,GPU Acceleration,true,GPU加速,启用GPU加速,High
+Performance,Will Change,transform,Will Change属性,使用will-change优化,Medium
+Performance,Lazy Load,true,延迟加载,启用延迟加载,Medium
+Performance,Image Cache,true,图片缓存,启用图片缓存,Medium
+Performance,Preload Adjacent,true,预加载相邻,预加载相邻图片,Medium
+Event,On Open,supported,打开事件,支持预览打开事件,High
+Event,On Close,supported,关闭事件,支持预览关闭事件,High
+Event,On Switch,supported,切换事件,支持图片切换事件,High
+Event,On Zoom,supported,缩放事件,支持缩放事件,Medium
+Event,On Rotate,supported,旋转事件,支持旋转事件,Medium
+Event,On Download,supported,下载事件,支持下载事件,Medium
+Event,On Error,supported,错误事件,支持错误事件,Medium
+Method,Open,supported,打开方法,支持打开预览,High
+Method,Close,supported,关闭方法,支持关闭预览,High
+Method,Prev,supported,上一张方法,支持切换上一张,High
+Method,Next,supported,下一张方法,支持切换下一张,High
+Method,Zoom In,supported,放大方法,支持放大图片,High
+Method,Zoom Out,supported,缩小方法,支持缩小图片,High
+Method,Rotate Left,supported,左旋转方法,支持左旋转,High
+Method,Rotate Right,supported,右旋转方法,支持右旋转,High
+Method,Reset,supported,重置方法,支持重置图片,High
+Method,Download,supported,下载方法,支持下载图片,High
+Props,Visible,supported,可见属性,支持设置可见状态,High
+Props,Images,supported,图片列表属性,支持设置图片列表,High
+Props,Current,supported,当前索引属性,支持设置当前索引,High
+Props,Closable,supported,可关闭属性,支持控制可关闭,High
+Props,Mask Closable,supported,遮罩可关闭属性,支持控制遮罩关闭,High
+Props,Toolbar,supported,工具栏属性,支持设置工具栏,High
+Props,Actions,supported,操作属性,支持设置操作按钮,High
+Props,Zoom Rate,supported,缩放比例属性,支持设置缩放比例,Medium
+Props,Rotate Step,supported,旋转步长属性,支持设置旋转步长,Medium
+Slot,Toolbar Slot,supported,工具栏插槽,支持工具栏插槽,Medium
+Slot,Actions Slot,supported,操作插槽,支持操作插槽,Medium
+Slot,Extra Slot,supported,额外插槽,支持额外内容插槽,Low
+Custom,Custom Toolbar,supported,自定义工具栏,支持自定义工具栏,High
+Custom,Custom Actions,supported,自定义操作,支持自定义操作按钮,High
+Custom,Custom Loading,supported,自定义加载,支持自定义加载状态,Medium
+Custom,Custom Error,supported,自定义错误,支持自定义错误状态,Medium
+Theme,Theme Light,light,浅色主题,浅色主题样式,High
+Theme,Theme Dark,dark,深色主题,深色主题样式,High
+Theme,Dark Background,rgba(0 0 0 0.95),深色背景,深色主题背景,High
+Theme,Dark Toolbar Background,rgba(255 255 255 0.1),深色工具栏背景,深色主题工具栏背景,Medium
+Transition,Transition Property,all,过渡属性,过渡所有属性,Medium
+Transition,Transition Duration,0.3s,过渡时长,过渡时长0.3s,Medium
+Transition,Transition Timing,ease,过渡曲线,过渡曲线ease,Medium

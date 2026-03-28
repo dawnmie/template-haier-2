@@ -1,0 +1,150 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Popover Min Width,150px,气泡最小宽度,气泡卡片最小宽度150px,Medium
+Size,Popover Max Width,350px,气泡最大宽度,气泡卡片最大宽度350px,High
+Size,Popover Padding,12px 16px,气泡内边距,气泡卡片内边距上下12px左右16px,High
+Size,Popover Title Padding,12px 16px 8px,气泡标题内边距,气泡标题内边距上12px左右16px下8px,Medium
+Size,Popover Content Padding,8px 16px 12px,气泡内容内边距,气泡内容内边距上8px左右16px下12px,Medium
+Size,Popover Arrow Size,8px,气泡箭头大小,气泡箭头大小8px,High
+Size,Popover Border Radius,4px,气泡圆角,气泡卡片圆角4px,High
+Size,Popover Title Font Size,14px,气泡标题字号,气泡标题文字14px,High
+Size,Popover Content Font Size,14px,气泡内容字号,气泡内容文字14px,High
+Size,Popover Close Icon Size,14px,关闭图标大小,关闭图标大小14px,Medium
+Size,Popover Title Line Height,22px,标题行高,气泡标题行高22px,Medium
+Size,Popover Content Line Height,22px,内容行高,气泡内容行高22px,Medium
+Color,Popover Background,#FFFFFF,气泡背景,气泡卡片白色背景,High
+Color,Popover Border Color,#E5E6EB,气泡边框颜色,气泡卡片灰色边框#E5E6EB,High
+Color,Popover Title Color,#1D2129,气泡标题颜色,气泡标题深色文字#1D2129,High
+Color,Popover Content Color,#4E5969,气泡内容颜色,气泡内容灰色文字#4E5969,High
+Color,Popover Arrow Background,#FFFFFF,箭头背景,气泡箭头白色背景,High
+Color,Popover Arrow Border,#E5E6EB,箭头边框,气泡箭头灰色边框#E5E6EB,Medium
+Color,Popover Close Icon Color,#86909C,关闭图标颜色,关闭图标灰色#86909C,Medium
+Color,Popover Close Icon Hover,#4E5969,关闭图标悬停,关闭图标悬停深灰#4E5969,Medium
+Color,Popover Link Color,#165DFF,链接颜色,气泡内链接蓝色#165DFF,Medium
+Color,Popover Link Hover,#4080FF,链接悬停,气泡内链接悬停浅蓝#4080FF,Low
+Shadow,Popover Shadow,0 4px 10px rgba(0 0 0 0.1),气泡阴影,气泡卡片阴影效果,High
+Shadow,Popover Shadow Large,0 6px 16px rgba(0 0 0 0.12),气泡大阴影,气泡卡片大阴影效果,Medium
+Border,Popover Border Width,1px,气泡边框宽度,气泡卡片边框宽度1px,Medium
+Border,Popover Border Style,solid,气泡边框样式,气泡卡片实线边框,High
+Position,Position Top,top,顶部位置,气泡在触发元素顶部,High
+Position,Position Top Start,top-start,顶部左侧,气泡在触发元素顶部左侧,Medium
+Position,Position Top End,top-end,顶部右侧,气泡在触发元素顶部右侧,Medium
+Position,Position Bottom,bottom,底部位置,气泡在触发元素底部,High
+Position,Position Bottom Start,bottom-start,底部左侧,气泡在触发元素底部左侧,Medium
+Position,Position Bottom End,bottom-end,底部右侧,气泡在触发元素底部右侧,Medium
+Position,Position Left,left,左侧位置,气泡在触发元素左侧,High
+Position,Position Left Start,left-start,左侧顶部,气泡在触发元素左侧顶部,Medium
+Position,Position Left End,left-end,左侧底部,气泡在触发元素左侧底部,Medium
+Position,Position Right,right,右侧位置,气泡在触发元素右侧,High
+Position,Position Right Start,right-start,右侧顶部,气泡在触发元素右侧顶部,Medium
+Position,Position Right End,right-end,右侧底部,气泡在触发元素右侧底部,Medium
+Arrow,Arrow Enabled,true,显示箭头,显示气泡箭头,High
+Arrow,Arrow Disabled,false,隐藏箭头,隐藏气泡箭头,Medium
+Arrow,Arrow Offset,12px,箭头偏移,箭头距离边缘偏移12px,Medium
+Arrow,Arrow Border Width,1px,箭头边框宽度,箭头边框宽度1px,Low
+Trigger,Trigger Hover,hover,悬停触发,鼠标悬停触发气泡,High
+Trigger,Trigger Click,click,点击触发,鼠标点击触发气泡,High
+Trigger,Trigger Focus,focus,聚焦触发,元素聚焦触发气泡,Medium
+Trigger,Trigger Context Menu,contextmenu,右键触发,鼠标右键触发气泡,Low
+Trigger,Trigger Manual,manual,手动触发,手动控制气泡显示,Medium
+Delay,Show Delay,100ms,显示延迟,气泡显示延迟100ms,Medium
+Delay,Hide Delay,100ms,隐藏延迟,气泡隐藏延迟100ms,Medium
+Delay,Mouse Enter Delay,100ms,鼠标进入延迟,鼠标进入延迟100ms,Low
+Delay,Mouse Leave Delay,100ms,鼠标离开延迟,鼠标离开延迟100ms,Low
+Animation,Fade In Duration,0.2s,淡入时长,气泡淡入动画时长0.2s,Medium
+Animation,Fade Out Duration,0.2s,淡出时长,气泡淡出动画时长0.2s,Medium
+Animation,Transition Timing,ease-in-out,过渡曲线,气泡过渡曲线ease-in-out,Low
+Animation,Scale From,0.95,缩放起始,气泡缩放起始值0.95,Low
+Animation,Scale To,1,缩放结束,气泡缩放结束值1,Low
+Animation,Opacity From,0,透明度起始,气泡透明度起始值0,Low
+Animation,Opacity To,1,透明度结束,气泡透明度结束值1,Low
+Title,Title Font Weight,500,标题字重,气泡标题字重500,Medium
+Title,Title Margin Bottom,8px,标题下边距,气泡标题下边距8px,Medium
+Title,Title Max Lines,2,标题最大行数,气泡标题最多2行,Low
+Title,Title Overflow,ellipsis,标题溢出,标题溢出显示省略号,Low
+Content,Content Font Weight,400,内容字重,气泡内容字重400,High
+Content,Content Max Height,300px,内容最大高度,气泡内容最大高度300px,Medium
+Content,Content Overflow,auto,内容溢出,内容溢出自动滚动,Medium
+Content,Content Word Break,break-word,内容换行,内容过长自动换行,Medium
+Content,Content White Space,normal,内容空白,内容空白正常处理,Low
+Close,Close Button Enabled,true,显示关闭按钮,显示关闭按钮,Medium
+Close,Close Button Disabled,false,隐藏关闭按钮,隐藏关闭按钮,Medium
+Close,Close Button Position,top-right,关闭按钮位置,关闭按钮在右上角,High
+Close,Close Button Size,24px,关闭按钮大小,关闭按钮大小24px,Medium
+Close,Close Button Padding,4px,关闭按钮内边距,关闭按钮内边距4px,Low
+Close,Close Icon,CloseOutlined,关闭图标,使用CloseOutlined图标,Medium
+Offset,Offset Distance,8px,偏移距离,气泡距离触发元素8px,High
+Offset,Offset Skidding,0,横向偏移,气泡横向偏移0,Low
+Offset,Viewport Padding,8px,视口内边距,气泡距离视口边缘8px,Medium
+ZIndex,Z Index,1050,层级,气泡层级1050,High
+ZIndex,Z Index Overlay,1040,遮罩层级,遮罩层级1040,Medium
+Overlay,Overlay Enabled,false,显示遮罩,显示背景遮罩,Low
+Overlay,Overlay Disabled,true,隐藏遮罩,隐藏背景遮罩,High
+Overlay,Overlay Background,rgba(0 0 0 0.45),遮罩背景,遮罩半透明黑色背景,Low
+Overlay,Overlay Click Close,true,点击遮罩关闭,点击遮罩关闭气泡,Medium
+Type,Type Default,default,默认类型,默认气泡样式,High
+Type,Type Light,light,浅色类型,浅色气泡样式,Medium
+Type,Type Dark,dark,深色类型,深色气泡样式,Medium
+Dark,Dark Background,#1D2129,深色背景,深色气泡背景#1D2129,Medium
+Dark,Dark Title Color,#FFFFFF,深色标题颜色,深色气泡标题白色,Medium
+Dark,Dark Content Color,rgba(255 255 255 0.8),深色内容颜色,深色气泡内容半透明白色,Medium
+Dark,Dark Border,none,深色边框,深色气泡无边框,Medium
+Dark,Dark Arrow Background,#1D2129,深色箭头背景,深色箭头背景#1D2129,Medium
+Confirm,Confirm Type,confirm,确认类型,确认气泡类型,Medium
+Confirm,Confirm Icon Size,16px,确认图标大小,确认图标大小16px,Medium
+Confirm,Confirm Icon Color,#FF7D00,确认图标颜色,确认图标橙色#FF7D00,Medium
+Confirm,Confirm Button Gap,8px,确认按钮间距,确认按钮间距8px,Medium
+Confirm,Confirm Button Height,28px,确认按钮高度,确认按钮高度28px,Medium
+Confirm,Confirm Button Padding,0 12px,确认按钮内边距,确认按钮左右内边距12px,Medium
+Confirm,Confirm Button Font Size,14px,确认按钮字号,确认按钮文字14px,Medium
+Confirm,OK Button Text,确定,确定按钮文字,确定按钮默认文字,High
+Confirm,Cancel Button Text,取消,取消按钮文字,取消按钮默认文字,High
+Confirm,OK Button Type,primary,确定按钮类型,确定按钮主按钮样式,High
+Confirm,Cancel Button Type,secondary,取消按钮类型,取消按钮次按钮样式,High
+Footer,Footer Padding,8px 16px 12px,底部内边距,气泡底部内边距,Medium
+Footer,Footer Border Top,1px solid #E5E6EB,底部顶部边框,气泡底部顶部灰色边框,Low
+Footer,Footer Align,right,底部对齐,气泡底部右对齐,Medium
+Footer,Footer Button Gap,8px,底部按钮间距,底部按钮间距8px,Medium
+Scroll,Scroll Bar Width,6px,滚动条宽度,内容滚动条宽度6px,Low
+Scroll,Scroll Bar Color,#C9CDD4,滚动条颜色,内容滚动条灰色#C9CDD4,Low
+Scroll,Scroll Bar Hover Color,#86909C,滚动条悬停颜色,内容滚动条悬停深灰#86909C,Low
+Scroll,Scroll Bar Radius,3px,滚动条圆角,内容滚动条圆角3px,Low
+Responsive,Mobile Max Width,280px,移动端最大宽度,移动端气泡最大宽度280px,Medium
+Responsive,Mobile Padding,8px 12px,移动端内边距,移动端气泡内边距,Medium
+Responsive,Mobile Font Size,13px,移动端字号,移动端气泡文字13px,Low
+Responsive,Mobile Arrow Size,6px,移动端箭头大小,移动端箭头大小6px,Low
+Usage,Basic Usage,基础气泡,基础使用场景,用于展示简单提示信息,High
+Usage,Title Usage,带标题气泡,带标题场景,用于展示带标题的详细信息,High
+Usage,Confirm Usage,确认气泡,确认场景,用于需要用户确认的操作,High
+Usage,Hover Usage,悬停触发,悬停触发场景,用于鼠标悬停显示提示,High
+Usage,Click Usage,点击触发,点击触发场景,用于点击显示详细信息,High
+Usage,Position Usage,位置控制,位置控制场景,用于控制气泡显示位置,Medium
+Guideline,Content Length,适中,内容长度,气泡内容不宜过长,High
+Guideline,Title Length,1-2行,标题长度,标题建议1-2行内,Medium
+Guideline,Position Auto,true,自动定位,优先使用自动定位,High
+Guideline,Arrow Visible,true,箭头可见,建议显示箭头指向,High
+Guideline,Close Method,clear,关闭方式,提供明确的关闭方式,High
+Guideline,Trigger Consistency,consistent,触发一致性,同一页面触发方式保持一致,Medium
+Guideline,Max Popover Count,1,最大气泡数,同时最多显示1个气泡,High
+Accessibility,Keyboard Close,ESC,键盘关闭,按ESC键关闭气泡,High
+Accessibility,Focus Trap,true,焦点捕获,气泡内焦点循环,Medium
+Accessibility,ARIA Role,tooltip,ARIA角色,使用tooltip角色,Medium
+Accessibility,ARIA Describedby,true,ARIA描述,使用aria-describedby属性,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,Keyboard Navigation,supported,键盘导航,支持键盘导航,Medium
+State,Visible State,visible,显示状态,气泡显示状态,High
+State,Hidden State,hidden,隐藏状态,气泡隐藏状态,High
+State,Loading State,loading,加载状态,气泡加载状态,Medium
+State,Disabled State,disabled,禁用状态,气泡禁用状态,Medium
+Interaction,Click Outside Close,true,点击外部关闭,点击气泡外部关闭,High
+Interaction,Hover Stay Open,true,悬停保持打开,鼠标在气泡内保持打开,High
+Interaction,Focus Stay Open,true,聚焦保持打开,焦点在气泡内保持打开,Medium
+Interaction,Scroll Close,false,滚动关闭,页面滚动不关闭气泡,Medium
+Interaction,Resize Close,false,窗口调整关闭,窗口调整不关闭气泡,Low
+Boundary,Boundary Element,viewport,边界元素,气泡边界为视口,High
+Boundary,Boundary Padding,8px,边界内边距,气泡距离边界8px,Medium
+Boundary,Flip Enabled,true,翻转启用,空间不足时自动翻转,High
+Boundary,Flip Fallback,true,翻转回退,翻转失败时使用回退位置,Medium
+Performance,Lazy Render,true,延迟渲染,延迟渲染气泡内容,Medium
+Performance,Destroy On Hide,false,隐藏时销毁,隐藏时不销毁DOM,Medium
+Performance,Cache Content,true,缓存内容,缓存气泡内容,Low
+Performance,Debounce Delay,50ms,防抖延迟,触发防抖延迟50ms,Low

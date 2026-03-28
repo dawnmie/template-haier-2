@@ -6,22 +6,22 @@ alwaysApply: true
 
 # UI 开发规范（沙箱可安装）
 
-模板使用 **公共 npm** 的 **`ant-design-vue` 4.x**（`.npmrc` 指向 `registry.npmmirror.com`），避免海尔内网 `@hwork/*` 源超时。若接入 Hwork 主应用，可按需改回内网包与业务组件。
+模板使用 **公共 npm** 的 **`@hwork/ant-design-vue` 4.x**（`.npmrc` 指向 `registry.npmmirror.com`），避免海尔内网 `@hwork/*` 源超时。若接入 Hwork 主应用，可按需改回内网包与业务组件。
 
 > **📂 工作目录（OpenCode / 文件类工具）**: 沙箱内**工程根目录**为 **`/home/user/project`**。列举、读取、编辑文件时请使用该路径下的绝对路径（例如 `/home/user/project/apps/web/src/...`）。**不要**单独使用 **`/src`**——在 Linux 上那是**系统根目录**下的 `/src`，不是本仓库路径，易触发权限错误（如 `PermissionRejectedError`）。
 
 ## 组件库
 
-- 使用 **`ant-design-vue`**（Ant Design Vue 4）
+- 使用 **`@hwork/ant-design-vue`**（基于 Ant Design Vue 4 二次开发）
 - 按需自动引入：`unplugin-vue-components` + `AntDesignVueResolver`（见 `vite.config.js`）
-- 图标可用 **`@ant-design/icons-vue`**（已在 `package.json` 依赖中，与 Ant Design Vue 4 配套）或项目内 `iconfont`
+- 图标库使用 `@hwork/icon`
 
 ## 导入规范
 
 ```javascript
 // ✅ 正确（显式导入或依赖 unplugin 自动引入 + 下方工具函数）
-import { message, Modal } from 'ant-design-vue'
-import { ConfigProvider } from 'ant-design-vue'
+import { message, Modal } from '@hwork/ant-design-vue'
+import { ConfigProvider } from '@hwork/ant-design-vue'
 ```
 
 ## 设计规范
@@ -93,7 +93,7 @@ import { ConfigProvider } from 'ant-design-vue'
 ## 技术栈（节选）
 
 - Vue 3 + Vite + Pinia + vue-router
-- `ant-design-vue`、Qiankun / wujie（见 `package.json`）
+- `@hwork/ant-design-vue`、Qiankun（见 `package.json`）
 - `@supabase/supabase-js`（`pnpm install` 使用 `.npmrc` 中的公共 registry）
 
 ---
@@ -105,28 +105,31 @@ import { ConfigProvider } from 'ant-design-vue'
 ### 直接使用 Supabase SDK
 
 ```javascript
-import { supabase } from '@/services/supabase';
+import { supabase } from '@/services/supabase'
 
 // 调用存储过程（命名参数）
-const { data, error } = await supabase.rpc('sp_procedure_name', { p_param1: value1, p_param2: value2 });
-if (error) throw new Error(error.message);
-const result = data;
+const { data, error } = await supabase.rpc('sp_procedure_name', {
+  p_param1: value1,
+  p_param2: value2
+})
+if (error) throw new Error(error.message)
+const result = data
 ```
 
 ### 或使用封装
 
 ```javascript
-import { rpc, firstRow } from '@/examples/supabase-rpc';
+import { rpc, firstRow } from '@/examples/supabase-rpc'
 
-const rows = await rpc('sp_list_my_tasks', { p_status: '', p_limit: 20, p_offset: 0 });
-const one = firstRow(await rpc('sp_get_task', { p_id: 'xxx' }));
+const rows = await rpc('sp_list_my_tasks', { p_status: '', p_limit: 20, p_offset: 0 })
+const one = firstRow(await rpc('sp_get_task', { p_id: 'xxx' }))
 ```
 
 ### rpc 方法说明
 
 ```javascript
 // Supabase SDK 方法
-const { data, error } = await supabase.rpc(name, params);
+const { data, error } = await supabase.rpc(name, params)
 // - name: 存储过程名称
 // - params: 命名参数对象，key 与存储过程 IN 参数名一致（如 p_id, p_title）
 // - 失败时检查 error，成功时使用 data
@@ -138,12 +141,16 @@ Supabase RPC 返回存储过程**第一个 SELECT 的结果集**，直接为数�
 
 ```javascript
 // 返回多行
-const { data: rows, error } = await supabase.rpc('sp_list_my_tasks', { p_status: '', p_limit: 20, p_offset: 0 });
-if (error) throw new Error(error.message);
+const { data: rows, error } = await supabase.rpc('sp_list_my_tasks', {
+  p_status: '',
+  p_limit: 20,
+  p_offset: 0
+})
+if (error) throw new Error(error.message)
 
 // 返回单行
-const { data: row } = await supabase.rpc('sp_get_task', { p_id: 'xxx' });
-const first = Array.isArray(row) ? row[0] : row;
+const { data: row } = await supabase.rpc('sp_get_task', { p_id: 'xxx' })
+const first = Array.isArray(row) ? row[0] : row
 ```
 
 ---
@@ -168,42 +175,44 @@ const first = Array.isArray(row) ? row[0] : row;
 ### 必须先创建 bucket（首次上传前）
 
 ```javascript
-import { supabase } from '@/services/supabase';
+import { supabase } from '@/services/supabase'
 
 const { error } = await supabase.storage.createBucket('app-uploads', {
-  public: false,
-});
+  public: false
+})
 if (error && !/already exists|Duplicate/i.test(String(error.message))) {
-  throw new Error(error.message);
+  throw new Error(error.message)
 }
 ```
 
 ### 常用 API（与官方 `supabase-js` 一致）
 
 ```javascript
-import { supabase } from '@/services/supabase';
+import { supabase } from '@/services/supabase'
 
-const bucket = 'app-uploads';
+const bucket = 'app-uploads'
 
-const { data: buckets, error: e1 } = await supabase.storage.listBuckets();
+const { data: buckets, error: e1 } = await supabase.storage.listBuckets()
 
-const file = document.querySelector('input[type=file]')?.files?.[0];
-const { data: up, error: e2 } = await supabase.storage.from(bucket).upload('docs/readme.txt', file, {
-  upsert: true,
-  contentType: file?.type || 'text/plain',
-});
-if (e2) throw new Error(e2.message);
+const file = document.querySelector('input[type=file]')?.files?.[0]
+const { data: up, error: e2 } = await supabase.storage
+  .from(bucket)
+  .upload('docs/readme.txt', file, {
+    upsert: true,
+    contentType: file?.type || 'text/plain'
+  })
+if (e2) throw new Error(e2.message)
 
-const { data: blob, error: e3 } = await supabase.storage.from(bucket).download('docs/readme.txt');
-if (e3) throw new Error(e3.message);
+const { data: blob, error: e3 } = await supabase.storage.from(bucket).download('docs/readme.txt')
+if (e3) throw new Error(e3.message)
 
 const { data: entries, error: e4 } = await supabase.storage.from(bucket).list('docs', {
   limit: 100,
   offset: 0,
-  sortBy: { column: 'name', order: 'asc' },
-});
+  sortBy: { column: 'name', order: 'asc' }
+})
 
-const { error: e5 } = await supabase.storage.from(bucket).remove(['docs/readme.txt']);
+const { error: e5 } = await supabase.storage.from(bucket).remove(['docs/readme.txt'])
 ```
 
 统一约定：始终检查 **`{ data, error }`**；失败时处理 **`error.message`**。
@@ -295,34 +304,34 @@ DELIMITER ;
 ### Step 2: 前端调用存储过程（Vue 示例）
 
 ```javascript
-import { supabase } from '@/services/supabase';
+import { supabase } from '@/services/supabase'
 
 function generateUUID() {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
-    const r = Math.random() * 16 | 0;
-    return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
-  });
+    const r = (Math.random() * 16) | 0
+    return (c === 'x' ? r : (r & 0x3) | 0x8).toString(16)
+  })
 }
 
 export async function createTask(title, description) {
   const { data: rows, error } = await supabase.rpc('sp_create_task', {
     p_id: generateUUID(),
     p_title: title,
-    p_description: description,
-  });
-  if (error) throw new Error(error.message);
-  return Array.isArray(rows) ? rows[0] : rows;
+    p_description: description
+  })
+  if (error) throw new Error(error.message)
+  return Array.isArray(rows) ? rows[0] : rows
 }
 
 export async function listMyTasks(status = '', limit = 20, offset = 0) {
   const { data: rows, error } = await supabase.rpc('sp_list_my_tasks', {
     p_status: status,
     p_limit: limit,
-    p_offset: offset,
-  });
-  if (error) throw new Error(error.message);
-  const arr = Array.isArray(rows) ? rows : [rows];
-  return { tasks: arr, total: parseInt(String(arr[0]?.total ?? 0), 10) };
+    p_offset: offset
+  })
+  if (error) throw new Error(error.message)
+  const arr = Array.isArray(rows) ? rows : [rows]
+  return { tasks: arr, total: parseInt(String(arr[0]?.total ?? 0), 10) }
 }
 
 export async function updateTask(id, title, description, status) {
@@ -330,26 +339,26 @@ export async function updateTask(id, title, description, status) {
     p_id: id,
     p_title: title ?? null,
     p_description: description ?? null,
-    p_status: status ?? null,
-  });
-  if (error) throw new Error(error.message);
-  return Array.isArray(rows) ? rows[0] : rows;
+    p_status: status ?? null
+  })
+  if (error) throw new Error(error.message)
+  return Array.isArray(rows) ? rows[0] : rows
 }
 
 export async function deleteTask(id) {
-  const { data: rows, error } = await supabase.rpc('sp_delete_task', { p_id: id });
-  if (error) throw new Error(error.message);
-  const row = Array.isArray(rows) ? rows[0] : rows;
-  return parseInt(String(row?.affected_rows ?? 0), 10) > 0;
+  const { data: rows, error } = await supabase.rpc('sp_delete_task', { p_id: id })
+  if (error) throw new Error(error.message)
+  const row = Array.isArray(rows) ? rows[0] : rows
+  return parseInt(String(row?.affected_rows ?? 0), 10) > 0
 }
 ```
 
 ### Step 3: 响应解析
 
 ```javascript
-const count = parseInt(String(row.count), 10);
-const isActive = row.is_active === '1' || row.is_active === 1;
-const createdAt = new Date(row.created_at);
+const count = parseInt(String(row.count), 10)
+const isActive = row.is_active === '1' || row.is_active === 1
+const createdAt = new Date(row.created_at)
 ```
 
 ---
@@ -434,10 +443,10 @@ DROP PROCEDURE IF EXISTS procedure_name;
 
 ## 📚 API 快速参考
 
-| 操作 | 方法 | 说明 |
-|------|------|------|
-| 调用存储过程 | `supabase.rpc(name, params)` | params 为命名对象 |
-| 封装 RPC | `rpc()` / `firstRow()` | `src/examples/supabase-rpc.js` |
+| 操作               | 方法                                                     | 说明                                  |
+| ------------------ | -------------------------------------------------------- | ------------------------------------- |
+| 调用存储过程       | `supabase.rpc(name, params)`                             | params 为命名对象                     |
+| 封装 RPC           | `rpc()` / `firstRow()`                                   | `src/examples/supabase-rpc.js`        |
 | 文件上传/下载/列表 | `supabase.storage` 或 `src/examples/supabase-storage.js` | 先 `createBucket`；见上文「文件存储」 |
 
 （若后续接入 GoTrue，再使用 `supabase.auth.getSession()` 等与登录相关的 API。）

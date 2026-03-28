@@ -1,0 +1,229 @@
+Category,Name,Value,Usage,Description,Severity
+RowHeight,Row Height 32,32px,紧凑行高,表格支持4个行高尺寸-32px最紧凑-表头高度固定不变,Medium
+RowHeight,Row Height 36,36px,较紧凑行高,表格支持4个行高尺寸-36px较紧凑,Medium
+RowHeight,Row Height 44,44px,默认行高,表格支持4个行高尺寸-44px默认推荐,High
+RowHeight,Row Height 48,48px,宽松行高,表格支持4个行高尺寸-48px宽松,Medium
+RowHeight,Header Height Fixed,44px,表头高度固定,表头高度固定44px-不随行高变化,High
+Density,Density Compact,32px,紧凑密度,紧凑模式-适用于数据密集场景,Medium
+Density,Density Default,44px,默认密度,默认模式-推荐使用,High
+Density,Density Middle,36px,中等密度,中等模式-介于紧凑和默认之间,Medium
+Density,Density Loose,48px,宽松密度,宽松模式-适用于数据较少场景,Medium
+Density,Density Switch,a-dropdown,密度切换组件,使用下拉菜单切换密度,Low
+Header,Header Background,#F7F8FA,表头背景色,表头背景色#F7F8FA浅灰色,High
+Header,Header Text Color,#4E5969,表头文字颜色,表头文字颜色#4E5969,High
+Header,Header Font Size,14px,表头字号,表头文字14px,High
+Header,Header Font Weight,500,表头字重,表头文字中等字重500,High
+Header,Header Padding,0 16px,表头内边距,表头单元格左右内边距16px,Medium
+Header,Header Border Bottom,1px solid #E5E6EB,表头底部边框,表头底部边框#E5E6EB,Medium
+Header,Header Sort Icon,CaretUpOutlined/CaretDownOutlined,排序图标,表头排序上下箭头图标,Medium
+Header,Header Sort Icon Color,#C9CDD4,排序图标默认色,排序图标默认灰色#C9CDD4,Low
+Header,Header Sort Icon Active,#165DFF,排序图标激活色,排序图标激活蓝色#165DFF,Medium
+Header,Header Filter Icon,FilterOutlined,筛选图标,表头筛选漏斗图标FilterOutlined,Medium
+Header,Header Filter Icon Color,#C9CDD4,筛选图标默认色,筛选图标默认灰色#C9CDD4,Low
+Header,Header Filter Icon Active,#165DFF,筛选图标激活色,筛选图标激活蓝色#165DFF,Medium
+Header,Header Resize Handle,col-resize,列宽调整手柄,拖拽调整列宽光标样式,Low
+Body,Body Background,#FFFFFF,表体背景色,表格内容区白色背景,High
+Body,Body Text Color,#1D2129,表体文字颜色,表格内容文字颜色#1D2129,High
+Body,Body Font Size,14px,表体字号,表格内容文字14px,High
+Body,Body Font Weight,400,表体字重,表格内容文字常规字重400,Medium
+Body,Body Padding,12px 16px,表体内边距,表格单元格内边距12px 16px,High
+Body,Body Border Bottom,1px solid #E5E6EB,表体行边框,表格行底部边框#E5E6EB,Medium
+Body,Row Hover Background,#F2F3F5,行悬停背景,鼠标悬停行背景色#F2F3F5,High
+Body,Row Selected Background,#E8F3FF,行选中背景,选中行背景色#E8F3FF浅蓝,High
+Body,Row Stripe Odd,#FFFFFF,斑马纹奇数行,奇数行白色背景,Medium
+Body,Row Stripe Even,#FAFBFC,斑马纹偶数行,偶数行浅灰背景#FAFBFC,Medium
+Body,Row Expanded Background,#FAFBFC,展开行背景,展开详情区背景色#FAFBFC,Low
+Body,Cell Ellipsis,true,单元格省略,文字溢出显示省略号,Medium
+Body,Cell Tooltip,true,单元格提示,溢出文字hover显示完整内容,Low
+
+Column,Checkbox Column Width,48px,复选框列宽,复选框列固定宽度48px,High
+Column,Index Column Width,64px,序号列宽,序号列固定宽度64px,Medium
+Column,Index Column Align,center,序号列对齐,序号列居中对齐,Medium
+Column,Action Column Width,auto,操作列宽,操作列根据按钮数量自适应,Medium
+Column,Action Column Min Width,120px,操作列最小宽,操作列最小宽度120px,Medium
+Column,Action Column Align,center,操作列对齐,操作列居中对齐,Medium
+Column,Fixed Left Shadow,2px 0 6px rgba(0 0 0 0.06),左固定列阴影,左固定列右侧阴影效果,Low
+Column,Fixed Right Shadow,-2px 0 6px rgba(0 0 0 0.06),右固定列阴影,右固定列左侧阴影效果,Low
+Column,Column Align Left,left,左对齐,文字类列左对齐,High
+Column,Column Align Center,center,居中对齐,状态/操作列居中对齐,Medium
+Column,Column Align Right,right,右对齐,数字/金额列右对齐,Medium
+Selection,Checkbox Size,16px,复选框大小,复选框16px,Medium
+Selection,Checkbox Border Radius,2px,复选框圆角,复选框圆角2px,Low
+Selection,Checkbox Unchecked Border,#C9CDD4,复选框未选边框,未选中边框色#C9CDD4,Medium
+Selection,Checkbox Checked Background,#165DFF,复选框选中背景,选中背景色#165DFF,High
+Selection,Checkbox Checked Border,#165DFF,复选框选中边框,选中边框色#165DFF,High
+Selection,Checkbox Indeterminate,#165DFF,复选框半选,半选状态蓝色横线#165DFF,Medium
+Selection,Checkbox Disabled Background,#F2F3F5,复选框禁用背景,禁用背景色#F2F3F5,Low
+Selection,Radio Size,16px,单选框大小,单选框16px,Medium
+Selection,Radio Checked Color,#165DFF,单选框选中色,单选框选中蓝色#165DFF,High
+Selection,Select All Position,Header First Column,全选位置,全选复选框在表头第一列,High
+Selection,Selected Row Keys,Array,选中行数据,选中行的key数组,High
+Selection,Selected Count Display,已选择 X 项,已选数量显示,工具栏显示已选择的行数,Medium
+Selection,Batch Actions Show,selectedRowKeys.length > 0,批量操作显示条件,选中行后显示批量操作按钮,Medium
+Filter,Filter Container Background,#FFFFFF,筛选容器背景,筛选区白色背景,High
+Filter,Filter Container Padding,16px,筛选容器内边距,筛选区内边距16px,High
+Filter,Filter Container Radius,4px,筛选容器圆角,筛选区圆角4px,Medium
+Filter,Filter Container Margin Bottom,16px,筛选容器底部间距,筛选区与表格间距16px,Medium
+Filter,Filter Row Gutter,16px,筛选行间距,筛选项之间间距16px,High
+Filter,Filter Label Color,#4E5969,筛选标签颜色,筛选标签文字颜色#4E5969,Medium
+Filter,Filter Label Font Size,14px,筛选标签字号,筛选标签文字14px,Medium
+Filter,Filter Label Width,80px,筛选标签宽度,筛选标签固定宽度80px,Medium
+Filter,Filter Label Colon,true,筛选标签冒号,筛选标签后带冒号,Low
+Filter,Filter Input Width,180px,筛选输入框宽度,筛选输入框宽度180px,Medium
+Filter,Filter Input Height,32px,筛选输入框高度,筛选输入框高度32px,High
+Filter,Filter Select Width,180px,筛选下拉框宽度,筛选下拉框宽度180px,Medium
+Filter,Filter DateRange Width,240px,筛选日期范围宽度,日期范围选择器宽度240px,Medium
+Filter,Filter Button Primary,查询,查询按钮,主按钮-查询,High
+Filter,Filter Button Reset,重置,重置按钮,次按钮-重置,High
+Filter,Filter Button Gap,12px,筛选按钮间距,查询/重置按钮间距12px,Medium
+Filter,Filter Expand Text,展开/收起,展开收起文字,筛选区展开收起文字链接,Low
+Filter,Filter Expand Icon,DownOutlined,展开收起图标,展开收起箭头图标,Low
+
+Toolbar,Toolbar Container Height,48px,工具栏高度,工具栏区域高度48px,Medium
+Toolbar,Toolbar Container Padding,0 16px,工具栏内边距,工具栏左右内边距16px,Medium
+Toolbar,Toolbar Container Margin Bottom,16px,工具栏底部间距,工具栏与表格间距16px,Medium
+Toolbar,Toolbar Layout,space-between,工具栏布局,工具栏左右两端对齐,High
+Toolbar,Toolbar Left Actions,新增/批量删除/导入/导出,左侧操作按钮,工具栏左侧主要操作按钮,High
+Toolbar,Toolbar Right Actions,刷新/密度/列设置,右侧操作按钮,工具栏右侧辅助操作按钮,Medium
+Toolbar,Toolbar Button Gap,12px,工具栏按钮间距,工具栏按钮之间间距12px,Medium
+Toolbar,Toolbar Add Button,type=primary,新增按钮样式,新增按钮使用主按钮样式,High
+Toolbar,Toolbar Batch Delete,批量删除,批量删除按钮,选中行后显示批量删除按钮,Medium
+Toolbar,Toolbar Import,导入,导入按钮,导入数据按钮,Low
+Toolbar,Toolbar Export,导出,导出按钮,导出数据按钮,Medium
+Toolbar,Toolbar Refresh Icon,ReloadOutlined,刷新图标,刷新按钮图标,Medium
+Toolbar,Toolbar Density Icon,ColumnHeightOutlined,密度图标,密度切换按钮图标,Low
+Toolbar,Toolbar Setting Icon,SettingOutlined,设置图标,列设置按钮图标,Low
+Status,Status Tag Height,22px,状态标签高度,状态标签高度22px,Medium
+Status,Status Tag Padding,0 8px,状态标签内边距,状态标签左右内边距8px,Medium
+Status,Status Tag Border Radius,2px,状态标签圆角,状态标签圆角2px,Medium
+Status,Status Tag Font Size,12px,状态标签字号,状态标签文字12px,Medium
+Status,Status Success Color,#00B42A,成功状态文字色,成功状态文字绿色#00B42A,High
+Status,Status Success Background,#E8FFEA,成功状态背景色,成功状态背景浅绿#E8FFEA,High
+Status,Status Success Border,#AFF0B5,成功状态边框色,成功状态边框绿色#AFF0B5,Medium
+Status,Status Warning Color,#FF7D00,警告状态文字色,警告状态文字橙色#FF7D00,High
+Status,Status Warning Background,#FFF7E8,警告状态背景色,警告状态背景浅橙#FFF7E8,High
+Status,Status Warning Border,#FFCF8B,警告状态边框色,警告状态边框橙色#FFCF8B,Medium
+Status,Status Error Color,#F53F3F,错误状态文字色,错误状态文字红色#F53F3F,High
+Status,Status Error Background,#FFECE8,错误状态背景色,错误状态背景浅红#FFECE8,High
+Status,Status Error Border,#FDCDC5,错误状态边框色,错误状态边框红色#FDCDC5,Medium
+Status,Status Info Color,#165DFF,信息状态文字色,信息状态文字蓝色#165DFF,Medium
+Status,Status Info Background,#E8F3FF,信息状态背景色,信息状态背景浅蓝#E8F3FF,Medium
+Status,Status Info Border,#BEDAFF,信息状态边框色,信息状态边框蓝色#BEDAFF,Medium
+Status,Status Default Color,#86909C,默认状态文字色,默认状态文字灰色#86909C,Low
+Status,Status Default Background,#F2F3F5,默认状态背景色,默认状态背景浅灰#F2F3F5,Low
+Status,Status Default Border,#E5E6EB,默认状态边框色,默认状态边框灰色#E5E6EB,Low
+Status,Status Dot Size,6px,状态圆点大小,状态圆点直径6px,Medium
+Status,Status Dot Gap,8px,状态圆点间距,状态圆点与文字间距8px,Low
+Status,Status Switch On,#165DFF,开关开启色,开关开启状态蓝色#165DFF,High
+Status,Status Switch Off,#C9CDD4,开关关闭色,开关关闭状态灰色#C9CDD4,Medium
+
+Action,Action Link Color,#165DFF,操作链接颜色,操作链接蓝色#165DFF,High
+Action,Action Link Font Size,14px,操作链接字号,操作链接文字14px,Medium
+Action,Action Link Hover Color,#0E42D2,操作链接悬停色,操作链接悬停深蓝#0E42D2,Medium
+Action,Action Link Active Color,#0E42D2,操作链接点击色,操作链接点击深蓝#0E42D2,Low
+Action,Action Link Disabled Color,#C9CDD4,操作链接禁用色,操作链接禁用灰色#C9CDD4,Medium
+Action,Action Danger Color,#F53F3F,危险操作颜色,删除等危险操作红色#F53F3F,High
+Action,Action Danger Hover Color,#CB2634,危险操作悬停色,危险操作悬停深红#CB2634,Medium
+Action,Action Divider Type,vertical,操作分隔线类型,操作按钮之间竖线分隔,Medium
+Action,Action Divider Color,#E5E6EB,操作分隔线颜色,分隔线颜色#E5E6EB,Low
+Action,Action Divider Margin,0 8px,操作分隔线间距,分隔线左右间距8px,Low
+Action,Action Max Display,3,操作最大显示数,超过3个操作使用更多下拉,Medium
+Action,Action More Text,更多,更多操作文字,更多操作下拉触发文字,Medium
+Action,Action More Icon,DownOutlined,更多操作图标,更多操作下拉箭头图标,Low
+Action,Action Dropdown Component,a-dropdown,更多操作组件,使用a-dropdown组件,Medium
+Action,Action Confirm Delete,a-popconfirm,删除确认组件,删除操作使用a-popconfirm确认,High
+Action,Action Confirm Title,确定删除此记录?,删除确认标题,删除确认弹窗标题,High
+Pagination,Pagination Container Padding,16px,分页容器内边距,分页区域内边距16px,Medium
+Pagination,Pagination Container Margin Top,16px,分页容器上边距,分页与表格间距16px,Medium
+Pagination,Pagination Align,flex-end,分页对齐方式,分页右对齐,High
+Pagination,Pagination Size,small,分页尺寸,分页使用小尺寸,Medium
+Pagination,Pagination Button Height,28px,分页按钮高度,分页按钮高度28px,Low
+Pagination,Pagination Button Min Width,28px,分页按钮最小宽,分页按钮最小宽度28px,Low
+Pagination,Pagination Button Border Radius,2px,分页按钮圆角,分页按钮圆角2px,Low
+Pagination,Pagination Default Background,#FFFFFF,分页默认背景,分页按钮默认白色背景,Medium
+Pagination,Pagination Default Border,#E5E6EB,分页默认边框,分页按钮默认边框#E5E6EB,Low
+Pagination,Pagination Hover Background,#F2F3F5,分页悬停背景,分页按钮悬停背景#F2F3F5,Low
+Pagination,Pagination Active Background,#165DFF,当前页背景,当前页蓝色背景#165DFF,High
+Pagination,Pagination Active Color,#FFFFFF,当前页文字,当前页白色文字,High
+Pagination,Pagination Active Border,#165DFF,当前页边框,当前页蓝色边框#165DFF,Medium
+Pagination,Pagination Total Text,共 X 条,总条数文字,显示总条数格式,High
+Pagination,Pagination Size Options,10/20/50/100,每页条数选项,每页条数选择器选项,Medium
+Pagination,Pagination Size Changer,true,显示条数选择器,显示每页条数选择器,Medium
+Pagination,Pagination Quick Jumper,true,显示页码跳转,显示页码跳转输入框,Low
+Pagination,Pagination Prev Icon,LeftOutlined,上一页图标,上一页箭头图标,Low
+Pagination,Pagination Next Icon,RightOutlined,下一页图标,下一页箭头图标,Low
+
+Scroll,Scroll X Enable,true,启用横向滚动,表格支持横向滚动,High
+Scroll,Scroll X Min Width,1200px,横向滚动最小宽度,表格最小宽度1200px,Medium
+Scroll,Scroll Y Enable,true,启用纵向滚动,表格支持纵向滚动,Medium
+Scroll,Scroll Y Max Height,400px,纵向滚动最大高度,表格固定高度400px,Medium
+Scroll,Scroll Bar Width,8px,滚动条宽度,滚动条宽度8px,Low
+Scroll,Scroll Bar Radius,4px,滚动条圆角,滚动条圆角4px,Low
+Scroll,Scroll Bar Track Color,#F2F3F5,滚动条轨道色,滚动条轨道背景#F2F3F5,Low
+Scroll,Scroll Bar Thumb Color,#C9CDD4,滚动条滑块色,滚动条滑块颜色#C9CDD4,Low
+Scroll,Scroll Bar Thumb Hover,#86909C,滚动条滑块悬停,滚动条滑块悬停#86909C,Low
+Scroll,Virtual Scroll Enable,true,启用虚拟滚动,大数据量使用虚拟滚动,High
+Scroll,Virtual Scroll Threshold,100,虚拟滚动阈值,超过100条启用虚拟滚动,Medium
+Expand,Expand Icon,RightOutlined,展开图标,展开行图标RightOutlined,Medium
+Expand,Expand Icon Rotate,90deg,展开图标旋转角度,展开时图标旋转90度,Low
+Expand,Expand Icon Color,#4E5969,展开图标颜色,展开图标颜色#4E5969,Low
+Expand,Expand Row Background,#FAFBFC,展开行背景,展开详情区背景色#FAFBFC,Low
+Expand,Expand Row Padding,16px 16px 16px 48px,展开行内边距,展开详情区内边距,Low
+Expand,Expand Row Border,none,展开行边框,展开详情区无边框,Low
+Tree,Tree Indent Size,16px,树形缩进大小,树形表格每级缩进16px,Medium
+Tree,Tree Expand Icon,CaretRightOutlined,树形展开图标,树形展开图标CaretRightOutlined,Low
+Tree,Tree Line Show,true,显示树形连接线,显示树形连接线,Low
+Tree,Tree Line Color,#E5E6EB,树形连接线颜色,树形连接线颜色#E5E6EB,Low
+Empty,Empty Container Padding,48px 0,空状态内边距,空状态区域内边距,Medium
+Empty,Empty Container Align,center,空状态对齐,空状态居中对齐,Medium
+Empty,Empty Icon Size,64px,空状态图标大小,空状态图标64px,Low
+Empty,Empty Icon Color,#C9CDD4,空状态图标颜色,空状态图标灰色#C9CDD4,Low
+Empty,Empty Text,暂无数据,空状态文字,空状态默认文字,Medium
+Empty,Empty Text Color,#86909C,空状态文字颜色,空状态文字灰色#86909C,Low
+Empty,Empty Text Font Size,14px,空状态文字大小,空状态文字14px,Low
+Empty,Empty Text Margin Top,16px,空状态文字上边距,空状态文字与图标间距16px,Low
+Empty,Empty Action Button,新增数据,空状态操作按钮,空状态可添加操作按钮,Low
+Loading,Loading Component,a-spin,加载组件,表格加载使用a-spin组件,High
+Loading,Loading Indicator,LoadingOutlined,加载图标,加载状态图标LoadingOutlined,Medium
+Loading,Loading Tip,加载中...,加载提示文字,加载状态提示文字,Low
+Loading,Loading Tip Color,#165DFF,加载提示颜色,加载提示文字蓝色#165DFF,Low
+Loading,Loading Skeleton,a-skeleton,骨架屏组件,首次加载使用骨架屏,Medium
+Loading,Loading Skeleton Rows,5,骨架屏行数,骨架屏显示5行,Low
+
+ColumnSetting,Column Drag Enable,true,启用列拖拽,支持拖拽调整列顺序,Low
+ColumnSetting,Column Visible Toggle,true,列显隐切换,支持控制列显示隐藏,Medium
+ColumnSetting,Column Fixed Options,left/right/none,列固定选项,支持左固定/右固定/不固定,Medium
+ColumnSetting,Column Resize Enable,true,列宽调整,支持拖拽调整列宽,Low
+ColumnSetting,Column Min Width,80px,列最小宽度,列最小宽度80px,Low
+ColumnSetting,Column Setting Popover,a-popover,列设置弹出层,使用a-popover展示列设置,Low
+Border,Table Border Style,none,表格边框样式,表格默认无外边框,Medium
+Border,Table Border Radius,8px,表格容器圆角,表格容器圆角8px,Medium
+Border,Table Header Border,1px solid #E5E6EB,表头边框,表头底部边框,Medium
+Border,Table Row Border,1px solid #E5E6EB,表格行边框,表格行底部边框,Medium
+Border,Table Bordered Style,1px solid #E5E6EB,带边框表格,带边框表格四周边框,Low
+Responsive,Responsive Breakpoint,768px,响应式断点,小于768px切换移动端样式,Medium
+Responsive,Mobile Card Mode,true,移动端卡片模式,移动端使用卡片布局,Medium
+Responsive,Mobile Column Hide,responsive: ['md'],响应式隐藏列,中等屏幕以上显示的列,Low
+Summary,Summary Row Background,#FAFBFC,汇总行背景,汇总行背景色#FAFBFC,Low
+Summary,Summary Row Font Weight,500,汇总行字重,汇总行文字中等字重500,Low
+Summary,Summary Row Position,bottom,汇总行位置,汇总行在表格底部,Low
+Editable,Editable Cell Padding,4px 11px,可编辑单元格内边距,可编辑单元格内边距,Low
+Editable,Editable Input Height,32px,可编辑输入框高度,可编辑输入框高度32px,Low
+Editable,Editable Save Icon,CheckOutlined,保存图标,可编辑保存图标,Low
+Editable,Editable Cancel Icon,CloseOutlined,取消图标,可编辑取消图标,Low
+Draggable,Draggable Row Handle,MenuOutlined,拖拽手柄图标,行拖拽手柄图标MenuOutlined,Low
+Draggable,Draggable Row Cursor,move,拖拽光标,拖拽时光标样式move,Low
+Draggable,Draggable Row Highlight,#E8F3FF,拖拽高亮背景,拖拽时高亮背景#E8F3FF,Low
+Guideline,Primary Color,#165DFF,主色调,表格主色调蓝色#165DFF,High
+Guideline,Success Color,#00B42A,成功色,成功状态绿色#00B42A,High
+Guideline,Warning Color,#FF7D00,警告色,警告状态橙色#FF7D00,High
+Guideline,Error Color,#F53F3F,错误色,错误状态红色#F53F3F,High
+Guideline,Text Primary,#1D2129,主要文字色,主要文字颜色#1D2129,High
+Guideline,Text Regular,#4E5969,常规文字色,常规文字颜色#4E5969,High
+Guideline,Text Secondary,#86909C,次要文字色,次要文字颜色#86909C,Medium
+Guideline,Text Disabled,#C9CDD4,禁用文字色,禁用文字颜色#C9CDD4,Medium
+Guideline,Border Color,#E5E6EB,边框色,边框颜色#E5E6EB,High
+Guideline,Background Page,#F2F3F5,页面背景色,页面背景颜色#F2F3F5,High
+Guideline,Background Container,#FFFFFF,容器背景色,容器背景白色,High
+Guideline,Background Hover,#F2F3F5,悬停背景色,悬停背景颜色#F2F3F5,Medium
+Guideline,Background Selected,#E8F3FF,选中背景色,选中背景颜色#E8F3FF,High

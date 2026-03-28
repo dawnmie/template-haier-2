@@ -1,0 +1,172 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,InputNumber Purpose,数字输入框,数字输入框用途,通过鼠标或键盘输入内容仅允许输入数字,High
+Purpose,InputNumber Scenario,数值输入,使用场景,用于需要输入数字的表单场景,High
+Purpose,InputNumber Behavior,输入或步进,输入行为,支持直接输入或点击按钮步进调整数值,High
+Type,Type Default,基础数字输入,默认类型,基础数字输入框样式,High
+Type,Type Button,按钮模式,按钮类型,带加减按钮的数字输入框,High
+Type,Type Embed,内嵌按钮,内嵌类型,按钮内嵌在输入框内,High
+Type,Type Step,步进器,步进类型,左右按钮步进调整,Medium
+ButtonMode,Button Mode Right,右侧按钮,右侧按钮模式,加减按钮在右侧上下排列,High
+ButtonMode,Button Mode Both,两侧按钮,两侧按钮模式,减号在左加号在右,High
+ButtonMode,Button Mode None,无按钮,无按钮模式,不显示加减按钮,Medium
+Size,Size Large,40px,大尺寸,大尺寸数字输入框高度40px,Medium
+Size,Size Default,32px,默认尺寸,默认尺寸数字输入框高度32px,High
+Size,Size Small,28px,小尺寸,小尺寸数字输入框高度28px,Medium
+Container,Container Height,32px,容器高度,数字输入框容器高度32px,High
+Container,Container Min Width,90px,容器最小宽度,数字输入框最小宽度90px,High
+Container,Container Border Radius,2px,容器圆角,数字输入框圆角2px,High
+Container,Container Border,1px solid #E5E6EB,容器边框,数字输入框灰色边框,High
+Container,Container Background,#FFFFFF,容器背景,数字输入框白色背景,High
+Container,Container Display,inline-flex,容器显示,数字输入框行内flex布局,High
+Container,Container Align Items,center,容器对齐,数字输入框垂直居中,Medium
+Input,Input Height,30px,输入框高度,输入框高度30px,High
+Input,Input Padding,0 12px,输入框内边距,输入框左右内边距12px,High
+Input,Input Font Size,14px,输入框字号,输入框字号14px,High
+Input,Input Color,#1D2129,输入框颜色,输入框深色文字,High
+Input,Input Text Align,left,输入框对齐,输入框文字左对齐,Medium
+Input,Input Background,transparent,输入框背景,输入框透明背景,Medium
+Input,Input Border,none,输入框边框,输入框无边框,Medium
+Input,Input Outline,none,输入框轮廓,输入框无轮廓,Medium
+Input,Input Flex,1,输入框弹性,输入框弹性伸缩,Medium
+Default,Default Border,1px solid #E5E6EB,默认边框,默认状态灰色边框#E5E6EB,High
+Default,Default Background,#FFFFFF,默认背景,默认状态白色背景,High
+Default,Default Color,#1D212
+Default,Default Border,1px solid #E5E6EB,默认边框,默认状态灰色边框#E5E6EB,High
+Default,Default Background,#FFFFFF,默认背景,默认状态白色背景,High
+Default,Default Color,#1D2129,默认颜色,默认状态深色文字,High
+Default,Default Placeholder,#C9CDD4,默认占位符,默认状态占位符灰色,High
+Hover,Hover Border,1px solid #C9CDD4,悬停边框,悬停状态深灰边框,Medium
+Focus,Focus Border,1px solid #165DFF,聚焦边框,聚焦状态蓝色边框#165DFF,High
+Focus,Focus Shadow,0 0 0 2px rgba(22 93 255 0.1),聚焦阴影,聚焦状态蓝色阴影,High
+Disabled,Disabled Background,#F2F3F5,禁用背景,禁用状态灰色背景,High
+Disabled,Disabled Border,1px solid #E5E6EB,禁用边框,禁用状态灰色边框,High
+Disabled,Disabled Color,#C9CDD4,禁用颜色,禁用状态灰色文字,High
+Disabled,Disabled Cursor,not-allowed,禁用光标,禁用状态禁止光标,High
+Error,Error Border,1px solid #F53F3F,错误边框,错误状态红色边框,High
+Error,Error Focus Shadow,0 0 0 2px rgba(245 63 63 0.1),错误聚焦阴影,错误聚焦状态红色阴影,Medium
+Readonly,Readonly Background,#F7F8FA,只读背景,只读状态浅灰背景,Medium
+Readonly,Readonly Border,1px solid #E5E6EB,只读边框,只读状态灰色边框,Medium
+Readonly,Readonly Color,#1D2129,只读颜色,只读状态深色文字,Medium
+Readonly,Readonly Cursor,default,只读光标,只读状态默认光标,Medium
+ButtonRight,Button Right Width,24px,右侧按钮宽度,右侧按钮区域宽度24px,High
+ButtonRight,Button Right Layout,column,右侧按钮布局,右侧按钮垂直排列,High
+ButtonRight,Button Right Border Left,1px solid #E5E6EB,右侧按钮左边框,右侧按钮左侧分隔线,Medium
+ButtonRight,Button Up Height,15px,上按钮高度,增加按钮高度15px,High
+ButtonRight,Button Down Height,15px,下按钮高度,减少按钮高度15px,High
+ButtonRight,Button Divider,1px solid #E5E6EB,按钮分隔线,上下按钮分隔线,Medium
+ButtonRight,Button Icon Size,12px,按钮图标大小,按钮图标12px,High
+ButtonRight,Button Up Icon,UpOutlined,上按钮图标,增加按钮上箭头图标,High
+ButtonRight,Button Down Icon,DownOutlined,下按钮图标,减少按钮下箭头图标,High
+ButtonBoth,Button Both Width,32px,两侧按钮宽度,两侧按钮宽度32px,High
+ButtonBoth,Button Both Height,32px,两侧按钮高度,两侧按钮高度32px,High
+ButtonBoth,Button Both Border Radius,2px,两侧按钮圆角,两侧按钮圆角2px,Medium
+ButtonBoth,Button Minus Position,left,减号位置,减号按钮在左侧,High
+ButtonBoth,Button Plus Position,right,加号位置,加号按钮在右侧,High
+ButtonBoth,Button Minus Icon,<h-icon-minus />,减号图标,减号按钮减号图标,High
+ButtonBoth,Button Plus Icon,<h-icon-plus />,加号图标,加号按钮加号图标,High
+ButtonBoth,Button Icon Size,14px,按钮图标大小,两侧按钮图标14px,High
+ButtonBoth,Button Background,#FFFFFF,按钮背景,两侧按钮白色背景,High
+ButtonBoth,Button Border,1px solid #E5E6EB,按钮边框,两侧按钮灰色边框,High
+ButtonBoth,Input Border Left,none,输入框左边框,两侧模式输入框无左边框,Medium
+ButtonBoth,Input Border Right,none,输入框右边框,两侧模式输入框无右边框,Medium
+ButtonBoth,Input Border Radius,0,输入框圆角,两侧模式输入框无圆角,Medium
+ButtonState,Button Default Background,#FFFFFF,按钮默认背景,按钮默认白色背景,High
+ButtonState,Button Default Color,#4E5969,按钮默认颜色,按钮默认灰色图标,High
+ButtonState,Button Hover Background,#F2F3F5,按钮悬停背景,按钮悬停灰色背景,High
+ButtonState,Button Hover Color,#165DFF,按钮悬停颜色,按钮悬停蓝色图标,High
+ButtonState,Button Active Background,#E8F3FF,按钮激活背景,按钮激活浅蓝背景,Medium
+ButtonState,Button Active Color,#165DFF,按钮激活颜色,按钮激活蓝色图标,Medium
+ButtonState,Button Disabled Background,#F2F3F5,按钮禁用背景,按钮禁用灰色背景,High
+ButtonState,Button Disabled Color,#C9CDD4,按钮禁用颜色,按钮禁用灰色图标,High
+ButtonState,Button Disabled Cursor,not-allowed,按钮禁用光标,按钮禁用禁止光标,High
+ButtonState,Button Transition,all 0.2s,按钮过渡,按钮状态过渡动画,Low
+Prefix,Prefix Show,true,显示前缀,数字输入框支持前缀,Medium
+Prefix,Prefix Padding,0 8px,前缀内边距,前缀左右内边距8px,Medium
+Prefix,Prefix Color,#86909C,前缀颜色,前缀灰色文字,Medium
+Prefix,Prefix Font Size,14px,前缀字号,前缀字号14px,Medium
+Prefix,Prefix Border Right,1px solid #E5E6EB,前缀右边框,前缀右侧分隔线,Low
+Suffix,Suffix Show,true,显示后缀,数字输入框支持后缀,Medium
+Suffix,Suffix Padding,0 8px,后缀内边距,后缀左右内边距8px,Medium
+Suffix,Suffix Color,#86909C,后缀颜色,后缀灰色文字,Medium
+Suffix,Suffix Font Size,14px,后缀字号,后缀字号14px,Medium
+Suffix,Suffix Border Left,1px solid #E5E6EB,后缀左边框,后缀左侧分隔线,Low
+Step,Step Default,1,默认步长,默认步长为1,High
+Step,Step Custom,any,自定义步长,支持自定义步长值,Medium
+Step,Step Decimal,0.1,小数步长,支持小数步长如0.1,Medium
+Step,Step Keyboard,true,键盘步进,支持上下键步进,High
+Step,Step Long Press,true,长按步进,支持长按连续步进,Medium
+Step,Step Long Press Delay,300ms,长按延迟,长按300ms后开始连续步进,Low
+Step,Step Long Press Interval,50ms,长按间隔,长按连续步进间隔50ms,Low
+Range,Range Min,undefined,最小值,数字输入框最小值,High
+Range,Range Max,undefined,最大值,数字输入框最大值,High
+Range,Range Min Disabled,true,最小值禁用,达到最小值时禁用减少按钮,High
+Range,Range Max Disabled,true,最大值禁用,达到最大值时禁用增加按钮,High
+Range,Range Out Of Range Color,#F53F3F,超出范围颜色,超出范围时红色文字,Medium
+Precision,Precision Default,0,默认精度,默认整数精度,High
+Precision,Precision Decimal,2,小数精度,支持小数精度如2位,Medium
+Precision,Precision Auto,true,自动精度,根据步长自动计算精度,Medium
+Formatter,Formatter Show,true,显示格式化,支持数字格式化显示,Medium
+Formatter,Formatter Thousand,true,千分位,支持千分位分隔符,Medium
+Formatter,Formatter Thousand Separator,逗号,千分位分隔符,千分位使用逗号分隔,Medium
+Formatter,Formatter Prefix,¥,格式化前缀,格式化前缀如货币符号,Medium
+Formatter,Formatter Suffix,%,格式化后缀,格式化后缀如百分号,Medium
+Formatter,Formatter Custom,function,自定义格式化,支持自定义格式化函数,Low
+Label,Label Show,true,显示标签,数字输入框显示标签,Medium
+Label,Label Position,top/left,标签位置,标签在顶部或左侧,Medium
+Label,Label Font Size,14px,标签字号,标签字号14px,Medium
+Label,Label Color,#1D2129,标签颜色,标签深色文字,Medium
+Label,Label Required,*,必填标记,必填项红色星号,High
+Label,Label Required Color,#F53F3F,必填颜色,必填星号红色,High
+Label,Label Margin Bottom,4px,标签底间距,垂直布局标签底部间距4px,Medium
+Label,Label Margin Right,8px,标签右间距,水平布局标签右侧间距8px,Medium
+Animation,Animation Step,0.1s,步进动画,步进值变化动画,Low
+Animation,Animation Focus,0.2s,聚焦动画,聚焦状态过渡动画,Low
+Animation,Animation Button,0.2s,按钮动画,按钮状态过渡动画,Low
+Accessibility,A11y Role,spinbutton,无障碍角色,数字输入框spinbutton角色,High
+Accessibility,A11y Aria Label,数字输入,无障碍标签,数字输入框aria标签,High
+Accessibility,A11y Aria Valuemin,min,无障碍最小值,aria最小值属性,Medium
+Accessibility,A11y Aria Valuemax,max,无障碍最大值,aria最大值属性,Medium
+Accessibility,A11y Aria Valuenow,value,无障碍当前值,aria当前值属性,Medium
+Accessibility,A11y Keyboard Up,increase,上箭头增加,上箭头键增加数值,High
+Accessibility,A11y Keyboard Down,decrease,下箭头减少,下箭头键减少数值,High
+Accessibility,A11y Focus Visible,0 0 0 2px rgba(22 93 255 0.1),焦点可见,键盘焦点蓝色阴影,Medium
+ZIndex,ZIndex Dropdown,1050,下拉层级,下拉面板层级1050,Low
+API,API Value,number,值类型,数字输入框值类型number,High
+API,API Default Value,undefined,默认值,默认值未定义,Medium
+API,API Min,undefined,最小值,数字输入框最小值,High
+API,API Max,undefined,最大值,数字输入框最大值,High
+API,API Step,1,步长,数字输入框步长,High
+API,API Precision,undefined,精度,数字输入框精度,Medium
+API,API Disabled,false,禁用,是否禁用数字输入框,High
+API,API Readonly,false,只读,是否只读,Medium
+API,API Size,default,尺寸,数字输入框尺寸large/default/small,High
+API,API Controls,true,显示按钮,是否显示加减按钮,High
+API,API Controls Position,right,按钮位置,按钮位置right/both,High
+API,API Keyboard,true,键盘控制,是否支持键盘上下键,High
+API,API Formatter,function,格式化函数,数字格式化函数,Medium
+API,API Parser,function,解析函数,格式化数字解析函数,Medium
+API,API Placeholder,请输入,占位符,数字输入框占位符,High
+Event,Event Change,onChange,变化事件,数值变化时触发,High
+Event,Event Step,onStep,步进事件,点击步进按钮时触发,Medium
+Event,Event Focus,onFocus,聚焦事件,输入框聚焦时触发,Medium
+Event,Event Blur,onBlur,失焦事件,输入框失焦时触发,Medium
+Event,Event Press Enter,onPressEnter,回车事件,按回车键时触发,Medium
+Guideline,Guideline Label,添加标签,标签指南,数字输入框应添加标签说明,High
+Guideline,Guideline Range,设置范围,范围指南,根据业务设置合理的最小最大值,High
+Guideline,Guideline Step,合理步长,步长指南,根据数值特点设置合理步长,Medium
+Guideline,Guideline Precision,精度一致,精度指南,步长和精度应保持一致,Medium
+Guideline,Guideline Default Value,默认值,默认值指南,根据场景设置合理默认值,Medium
+Guideline,Guideline Placeholder,占位提示,占位符指南,使用占位符提示输入格式,Medium
+Guideline,Guideline Validation,即时验证,验证指南,输入后即时验证数值有效性,High
+Guideline,Guideline Error Message,错误提示,错误指南,验证失败显示具体错误原因,High
+Guideline,Guideline Unit,单位显示,单位指南,需要时显示数值单位,Medium
+Guideline,Guideline Keyboard,键盘支持,键盘指南,支持键盘上下键调整数值,High
+Spacing,Spacing Label Input,4px,标签输入间距,标签与输入框间距4px,Medium
+Spacing,Spacing Input Button,0,输入按钮间距,输入框与按钮间距0,Medium
+Spacing,Spacing Prefix Input,8px,前缀输入间距,前缀与输入框间距8px,Medium
+Spacing,Spacing Input Suffix,8px,输入后缀间距,输入框与后缀间距8px,Medium
+Spacing,Spacing Error Gap,4px,错误间距,错误信息与输入框间距4px,Medium
+Extra,Extra Slot Prefix,prefix,前缀插槽,支持自定义前缀插槽,Low
+Extra,Extra Slot Suffix,suffix,后缀插槽,支持自定义后缀插槽,Low
+Extra,Extra Slot Addon Before,addonBefore,前置插槽,支持前置内容插槽,Low
+Extra,Extra Slot Addon After,addonAfter,后置插槽,支持后置内容插槽,Low

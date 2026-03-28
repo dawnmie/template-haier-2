@@ -1,0 +1,110 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Footer Purpose,显示公共信息,页脚用途,用于显示用户可能想要从网站中的任何页面都能访问到的公共信息,High
+Purpose,Footer Scenario,网站和后台系统,使用场景,网站场景和B端后台场景均可使用页脚,High
+Purpose,Footer Content,版权/链接/联系方式,页脚内容,页脚包含版权信息、相关链接、联系方式等,High
+Type,Type Website,网站场景样式,网站页脚,网站场景页脚包含Logo、版权、链接、联系方式,High
+Type,Type Backend,B端后台场景样式,后台页脚,B端后台场景页脚简洁仅显示Logo和版权,High
+Type,Type Simple,简单样式,简单页脚,仅显示版权信息的简单页脚,Medium
+Type,Type Rich,丰富样式,丰富页脚,包含多栏链接和信息的丰富页脚,Medium
+Structure,Footer Width,100%,页脚宽度,页脚宽度100%占满容器,High
+Structure,Footer Min Height,auto,页脚最小高度,页脚高度根据内容自适应,Medium
+Structure,Footer Position,bottom,页脚位置,页脚位于页面底部,High
+Structure,Footer Background,#FFFFFF,页脚背景,页脚白色背景,High
+Structure,Footer Border Top,1px solid #E5E6EB,页脚顶部边框,页脚顶部分割线,Medium
+Structure,Footer Padding,24px 0,页脚内边距,页脚上下内边距24px,High
+Structure,Footer Max Width,1200px,页脚最大宽度,页脚内容区最大宽度1200px,Medium
+Structure,Footer Margin,0 auto,页脚外边距,页脚内容区居中,Medium
+Logo,Logo Show,true,显示Logo,页脚显示品牌Logo,High
+Logo,Logo Height,32px,Logo高度,页脚Logo高度32px,Medium
+Logo,Logo Width,auto,Logo宽度,页脚Logo宽度自适应,Medium
+Logo,Logo Position,center,Logo位置,页脚Logo居中显示,High
+Logo,Logo Margin Bottom,8px,Logo底部间距,Logo与版权信息间距8px,Medium
+Copyright,Copyright Show,true,显示版权,页脚显示版权信息,High
+Copyright,Copyright Text,Copyright© 2018 海尔集团 版权所有,版权文字,版权信息文字内容,High
+Copyright,Copyright Font Size,12px,版权字号,版权信息文字12px,Medium
+Copyright,Copyright Color,#86909C,版权颜色,版权信息灰色文字,Medium
+Copyright,Copyright Line Height,20px,版权行高,版权信息行高20px,Low
+Copyright,Copyright Align,center,版权对齐,版权信息居中对齐,Medium
+Copyright,Copyright Margin Top,8px,版权上间距,版权信息与Logo间距8px,Low
+Links,Links Show,true,显示链接,页脚显示相关链接,Medium
+Links,Links Layout,column,链接布局,链接分栏布局,Medium
+Links,Links Column Gap,80px,链接栏间距,链接栏之间间距80px,Medium
+Links,Links Row Gap,12px,链接行间距,链接行之间间距12px,Medium
+Links,Links Title Font Size,14px,链接标题字号,链接分组标题14px,Medium
+Links,Links Title Font Weight,500,链接标题字重,链接分组标题中等字重,Medium
+Links,Links Title Color,#1D2129,链接标题颜色,链接分组标题深色,Medium
+Links,Links Title Margin Bottom,12px,链接标题底部间距,链接标题与链接项间距12px,Medium
+Links,Links Item Font Size,14px,链接项字号,链接项文字14px,Medium
+Links,Links Item Color,#4E5969,链接项颜色,链接项灰色文字,Medium
+Links,Links Item Hover Color,#165DFF,链接项悬停颜色,链接项悬停蓝色,Medium
+Links,Links Item Line Height,28px,链接项行高,链接项行高28px,Medium
+Links,Links Item Cursor,pointer,链接项光标,链接项可点击光标,Low
+Contact,Contact Show,true,显示联系方式,页脚显示联系方式,Medium
+Contact,Contact Title,联系我们,联系标题,联系方式分组标题,Medium
+Contact,Contact Label Font Size,14px,联系标签字号,联系标签文字14px,Medium
+Contact,Contact Label Color,#86909C,联系标签颜色,联系标签灰色文字,Medium
+Contact,Contact Value Font Size,14px,联系值字号,联系值文字14px,Medium
+Contact,Contact Value Color,#1D2129,联系值颜色,联系值深色文字,Medium
+Contact,Contact Item Gap,8px,联系项间距,联系项之间间距8px,Medium
+Social,Social Show,true,显示社交媒体,页脚显示社交媒体链接,Low
+Social,Social Title,相关应用,社交标题,社交媒体分组标题,Low
+Social,Social Icon Size,24px,社交图标大小,社交媒体图标24px,Low
+Social,Social Icon Gap,16px,社交图标间距,社交媒体图标间距16px,Low
+Social,Social Icon Color,#4E5969,社交图标颜色,社交媒体图标灰色,Low
+Social,Social Icon Hover Color,#165DFF,社交图标悬停颜色,社交媒体图标悬停蓝色,Low
+WebsiteFooter,Website Section Padding,40px 0,网站区块内边距,网站页脚区块上下内边距40px,Medium
+WebsiteFooter,Website Top Section Background,#FFFFFF,网站顶部区块背景,网站页脚顶部区块白色背景,Medium
+WebsiteFooter,Website Top Section Border,1px solid #E5E6EB,网站顶部区块边框,网站页脚顶部区块底部边框,Medium
+WebsiteFooter,Website Bottom Section Background,#F7F8FA,网站底部区块背景,网站页脚底部区块浅灰背景,Medium
+WebsiteFooter,Website Bottom Section Padding,24px 0,网站底部区块内边距,网站页脚底部区块内边距,Medium
+WebsiteFooter,Website Columns,3,网站链接列数,网站页脚链接分3列,Medium
+WebsiteFooter,Website Column Width,200px,网站列宽度,网站页脚每列宽度200px,Medium
+WebsiteFooter,Website Content Max Width,1200px,网站内容最大宽度,网站页脚内容区最大宽度1200px,Medium
+BackendFooter,Backend Height,48px,后台页脚高度,B端后台页脚高度48px,High
+BackendFooter,Backend Background,#FFFFFF,后台页脚背景,B端后台页脚白色背景,High
+BackendFooter,Backend Border Top,1px solid #E5E6EB,后台页脚顶部边框,B端后台页脚顶部分割线,Medium
+BackendFooter,Backend Padding,0 24px,后台页脚内边距,B端后台页脚左右内边距24px,Medium
+BackendFooter,Backend Align,center,后台页脚对齐,B端后台页脚内容居中,High
+BackendFooter,Backend Logo Height,24px,后台Logo高度,B端后台页脚Logo高度24px,Medium
+BackendFooter,Backend Logo Margin Right,16px,后台Logo右间距,B端后台Logo与版权间距16px,Medium
+BackendFooter,Backend Copyright Font Size,12px,后台版权字号,B端后台版权文字12px,Medium
+BackendFooter,Backend Copyright Color,#86909C,后台版权颜色,B端后台版权灰色文字,Medium
+BackendFooter,Backend Fixed,false,后台页脚固定,B端后台页脚默认不固定,Low
+BackendFooter,Backend Position,relative,后台页脚定位,B端后台页脚相对定位,Low
+SimpleFooter,Simple Height,48px,简单页脚高度,简单页脚高度48px,Medium
+SimpleFooter,Simple Background,transparent,简单页脚背景,简单页脚透明背景,Medium
+SimpleFooter,Simple Border,none,简单页脚边框,简单页脚无边框,Low
+SimpleFooter,Simple Padding,16px 0,简单页脚内边距,简单页脚上下内边距16px,Medium
+SimpleFooter,Simple Align,center,简单页脚对齐,简单页脚内容居中,Medium
+SimpleFooter,Simple Font Size,12px,简单页脚字号,简单页脚文字12px,Medium
+SimpleFooter,Simple Color,#86909C,简单页脚颜色,简单页脚灰色文字,Medium
+Layout,Layout Flex,true,弹性布局,页脚使用flex布局,High
+Layout,Layout Direction,column,布局方向,页脚默认垂直布局,Medium
+Layout,Layout Justify,center,主轴对齐,页脚主轴居中对齐,Medium
+Layout,Layout Align,center,交叉轴对齐,页脚交叉轴居中对齐,Medium
+Layout,Layout Gap,24px,布局间距,页脚各部分间距24px,Medium
+Layout,Layout Content Flex,row,内容布局方向,页脚内容区水平布局,Medium
+Layout,Layout Content Justify,space-between,内容主轴对齐,页脚内容区两端对齐,Medium
+Responsive,Responsive Breakpoint,768px,响应式断点,小于768px切换移动端样式,Medium
+Responsive,Mobile Padding,16px,移动端内边距,移动端页脚内边距16px,Medium
+Responsive,Mobile Columns,1,移动端列数,移动端页脚链接单列,Medium
+Responsive,Mobile Stack,true,移动端堆叠,移动端页脚内容垂直堆叠,Medium
+Responsive,Mobile Align,center,移动端对齐,移动端页脚内容居中,Medium
+Responsive,Mobile Gap,16px,移动端间距,移动端页脚各部分间距16px,Medium
+Responsive,Mobile Logo Height,24px,移动端Logo高度,移动端页脚Logo高度24px,Low
+Responsive,Mobile Font Size,12px,移动端字号,移动端页脚文字12px,Low
+Animation,Link Hover Transition,0.2s,链接悬停过渡,链接悬停颜色过渡0.2s,Low
+Animation,Icon Hover Transition,0.2s,图标悬停过渡,图标悬停颜色过渡0.2s,Low
+Accessibility,Footer Role,contentinfo,页脚角色,页脚ARIA角色contentinfo,High
+Accessibility,Nav Role,navigation,导航角色,页脚导航ARIA角色navigation,Medium
+Accessibility,Link Focus Ring,0 0 0 2px #165DFF40,链接焦点环,链接键盘焦点蓝色环,Medium
+Accessibility,Keyboard Navigation,true,键盘导航,支持Tab键导航,High
+ZIndex,Footer ZIndex,1,页脚层级,页脚z-index 1,Low
+ZIndex,Fixed Footer ZIndex,100,固定页脚层级,固定页脚z-index 100,Low
+Guideline,Primary Color,#165DFF,主色调,页脚主色调蓝色#165DFF,High
+Guideline,Text Primary,#1D2129,主要文字色,主要文字颜色#1D2129,High
+Guideline,Text Regular,#4E5969,常规文字色,常规文字颜色#4E5969,High
+Guideline,Text Secondary,#86909C,次要文字色,次要文字颜色#86909C,Medium
+Guideline,Border Color,#E5E6EB,边框色,边框颜色#E5E6EB,High
+Guideline,Background Primary,#FFFFFF,主背景色,主背景白色,High
+Guideline,Background Secondary,#F7F8FA,次背景色,次背景浅灰色,Medium

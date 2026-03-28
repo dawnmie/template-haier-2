@@ -1,0 +1,193 @@
+Category,Name,Level,HexCode,Usage,Description,Severity
+Red,Dust Red,1,#FFF1F0,背景色,薄雾红最浅色,Low
+Red,Dust Red,2,#FFCCC7,边框色,薄雾红浅色,Low
+Red,Dust Red,3,#FFA39E,禁用色,薄雾红次浅色,Low
+Red,Dust Red,4,#FF7875,hover色,薄雾红中浅色,Medium
+Red,Dust Red,5,#FF4D4F,常规色,薄雾红中色,Medium
+Red,Dust Red,6,#F5222D,主色,薄雾红标准色,High
+Red,Dust Red,7,#CF1322,点击色,薄雾红深色,High
+Red,Dust Red,8,#A8071A,深色,薄雾红次深色,Medium
+Red,Dust Red,9,#820014,更深色,薄雾红深色,Low
+Red,Dust Red,10,#5C0011,最深色,薄雾红最深色,Low
+Orange,Orange,1,#FFF7E6,背景色,晚秋红最浅色,Low
+Orange,Orange,2,#FFE7BA,边框色,晚秋红浅色,Low
+Orange,Orange,3,#FFD591,禁用色,晚秋红次浅色,Low
+Orange,Orange,4,#FFC069,hover色,晚秋红中浅色,Medium
+Orange,Orange,5,#FFA940,常规色,晚秋红中色,Medium
+Orange,Orange,6,#FA8C16,主色,晚秋红标准色,High
+Orange,Orange,7,#D46B08,点击色,晚秋红深色,High
+Orange,Orange,8,#AD4E00,深色,晚秋红次深色,Medium
+Orange,Orange,9,#873800,更深色,晚秋红深色,Low
+Orange,Orange,10,#612500,最深色,晚秋红最深色,Low
+OrangeRed,Orange Red,1,#FFF2E8,背景色,晚秋红最浅色,Low
+OrangeRed,Orange Red,2,#FFD8BF,边框色,晚秋红浅色,Low
+OrangeRed,Orange Red,3,#FFBB96,禁用色,晚秋红次浅色,Low
+OrangeRed,Orange Red,4,#FF9C6E,hover色,晚秋红中浅色,Medium
+OrangeRed,Orange Red,5,#FF7A45,常规色,晚秋红中色,Medium
+OrangeRed,Orange Red,6,#FA541C,主色,晚秋红标准色,High
+OrangeRed,Orange Red,7,#D4380D,点击色,晚秋红深色,High
+OrangeRed,Orange Red,8,#AD2102,深色,晚秋红次深色,Medium
+OrangeRed,Orange Red,9,#871400,更深色,晚秋红深色,Low
+OrangeRed,Orange Red,10,#610B00,最深色,晚秋红最深色,Low
+Gold,Gold,1,#FFFBE6,背景色,黄昏最浅色,Low
+Gold,Gold,2,#FFF1B8,边框色,黄昏浅色,Low
+Gold,Gold,3,#FFE58F,禁用色,黄昏次浅色,Low
+Gold,Gold,4,#FFD666,hover色,黄昏中浅色,Medium
+Gold,Gold,5,#FFC53D,常规色,黄昏中色,Medium
+Gold,Gold,6,#FAAD14,主色,黄昏标准色,High
+Gold,Gold,7,#D48806,点击色,黄昏深色,High
+Gold,Gold,8,#AD6800,深色,黄昏次深色,Medium
+Gold,Gold,9,#874D00,更深色,黄昏深色,Low
+Gold,Gold,10,#613400,最深色,黄昏最深色,Low
+Yellow,Yellow,1,#FEFFE6,背景色,柠檬黄最浅色,Low
+Yellow,Yellow,2,#FFFFB8,边框色,柠檬黄浅色,Low
+Yellow,Yellow,3,#FFFB8F,禁用色,柠檬黄次浅色,Low
+Yellow,Yellow,4,#FFF566,hover色,柠檬黄中浅色,Medium
+Yellow,Yellow,5,#FFEC3D,常规色,柠檬黄中色,Medium
+Yellow,Yellow,6,#FADB14,主色,柠檬黄标准色,High
+Yellow,Yellow,7,#D4B106,点击色,柠檬黄深色,High
+Yellow,Yellow,8,#AD8B00,深色,柠檬黄次深色,Medium
+Yellow,Yellow,9,#876800,更深色,柠檬黄深色,Low
+Yellow,Yellow,10,#614700,最深色,柠檬黄最深色,Low
+
+Lime,Lime,1,#FCFFE6,背景色,新生绿最浅色,Low
+Lime,Lime,2,#F4FFBF,边框色,新生绿浅色,Low
+Lime,Lime,3,#EAFF8F,禁用色,新生绿次浅色,Low
+Lime,Lime,4,#D3F261,hover色,新生绿中浅色,Medium
+Lime,Lime,5,#BAE637,常规色,新生绿中色,Medium
+Lime,Lime,6,#A0D911,主色,新生绿标准色,High
+Lime,Lime,7,#7CB305,点击色,新生绿深色,High
+Lime,Lime,8,#5B8C00,深色,新生绿次深色,Medium
+Lime,Lime,9,#3F6600,更深色,新生绿深色,Low
+Lime,Lime,10,#254000,最深色,新生绿最深色,Low
+Green,Green,1,#F6FFED,背景色,仙野绿最浅色,Low
+Green,Green,2,#D9F7BE,边框色,仙野绿浅色,Low
+Green,Green,3,#B7EB8F,禁用色,仙野绿次浅色,Low
+Green,Green,4,#95DE64,hover色,仙野绿中浅色,Medium
+Green,Green,5,#73D13D,常规色,仙野绿中色,Medium
+Green,Green,6,#52C41A,主色,仙野绿标准色,High
+Green,Green,7,#389E0D,点击色,仙野绿深色,High
+Green,Green,8,#237804,深色,仙野绿次深色,Medium
+Green,Green,9,#135200,更深色,仙野绿深色,Low
+Green,Green,10,#092B00,最深色,仙野绿最深色,Low
+Cyan,Cyan,1,#E6FFFB,背景色,碧涛青最浅色,Low
+Cyan,Cyan,2,#B5F5EC,边框色,碧涛青浅色,Low
+Cyan,Cyan,3,#87E8DE,禁用色,碧涛青次浅色,Low
+Cyan,Cyan,4,#5CDBD3,hover色,碧涛青中浅色,Medium
+Cyan,Cyan,5,#36CFC9,常规色,碧涛青中色,Medium
+Cyan,Cyan,6,#13C2C2,主色,碧涛青标准色,High
+Cyan,Cyan,7,#08979C,点击色,碧涛青深色,High
+Cyan,Cyan,8,#006D75,深色,碧涛青次深色,Medium
+Cyan,Cyan,9,#00474F,更深色,碧涛青深色,Low
+Cyan,Cyan,10,#002329,最深色,碧涛青最深色,Low
+Blue,Blue,1,#E6F7FF,背景色,海蔚蓝最浅色,Low
+Blue,Blue,2,#BAE7FF,边框色,海蔚蓝浅色,Low
+Blue,Blue,3,#91D5FF,禁用色,海蔚蓝次浅色,Low
+Blue,Blue,4,#69C0FF,hover色,海蔚蓝中浅色,Medium
+Blue,Blue,5,#40A9FF,常规色,海蔚蓝中色,Medium
+Blue,Blue,6,#1890FF,主色,海蔚蓝标准色,High
+Blue,Blue,7,#096DD9,点击色,海蔚蓝深色,High
+Blue,Blue,8,#0050B3,深色,海蔚蓝次深色,Medium
+Blue,Blue,9,#003A8C,更深色,海蔚蓝深色,Low
+Blue,Blue,10,#002766,最深色,海蔚蓝最深色,Low
+HworkBlue,H-work Blue,1,#E8F3FF,背景色,极客蓝最浅色,Low
+HworkBlue,H-work Blue,2,#BEDAFF,边框色,极客蓝浅色,Low
+HworkBlue,H-work Blue,3,#94BFFF,禁用色,极客蓝次浅色,Low
+HworkBlue,H-work Blue,4,#6AA1FF,hover色,极客蓝中浅色,Medium
+HworkBlue,H-work Blue,5,#4080FF,常规色,极客蓝中色,Medium
+HworkBlue,H-work Blue,6,#165DFF,主色,极客蓝标准色-品牌主色,High
+HworkBlue,H-work Blue,7,#0E42D2,点击色,极客蓝深色,High
+HworkBlue,H-work Blue,8,#072CA6,深色,极客蓝次深色,Medium
+HworkBlue,H-work Blue,9,#031A79,更深色,极客蓝深色,Low
+HworkBlue,H-work Blue,10,#000D4D,最深色,极客蓝最深色,Low
+Purple,Purple,1,#F9F0FF,背景色,暗夜紫最浅色,Low
+Purple,Purple,2,#EFD6FF,边框色,暗夜紫浅色,Low
+Purple,Purple,3,#D3ADF7,禁用色,暗夜紫次浅色,Low
+Purple,Purple,4,#B37FEB,hover色,暗夜紫中浅色,Medium
+Purple,Purple,5,#9254DE,常规色,暗夜紫中色,Medium
+Purple,Purple,6,#722ED1,主色,暗夜紫标准色,High
+Purple,Purple,7,#531DAB,点击色,暗夜紫深色,High
+Purple,Purple,8,#391085,深色,暗夜紫次深色,Medium
+Purple,Purple,9,#22075E,更深色,暗夜紫深色,Low
+Purple,Purple,10,#120338,最深色,暗夜紫最深色,Low
+PinkPurple,Pink Purple,1,#FFF0F6,背景色,青春紫最浅色,Low
+PinkPurple,Pink Purple,2,#FFD6E7,边框色,青春紫浅色,Low
+PinkPurple,Pink Purple,3,#FFADD2,禁用色,青春紫次浅色,Low
+PinkPurple,Pink Purple,4,#FF85C0,hover色,青春紫中浅色,Medium
+PinkPurple,Pink Purple,5,#F759AB,常规色,青春紫中色,Medium
+PinkPurple,Pink Purple,6,#EB2F96,主色,青春紫标准色,High
+PinkPurple,Pink Purple,7,#C41D7F,点击色,青春紫深色,High
+PinkPurple,Pink Purple,8,#9E1068,深色,青春紫次深色,Medium
+PinkPurple,Pink Purple,9,#780650,更深色,青春紫深色,Low
+PinkPurple,Pink Purple,10,#520339,最深色,青春紫最深色,Low
+Magenta,Magenta,1,#FFF0F0,背景色,品红最浅色,Low
+Magenta,Magenta,2,#FFD6D9,边框色,品红浅色,Low
+Magenta,Magenta,3,#FFADB5,禁用色,品红次浅色,Low
+Magenta,Magenta,4,#FF8592,hover色,品红中浅色,Medium
+Magenta,Magenta,5,#F5597F,常规色,品红中色,Medium
+Magenta,Magenta,6,#E62F6B,主色,品红标准色,High
+Magenta,Magenta,7,#BF1D5A,点击色,品红深色,High
+Magenta,Magenta,8,#99104A,深色,品红次深色,Medium
+Magenta,Magenta,9,#73063B,更深色,品红深色,Low
+Magenta,Magenta,10,#4D002B,最深色,品红最深色,Low
+Grey,Grey,1,#FFFFFF,背景色,灰色最浅色-纯白,Low
+Grey,Grey,2,#FAFAFA,背景色,灰色浅色,Low
+Grey,Grey,3,#F5F5F5,背景色,灰色次浅色,Low
+Grey,Grey,4,#F0F0F0,边框色,灰色中浅色,Medium
+Grey,Grey,5,#D9D9D9,边框色,灰色中色,Medium
+Grey,Grey,6,#BFBFBF,禁用色,灰色标准色,Medium
+Grey,Grey,7,#8C8C8C,次要文字,灰色深色,High
+Grey,Grey,8,#595959,常规文字,灰色次深色,High
+Grey,Grey,9,#434343,标题文字,灰色深色,High
+Grey,Grey,10,#262626,主要文字,灰色最深色,High
+
+Functional,Success,6,#00B42A,成功状态,功能色-成功绿色,High
+Functional,Success Light,1,#E8FFEA,成功背景,功能色-成功浅绿,Medium
+Functional,Success Border,2,#AFF0B5,成功边框,功能色-成功边框绿,Medium
+Functional,Warning,6,#FF7D00,警告状态,功能色-警告橙色,High
+Functional,Warning Light,1,#FFF7E8,警告背景,功能色-警告浅橙,Medium
+Functional,Warning Border,2,#FFCF8B,警告边框,功能色-警告边框橙,Medium
+Functional,Error,6,#F53F3F,错误状态,功能色-错误红色,High
+Functional,Error Light,1,#FFECE8,错误背景,功能色-错误浅红,Medium
+Functional,Error Border,2,#FDCDC5,错误边框,功能色-错误边框红,Medium
+Functional,Info,6,#165DFF,信息状态,功能色-信息蓝色,High
+Functional,Info Light,1,#E8F3FF,信息背景,功能色-信息浅蓝,Medium
+Functional,Info Border,2,#BEDAFF,信息边框,功能色-信息边框蓝,Medium
+Functional,Link,6,#165DFF,链接色,功能色-链接蓝色,High
+Functional,Link Hover,7,#0E42D2,链接hover,功能色-链接深蓝,Medium
+Text,Primary,10,#1D2129,主要文字,文字色-主要标题,High
+Text,Regular,8,#4E5969,常规文字,文字色-正文内容,High
+Text,Secondary,7,#86909C,次要文字,文字色-辅助说明,Medium
+Text,Placeholder,5,#C9CDD4,占位符,文字色-输入提示,Low
+Text,Disabled,4,#C9CDD4,禁用文字,文字色-禁用状态,Low
+Border,Default,4,#E5E6EB,默认边框,边框色-常规边框,Medium
+Border,Light,3,#F2F3F5,浅色边框,边框色-分隔线,Low
+Border,Dark,5,#C9CDD4,深色边框,边框色-强调边框,Medium
+Background,Page,2,#F2F3F5,页面背景,背景色-页面底色,High
+Background,Container,1,#FFFFFF,容器背景,背景色-卡片白色,High
+Background,Hover,3,#F7F8FA,hover背景,背景色-悬停状态,Medium
+Background,Selected,2,#E8F3FF,选中背景,背景色-选中状态,Medium
+Background,Disabled,3,#F2F3F5,禁用背景,背景色-禁用状态,Low
+Background,TableHeader,2,#F7F8FA,表头背景,背景色-表格头部,Medium
+Chart,Chart Blue 1,1,#165DFF,图表色,图表用色-主蓝色,High
+Chart,Chart Blue 2,2,#659DFF,图表色,图表用色-浅蓝色,Medium
+Chart,Chart Blue 3,3,#4D68FF,图表色,图表用色-靛蓝色,Medium
+Chart,Chart Cyan,4,#6CBBE9,图表色,图表用色-青色,Medium
+Chart,Chart Purple 1,5,#8657E5,图表色,图表用色-紫色,Medium
+Chart,Chart Purple 2,6,#8973C9,图表色,图表用色-淡紫色,Medium
+Chart,Chart Pink,7,#B96185,图表色,图表用色-粉色,Medium
+Chart,Chart Teal,8,#5FB6C6,图表色,图表用色-蓝绿色,Medium
+Chart,Chart Green 1,9,#6BE3DA,图表色,图表用色-薄荷绿,Medium
+Chart,Chart Green 2,10,#6AB46A,图表色,图表用色-草绿色,Medium
+Chart,Chart Khaki,11,#CAC67C,图表色,图表用色-卡其色,Medium
+Chart,Chart Sand,12,#CCBD8C,图表色,图表用色-沙色,Medium
+Chart,Chart Orange,13,#FA7411,图表色,图表用色-橙色,Medium
+Chart,Chart Yellow 1,14,#FFD158,图表色,图表用色-金黄色,Medium
+Chart,Chart Yellow 2,15,#EFD237,图表色,图表用色-柠檬黄,Medium
+Chart,Chart Yellow 3,16,#FFE52C,图表色,图表用色-亮黄色,Medium
+Brand,Casarte Gold 1,1,#D4C4A8,品牌色,卡萨帝品牌金色-主色,High
+Brand,Casarte Gold 2,2,#9E8B6E,品牌色,卡萨帝品牌金色-深色,High
+Brand,Casarte Gold 3,3,#F5EFE6,品牌色,卡萨帝品牌金色-浅色,Medium
+Brand,Casarte Purple 1,1,#8B4789,品牌色,卡萨帝品牌紫色-主色,High
+Brand,Casarte Purple 2,2,#5C2D5A,品牌色,卡萨帝品牌紫色-深色,High
+Brand,Casarte White,3,#F8F8F8,品牌色,卡萨帝品牌白色,Medium

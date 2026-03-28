@@ -1,0 +1,36 @@
+Category,Name,Level,BoxShadow,Usage,Description,Severity
+Shadow,Shadow Level 0,0,none,无阴影,第0层-物体紧贴地面-输入框等,High
+Shadow,Shadow Level 1,1,0 2px 5px rgba(0 0 0 0.06),一级阴影,第1层-悬停状态-卡片hover等,High
+Shadow,Shadow Level 2,2,0 4px 10px rgba(0 0 0 0.08),二级阴影,第2层-下拉面板等,High
+Shadow,Shadow Level 3,3,0 8px 20px rgba(0 0 0 0.1),三级阴影,第3层-对话框/全局提示框等,High
+Special,Card Default,1,0 1px 2px rgba(0 0 0 0.05),卡片默认阴影,页面媒体卡片默认阴影,Medium
+Special,Card Hover,2,0 4px 10px rgba(0 0 0 0.08),卡片悬停阴影,已历选中卡片阴影,Medium
+Special,Card Selected,2,0 4px 12px rgba(22 93 255 0.15),卡片选中阴影,选中状态带主色阴影,Medium
+Component,Input Focus,1,0 0 0 2px rgba(22 93 255 0.1),输入框聚焦,输入框聚焦时外发光,High
+Component,Button Focus,1,0 0 0 2px rgba(22 93 255 0.1),按钮聚焦,按钮聚焦时外发光,Medium
+Component,Dropdown,2,0 4px 10px rgba(0 0 0 0.1),下拉菜单阴影,下拉面板阴影,High
+Component,Modal,3,0 8px 24px rgba(0 0 0 0.12),弹窗阴影,模态框阴影,High
+Component,Drawer,3,0 8px 24px rgba(0 0 0 0.12),抽屉阴影,侧边抽屉阴影,High
+Component,Popover,2,0 4px 12px rgba(0 0 0 0.1),气泡卡片阴影,Popover弹出层阴影,Medium
+Component,Tooltip,2,0 4px 10px rgba(0 0 0 0.1),提示框阴影,Tooltip提示阴影,Medium
+Component,Message,2,0 4px 12px rgba(0 0 0 0.1),消息提示阴影,全局消息提示阴影,Medium
+Component,Notification,3,0 8px 20px rgba(0 0 0 0.1),通知阴影,通知提醒框阴影,Medium
+Component,Table Fixed,1,2px 0 6px rgba(0 0 0 0.06),表格固定列阴影,左固定列右侧阴影,Low
+Component,Table Fixed Right,1,-2px 0 6px rgba(0 0 0 0.06),表格固定列阴影,右固定列左侧阴影,Low
+Component,Header,1,0 2px 8px rgba(0 0 0 0.06),顶部导航阴影,固定头部底部阴影,Medium
+Component,Sider,1,2px 0 8px rgba(0 0 0 0.06),侧边栏阴影,固定侧边栏右侧阴影,Medium
+Direction,Shadow Down,1,0 2px 5px rgba(0 0 0 0.06),向下阴影,默认向下投影,High
+Direction,Shadow Up,1,0 -2px 5px rgba(0 0 0 0.06),向上阴影,向上投影,Low
+Direction,Shadow Left,1,-2px 0 5px rgba(0 0 0 0.06),向左阴影,向左投影,Low
+Direction,Shadow Right,1,2px 0 5px rgba(0 0 0 0.06),向右阴影,向右投影,Low
+Direction,Shadow Center,1,0 0 10px rgba(0 0 0 0.08),居中阴影,四周均匀投影,Medium
+State,Shadow Hover,2,0 4px 10px rgba(0 0 0 0.08),悬停阴影,hover状态加深阴影,Medium
+State,Shadow Active,2,0 2px 5px rgba(0 0 0 0.1),激活阴影,点击状态阴影,Medium
+State,Shadow Disabled,0,none,禁用阴影,禁用状态无阴影,Low
+Color,Shadow Primary,2,0 4px 10px rgba(22 93 255 0.2),主色阴影,蓝色主题阴影,Medium
+Color,Shadow Success,2,0 4px 10px rgba(0 180 42 0.2),成功阴影,绿色成功阴影,Medium
+Color,Shadow Warning,2,0 4px 10px rgba(255 125 0 0.2),警告阴影,橙色警告阴影,Medium
+Color,Shadow Error,2,0 4px 10px rgba(245 63 63 0.2),错误阴影,红色错误阴影,Medium
+Inset,Inset Light,1,inset 0 1px 2px rgba(0 0 0 0.05),内阴影浅,浅色内凹阴影,Low
+Inset,Inset Medium,2,inset 0 2px 4px rgba(0 0 0 0.08),内阴影中,中等内凹阴影,Low
+Inset,Inset Deep,3,inset 0 4px 8px rgba(0 0 0 0.1),内阴影深,深色内凹阴影,Low

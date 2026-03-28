@@ -1,0 +1,104 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Button Height Mini,24px,迷你按钮高度,迷你按钮高度24px,Low
+Size,Button Height Small,28px,小按钮高度,小按钮高度28px,Medium
+Size,Button Height Default,32px,默认按钮高度,默认按钮高度32px,High
+Size,Button Height Large,36px,大按钮高度,大按钮高度36px,Medium
+Size,Button Padding Mini,0 8px,迷你按钮内边距,迷你按钮左右内边距8px,Low
+Size,Button Padding Small,0 12px,小按钮内边距,小按钮左右内边距12px,Medium
+Size,Button Padding Default,0 16px,默认按钮内边距,默认按钮左右内边距16px,High
+Size,Button Padding Large,0 20px,大按钮内边距,大按钮左右内边距20px,Medium
+Size,Button Font Size Mini,12px,迷你按钮字号,迷你按钮文字12px,Low
+Size,Button Font Size Small,14px,小按钮字号,小按钮文字14px,Medium
+Size,Button Font Size Default,14px,默认按钮字号,默认按钮文字14px,High
+Size,Button Font Size Large,14px,大按钮字号,大按钮文字14px,Medium
+Size,Button Border Radius,2px,按钮圆角,按钮圆角2px,High
+Size,Button Icon Size,16px,按钮图标大小,按钮内图标16px,Medium
+Size,Button Icon Gap,8px,按钮图标间距,图标与文字间距8px,Medium
+Type,Primary Background,#165DFF,主按钮背景,主按钮蓝色背景#165DFF,High
+Type,Primary Color,#FFFFFF,主按钮文字,主按钮白色文字,High
+Type,Primary Border,none,主按钮边框,主按钮无边框,High
+Type,Primary Hover Background,#4080FF,主按钮悬停背景,主按钮悬停浅蓝#4080FF,High
+Type,Primary Active Background,#0E42D2,主按钮点击背景,主按钮点击深蓝#0E42D2,Medium
+Type,Primary Disabled Background,#94BFFF,主按钮禁用背景,主按钮禁用浅蓝#94BFFF,Medium
+Type,Primary Disabled Color,#FFFFFF,主按钮禁用文字,主按钮禁用白色文字,Medium
+Type,Secondary Background,#F2F3F5,次按钮背景,次按钮灰色背景#F2F3F5,Medium
+Type,Secondary Color,#4E5969,次按钮文字,次按钮灰色文字#4E5969,Medium
+Type,Secondary Border,none,次按钮边框,次按钮无边框,Medium
+Type,Secondary Hover Background,#E5E6EB,次按钮悬停背景,次按钮悬停深灰#E5E6EB,Medium
+Type,Secondary Active Background,#C9CDD4,次按钮点击背景,次按钮点击更深灰#C9CDD4,Low
+Type,Secondary Disabled Background,#F7F8FA,次按钮禁用背景,次按钮禁用浅灰#F7F8FA,Low
+Type,Secondary Disabled Color,#C9CDD4,次按钮禁用文字,次按钮禁用灰色#C9CDD4,Low
+Type,Outline Background,transparent,线框按钮背景,线框按钮透明背景,Medium
+Type,Outline Color,#165DFF,线框按钮文字,线框按钮蓝色文字#165DFF,Medium
+Type,Outline Border,1px solid #165DFF,线框按钮边框,线框按钮蓝色边框,Medium
+Type,Outline Hover Background,#E8F3FF,线框按钮悬停背景,线框按钮悬停浅蓝背景,Medium
+Type,Outline Active Background,#BEDAFF,线框按钮点击背景,线框按钮点击浅蓝背景,Low
+Type,Outline Disabled Border,1px solid #94BFFF,线框按钮禁用边框,线框按钮禁用浅蓝边框,Low
+Type,Outline Disabled Color,#94BFFF,线框按钮禁用文字,线框按钮禁用浅蓝文字,Low
+
+Type,Dashed Background,transparent,虚线按钮背景,虚线按钮透明背景,Low
+Type,Dashed Color,#4E5969,虚线按钮文字,虚线按钮灰色文字#4E5969,Low
+Type,Dashed Border,1px dashed #E5E6EB,虚线按钮边框,虚线按钮灰色虚线边框,Low
+Type,Dashed Hover Border,1px dashed #165DFF,虚线按钮悬停边框,虚线按钮悬停蓝色虚线边框,Low
+Type,Dashed Hover Color,#165DFF,虚线按钮悬停文字,虚线按钮悬停蓝色文字,Low
+Type,Text Background,transparent,文字按钮背景,文字按钮透明背景,Medium
+Type,Text Color,#165DFF,文字按钮文字,文字按钮蓝色文字#165DFF,Medium
+Type,Text Border,none,文字按钮边框,文字按钮无边框,Medium
+Type,Text Hover Background,#E8F3FF,文字按钮悬停背景,文字按钮悬停浅蓝背景,Medium
+Type,Text Active Background,#BEDAFF,文字按钮点击背景,文字按钮点击浅蓝背景,Low
+Type,Text Disabled Color,#94BFFF,文字按钮禁用文字,文字按钮禁用浅蓝文字,Low
+Status,Success Background,#00B42A,成功按钮背景,成功按钮绿色背景#00B42A,High
+Status,Success Color,#FFFFFF,成功按钮文字,成功按钮白色文字,High
+Status,Success Hover Background,#23C343,成功按钮悬停背景,成功按钮悬停浅绿#23C343,Medium
+Status,Success Active Background,#009A29,成功按钮点击背景,成功按钮点击深绿#009A29,Medium
+Status,Success Disabled Background,#7BE188,成功按钮禁用背景,成功按钮禁用浅绿#7BE188,Low
+Status,Warning Background,#FF7D00,警告按钮背景,警告按钮橙色背景#FF7D00,High
+Status,Warning Color,#FFFFFF,警告按钮文字,警告按钮白色文字,High
+Status,Warning Hover Background,#FF9A2E,警告按钮悬停背景,警告按钮悬停浅橙#FF9A2E,Medium
+Status,Warning Active Background,#D25F00,警告按钮点击背景,警告按钮点击深橙#D25F00,Medium
+Status,Warning Disabled Background,#FFCF8B,警告按钮禁用背景,警告按钮禁用浅橙#FFCF8B,Low
+Status,Danger Background,#F53F3F,危险按钮背景,危险按钮红色背景#F53F3F,High
+Status,Danger Color,#FFFFFF,危险按钮文字,危险按钮白色文字,High
+Status,Danger Hover Background,#F76560,危险按钮悬停背景,危险按钮悬停浅红#F76560,Medium
+Status,Danger Active Background,#CB2634,危险按钮点击背景,危险按钮点击深红#CB2634,Medium
+Status,Danger Disabled Background,#FBACA3,危险按钮禁用背景,危险按钮禁用浅红#FBACA3,Low
+Shape,Shape Default,rectangle,默认形状,默认矩形按钮,High
+Shape,Shape Round,16px,圆角形状,圆角按钮border-radius: 16px,Medium
+Shape,Shape Circle,50%,圆形形状,圆形按钮border-radius: 50%,Medium
+Shape,Shape Square,2px,方形形状,方形按钮border-radius: 2px,Low
+Icon,Icon Only Width Mini,24px,迷你图标按钮宽度,迷你纯图标按钮宽度24px,Low
+Icon,Icon Only Width Small,28px,小图标按钮宽度,小纯图标按钮宽度28px,Medium
+Icon,Icon Only Width Default,32px,默认图标按钮宽度,默认纯图标按钮宽度32px,High
+Icon,Icon Only Width Large,36px,大图标按钮宽度,大纯图标按钮宽度36px,Medium
+Icon,Icon Position Left,left,图标左侧,图标在文字左侧,High
+Icon,Icon Position Right,right,图标右侧,图标在文字右侧,Medium
+Loading,Loading Icon,LoadingOutlined,加载图标,加载状态使用LoadingOutlined,High
+Loading,Loading Disabled,true,加载禁用,加载状态按钮不可点击,High
+Loading,Loading Text,加载中...,加载文字,加载状态显示文字,Low
+
+Group,Group Gap,0,按钮组间距,按钮组内按钮无间距,Medium
+Group,Group First Radius,2px 0 0 2px,按钮组首个圆角,按钮组第一个按钮左侧圆角,Low
+Group,Group Middle Radius,0,按钮组中间圆角,按钮组中间按钮无圆角,Low
+Group,Group Last Radius,0 2px 2px 0,按钮组末个圆角,按钮组最后一个按钮右侧圆角,Low
+Group,Group Border,1px solid #E5E6EB,按钮组边框,按钮组内按钮边框,Low
+Dropdown,Dropdown Arrow,DownOutlined,下拉箭头图标,下拉按钮箭头图标,Medium
+Dropdown,Dropdown Arrow Gap,4px,下拉箭头间距,箭头与文字间距4px,Low
+Dropdown,Dropdown Menu Shadow,0 4px 10px rgba(0 0 0 0.1),下拉菜单阴影,下拉菜单阴影效果,Medium
+Dropdown,Dropdown Menu Radius,4px,下拉菜单圆角,下拉菜单圆角4px,Medium
+Dropdown,Dropdown Menu Padding,4px 0,下拉菜单内边距,下拉菜单上下内边距4px,Low
+Dropdown,Dropdown Item Height,36px,下拉菜单项高度,下拉菜单项高度36px,Medium
+Dropdown,Dropdown Item Padding,0 12px,下拉菜单项内边距,下拉菜单项左右内边距12px,Low
+Dropdown,Dropdown Item Hover,#F2F3F5,下拉菜单项悬停,下拉菜单项悬停背景,Medium
+Usage,Primary Usage,主要操作,主按钮使用场景,用于主要操作如提交/确认/保存,High
+Usage,Secondary Usage,次要操作,次按钮使用场景,用于次要操作如取消/返回,Medium
+Usage,Outline Usage,强调操作,线框按钮使用场景,用于需要强调但非主要的操作,Medium
+Usage,Text Usage,辅助操作,文字按钮使用场景,用于辅助操作如查看更多/展开,Medium
+Usage,Danger Usage,危险操作,危险按钮使用场景,用于危险操作如删除/清空,High
+Usage,Icon Only Usage,空间有限,图标按钮使用场景,用于空间有限的场景如工具栏,Medium
+Guideline,Max Buttons Per Row,5,每行最多按钮数,一行最多放置5个按钮,Medium
+Guideline,Primary Button Count,1,主按钮数量,一个区域最多1个主按钮,High
+Guideline,Button Order,主按钮在右,按钮顺序,主按钮放在最右侧,High
+Guideline,Cancel Position,取消在左,取消按钮位置,取消按钮放在确认按钮左侧,High
+Guideline,Danger Confirm,需要确认,危险操作确认,危险操作需要二次确认,High
+Guideline,Loading Feedback,显示加载,加载反馈,异步操作显示加载状态,High
+Guideline,Disabled Tooltip,显示原因,禁用提示,禁用按钮hover显示禁用原因,Medium

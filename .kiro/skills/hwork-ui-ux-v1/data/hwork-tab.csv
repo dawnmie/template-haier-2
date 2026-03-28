@@ -1,0 +1,183 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Tab Purpose,内容分类切换,标签页用途,用于在同一区域内切换显示不同内容分类,High
+Purpose,Tab Behavior,点击切换内容,标签页行为,点击标签项切换对应内容面板,High
+Purpose,Tab Limit,建议2-7个,标签数量限制,标签数量建议2-7个避免过多,Medium
+Size,Size Large,48px,大尺寸标签,大尺寸标签高度48px,Medium
+Size,Size Default,40px,默认尺寸标签,默认尺寸标签高度40px,High
+Size,Size Small,32px,小尺寸标签,小尺寸标签高度32px,Medium
+Size,Size Mini,24px,迷你尺寸标签,迷你尺寸标签高度24px,Low
+Type,Type Line,下划线类型,线条类型,标签底部下划线指示器,High
+Type,Type Card,卡片类型,卡片类型,标签卡片样式带背景,Medium
+Type,Type Card Gutter,卡片间隔类型,卡片间隔类型,卡片标签之间有间隔,Medium
+Type,Type Segment,分段类型,分段类型,分段控制器样式,Medium
+Type,Type Capsule,胶囊类型,胶囊类型,胶囊形状圆角标签,Medium
+Type,Type Text,纯文字类型,文字类型,纯文字无边框无背景,Low
+LineTab,Line Tab Height,40px,线条标签高度,线条类型标签高度40px,High
+LineTab,Line Tab Padding,0 16px,线条标签内边距,线条标签左右内边距16px,High
+LineTab,Line Tab Font Size,14px,线条标签字号,线条标签文字14px,High
+LineTab,Line Tab Color,#4E5969,线条标签颜色,线条标签默认灰色文字,High
+LineTab,Line Tab Hover Color,#165DFF,线条标签悬停颜色,线条标签悬停蓝色文字,Medium
+LineTab,Line Tab Active Color,#165DFF,线条标签激活颜色,线条标签激活蓝色文字,High
+LineTab,Line Tab Active Font Weight,500,线条标签激活字重,线条标签激活中等字重,Medium
+LineTab,Line Indicator Height,2px,线条指示器高度,底部线条指示器高度2px,High
+LineTab,Line Indicator Color,#165DFF,线条指示器颜色,底部线条指示器蓝色,High
+LineTab,Line Indicator Width,auto,线条指示器宽度,线条指示器宽度与文字等宽,Medium
+LineTab,Line Indicator Transition,0.3s,线条指示器过渡,线条指示器滑动动画0.3s,Medium
+LineTab,Line Border Bottom,1px solid #E5E6EB,线条标签底边框,线条标签底部分割线,Medium
+CardTab,Card Tab Height,40px,卡片标签高度,卡片类型标签高度40px,High
+CardTab,Card Tab Padding,0 16px,卡片标签内边距,卡片标签左右内边距16px,High
+CardTab,Card Tab Font Size,14px,卡片标签字号,卡片标签文字14px,High
+CardTab,Card Tab Background,#F7F8FA,卡片标签背景,卡片标签默认灰色背景,High
+CardTab,Card Tab Color,#4E5969,卡片标签颜色,卡片标签默认灰色文字,High
+CardTab,Card Tab Border,1px solid #E5E6EB,卡片标签边框,卡片标签灰色边框,Medium
+CardTab,Card Tab Border Radius,4px 4px 0 0,卡片标签圆角,卡片标签顶部圆角4px,Medium
+CardTab,Card Tab Hover Background,#FFFFFF,卡片标签悬停背景,卡片标签悬停白色背景,Medium
+CardTab,Card Tab Active Background,#FFFFFF,卡片标签激活背景,卡片标签激活白色背景,High
+CardTab,Card Tab Active Color,#165DFF,卡片标签激活颜色,卡片标签激活蓝色文字,High
+CardTab,Card Tab Active Border Bottom,none,卡片标签激活底边框,卡片标签激活无底边框,Medium
+CardTab,Card Tab Gap,0,卡片标签间距,卡片标签之间无间距,Low
+CardGutterTab,Card Gutter Tab Gap,4px,卡片间隔标签间距,卡片间隔标签之间间距4px,Medium
+CardGutterTab,Card Gutter Tab Border Radius,4px,卡片间隔标签圆角,卡片间隔标签四角圆角4px,Medium
+CardGutterTab,Card Gutter Tab Background,#F2F3F5,卡片间隔标签背景,卡片间隔标签灰色背景,Medium
+CardGutterTab,Card Gutter Tab Active Background,#FFFFFF,卡片间隔激活背景,卡片间隔激活白色背景,High
+CardGutterTab,Card Gutter Tab Active Shadow,0 1px 4px rgba(0 0 0 0.08),卡片间隔激活阴影,卡片间隔激活轻微阴影,Low
+SegmentTab,Segment Container Background,#F2F3F5,分段容器背景,分段控制器容器灰色背景,High
+SegmentTab,Segment Container Padding,2px,分段容器内边距,分段容器内边距2px,Medium
+SegmentTab,Segment Container Border Radius,4px,分段容器圆角,分段容器圆角4px,Medium
+SegmentTab,Segment Tab Height,28px,分段标签高度,分段标签高度28px,High
+SegmentTab,Segment Tab Padding,0 12px,分段标签内边距,分段标签左右内边距12px,Medium
+SegmentTab,Segment Tab Font Size,14px,分段标签字号,分段标签文字14px,Medium
+SegmentTab,Segment Tab Color,#4E5969,分段标签颜色,分段标签默认灰色文字,High
+SegmentTab,Segment Tab Background,transparent,分段标签背景,分段标签默认透明背景,Medium
+SegmentTab,Segment Tab Active Background,#FFFFFF,分段标签激活背景,分段标签激活白色背景,High
+SegmentTab,Segment Tab Active Color,#1D2129,分段标签激活颜色,分段标签激活深色文字,High
+SegmentTab,Segment Tab Active Shadow,0 1px 2px rgba(0 0 0 0.08),分段标签激活阴影,分段标签激活轻微阴影,Low
+SegmentTab,Segment Tab Active Border Radius,2px,分段标签激活圆角,分段标签激活圆角2px,Low
+SegmentTab,Segment Tab Transition,0.2s,分段标签过渡,分段标签切换动画0.2s,Low
+CapsuleTab,Capsule Tab Height,32px,胶囊标签高度,胶囊标签高度32px,Medium
+CapsuleTab,Capsule Tab Padding,0 16px,胶囊标签内边距,胶囊标签左右内边距16px,Medium
+CapsuleTab,Capsule Tab Font Size,14px,胶囊标签字号,胶囊标签文字14px,Medium
+CapsuleTab,Capsule Tab Border Radius,16px,胶囊标签圆角,胶囊标签圆角16px,High
+CapsuleTab,Capsule Tab Background,transparent,胶囊标签背景,胶囊标签默认透明背景,Medium
+CapsuleTab,Capsule Tab Color,#4E5969,胶囊标签颜色,胶囊标签默认灰色文字,Medium
+CapsuleTab,Capsule Tab Border,1px solid #E5E6EB,胶囊标签边框,胶囊标签灰色边框,Medium
+CapsuleTab,Capsule Tab Active Background,#165DFF,胶囊标签激活背景,胶囊标签激活蓝色背景,High
+CapsuleTab,Capsule Tab Active Color,#FFFFFF,胶囊标签激活颜色,胶囊标签激活白色文字,High
+CapsuleTab,Capsule Tab Active Border,#165DFF,胶囊标签激活边框,胶囊标签激活蓝色边框,Medium
+CapsuleTab,Capsule Tab Gap,8px,胶囊标签间距,胶囊标签之间间距8px,Medium
+TextTab,Text Tab Height,32px,文字标签高度,文字标签高度32px,Medium
+TextTab,Text Tab Padding,0 12px,文字标签内边距,文字标签左右内边距12px,Medium
+TextTab,Text Tab Font Size,14px,文字标签字号,文字标签文字14px,Medium
+TextTab,Text Tab Color,#4E5969,文字标签颜色,文字标签默认灰色文字,Medium
+TextTab,Text Tab Hover Color,#165DFF,文字标签悬停颜色,文字标签悬停蓝色文字,Medium
+TextTab,Text Tab Active Color,#165DFF,文字标签激活颜色,文字标签激活蓝色文字,High
+TextTab,Text Tab Active Font Weight,500,文字标签激活字重,文字标签激活中等字重,Medium
+TextTab,Text Tab Gap,24px,文字标签间距,文字标签之间间距24px,Medium
+Icon,Icon Show,true,显示图标,标签支持显示图标,Medium
+Icon,Icon Position,left,图标位置,图标在文字左侧,Medium
+Icon,Icon Size,16px,图标大小,标签图标16px,Medium
+Icon,Icon Gap,8px,图标间距,图标与文字间距8px,Medium
+Icon,Icon Only Size,20px,纯图标大小,纯图标标签图标20px,Low
+Icon,Icon Color Inherit,true,图标颜色继承,图标颜色继承文字颜色,Low
+Badge,Badge Show,true,显示徽标,标签支持显示徽标,Medium
+Badge,Badge Position,top-right,徽标位置,徽标在标签右上角,Medium
+Badge,Badge Size,16px,徽标大小,徽标最小宽度16px,Medium
+Badge,Badge Font Size,10px,徽标字号,徽标文字10px,Low
+Badge,Badge Background,#F53F3F,徽标背景,徽标红色背景,High
+Badge,Badge Color,#FFFFFF,徽标颜色,徽标白色文字,High
+Badge,Badge Border Radius,8px,徽标圆角,徽标圆角8px,Low
+Badge,Badge Padding,0 4px,徽标内边距,徽标左右内边距4px,Low
+Badge,Badge Offset,-8px -4px,徽标偏移,徽标偏移位置,Low
+Badge,Dot Size,6px,红点大小,红点徽标直径6px,Medium
+Badge,Dot Background,#F53F3F,红点背景,红点红色背景,High
+Closable,Close Icon Show,true,显示关闭图标,可关闭标签显示关闭图标,Medium
+Closable,Close Icon Size,12px,关闭图标大小,关闭图标12px,Medium
+Closable,Close Icon Color,#86909C,关闭图标颜色,关闭图标灰色,Medium
+Closable,Close Icon Hover Color,#F53F3F,关闭图标悬停颜色,关闭图标悬停红色,Medium
+Closable,Close Icon Gap,8px,关闭图标间距,关闭图标与文字间距8px,Low
+Closable,Close Icon Position,right,关闭图标位置,关闭图标在文字右侧,Low
+Addable,Add Button Show,true,显示新增按钮,可新增标签显示加号按钮,Medium
+Addable,Add Button Size,32px,新增按钮大小,新增按钮32px,Medium
+Addable,Add Button Icon Size,14px,新增按钮图标大小,新增按钮加号图标14px,Low
+Addable,Add Button Color,#4E5969,新增按钮颜色,新增按钮灰色,Medium
+Addable,Add Button Hover Color,#165DFF,新增按钮悬停颜色,新增按钮悬停蓝色,Medium
+Addable,Add Button Border,1px dashed #E5E6EB,新增按钮边框,新增按钮虚线边框,Low
+Addable,Add Button Border Radius,4px,新增按钮圆角,新增按钮圆角4px,Low
+Editable,Edit Mode,double-click,编辑模式触发,双击进入编辑模式,Low
+Editable,Edit Input Height,32px,编辑输入框高度,编辑输入框高度32px,Low
+Editable,Edit Input Min Width,60px,编辑输入框最小宽度,编辑输入框最小宽度60px,Low
+Editable,Edit Input Border,1px solid #165DFF,编辑输入框边框,编辑输入框蓝色边框,Low
+Scroll,Scroll Enable,true,启用滚动,标签过多时启用滚动,High
+Scroll,Scroll Button Show,true,显示滚动按钮,显示左右滚动箭头按钮,High
+Scroll,Scroll Button Size,32px,滚动按钮大小,滚动按钮32px,Medium
+Scroll,Scroll Button Icon Size,14px,滚动按钮图标大小,滚动按钮箭头图标14px,Low
+Scroll,Scroll Button Color,#4E5969,滚动按钮颜色,滚动按钮灰色,Medium
+Scroll,Scroll Button Hover Color,#165DFF,滚动按钮悬停颜色,滚动按钮悬停蓝色,Medium
+Scroll,Scroll Button Disabled Color,#C9CDD4,滚动按钮禁用颜色,滚动按钮禁用浅灰色,Low
+Scroll,Scroll Button Background,#FFFFFF,滚动按钮背景,滚动按钮白色背景,Low
+Scroll,Scroll Button Shadow,0 0 8px rgba(0 0 0 0.08),滚动按钮阴影,滚动按钮阴影效果,Low
+Scroll,Scroll Smooth,true,平滑滚动,标签滚动平滑动画,Low
+Scroll,Scroll Step,200px,滚动步长,每次滚动200px,Low
+Dropdown,Dropdown Enable,true,启用下拉,标签过多时启用下拉菜单,Medium
+Dropdown,Dropdown Trigger Icon,EllipsisOutlined,下拉触发图标,下拉菜单省略号图标,Low
+Dropdown,Dropdown Menu Max Height,300px,下拉菜单最大高度,下拉菜单最大高度300px,Low
+Dropdown,Dropdown Menu Item Height,36px,下拉菜单项高度,下拉菜单项高度36px,Low
+Dropdown,Dropdown Menu Item Padding,0 12px,下拉菜单项内边距,下拉菜单项左右内边距12px,Low
+Dropdown,Dropdown Menu Item Hover,#F2F3F5,下拉菜单项悬停,下拉菜单项悬停灰色背景,Low
+Dropdown,Dropdown Menu Item Active,#E8F3FF,下拉菜单项激活,下拉菜单项激活蓝色背景,Low
+Position,Position Top,标签在上,顶部位置,标签栏在内容上方,High
+Position,Position Bottom,标签在下,底部位置,标签栏在内容下方,Low
+Position,Position Left,标签在左,左侧位置,标签栏在内容左侧垂直排列,Medium
+Position,Position Right,标签在右,右侧位置,标签栏在内容右侧垂直排列,Low
+VerticalTab,Vertical Tab Width,120px,垂直标签宽度,垂直标签固定宽度120px,Medium
+VerticalTab,Vertical Tab Height,40px,垂直标签高度,垂直标签高度40px,Medium
+VerticalTab,Vertical Tab Align,left,垂直标签对齐,垂直标签文字左对齐,Medium
+VerticalTab,Vertical Indicator Width,2px,垂直指示器宽度,垂直指示器宽度2px,Medium
+VerticalTab,Vertical Indicator Position,left,垂直指示器位置,垂直指示器在左侧,Medium
+VerticalTab,Vertical Border Right,1px solid #E5E6EB,垂直标签右边框,垂直标签右侧分割线,Medium
+Panel,Panel Background,#FFFFFF,面板背景,标签内容面板白色背景,High
+Panel,Panel Padding,16px,面板内边距,标签内容面板内边距16px,High
+Panel,Panel Border,none,面板边框,标签内容面板默认无边框,Low
+Panel,Panel Border Radius,0 0 4px 4px,面板圆角,标签内容面板底部圆角4px,Low
+Panel,Panel Min Height,200px,面板最小高度,标签内容面板最小高度200px,Low
+Panel,Panel Transition,0.3s,面板过渡,标签内容切换动画0.3s,Low
+Panel,Panel Animation,fade,面板动画,标签内容切换淡入淡出,Low
+Disabled,Disabled Color,#C9CDD4,禁用颜色,禁用标签灰色文字,High
+Disabled,Disabled Background,transparent,禁用背景,禁用标签透明背景,Medium
+Disabled,Disabled Cursor,not-allowed,禁用光标,禁用标签禁止光标,Medium
+Disabled,Disabled Opacity,0.5,禁用透明度,禁用标签50%透明度,Low
+Extra,Extra Position,right,额外内容位置,额外内容在标签栏右侧,Medium
+Extra,Extra Gap,16px,额外内容间距,额外内容与标签间距16px,Medium
+Extra,Extra Align,center,额外内容对齐,额外内容垂直居中,Low
+Lazy,Lazy Load,true,懒加载,标签内容懒加载,Medium
+Lazy,Lazy Destroy,false,懒销毁,切换标签不销毁内容,Low
+Lazy,Lazy Placeholder,加载中...,懒加载占位,懒加载占位文字,Low
+Animation,Switch Animation,slide,切换动画,标签切换滑动动画,Medium
+Animation,Switch Duration,0.3s,切换时长,标签切换动画0.3s,Medium
+Animation,Indicator Animation,0.3s cubic-bezier(0.645 0.045 0.355 1),指示器动画,指示器滑动动画曲线,Medium
+Animation,Hover Transition,0.2s,悬停过渡,悬停状态过渡0.2s,Low
+Responsive,Responsive Breakpoint,768px,响应式断点,小于768px切换移动端样式,Medium
+Responsive,Mobile Scroll,true,移动端滚动,移动端标签可横向滚动,High
+Responsive,Mobile Tab Height,36px,移动端标签高度,移动端标签高度36px,Medium
+Responsive,Mobile Tab Font Size,13px,移动端标签字号,移动端标签文字13px,Medium
+Responsive,Mobile Hide Extra,true,移动端隐藏额外内容,移动端隐藏额外内容区域,Low
+Accessibility,Tab Role,tablist,标签栏角色,标签栏ARIA角色tablist,High
+Accessibility,Tab Item Role,tab,标签项角色,标签项ARIA角色tab,High
+Accessibility,Panel Role,tabpanel,面板角色,内容面板ARIA角色tabpanel,High
+Accessibility,Keyboard Navigation,true,键盘导航,支持键盘左右箭头切换,High
+Accessibility,Focus Ring,0 0 0 2px #165DFF40,焦点环,键盘焦点蓝色环,High
+Accessibility,Focus Visible,true,焦点可见,键盘焦点状态可见,Medium
+Accessibility,Aria Selected,true,选中状态,激活标签aria-selected=true,Medium
+ZIndex,Tab Bar ZIndex,1,标签栏层级,标签栏z-index 1,Low
+ZIndex,Dropdown ZIndex,1050,下拉菜单层级,下拉菜单z-index 1050,Low
+ZIndex,Scroll Button ZIndex,2,滚动按钮层级,滚动按钮z-index 2,Low
+Guideline,Primary Color,#165DFF,主色调,标签主色调蓝色#165DFF,High
+Guideline,Text Primary,#1D2129,主要文字色,主要文字颜色#1D2129,High
+Guideline,Text Regular,#4E5969,常规文字色,常规文字颜色#4E5969,High
+Guideline,Text Secondary,#86909C,次要文字色,次要文字颜色#86909C,Medium
+Guideline,Text Disabled,#C9CDD4,禁用文字色,禁用文字颜色#C9CDD4,Medium
+Guideline,Border Color,#E5E6EB,边框色,边框颜色#E5E6EB,High
+Guideline,Background Page,#F2F3F5,页面背景色,页面背景颜色#F2F3F5,Medium
+Guideline,Background Container,#FFFFFF,容器背景色,容器背景白色,High
+Guideline,Background Hover,#F2F3F5,悬停背景色,悬停背景颜色#F2F3F5,Medium
+Guideline,Background Selected,#E8F3FF,选中背景色,选中背景颜色#E8F3FF,High

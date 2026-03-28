@@ -1,0 +1,215 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Carousel Container Width,100%,走马灯容器宽度,走马灯容器宽度100%,High
+Size,Carousel Container Height,400px,走马灯容器高度,走马灯容器高度400px,High
+Size,Carousel Container Height Small,240px,小走马灯容器高度,小走马灯容器高度240px,Medium
+Size,Carousel Container Height Large,600px,大走马灯容器高度,大走马灯容器高度600px,Medium
+Size,Carousel Item Width,100%,走马灯项宽度,走马灯项宽度100%,High
+Size,Carousel Item Height,100%,走马灯项高度,走马灯项高度100%,High
+Size,Carousel Arrow Size,40px,箭头按钮尺寸,箭头按钮尺寸40px,High
+Size,Carousel Arrow Icon Size,24px,箭头图标尺寸,箭头图标尺寸24px,High
+Size,Carousel Arrow Offset,16px,箭头偏移,箭头距离边缘偏移16px,Medium
+Size,Carousel Indicator Height,8px,指示器高度,指示器高度8px,High
+Size,Carousel Indicator Width,24px,指示器宽度,指示器宽度24px,High
+Size,Carousel Indicator Width Dot,8px,指示器点宽度,指示器点宽度8px,High
+Size,Carousel Indicator Gap,8px,指示器间距,指示器间距8px,High
+Size,Carousel Indicator Offset,16px,指示器偏移,指示器距离底部偏移16px,Medium
+Size,Carousel Indicator Border Radius,4px,指示器圆角,指示器圆角4px,Medium
+Size,Carousel Indicator Dot Border Radius,50%,指示器点圆角,指示器点圆形50%,High
+Size,Carousel Card Width,280px,卡片宽度,卡片走马灯项宽度280px,High
+Size,Carousel Card Height,200px,卡片高度,卡片走马灯项高度200px,Medium
+Size,Carousel Card Gap,16px,卡片间距,卡片间距16px,Medium
+Size,Carousel Card Scale,0.85,卡片缩放,非激活卡片缩放0.85,Medium
+Color,Carousel Background,transparent,走马灯背景,走马灯透明背景,Low
+Color,Carousel Item Background,#F2F3F5,走马灯项背景,走马灯项灰色背景#F2F3F5,Medium
+Color,Carousel Arrow Background,rgba(0 0 0 0.3),箭头背景,箭头半透明黑色背景,High
+Color,Carousel Arrow Hover Background,rgba(0 0 0 0.5),箭头悬停背景,箭头悬停深色背景,Medium
+Color,Carousel Arrow Icon Color,#FFFFFF,箭头图标颜色,箭头白色图标#FFFFFF,High
+Color,Carousel Arrow Disabled Background,rgba(0 0 0 0.1),箭头禁用背景,箭头禁用浅色背景,Low
+Color,Carousel Arrow Disabled Icon Color,rgba(255 255 255 0.5),箭头禁用图标颜色,箭头禁用半透明白色图标,Low
+Color,Carousel Indicator Background,rgba(255 255 255 0.3),指示器背景,指示器半透明白色背景,High
+Color,Carousel Indicator Active Background,#FFFFFF,指示器激活背景,指示器激活白色背景#FFFFFF,High
+Color,Carousel Indicator Hover Background,rgba(255 255 255 0.5),指示器悬停背景,指示器悬停半透明白色背景,Medium
+Color,Carousel Indicator Dark Background,rgba(0 0 0 0.3),指示器深色背景,指示器深色半透明背景,Medium
+Color,Carousel Indicator Dark Active Background,#165DFF,指示器深色激活背景,指示器深色激活蓝色背景,High
+Color,Carousel Card Active Opacity,1,卡片激活透明度,激活卡片透明度1,High
+Color,Carousel Card Inactive Opacity,0.6,卡片未激活透明度,未激活卡片透明度0.6,Medium
+Type,Type Default,default,默认类型,默认走马灯样式,High
+Type,Type Card,card,卡片类型,卡片走马灯样式,High
+Type,Type Fade,fade,淡入淡出类型,淡入淡出走马灯样式,Medium
+Direction,Direction Horizontal,horizontal,水平方向,水平走马灯,High
+Direction,Direction Vertical,vertical,垂直方向,垂直走马灯,Medium
+Arrow,Arrow Visible Always,always,箭头始终显示,箭头始终显示,High
+Arrow,Arrow Visible Hover,hover,箭头悬停显示,箭头悬停时显示,High
+Arrow,Arrow Visible Never,never,箭头不显示,箭头不显示,Low
+Arrow,Arrow Size,40px,箭头尺寸,箭头按钮尺寸40px,High
+Arrow,Arrow Icon Size,24px,箭头图标尺寸,箭头图标尺寸24px,High
+Arrow,Arrow Position,side,箭头位置,箭头在两侧,High
+Arrow,Arrow Position Outside,outside,箭头外部位置,箭头在容器外部,Medium
+Arrow,Arrow Offset,16px,箭头偏移,箭头偏移16px,Medium
+Arrow,Arrow Border Radius,50%,箭头圆角,箭头圆形50%,Medium
+Arrow,Arrow Background,rgba(0 0 0 0.3),箭头背景,箭头半透明背景,High
+Arrow,Arrow Hover Background,rgba(0 0 0 0.5),箭头悬停背景,箭头悬停背景,Medium
+Indicator,Indicator Visible,true,显示指示器,显示指示器,High
+Indicator,Indicator Hidden,false,隐藏指示器,隐藏指示器,Low
+Indicator,Indicator Type Line,line,线型指示器,线型指示器,High
+Indicator,Indicator Type Dot,dot,点型指示器,点型指示器,High
+Indicator,Indicator Type Number,number,数字指示器,数字指示器,Medium
+Indicator,Indicator Position Bottom,bottom,指示器底部位置,指示器在底部,High
+Indicator,Indicator Position Top,top,指示器顶部位置,指示器在顶部,Low
+Indicator,Indicator Position Left,left,指示器左侧位置,指示器在左侧,Low
+Indicator,Indicator Position Right,right,指示器右侧位置,指示器在右侧,Low
+Indicator,Indicator Position Outside,outside,指示器外部位置,指示器在容器外部,Medium
+Indicator,Indicator Height,8px,指示器高度,指示器高度8px,High
+Indicator,Indicator Width,24px,指示器宽度,指示器宽度24px,High
+Indicator,Indicator Width Dot,8px,指示器点宽度,指示器点宽度8px,High
+Indicator,Indicator Gap,8px,指示器间距,指示器间距8px,High
+Indicator,Indicator Offset,16px,指示器偏移,指示器偏移16px,Medium
+Indicator,Indicator Border Radius,4px,指示器圆角,指示器圆角4px,Medium
+Indicator,Indicator Background,rgba(255 255 255 0.3),指示器背景,指示器半透明背景,High
+Indicator,Indicator Active Background,#FFFFFF,指示器激活背景,指示器激活背景,High
+Indicator,Indicator Hover Background,rgba(255 255 255 0.5),指示器悬停背景,指示器悬停背景,Medium
+Indicator,Indicator Trigger Click,click,指示器点击触发,点击指示器切换,High
+Indicator,Indicator Trigger Hover,hover,指示器悬停触发,悬停指示器切换,Medium
+Autoplay,Autoplay Enabled,true,启用自动播放,启用自动播放,High
+Autoplay,Autoplay Disabled,false,禁用自动播放,禁用自动播放,Low
+Autoplay,Autoplay Interval,3000ms,自动播放间隔,自动播放间隔3000ms,High
+Autoplay,Autoplay Interval Fast,2000ms,快速自动播放间隔,快速自动播放间隔2000ms,Medium
+Autoplay,Autoplay Interval Slow,5000ms,慢速自动播放间隔,慢速自动播放间隔5000ms,Medium
+Autoplay,Autoplay Pause On Hover,true,悬停暂停,悬停时暂停自动播放,High
+Autoplay,Autoplay Pause On Focus,true,聚焦暂停,聚焦时暂停自动播放,Medium
+Loop,Loop Enabled,true,启用循环,启用循环播放,High
+Loop,Loop Disabled,false,禁用循环,禁用循环播放,Low
+Animation,Animation Duration,500ms,动画时长,切换动画时长500ms,High
+Animation,Animation Duration Fast,300ms,快速动画时长,快速切换动画时长300ms,Medium
+Animation,Animation Duration Slow,800ms,慢速动画时长,慢速切换动画时长800ms,Low
+Animation,Animation Timing,ease,动画曲线,切换动画曲线ease,Medium
+Animation,Animation Timing Ease In Out,ease-in-out,缓入缓出曲线,缓入缓出动画曲线,Medium
+Animation,Animation Type Slide,slide,滑动动画,滑动切换动画,High
+Animation,Animation Type Fade,fade,淡入淡出动画,淡入淡出切换动画,Medium
+Animation,Animation Type Card,card,卡片动画,卡片切换动画,Medium
+Transition,Transition Property,transform,过渡属性,过渡变换属性,High
+Transition,Transition Duration,500ms,过渡时长,过渡时长500ms,High
+Transition,Transition Timing,ease,过渡曲线,过渡曲线ease,Medium
+Card,Card Enabled,false,启用卡片模式,不启用卡片模式,Low
+Card,Card Width,280px,卡片宽度,卡片宽度280px,High
+Card,Card Height,200px,卡片高度,卡片高度200px,Medium
+Card,Card Gap,16px,卡片间距,卡片间距16px,Medium
+Card,Card Scale,0.85,卡片缩放,非激活卡片缩放0.85,Medium
+Card,Card Active Scale,1,卡片激活缩放,激活卡片缩放1,High
+Card,Card Opacity,0.6,卡片透明度,非激活卡片透明度0.6,Medium
+Card,Card Active Opacity,1,卡片激活透明度,激活卡片透明度1,High
+Card,Card Border Radius,8px,卡片圆角,卡片圆角8px,Medium
+Card,Card Shadow,0 2px 8px rgba(0 0 0 0.1),卡片阴影,卡片阴影效果,Low
+Card,Card Active Shadow,0 4px 16px rgba(0 0 0 0.15),卡片激活阴影,激活卡片阴影效果,Medium
+Slide,Slide Per View,1,每次显示数量,每次显示1个,High
+Slide,Slide Per View Multiple,3,每次显示多个,每次显示3个,Medium
+Slide,Slide Per Group,1,每次滑动数量,每次滑动1个,High
+Slide,Slide Per Group Multiple,3,每次滑动多个,每次滑动3个,Low
+Touch,Touch Enabled,true,启用触摸,启用触摸滑动,High
+Touch,Touch Disabled,false,禁用触摸,禁用触摸滑动,Low
+Touch,Touch Ratio,1,触摸比例,触摸滑动比例1,Medium
+Touch,Touch Angle,45,触摸角度,触摸滑动角度45度,Low
+Touch,Touch Move Stop Propagation,true,触摸移动停止传播,触摸移动停止事件传播,Medium
+Drag,Drag Enabled,true,启用拖拽,启用鼠标拖拽,High
+Drag,Drag Disabled,false,禁用拖拽,禁用鼠标拖拽,Low
+Drag,Drag Cursor,grab,拖拽光标,拖拽时抓手光标,Medium
+Drag,Drag Active Cursor,grabbing,拖拽激活光标,拖拽中抓取光标,Medium
+Keyboard,Keyboard Enabled,true,启用键盘,启用键盘操作,High
+Keyboard,Keyboard Disabled,false,禁用键盘,禁用键盘操作,Low
+Keyboard,Keyboard Left Arrow,prev,左箭头键,左箭头键上一张,High
+Keyboard,Keyboard Right Arrow,next,右箭头键,右箭头键下一张,High
+Keyboard,Keyboard Up Arrow,prev,上箭头键,上箭头键上一张,Medium
+Keyboard,Keyboard Down Arrow,next,下箭头键,下箭头键下一张,Medium
+ZIndex,Z Index,1,层级,走马灯层级1,Low
+ZIndex,Z Index Arrow,2,箭头层级,箭头层级2,Low
+ZIndex,Z Index Indicator,2,指示器层级,指示器层级2,Low
+Position,Position Relative,relative,相对定位,走马灯相对定位,High
+Position,Position Overflow,hidden,溢出隐藏,走马灯溢出隐藏,High
+Display,Display Block,block,块显示,走马灯块显示,High
+Display,Display Flex,flex,弹性显示,走马灯弹性盒显示,Medium
+Item,Item Display,block,项显示,走马灯项块显示,High
+Item,Item Position,absolute,项定位,走马灯项绝对定位,High
+Item,Item Width,100%,项宽度,走马灯项宽度100%,High
+Item,Item Height,100%,项高度,走马灯项高度100%,High
+Item,Item Transition,transform 500ms ease,项过渡,走马灯项过渡效果,High
+Responsive,Mobile Container Height,240px,移动端容器高度,移动端容器高度240px,Medium
+Responsive,Mobile Arrow Size,32px,移动端箭头尺寸,移动端箭头尺寸32px,Medium
+Responsive,Mobile Arrow Icon Size,20px,移动端箭头图标尺寸,移动端箭头图标尺寸20px,Medium
+Responsive,Mobile Indicator Height,6px,移动端指示器高度,移动端指示器高度6px,Medium
+Responsive,Mobile Indicator Width,20px,移动端指示器宽度,移动端指示器宽度20px,Medium
+Responsive,Mobile Card Width,240px,移动端卡片宽度,移动端卡片宽度240px,Medium
+Responsive,Tablet Container Height,360px,平板端容器高度,平板端容器高度360px,Low
+Responsive,Tablet Arrow Size,36px,平板端箭头尺寸,平板端箭头尺寸36px,Low
+Responsive,Tablet Card Width,260px,平板端卡片宽度,平板端卡片宽度260px,Low
+Usage,Banner Usage,轮播图,轮播图场景,用于展示轮播图,High
+Usage,Product Usage,商品展示,商品展示场景,用于商品图片展示,High
+Usage,Gallery Usage,图片画廊,图片画廊场景,用于图片画廊展示,High
+Usage,Card Usage,卡片轮播,卡片轮播场景,用于卡片内容轮播,High
+Usage,Testimonial Usage,客户评价,客户评价场景,用于客户评价轮播,Medium
+Usage,News Usage,新闻轮播,新闻轮播场景,用于新闻内容轮播,Medium
+Guideline,Show Indicator,true,显示指示器,建议显示指示器,High
+Guideline,Show Arrow On Hover,true,悬停显示箭头,建议悬停显示箭头,High
+Guideline,Enable Autoplay,true,启用自动播放,建议启用自动播放,High
+Guideline,Pause On Hover,true,悬停暂停,建议悬停时暂停,High
+Guideline,Enable Loop,true,启用循环,建议启用循环播放,High
+Guideline,Enable Touch,true,启用触摸,建议启用触摸滑动,High
+Guideline,Enable Keyboard,true,启用键盘,建议启用键盘操作,Medium
+Guideline,Autoplay Interval,3000ms,自动播放间隔,建议自动播放间隔3000ms,High
+Guideline,Animation Duration,500ms,动画时长,建议动画时长500ms,High
+Guideline,Indicator Position Bottom,true,指示器底部,建议指示器在底部,High
+Accessibility,ARIA Role,region,ARIA角色,使用region角色,High
+Accessibility,ARIA Roledescription,carousel,ARIA角色描述,使用carousel角色描述,High
+Accessibility,ARIA Label,轮播图,ARIA标签,使用aria-label属性,High
+Accessibility,ARIA Live,polite,ARIA实时区域,使用aria-live属性,Medium
+Accessibility,Keyboard Navigation,supported,键盘导航,支持键盘导航,High
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,Focus Visible,true,焦点可见,焦点状态可见,High
+Accessibility,Tab Navigation,supported,Tab导航,支持Tab键导航,High
+Performance,GPU Acceleration,true,GPU加速,启用GPU加速,High
+Performance,Will Change,transform,Will Change属性,使用will-change优化,Medium
+Performance,Render Optimization,true,渲染优化,启用渲染优化,Medium
+Performance,Lazy Load,true,延迟加载,启用延迟加载,Medium
+Performance,Preload Adjacent,true,预加载相邻,预加载相邻项,Medium
+Event,On Change,supported,切换事件,支持切换事件,High
+Event,On Before Change,supported,切换前事件,支持切换前事件,Medium
+Event,On After Change,supported,切换后事件,支持切换后事件,Medium
+Event,On Click,supported,点击事件,支持点击事件,Medium
+Event,On Hover,supported,悬停事件,支持悬停事件,Low
+Method,Prev,supported,上一张方法,支持切换上一张,High
+Method,Next,supported,下一张方法,支持切换下一张,High
+Method,Go To,supported,跳转方法,支持跳转到指定项,High
+Method,Play,supported,播放方法,支持开始自动播放,High
+Method,Pause,supported,暂停方法,支持暂停自动播放,High
+Method,Stop,supported,停止方法,支持停止自动播放,Medium
+Props,Initial Index,supported,初始索引属性,支持设置初始索引,High
+Props,Autoplay,supported,自动播放属性,支持设置自动播放,High
+Props,Interval,supported,间隔属性,支持设置播放间隔,High
+Props,Loop,supported,循环属性,支持设置循环播放,High
+Props,Direction,supported,方向属性,支持设置方向,High
+Props,Arrow,supported,箭头属性,支持设置箭头显示,High
+Props,Indicator Position,supported,指示器位置属性,支持设置指示器位置,High
+Props,Indicator Type,supported,指示器类型属性,支持设置指示器类型,Medium
+Props,Type,supported,类型属性,支持设置走马灯类型,High
+Props,Height,supported,高度属性,支持设置高度,High
+Slot,Default Slot,supported,默认插槽,支持默认内容插槽,High
+Slot,Item Slot,supported,项插槽,支持项插槽,High
+Slot,Arrow Slot,supported,箭头插槽,支持箭头插槽,Medium
+Slot,Indicator Slot,supported,指示器插槽,支持指示器插槽,Medium
+Custom,Custom Arrow,supported,自定义箭头,支持自定义箭头,High
+Custom,Custom Indicator,supported,自定义指示器,支持自定义指示器,High
+Custom,Custom Animation,supported,自定义动画,支持自定义动画,Medium
+Custom,Custom Height,supported,自定义高度,支持自定义高度,High
+Theme,Theme Light,light,浅色主题,浅色主题样式,High
+Theme,Theme Dark,dark,深色主题,深色主题样式,Low
+Theme,Dark Arrow Background,rgba(255 255 255 0.3),深色箭头背景,深色主题箭头背景,Low
+Theme,Dark Arrow Icon Color,#1D2129,深色箭头图标颜色,深色主题箭头图标颜色,Low
+Theme,Dark Indicator Background,rgba(0 0 0 0.3),深色指示器背景,深色主题指示器背景,Low
+Theme,Dark Indicator Active Background,#165DFF,深色指示器激活背景,深色主题指示器激活背景,Low
+Vertical,Vertical Enabled,false,启用垂直,不启用垂直方向,Low
+Vertical,Vertical Height,400px,垂直高度,垂直走马灯高度400px,Low
+Vertical,Vertical Arrow Position,top-bottom,垂直箭头位置,垂直箭头在上下,Low
+Vertical,Vertical Indicator Position,right,垂直指示器位置,垂直指示器在右侧,Low
+Fade,Fade Enabled,false,启用淡入淡出,不启用淡入淡出,Low
+Fade,Fade Duration,500ms,淡入淡出时长,淡入淡出时长500ms,Low
+Fade,Fade Opacity From,0,淡入起始透明度,淡入起始透明度0,Low
+Fade,Fade Opacity To,1,淡入结束透明度,淡入结束透明度1,Low

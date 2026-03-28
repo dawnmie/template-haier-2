@@ -1,0 +1,138 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Tooltip Max Width,300px,提示框最大宽度,提示框最大宽度300px,High
+Size,Tooltip Min Width,auto,提示框最小宽度,提示框最小宽度自动,Medium
+Size,Tooltip Padding,8px 12px,提示框内边距,提示框内边距上下8px左右12px,High
+Size,Tooltip Border Radius,4px,提示框圆角,提示框圆角4px,High
+Size,Tooltip Arrow Size,6px,提示框箭头大小,提示框箭头大小6px,High
+Size,Tooltip Font Size,12px,提示框字号,提示框文字12px,High
+Size,Tooltip Line Height,20px,提示框行高,提示框行高20px,Medium
+Size,Tooltip Title Font Size,12px,提示框标题字号,提示框标题文字12px,Medium
+Size,Tooltip Content Font Size,12px,提示框内容字号,提示框内容文字12px,High
+Color,Tooltip Background,rgba(0 0 0 0.75),提示框背景,提示框半透明黑色背景,High
+Color,Tooltip Color,#FFFFFF,提示框文字,提示框白色文字,High
+Color,Tooltip Border Color,transparent,提示框边框颜色,提示框边框透明,Low
+Color,Tooltip Arrow Background,rgba(0 0 0 0.75),提示框箭头背景,提示框箭头半透明黑色,High
+Color,Tooltip Title Color,#FFFFFF,提示框标题颜色,提示框标题白色,Medium
+Color,Tooltip Content Color,rgba(255 255 255 0.9),提示框内容颜色,提示框内容半透明白色,Medium
+Shadow,Tooltip Shadow,0 2px 8px rgba(0 0 0 0.15),提示框阴影,提示框阴影效果,Medium
+Shadow,Tooltip Shadow Large,0 4px 12px rgba(0 0 0 0.2),提示框大阴影,提示框大阴影效果,Low
+Border,Tooltip Border Width,0,提示框边框宽度,提示框边框宽度0,Low
+Border,Tooltip Border Style,none,提示框边框样式,提示框无边框,Low
+Position,Position Top,top,顶部位置,提示框在触发元素顶部,High
+Position,Position Top Start,top-start,顶部左侧,提示框在触发元素顶部左侧,Medium
+Position,Position Top End,top-end,顶部右侧,提示框在触发元素顶部右侧,Medium
+Position,Position Bottom,bottom,底部位置,提示框在触发元素底部,High
+Position,Position Bottom Start,bottom-start,底部左侧,提示框在触发元素底部左侧,Medium
+Position,Position Bottom End,bottom-end,底部右侧,提示框在触发元素底部右侧,Medium
+Position,Position Left,left,左侧位置,提示框在触发元素左侧,High
+Position,Position Left Start,left-start,左侧顶部,提示框在触发元素左侧顶部,Medium
+Position,Position Left End,left-end,左侧底部,提示框在触发元素左侧底部,Medium
+Position,Position Right,right,右侧位置,提示框在触发元素右侧,High
+Position,Position Right Start,right-start,右侧顶部,提示框在触发元素右侧顶部,Medium
+Position,Position Right End,right-end,右侧底部,提示框在触发元素右侧底部,Medium
+Arrow,Arrow Enabled,true,显示箭头,显示提示框箭头,High
+Arrow,Arrow Disabled,false,隐藏箭头,隐藏提示框箭头,Medium
+Arrow,Arrow Offset,0,箭头偏移,箭头距离中心偏移0,Low
+Arrow,Arrow Border Width,0,箭头边框宽度,箭头边框宽度0,Low
+Trigger,Trigger Hover,hover,悬停触发,鼠标悬停触发提示框,High
+Trigger,Trigger Focus,focus,聚焦触发,元素聚焦触发提示框,Medium
+Trigger,Trigger Click,click,点击触发,鼠标点击触发提示框,Low
+Trigger,Trigger Manual,manual,手动触发,手动控制提示框显示,Low
+Delay,Show Delay,100ms,显示延迟,提示框显示延迟100ms,Medium
+Delay,Hide Delay,100ms,隐藏延迟,提示框隐藏延迟100ms,Medium
+Delay,Mouse Enter Delay,100ms,鼠标进入延迟,鼠标进入延迟100ms,Low
+Delay,Mouse Leave Delay,100ms,鼠标离开延迟,鼠标离开延迟100ms,Low
+Animation,Fade In Duration,0.2s,淡入时长,提示框淡入动画时长0.2s,Medium
+Animation,Fade Out Duration,0.2s,淡出时长,提示框淡出动画时长0.2s,Medium
+Animation,Transition Timing,ease-in-out,过渡曲线,提示框过渡曲线ease-in-out,Low
+Animation,Scale From,0.95,缩放起始,提示框缩放起始值0.95,Low
+Animation,Scale To,1,缩放结束,提示框缩放结束值1,Low
+Animation,Opacity From,0,透明度起始,提示框透明度起始值0,Low
+Animation,Opacity To,1,透明度结束,提示框透明度结束值1,Low
+Content,Content Max Lines,none,内容最大行数,内容无最大行数限制,Low
+Content,Content Overflow,visible,内容溢出,内容溢出可见,Medium
+Content,Content Word Break,break-word,内容换行,内容过长自动换行,High
+Content,Content White Space,normal,内容空白,内容空白正常处理,Medium
+Content,Content Text Align,left,内容对齐,内容左对齐,High
+Title,Title Font Weight,500,标题字重,提示框标题字重500,Medium
+Title,Title Margin Bottom,4px,标题下边距,提示框标题下边距4px,Low
+Title,Title Line Height,20px,标题行高,提示框标题行高20px,Medium
+Title,Title Text Align,left,标题对齐,提示框标题左对齐,Medium
+Offset,Offset Distance,8px,偏移距离,提示框距离触发元素8px,High
+Offset,Offset Skidding,0,横向偏移,提示框横向偏移0,Low
+Offset,Viewport Padding,8px,视口内边距,提示框距离视口边缘8px,Medium
+ZIndex,Z Index,1060,层级,提示框层级1060,High
+ZIndex,Z Index Overlay,1050,遮罩层级,遮罩层级1050,Low
+Type,Type Default,default,默认类型,默认提示框样式,High
+Type,Type Light,light,浅色类型,浅色提示框样式,Medium
+Type,Type Dark,dark,深色类型,深色提示框样式,High
+Light,Light Background,#FFFFFF,浅色背景,浅色提示框白色背景,Medium
+Light,Light Color,#1D2129,浅色文字,浅色提示框深色文字,Medium
+Light,Light Border,1px solid #E5E6EB,浅色边框,浅色提示框灰色边框,Medium
+Light,Light Arrow Background,#FFFFFF,浅色箭头背景,浅色箭头白色背景,Medium
+Light,Light Arrow Border,#E5E6EB,浅色箭头边框,浅色箭头灰色边框,Low
+Light,Light Shadow,0 2px 8px rgba(0 0 0 0.15),浅色阴影,浅色提示框阴影效果,Medium
+Dark,Dark Background,rgba(0 0 0 0.75),深色背景,深色提示框半透明黑色背景,High
+Dark,Dark Color,#FFFFFF,深色文字,深色提示框白色文字,High
+Dark,Dark Border,none,深色边框,深色提示框无边框,Low
+Dark,Dark Arrow Background,rgba(0 0 0 0.75),深色箭头背景,深色箭头半透明黑色,High
+Dark,Dark Arrow Border,none,深色箭头边框,深色箭头无边框,Low
+Dark,Dark Shadow,0 2px 8px rgba(0 0 0 0.15),深色阴影,深色提示框阴影效果,Medium
+State,State Visible,visible,显示状态,提示框显示状态,High
+State,State Hidden,hidden,隐藏状态,提示框隐藏状态,High
+State,State Disabled,disabled,禁用状态,提示框禁用状态,Medium
+Disabled,Disabled Cursor,not-allowed,禁用光标,禁用提示框禁止光标,Low
+Disabled,Disabled Opacity,0.6,禁用透明度,禁用提示框透明度0.6,Low
+Interaction,Click Outside Close,false,点击外部关闭,点击外部不关闭提示框,High
+Interaction,Hover Stay Open,true,悬停保持打开,鼠标在提示框内保持打开,High
+Interaction,Focus Stay Open,true,聚焦保持打开,焦点在提示框内保持打开,Medium
+Interaction,Scroll Close,false,滚动关闭,页面滚动不关闭提示框,Medium
+Interaction,Resize Close,false,窗口调整关闭,窗口调整不关闭提示框,Low
+Boundary,Boundary Element,viewport,边界元素,提示框边界为视口,High
+Boundary,Boundary Padding,8px,边界内边距,提示框距离边界8px,Medium
+Boundary,Flip Enabled,true,翻转启用,空间不足时自动翻转,High
+Boundary,Flip Fallback,true,翻转回退,翻转失败时使用回退位置,Medium
+Multiline,Multiline Enabled,true,启用多行,启用多行文字提示,High
+Multiline,Multiline Max Width,300px,多行最大宽度,多行提示框最大宽度300px,High
+Multiline,Multiline Line Clamp,none,多行行数限制,多行提示框无行数限制,Low
+Multiline,Multiline Text Overflow,visible,多行文字溢出,多行文字溢出可见,Medium
+Icon,Icon Enabled,false,启用图标,启用提示框图标,Low
+Icon,Icon Size,14px,图标大小,提示框图标大小14px,Low
+Icon,Icon Gap,4px,图标间距,图标与文字间距4px,Low
+Icon,Icon Color,inherit,图标颜色,图标颜色继承文字颜色,Low
+Usage,Basic Usage,基础提示,基础使用场景,用于展示简单提示信息,High
+Usage,Hover Usage,悬停提示,悬停触发场景,用于鼠标悬停显示提示,High
+Usage,Disabled Usage,禁用提示,禁用元素提示场景,用于禁用元素的说明,Medium
+Usage,Truncated Usage,截断提示,文字截断场景,用于显示被截断的完整文字,High
+Usage,Icon Usage,图标提示,图标说明场景,用于图标的功能说明,Medium
+Usage,Position Usage,位置控制,位置控制场景,用于控制提示框显示位置,Medium
+Guideline,Content Length,适中,内容长度,提示框内容不宜过长,High
+Guideline,Max Width Limit,300px,最大宽度限制,提示框最大宽度300px,High
+Guideline,Arrow Visible,true,箭头可见,建议显示箭头指向,High
+Guideline,Delay Appropriate,100ms,延迟适当,建议延迟100ms,Medium
+Guideline,Position Auto,true,自动定位,优先使用自动定位,High
+Guideline,Dark Theme Default,true,深色主题默认,建议使用深色主题,High
+Guideline,Multiline Support,true,多行支持,支持多行文字显示,High
+Guideline,Responsive,true,响应式,支持响应式显示,Medium
+Accessibility,Keyboard Close,ESC,键盘关闭,按ESC键关闭提示框,Medium
+Accessibility,Focus Visible,true,焦点可见,提示框焦点可见,Medium
+Accessibility,ARIA Role,tooltip,ARIA角色,使用tooltip角色,High
+Accessibility,ARIA Describedby,true,ARIA描述,使用aria-describedby属性,High
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,Keyboard Navigation,supported,键盘导航,支持键盘导航,Medium
+Performance,Lazy Render,true,延迟渲染,延迟渲染提示框内容,Medium
+Performance,Destroy On Hide,false,隐藏时销毁,隐藏时不销毁DOM,Medium
+Performance,Cache Content,true,缓存内容,缓存提示框内容,Low
+Performance,Debounce Delay,50ms,防抖延迟,触发防抖延迟50ms,Low
+Responsive,Mobile Max Width,280px,移动端最大宽度,移动端提示框最大宽度280px,Medium
+Responsive,Mobile Padding,6px 10px,移动端内边距,移动端提示框内边距,Medium
+Responsive,Mobile Font Size,12px,移动端字号,移动端提示框文字12px,Medium
+Responsive,Mobile Arrow Size,5px,移动端箭头大小,移动端箭头大小5px,Low
+Responsive,Mobile Trigger,click,移动端触发,移动端点击触发,High
+Responsive,Tablet Max Width,300px,平板端最大宽度,平板端提示框最大宽度300px,Medium
+Special,Ellipsis Tooltip,true,省略号提示,文字省略时显示提示,High
+Special,Disabled Element Tooltip,true,禁用元素提示,禁用元素显示提示,High
+Special,Icon Only Tooltip,true,仅图标提示,仅图标元素显示提示,High
+Special,Truncated Text Tooltip,true,截断文字提示,截断文字显示完整内容,High
+Special,Complex Content,false,复杂内容,不建议显示复杂内容,Low
+Special,Interactive Content,false,交互内容,不建议包含交互内容,Low

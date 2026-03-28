@@ -1,0 +1,210 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Upload Purpose,文件上传,上传用途,上传是将信息（网页、文字、图片、视频等）通过网页或者上传工具发布到远程服务器上的过程,High
+Purpose,Upload Scenario File,文件上传,文件场景,当需要上传一个或一些文件时,High
+Purpose,Upload Scenario Progress,进度展示,进度场景,当需要展现上传的进度时,High
+Purpose,Upload Scenario Drag,拖拽交互,拖拽场景,当需要使用拖拽交互时,High
+Type,Type Button,点击上传,按钮类型,点击按钮选择文件上传,High
+Type,Type Drag,拖拽上传,拖拽类型,拖拽文件到区域上传,High
+Type,Type Picture,图片上传,图片类型,图片文件上传展示缩略图,High
+Type,Type Picture Wall,照片墙,照片墙类型,多图片网格展示,High
+Type,Type Picture Card,图片卡片,图片卡片类型,卡片形式展示图片,High
+Type,Type Avatar,头像上传,头像类型,头像图片上传,Medium
+Type,Type Directory,文件夹上传,文件夹类型,上传整个文件夹,Low
+ButtonUpload,Button Type,default,按钮类型,上传按钮默认类型,High
+ButtonUpload,Button Text,上传文件,按钮文字,上传按钮文字,High
+ButtonUpload,Button Icon,UploadOutlined,按钮图标,上传按钮上传图标,High
+ButtonUpload,Button Height,32px,按钮高度,上传按钮高度32px,High
+ButtonUpload,Button Padding,0 16px,按钮内边距,上传按钮内边距,Medium
+ButtonUpload,Button Border,1px solid #E5E6EB,按钮边框,上传按钮灰色边框,High
+ButtonUpload,Button Border Radius,2px,按钮圆角,上传按钮圆角2px,Medium
+ButtonUpload,Button Background,#FFFFFF,按钮背景,上传按钮白色背景,High
+ButtonUpload,Button Color,#1D2129,按钮颜色,上传按钮深色文字,High
+ButtonUpload,Button Hover Border,1px solid #165DFF,按钮悬停边框,悬停时蓝色边框,Medium
+ButtonUpload,Button Hover Color,#165DFF,按钮悬停颜色,悬停时蓝色文字,Medium
+DragUpload,Drag Area Width,100%,拖拽区域宽度,拖拽区域全宽,High
+DragUpload,Drag Area Height,150px,拖拽区域高度,拖拽区域高度150px,High
+DragUpload,Drag Area Background,#FAFBFC,拖拽区域背景,拖拽区域浅灰背景,High
+DragUpload,Drag Area Border,1px dashed #E5E6EB,拖拽区域边框,拖拽区域虚线边框,High
+DragUpload,Drag Area Border Radius,4px,拖拽区域圆角,拖拽区域圆角4px,Medium
+DragUpload,Drag Area Padding,24px,拖拽区域内边距,拖拽区域内边距24px,Medium
+DragUpload,Drag Area Text Align,center,拖拽区域对齐,拖拽区域内容居中,Medium
+DragUpload,Drag Area Cursor,pointer,拖拽区域光标,拖拽区域可点击光标,Medium
+DragUpload,Drag Hover Background,#E8F3FF,拖拽悬停背景,拖拽悬停浅蓝背景,High
+DragUpload,Drag Hover Border,1px dashed #165DFF,拖拽悬停边框,拖拽悬停蓝色虚线边框,High
+DragUpload,Drag Icon,InboxOutlined,拖拽图标,拖拽区域收件箱图标,High
+DragUpload,Drag Icon Size,48px,拖拽图标大小,拖拽图标48px,Medium
+DragUpload,Drag Icon Color,#165DFF,拖拽图标颜色,拖拽图标蓝色,Medium
+DragUpload,Drag Title,点击或拖拽文件到此处上传,拖拽标题,拖拽区域标题文字,High
+DragUpload,Drag Title Font Size,14px,拖拽标题字号,拖拽标题字号14px,Medium
+DragUpload,Drag Title Color,#1D2129,拖拽标题颜色,拖拽标题深色文字,Medium
+DragUpload,Drag Hint,支持扩展名：.doc .docx .pdf,拖拽提示,拖拽区域提示文字,Medium
+DragUpload,Drag Hint Font Size,12px,拖拽提示字号,拖拽提示字号12px,Medium
+DragUpload,Drag Hint Color,#86909C,拖拽提示颜色,拖拽提示灰色文字,Medium
+PictureCard,Card Width,104px,卡片宽度,图片卡片宽度104px,High
+PictureCard,Card Height,104px,卡片高度,图片卡片高度104px,High
+PictureCard,Card Border,1px dashed #E5E6EB,卡片边框,图片卡片虚线边框,High
+PictureCard,Card Border Radius,4px,卡片圆角,图片卡片圆角4px,Medium
+PictureCard,Card Background,#FAFBFC,卡片背景,图片卡片浅灰背景,High
+PictureCard,Card Margin Right,8px,卡片右间距,图片卡片右侧间距8px,High
+PictureCard,Card Margin Bottom,8px,卡片底间距,图片卡片底部间距8px,High
+PictureCard,Card Cursor,pointer,卡片光标,图片卡片可点击光标,Medium
+PictureCard,Card Hover Border,1px dashed #165DFF,卡片悬停边框,悬停时蓝色虚线边框,Medium
+PictureCard,Card Add Icon Size,24px,添加图标大小,添加图标24px,Medium
+PictureCard,Card Add Icon Color,#86909C,添加图标颜色,添加图标灰色,Medium
+PictureCard,Card Add Text,上传,添加文字,添加卡片文字,Medium
+PictureCard,Card Add Text Font Size,12px,添加文字字号,添加文字字号12px,Medium
+PictureCard,Card Add Text Color,#86909C,添加文字颜色,添加文字灰色,Medium
+PictureCard,Card Add Text Margin Top,8px,添加文字顶间距,添加文字顶部间距8px,Medium
+PicturePreview,Preview Width,100%,预览宽度,图片预览全宽,High
+PicturePreview,Preview Height,100%,预览高度,图片预览全高,High
+PicturePreview,Preview Object Fit,cover,预览填充,图片预览覆盖填充,High
+PicturePreview,Preview Border Radius,4px,预览圆角,图片预览圆角4px,Medium
+PicturePreview,Preview Mask,rgba(0 0 0 0.5),预览遮罩,图片预览半透明遮罩,High
+PicturePreview,Preview Mask Show,hover,预览遮罩显示,悬停时显示遮罩,High
+PicturePreview,Preview Actions,preview delete,预览操作,预览和删除操作,High
+PicturePreview,Preview Icon Size,16px,预览图标大小,预览操作图标16px,Medium
+PicturePreview,Preview Icon Color,#FFFFFF,预览图标颜色,预览操作图标白色,Medium
+PicturePreview,Preview Icon Gap,8px,预览图标间距,预览操作图标间距8px,Medium
+PicturePreview,Preview Eye Icon,EyeOutlined,预览眼睛图标,预览操作眼睛图标,High
+PicturePreview,Preview Delete Icon,DeleteOutlined,预览删除图标,预览操作删除图标,High
+PictureWall,Wall Layout,flex,照片墙布局,照片墙flex布局,High
+PictureWall,Wall Flex Wrap,wrap,照片墙换行,照片墙自动换行,High
+PictureWall,Wall Gap,8px,照片墙间距,照片墙图片间距8px,High
+PictureWall,Wall Item Size,64px,照片墙项大小,照片墙图片64px,High
+PictureWall,Wall Item Border Radius,4px,照片墙项圆角,照片墙图片圆角4px,Medium
+FileList,List Layout,vertical,文件列表布局,文件列表垂直排列,High
+FileList,List Item Height,32px,列表项高度,文件列表项高度32px,High
+FileList,List Item Padding,0 8px,列表项内边距,文件列表项内边距,Medium
+FileList,List Item Margin Top,8px,列表项顶间距,文件列表项顶部间距8px,High
+FileList,List Item Background,#F7F8FA,列表项背景,文件列表项浅灰背景,High
+FileList,List Item Border Radius,2px,列表项圆角,文件列表项圆角2px,Medium
+FileList,List Item Display,flex,列表项显示,文件列表项flex布局,High
+FileList,List Item Align Items,center,列表项对齐,文件列表项垂直居中,Medium
+FileList,List Item Justify,space-between,列表项两端对齐,文件列表项两端对齐,Medium
+FileItem,Item Icon Size,16px,文件图标大小,文件图标16px,High
+FileItem,Item Icon Color,#165DFF,文件图标颜色,文件图标蓝色,Medium
+FileItem,Item Icon Margin Right,8px,文件图标右间距,文件图标右侧间距8px,Medium
+FileItem,Item Name Font Size,14px,文件名字号,文件名字号14px,High
+FileItem,Item Name Color,#1D2129,文件名颜色,文件名深色文字,High
+FileItem,Item Name Max Width,200px,文件名最大宽度,文件名最大宽度200px,Medium
+FileItem,Item Name Overflow,ellipsis,文件名溢出,文件名溢出省略,Medium
+FileItem,Item Size Font Size,12px,文件大小字号,文件大小字号12px,Medium
+FileItem,Item Size Color,#86909C,文件大小颜色,文件大小灰色文字,Medium
+FileItem,Item Size Margin Left,8px,文件大小左间距,文件大小左侧间距8px,Medium
+FileItem,Item Delete Icon,DeleteOutlined,删除图标,文件删除图标,High
+FileItem,Item Delete Icon Size,14px,删除图标大小,删除图标14px,Medium
+FileItem,Item Delete Icon Color,#86909C,删除图标颜色,删除图标灰色,Medium
+FileItem,Item Delete Hover Color,#F53F3F,删除悬停颜色,删除图标悬停红色,Medium
+Progress,Progress Show,true,显示进度,上传显示进度条,High
+Progress,Progress Height,4px,进度条高度,进度条高度4px,High
+Progress,Progress Background,#E5E6EB,进度条背景,进度条灰色背景,High
+Progress,Progress Fill Background,#165DFF,进度条填充背景,进度条填充蓝色,High
+Progress,Progress Border Radius,2px,进度条圆角,进度条圆角2px,Medium
+Progress,Progress Position,bottom,进度条位置,进度条在文件项底部,Medium
+Progress,Progress Margin Top,4px,进度条顶间距,进度条顶部间距4px,Medium
+Progress,Progress Text Show,true,显示进度文字,显示上传百分比,Medium
+Progress,Progress Text Font Size,12px,进度文字字号,进度文字字号12px,Medium
+Progress,Progress Text Color,#86909C,进度文字颜色,进度文字灰色,Medium
+Status,Status Uploading,uploading,上传中状态,文件正在上传中,High
+Status,Status Uploading Color,#165DFF,上传中颜色,上传中蓝色进度条,High
+Status,Status Uploading Icon,LoadingOutlined,上传中图标,上传中旋转图标,Medium
+Status,Status Done,done,完成状态,文件上传完成,High
+Status,Status Done Color,#00B42A,完成颜色,完成绿色图标,High
+Status,Status Done Icon,CheckCircleFilled,完成图标,完成勾选图标,High
+Status,Status Error,error,错误状态,文件上传失败,High
+Status,Status Error Color,#F53F3F,错误颜色,错误红色文字,High
+Status,Status Error Icon,CloseCircleFilled,错误图标,错误关闭图标,High
+Status,Status Error Background,#FFECE8,错误背景,错误浅红背景,Medium
+Status,Status Error Border,1px solid #F53F3F,错误边框,错误红色边框,Medium
+Status,Status Error Message,上传失败,错误信息,上传失败提示文字,High
+Status,Status Removed,removed,已删除状态,文件已删除,Medium
+Hint,Hint Show,true,显示提示,上传显示提示信息,High
+Hint,Hint Text,建议尺寸 800*400，最多 9 张，每个图片不超过 20M,提示文字,上传提示文字,High
+Hint,Hint Font Size,12px,提示字号,提示字号12px,Medium
+Hint,Hint Color,#86909C,提示颜色,提示灰色文字,Medium
+Hint,Hint Margin Top,8px,提示顶间距,提示顶部间距8px,Medium
+Limit,Limit Max Count,9,最大数量,最多上传9个文件,High
+Limit,Limit Max Size,20MB,最大大小,单个文件最大20MB,High
+Limit,Limit Accept,.jpg .jpeg .png .gif,接受类型,接受的文件类型,High
+Limit,Limit Accept Image,image/*,接受图片,接受所有图片类型,High
+Limit,Limit Accept Document,.doc .docx .pdf,接受文档,接受文档类型,Medium
+Limit,Limit Min Width,800px,最小宽度,图片最小宽度800px,Low
+Limit,Limit Min Height,400px,最小高度,图片最小高度400px,Low
+Limit,Limit Aspect Ratio,2:1,宽高比,图片宽高比2:1,Low
+Disabled,Disabled Background,#F2F3F5,禁用背景,禁用状态灰色背景,High
+Disabled,Disabled Border,1px dashed #E5E6EB,禁用边框,禁用状态灰色虚线边框,High
+Disabled,Disabled Color,#C9CDD4,禁用颜色,禁用状态灰色文字,High
+Disabled,Disabled Cursor,not-allowed,禁用光标,禁用状态禁止光标,High
+Disabled,Disabled Opacity,0.6,禁用透明度,禁用状态60%透明度,Medium
+Reupload,Reupload Show,true,显示重新上传,失败后显示重新上传,High
+Reupload,Reupload Text,重新上传,重新上传文字,重新上传按钮文字,High
+Reupload,Reupload Color,#165DFF,重新上传颜色,重新上传蓝色文字,High
+Reupload,Reupload Icon,ReloadOutlined,重新上传图标,重新上传刷新图标,Medium
+Crop,Crop Show,true,显示裁剪,图片上传支持裁剪,Medium
+Crop,Crop Aspect Ratio,1:1,裁剪比例,裁剪宽高比1:1,Medium
+Crop,Crop Modal Width,520px,裁剪弹窗宽度,裁剪弹窗宽度520px,Medium
+Crop,Crop Modal Title,裁剪图片,裁剪弹窗标题,裁剪弹窗标题,Medium
+Crop,Crop Rotate,true,支持旋转,裁剪支持旋转,Low
+Crop,Crop Zoom,true,支持缩放,裁剪支持缩放,Low
+Preview,Preview Modal,true,预览弹窗,图片预览弹窗,High
+Preview,Preview Modal Width,800px,预览弹窗宽度,预览弹窗宽度800px,Medium
+Preview,Preview Modal Background,rgba(0 0 0 0.8),预览弹窗背景,预览弹窗深色背景,Medium
+Preview,Preview Close Icon,CloseOutlined,预览关闭图标,预览弹窗关闭图标,Medium
+Preview,Preview Close Position,top-right,预览关闭位置,关闭按钮在右上角,Medium
+Preview,Preview Navigation,true,预览导航,支持左右切换预览,Medium
+Preview,Preview Prev Icon,LeftOutlined,预览上一张图标,上一张左箭头图标,Medium
+Preview,Preview Next Icon,RightOutlined,预览下一张图标,下一张右箭头图标,Medium
+Animation,Animation Duration,200ms,动画时长,上传动画200毫秒,Low
+Animation,Animation Progress,linear,进度动画,进度条线性动画,Low
+Animation,Animation Fade In,fadeIn,淡入动画,文件项淡入动画,Low
+Animation,Animation Fade Out,fadeOut,淡出动画,文件项淡出动画,Low
+Accessibility,A11y Role,button,无障碍角色,上传按钮button角色,High
+Accessibility,A11y Aria Label,上传文件,无障碍标签,上传aria标签,High
+Accessibility,A11y Keyboard Enter,trigger,回车触发,回车键触发上传,High
+Accessibility,A11y Keyboard Space,trigger,空格触发,空格键触发上传,High
+Accessibility,A11y Focus Visible,2px solid #165DFF,焦点可见,键盘焦点蓝色边框,Medium
+Accessibility,A11y Drop Zone,true,拖放区域,支持拖放区域,High
+ZIndex,ZIndex Preview,1000,预览层级,预览弹窗层级1000,High
+ZIndex,ZIndex Crop,1000,裁剪层级,裁剪弹窗层级1000,Medium
+API,API Action,string,上传地址,上传接口地址,High
+API,API Method,POST,上传方法,上传请求方法POST,High
+API,API Headers,object,请求头,上传请求头配置,Medium
+API,API Data,object,额外数据,上传额外参数,Medium
+API,API Name,file,文件字段名,上传文件字段名,High
+API,API Multiple,false,多选,是否支持多选文件,High
+API,API Directory,false,文件夹,是否支持上传文件夹,Low
+API,API Accept,string,接受类型,接受的文件类型,High
+API,API Max Count,undefined,最大数量,最大上传文件数量,High
+API,API Max Size,undefined,最大大小,单个文件最大大小,High
+API,API List Type,text,列表类型,文件列表类型text/picture/picture-card,High
+API,API Show Upload List,true,显示列表,是否显示文件列表,High
+API,API Disabled,false,禁用,是否禁用上传,High
+API,API Drag,false,拖拽,是否支持拖拽上传,High
+API,API Before Upload,function,上传前钩子,上传前处理函数,High
+API,API Custom Request,function,自定义上传,自定义上传实现,Medium
+Event,Event Change,onChange,变化事件,文件状态变化时触发,High
+Event,Event Before Upload,onBeforeUpload,上传前事件,上传前触发可阻止上传,High
+Event,Event Progress,onProgress,进度事件,上传进度变化时触发,Medium
+Event,Event Success,onSuccess,成功事件,上传成功时触发,High
+Event,Event Error,onError,错误事件,上传失败时触发,High
+Event,Event Remove,onRemove,删除事件,删除文件时触发,High
+Event,Event Preview,onPreview,预览事件,预览文件时触发,Medium
+Event,Event Download,onDownload,下载事件,下载文件时触发,Low
+Event,Event Drop,onDrop,拖放事件,拖放文件时触发,Medium
+Event,Event Exceed,onExceed,超出事件,超出数量限制时触发,High
+Guideline,Guideline Accept Type,文件类型,类型指南,明确说明接受的文件类型,High
+Guideline,Guideline Size Limit,大小限制,大小指南,明确说明文件大小限制,High
+Guideline,Guideline Count Limit,数量限制,数量指南,明确说明文件数量限制,High
+Guideline,Guideline Progress Feedback,进度反馈,进度指南,上传过程显示进度反馈,High
+Guideline,Guideline Error Handling,错误处理,错误指南,上传失败显示错误原因,High
+Guideline,Guideline Retry,重试机制,重试指南,上传失败支持重新上传,High
+Guideline,Guideline Preview,预览功能,预览指南,图片上传支持预览功能,Medium
+Guideline,Guideline Drag Hint,拖拽提示,拖拽指南,拖拽区域有明确提示,Medium
+Spacing,Spacing Button Icon,8px,按钮图标间距,按钮图标与文字间距8px,Medium
+Spacing,Spacing File List,8px,文件列表间距,文件列表项间距8px,High
+Spacing,Spacing Picture Card,8px,图片卡片间距,图片卡片间距8px,High
+Spacing,Spacing Hint,8px,提示间距,提示与上传区间距8px,Medium
+Spacing,Spacing Progress,4px,进度条间距,进度条与文件名间距4px,Medium
+Extra,Extra Slot Trigger,trigger,触发器插槽,自定义触发器插槽,Low
+Extra,Extra Slot Item,item,文件项插槽,自定义文件项插槽,Low
+Extra,Extra Slot Preview,preview,预览插槽,自定义预览插槽,Low

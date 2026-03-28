@@ -1,0 +1,208 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Progress Line Height Small,4px,小进度条高度,小尺寸线性进度条高度4px,Medium
+Size,Progress Line Height Default,6px,默认进度条高度,默认线性进度条高度6px,High
+Size,Progress Line Height Large,8px,大进度条高度,大尺寸线性进度条高度8px,Medium
+Size,Progress Line Width,100%,进度条宽度,线性进度条宽度100%,High
+Size,Progress Line Min Width,200px,进度条最小宽度,线性进度条最小宽度200px,Medium
+Size,Progress Circle Size Small,80px,小圆形进度条尺寸,小尺寸圆形进度条直径80px,Medium
+Size,Progress Circle Size Default,120px,默认圆形进度条尺寸,默认圆形进度条直径120px,High
+Size,Progress Circle Size Large,160px,大圆形进度条尺寸,大尺寸圆形进度条直径160px,Medium
+Size,Progress Circle Stroke Width Small,4px,小圆形进度条线宽,小尺寸圆形进度条线宽4px,Medium
+Size,Progress Circle Stroke Width Default,6px,默认圆形进度条线宽,默认圆形进度条线宽6px,High
+Size,Progress Circle Stroke Width Large,8px,大圆形进度条线宽,大尺寸圆形进度条线宽8px,Medium
+Size,Progress Text Font Size Small,12px,小进度文字字号,小尺寸进度文字12px,Medium
+Size,Progress Text Font Size Default,14px,默认进度文字字号,默认进度文字14px,High
+Size,Progress Text Font Size Large,16px,大进度文字字号,大尺寸进度文字16px,Medium
+Size,Progress Text Gap,8px,进度文字间距,进度条与文字间距8px,Medium
+Size,Progress Border Radius Line,100px,线性进度条圆角,线性进度条圆角100px,High
+Size,Progress Dot Size,8px,进度点大小,进度点直径8px,Medium
+Size,Progress Dot Gap,4px,进度点间距,进度点与进度条间距4px,Low
+Color,Progress Track Background,#F2F3F5,进度条轨道背景,进度条轨道灰色背景#F2F3F5,High
+Color,Progress Bar Background Default,#165DFF,默认进度条颜色,默认进度条蓝色#165DFF,High
+Color,Progress Bar Background Success,#00B42A,成功进度条颜色,成功进度条绿色#00B42A,High
+Color,Progress Bar Background Warning,#FF7D00,警告进度条颜色,警告进度条橙色#FF7D00,High
+Color,Progress Bar Background Error,#F53F3F,错误进度条颜色,错误进度条红色#F53F3F,High
+Color,Progress Text Color,#1D2129,进度文字颜色,进度文字深色#1D2129,High
+Color,Progress Text Color Secondary,#4E5969,进度文字次要颜色,进度文字次要灰色#4E5969,Medium
+Color,Progress Dot Color,#165DFF,进度点颜色,进度点蓝色#165DFF,Medium
+Color,Progress Circle Text Color,#1D2129,圆形进度文字颜色,圆形进度文字深色#1D2129,High
+Type,Type Line,line,线性类型,线性进度条,High
+Type,Type Circle,circle,圆形类型,圆形进度条,High
+Type,Type Dashboard,dashboard,仪表盘类型,仪表盘进度条,Medium
+Status,Status Normal,normal,正常状态,正常进度状态,High
+Status,Status Success,success,成功状态,成功进度状态,High
+Status,Status Warning,warning,警告状态,警告进度状态,High
+Status,Status Error,error,错误状态,错误进度状态,High
+Status,Status Active,active,活动状态,活动进度状态,Medium
+Percentage,Percentage Min,0%,最小百分比,进度最小值0%,High
+Percentage,Percentage Max,100%,最大百分比,进度最大值100%,High
+Percentage,Percentage Format,{value}%,百分比格式,百分比显示格式,High
+Percentage,Percentage Precision,0,百分比精度,百分比小数位数0,Medium
+Percentage,Percentage Precision Decimal,2,百分比小数精度,百分比小数位数2,Low
+Text,Text Inside,false,文字内置,文字不在进度条内,Medium
+Text,Text Outside,true,文字外置,文字在进度条外,High
+Text,Text Position Right,right,文字右侧,文字在进度条右侧,High
+Text,Text Position Bottom,bottom,文字底部,文字在进度条底部,Medium
+Text,Text Position Center,center,文字居中,文字在圆形进度条中心,High
+Text,Text Visible,true,显示文字,显示进度文字,High
+Text,Text Hidden,false,隐藏文字,隐藏进度文字,Low
+Text,Text Font Weight,400,文字字重,进度文字字重400,Medium
+Text,Text Line Height,22px,文字行高,进度文字行高22px,Medium
+Animation,Animation Duration,0.3s,动画时长,进度条动画时长0.3s,Medium
+Animation,Animation Timing,ease,动画曲线,进度条动画曲线ease,Medium
+Animation,Animation Active,true,活动动画,启用活动状态动画,Medium
+Animation,Animation Active Duration,2s,活动动画时长,活动状态动画时长2s,Low
+Animation,Animation Stripe,true,条纹动画,启用条纹动画,Low
+Animation,Animation Stripe Duration,2s,条纹动画时长,条纹动画时长2s,Low
+Stripe,Stripe Enabled,false,启用条纹,不启用条纹效果,Low
+Stripe,Stripe Width,20px,条纹宽度,条纹宽度20px,Low
+Stripe,Stripe Angle,45deg,条纹角度,条纹角度45度,Low
+Stripe,Stripe Color,rgba(255 255 255 0.2),条纹颜色,条纹半透明白色,Low
+Gradient,Gradient Enabled,false,启用渐变,不启用渐变效果,Low
+Gradient,Gradient From,#165DFF,渐变起始色,渐变起始蓝色#165DFF,Low
+Gradient,Gradient To,#722ED1,渐变结束色,渐变结束紫色#722ED1,Low
+Gradient,Gradient Direction,to right,渐变方向,渐变从左到右,Low
+Track,Track Background,#F2F3F5,轨道背景,轨道灰色背景#F2F3F5,High
+Track,Track Border Radius,100px,轨道圆角,轨道圆角100px,High
+Track,Track Height,6px,轨道高度,轨道高度6px,High
+Bar,Bar Background,#165DFF,进度条背景,进度条蓝色背景#165DFF,High
+Bar,Bar Border Radius,100px,进度条圆角,进度条圆角100px,High
+Bar,Bar Height,6px,进度条高度,进度条高度6px,High
+Bar,Bar Transition,width 0.3s ease,进度条过渡,进度条宽度过渡效果,Medium
+Circle,Circle Stroke Linecap,round,圆形线帽,圆形进度条圆形线帽,High
+Circle,Circle Stroke Linecap Square,square,方形线帽,圆形进度条方形线帽,Low
+Circle,Circle Gap Degree,75,圆形缺口角度,仪表盘缺口角度75度,Medium
+Circle,Circle Gap Position,bottom,圆形缺口位置,仪表盘缺口在底部,Medium
+Circle,Circle Trail Color,#F2F3F5,圆形轨道颜色,圆形轨道灰色#F2F3F5,High
+Circle,Circle Stroke Color,#165DFF,圆形进度颜色,圆形进度蓝色#165DFF,High
+Circle,Circle Text Font Size,24px,圆形文字字号,圆形进度文字24px,High
+Circle,Circle Text Font Weight,500,圆形文字字重,圆形进度文字字重500,Medium
+Circle,Circle Text Line Height,32px,圆形文字行高,圆形进度文字行高32px,Medium
+Circle,Circle Center X,50%,圆形中心X,圆形进度中心X坐标50%,High
+Circle,Circle Center Y,50%,圆形中心Y,圆形进度中心Y坐标50%,High
+Dashboard,Dashboard Gap Degree,75,仪表盘缺口角度,仪表盘缺口角度75度,Medium
+Dashboard,Dashboard Gap Position,bottom,仪表盘缺口位置,仪表盘缺口在底部,Medium
+Dashboard,Dashboard Start Angle,135,仪表盘起始角度,仪表盘起始角度135度,Medium
+Dashboard,Dashboard End Angle,405,仪表盘结束角度,仪表盘结束角度405度,Medium
+State,State Indeterminate,false,不确定状态,不在不确定状态,Low
+State,State Loading,false,加载状态,不在加载状态,Medium
+State,State Paused,false,暂停状态,不在暂停状态,Low
+State,State Completed,false,完成状态,不在完成状态,Medium
+Dot,Dot Visible,false,显示进度点,不显示进度点,Low
+Dot,Dot Size,8px,进度点大小,进度点直径8px,Low
+Dot,Dot Color,#165DFF,进度点颜色,进度点蓝色#165DFF,Low
+Dot,Dot Position,end,进度点位置,进度点在末端,Low
+Icon,Icon Success,CheckCircleFilled,成功图标,成功状态使用CheckCircleFilled图标,Medium
+Icon,Icon Error,CloseCircleFilled,错误图标,错误状态使用CloseCircleFilled图标,Medium
+Icon,Icon Warning,ExclamationCircleFilled,警告图标,警告状态使用ExclamationCircleFilled图标,Medium
+Icon,Icon Size,16px,图标大小,状态图标大小16px,Medium
+Icon,Icon Color Success,#00B42A,成功图标颜色,成功图标绿色#00B42A,Medium
+Icon,Icon Color Error,#F53F3F,错误图标颜色,错误图标红色#F53F3F,Medium
+Icon,Icon Color Warning,#FF7D00,警告图标颜色,警告图标橙色#FF7D00,Medium
+Steps,Steps Total,5,步骤总数,步骤进度总数5,Low
+Steps,Steps Current,2,当前步骤,当前步骤2,Low
+Steps,Steps Size,8px,步骤点大小,步骤点大小8px,Low
+Steps,Steps Gap,8px,步骤间距,步骤点间距8px,Low
+Steps,Steps Active Color,#165DFF,步骤活动颜色,步骤活动蓝色#165DFF,Low
+Steps,Steps Inactive Color,#E5E6EB,步骤未激活颜色,步骤未激活灰色#E5E6EB,Low
+Buffer,Buffer Enabled,false,启用缓冲,不启用缓冲效果,Low
+Buffer,Buffer Value,0,缓冲值,缓冲进度值0,Low
+Buffer,Buffer Color,rgba(22 93 255 0.2),缓冲颜色,缓冲半透明蓝色,Low
+Segment,Segment Enabled,false,启用分段,不启用分段效果,Low
+Segment,Segment Count,4,分段数量,分段数量4,Low
+Segment,Segment Gap,2px,分段间距,分段间距2px,Low
+Segment,Segment Color,#165DFF,分段颜色,分段蓝色#165DFF,Low
+Label,Label Visible,false,显示标签,不显示标签,Low
+Label,Label Position,top,标签位置,标签在顶部,Low
+Label,Label Text,进度,标签文字,标签默认文字,Low
+Label,Label Font Size,14px,标签字号,标签文字14px,Low
+Label,Label Color,#4E5969,标签颜色,标签灰色#4E5969,Low
+Label,Label Margin Bottom,8px,标签底部间距,标签底部间距8px,Low
+Tooltip,Tooltip Enabled,false,启用提示,不启用提示,Low
+Tooltip,Tooltip Format,{value}%,提示格式,提示显示格式,Low
+Tooltip,Tooltip Trigger,hover,提示触发,悬停触发提示,Low
+Tooltip,Tooltip Placement,top,提示位置,提示在顶部,Low
+Responsive,Mobile Height,4px,移动端高度,移动端进度条高度4px,Medium
+Responsive,Mobile Circle Size,100px,移动端圆形尺寸,移动端圆形进度条直径100px,Medium
+Responsive,Mobile Text Font Size,12px,移动端文字字号,移动端进度文字12px,Medium
+Responsive,Tablet Height,6px,平板端高度,平板端进度条高度6px,Low
+Responsive,Tablet Circle Size,120px,平板端圆形尺寸,平板端圆形进度条直径120px,Low
+Usage,Line Usage,线性进度条,线性进度条场景,用于展示线性进度,High
+Usage,Circle Usage,圆形进度条,圆形进度条场景,用于展示圆形进度,High
+Usage,Dashboard Usage,仪表盘进度条,仪表盘进度条场景,用于展示仪表盘进度,Medium
+Usage,Success Usage,成功进度,成功进度场景,用于展示成功状态进度,High
+Usage,Error Usage,错误进度,错误进度场景,用于展示错误状态进度,High
+Usage,Warning Usage,警告进度,警告进度场景,用于展示警告状态进度,Medium
+Usage,Loading Usage,加载进度,加载进度场景,用于展示加载状态,High
+Guideline,Show Percentage,true,显示百分比,建议显示百分比,High
+Guideline,Percentage Position,right,百分比位置,建议百分比在右侧,High
+Guideline,Min Width,200px,最小宽度,进度条最小宽度200px,Medium
+Guideline,Animation Smooth,true,平滑动画,建议启用平滑动画,High
+Guideline,Status Color,true,状态颜色,建议使用状态颜色,High
+Guideline,Circle Center Text,true,圆形居中文字,建议圆形进度文字居中,High
+Guideline,Track Visible,true,轨道可见,建议显示轨道,High
+Guideline,Completion Feedback,true,完成反馈,建议完成时提供反馈,High
+Guideline,Error Feedback,true,错误反馈,建议错误时提供反馈,High
+Guideline,Time Estimate,true,时间估算,建议显示时间估算,Medium
+Accessibility,ARIA Role,progressbar,ARIA角色,使用progressbar角色,High
+Accessibility,ARIA Valuenow,supported,ARIA当前值,支持aria-valuenow属性,High
+Accessibility,ARIA Valuemin,0,ARIA最小值,aria-valuemin为0,High
+Accessibility,ARIA Valuemax,100,ARIA最大值,aria-valuemax为100,High
+Accessibility,ARIA Label,supported,ARIA标签,支持aria-label属性,High
+Accessibility,ARIA Labelledby,supported,ARIA标签引用,支持aria-labelledby属性,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,Keyboard Navigation,not-applicable,键盘导航,进度条不需要键盘导航,Low
+Accessibility,Focus Visible,false,焦点可见,进度条无焦点状态,Low
+Performance,GPU Acceleration,true,GPU加速,启用GPU加速,Medium
+Performance,Will Change,transform,Will Change属性,使用will-change优化,Low
+Performance,Render Optimization,true,渲染优化,启用渲染优化,Medium
+Performance,Throttle Update,100ms,节流更新,更新节流100ms,Low
+Performance,Lazy Render,false,延迟渲染,不延迟渲染,Low
+Event,On Change,supported,变化事件,支持进度变化事件,High
+Event,On Success,supported,成功事件,支持进度成功事件,Medium
+Event,On Error,supported,错误事件,支持进度错误事件,Medium
+Event,On Complete,supported,完成事件,支持进度完成事件,High
+Method,Set Percentage,supported,设置百分比方法,支持设置百分比,High
+Method,Increase,supported,增加方法,支持增加进度,Medium
+Method,Decrease,supported,减少方法,支持减少进度,Low
+Method,Reset,supported,重置方法,支持重置进度,Medium
+Method,Complete,supported,完成方法,支持完成进度,Medium
+Props,Percentage,supported,百分比属性,支持设置百分比,High
+Props,Type,supported,类型属性,支持设置类型,High
+Props,Status,supported,状态属性,支持设置状态,High
+Props,Stroke Width,supported,线宽属性,支持设置线宽,High
+Props,Width,supported,宽度属性,支持设置宽度,High
+Props,Show Text,supported,显示文字属性,支持控制文字显示,High
+Props,Text Inside,supported,文字内置属性,支持控制文字位置,Medium
+Props,Color,supported,颜色属性,支持设置颜色,High
+Props,Track Color,supported,轨道颜色属性,支持设置轨道颜色,Medium
+Props,Stroke Linecap,supported,线帽属性,支持设置线帽样式,Medium
+Props,Format,supported,格式化属性,支持格式化显示,Medium
+Slot,Default Slot,supported,默认插槽,支持默认内容插槽,Medium
+Slot,Text Slot,supported,文字插槽,支持文字插槽,Medium
+Custom,Custom Color,supported,自定义颜色,支持自定义颜色,High
+Custom,Custom Text,supported,自定义文字,支持自定义文字内容,High
+Custom,Custom Format,supported,自定义格式,支持自定义格式化,Medium
+Custom,Custom Width,supported,自定义宽度,支持自定义宽度,High
+Custom,Custom Height,supported,自定义高度,支持自定义高度,Medium
+Theme,Theme Light,light,浅色主题,浅色主题样式,High
+Theme,Theme Dark,dark,深色主题,深色主题样式,Low
+Theme,Dark Track Background,#2E2E30,深色轨道背景,深色主题轨道背景#2E2E30,Low
+Theme,Dark Text Color,#FFFFFF,深色文字颜色,深色主题文字白色#FFFFFF,Low
+Transition,Transition Property,width,过渡属性,过渡宽度属性,Medium
+Transition,Transition Duration,0.3s,过渡时长,过渡时长0.3s,Medium
+Transition,Transition Timing,ease,过渡曲线,过渡曲线ease,Medium
+Transition,Transition Delay,0s,过渡延迟,过渡延迟0s,Low
+Indeterminate,Indeterminate Animation,true,不确定动画,启用不确定状态动画,Low
+Indeterminate,Indeterminate Duration,1.5s,不确定动画时长,不确定状态动画时长1.5s,Low
+Indeterminate,Indeterminate Width,30%,不确定宽度,不确定状态宽度30%,Low
+Success,Success Icon Visible,true,显示成功图标,显示成功状态图标,Medium
+Success,Success Color,#00B42A,成功颜色,成功状态绿色#00B42A,High
+Success,Success Animation,true,成功动画,启用成功状态动画,Low
+Success,Success Duration,0.3s,成功动画时长,成功动画时长0.3s,Low
+Error,Error Icon Visible,true,显示错误图标,显示错误状态图标,Medium
+Error,Error Color,#F53F3F,错误颜色,错误状态红色#F53F3F,High
+Error,Error Animation,true,错误动画,启用错误状态动画,Low
+Warning,Warning Icon Visible,true,显示警告图标,显示警告状态图标,Medium
+Warning,Warning Color,#FF7D00,警告颜色,警告状态橙色#FF7D00,High
+Warning,Warning Animation,true,警告动画,启用警告状态动画,Low

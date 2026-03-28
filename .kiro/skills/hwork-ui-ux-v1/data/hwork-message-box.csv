@@ -1,0 +1,261 @@
+Category,Name,Value,Usage,Description,Severity
+Size,MessageBox Width Small,416px,小对话框宽度,小尺寸对话框宽度416px,Medium
+Size,MessageBox Width Default,520px,默认对话框宽度,默认对话框宽度520px,High
+Size,MessageBox Width Large,720px,大对话框宽度,大尺寸对话框宽度720px,Medium
+Size,MessageBox Min Width,416px,对话框最小宽度,对话框最小宽度416px,High
+Size,MessageBox Max Width,90vw,对话框最大宽度,对话框最大宽度90vw,Medium
+Size,MessageBox Min Height,200px,对话框最小高度,对话框最小高度200px,Medium
+Size,MessageBox Max Height,90vh,对话框最大高度,对话框最大高度90vh,Medium
+Size,MessageBox Header Height,56px,对话框头部高度,对话框头部高度56px,High
+Size,MessageBox Footer Height,64px,对话框底部高度,对话框底部高度64px,High
+Size,MessageBox Header Padding,16px 24px,对话框头部内边距,对话框头部内边距上下16px左右24px,High
+Size,MessageBox Body Padding,24px,对话框主体内边距,对话框主体内边距24px,High
+Size,MessageBox Footer Padding,16px 24px,对话框底部内边距,对话框底部内边距上下16px左右24px,High
+Size,MessageBox Border Radius,8px,对话框圆角,对话框圆角8px,High
+Size,MessageBox Title Font Size,16px,对话框标题字号,对话框标题文字16px,High
+Size,MessageBox Content Font Size,14px,对话框内容字号,对话框内容文字14px,High
+Size,MessageBox Icon Size,20px,对话框图标大小,对话框图标大小20px,High
+Size,MessageBox Icon Gap,12px,对话框图标间距,图标与文字间距12px,Medium
+Size,MessageBox Close Icon Size,16px,关闭图标大小,关闭图标大小16px,Medium
+Size,MessageBox Button Height,32px,对话框按钮高度,对话框按钮高度32px,High
+Size,MessageBox Button Padding,0 16px,对话框按钮内边距,对话框按钮左右内边距16px,Medium
+Size,MessageBox Button Gap,8px,对话框按钮间距,对话框按钮间距8px,High
+Color,MessageBox Background,#FFFFFF,对话框背景,对话框白色背景,High
+Color,MessageBox Header Background,#FFFFFF,对话框头部背景,对话框头部白色背景,High
+Color,MessageBox Body Background,#FFFFFF,对话框主体背景,对话框主体白色背景,High
+Color,MessageBox Footer Background,#FFFFFF,对话框底部背景,对话框底部白色背景,High
+Color,MessageBox Title Color,#1D2129,对话框标题颜色,对话框标题深色文字#1D2129,High
+Color,MessageBox Content Color,#4E5969,对话框内容颜色,对话框内容灰色文字#4E5969,High
+Color,MessageBox Border Color,#E5E6EB,对话框边框颜色,对话框边框灰色#E5E6EB,Low
+Color,MessageBox Close Icon Color,#86909C,关闭图标颜色,关闭图标灰色#86909C,Medium
+Color,MessageBox Close Icon Hover Color,#4E5969,关闭图标悬停颜色,关闭图标悬停深灰#4E5969,Medium
+Color,MessageBox Icon Info Color,#165DFF,信息图标颜色,信息图标蓝色#165DFF,High
+Color,MessageBox Icon Success Color,#00B42A,成功图标颜色,成功图标绿色#00B42A,High
+Color,MessageBox Icon Warning Color,#FF7D00,警告图标颜色,警告图标橙色#FF7D00,High
+Color,MessageBox Icon Error Color,#F53F3F,错误图标颜色,错误图标红色#F53F3F,High
+Color,MessageBox Mask Background,rgba(0 0 0 0.45),对话框遮罩背景,对话框遮罩半透明黑色背景,High
+Shadow,MessageBox Shadow,0 8px 24px rgba(0 0 0 0.15),对话框阴影,对话框阴影效果,High
+Shadow,MessageBox Shadow Large,0 12px 32px rgba(0 0 0 0.2),对话框大阴影,对话框大阴影效果,Medium
+Border,MessageBox Border Width,0,对话框边框宽度,对话框边框宽度0,Low
+Border,MessageBox Border Style,none,对话框边框样式,对话框无边框,Low
+Border,MessageBox Header Border Bottom,1px solid #E5E6EB,头部底部边框,头部底部灰色边框,Medium
+Border,MessageBox Footer Border Top,1px solid #E5E6EB,底部顶部边框,底部顶部灰色边框,Medium
+Type,Type Alert,alert,警告类型,警告对话框,High
+Type,Type Confirm,confirm,确认类型,确认对话框,High
+Type,Type Prompt,prompt,输入类型,输入对话框,Medium
+Type,Type Custom,custom,自定义类型,自定义对话框,Medium
+Icon,Icon Info,InfoCircleFilled,信息图标,信息类型使用InfoCircleFilled图标,High
+Icon,Icon Success,CheckCircleFilled,成功图标,成功类型使用CheckCircleFilled图标,High
+Icon,Icon Warning,ExclamationCircleFilled,警告图标,警告类型使用ExclamationCircleFilled图标,High
+Icon,Icon Error,CloseCircleFilled,错误图标,错误类型使用CloseCircleFilled图标,High
+Icon,Icon Position,left,图标位置,图标在左侧,High
+Icon,Show Icon,true,显示图标,显示类型图标,High
+Icon,Hide Icon,false,隐藏图标,隐藏类型图标,Low
+Header,Header Visible,true,显示头部,显示对话框头部,High
+Header,Header Hidden,false,隐藏头部,隐藏对话框头部,Low
+Header,Header Title Font Weight,500,头部标题字重,头部标题字重500,High
+Header,Header Title Line Height,24px,头部标题行高,头部标题行高24px,Medium
+Header,Header Close Button Visible,true,显示关闭按钮,显示头部关闭按钮,High
+Header,Header Close Button Position,right,关闭按钮位置,关闭按钮在右侧,High
+Header,Header Close Button Size,32px,关闭按钮大小,关闭按钮大小32px,Medium
+Body,Body Padding,24px,主体内边距,主体内边距24px,High
+Body,Body Min Height,100px,主体最小高度,主体最小高度100px,Medium
+Body,Body Max Height,calc(90vh - 120px),主体最大高度,主体最大高度视口高度减120px,Medium
+Body,Body Overflow,auto,主体溢出,主体内容溢出自动滚动,High
+Body,Body Scrollbar,custom,主体滚动条,主体使用自定义滚动条,Medium
+Footer,Footer Visible,true,显示底部,显示对话框底部,High
+Footer,Footer Hidden,false,隐藏底部,隐藏对话框底部,Low
+Footer,Footer Button Align,right,底部按钮对齐,底部按钮右对齐,High
+Footer,Footer Button Order,cancel-ok,底部按钮顺序,取消按钮在左确定按钮在右,High
+Footer,Footer Justify,flex-end,底部排列,底部右对齐排列,Medium
+Button,OK Button Text,确定,确定按钮文字,确定按钮默认文字,High
+Button,Cancel Button Text,取消,取消按钮文字,取消按钮默认文字,High
+Button,OK Button Type,primary,确定按钮类型,确定按钮主按钮样式,High
+Button,Cancel Button Type,secondary,取消按钮类型,取消按钮次按钮样式,High
+Button,OK Button Loading,false,确定按钮加载,确定按钮不在加载状态,Medium
+Button,Cancel Button Loading,false,取消按钮加载,取消按钮不在加载状态,Low
+Button,Button Font Size,14px,按钮字号,按钮文字14px,Medium
+Title,Title Font Weight,500,标题字重,对话框标题字重500,High
+Title,Title Color,#1D2129,标题颜色,对话框标题深色#1D2129,High
+Title,Title Line Height,24px,标题行高,对话框标题行高24px,Medium
+Title,Title Max Lines,2,标题最大行数,标题最多2行,Medium
+Title,Title Overflow,ellipsis,标题溢出,标题溢出显示省略号,Low
+Content,Content Font Weight,400,内容字重,对话框内容字重400,High
+Content,Content Color,#4E5969,内容颜色,对话框内容灰色#4E5969,High
+Content,Content Line Height,22px,内容行高,对话框内容行高22px,Medium
+Content,Content Max Lines,none,内容最大行数,内容无最大行数限制,Low
+Content,Content Word Break,break-word,内容换行,内容过长自动换行,Medium
+Mask,Mask Visible,true,显示遮罩,显示背景遮罩,High
+Mask,Mask Hidden,false,隐藏遮罩,隐藏背景遮罩,Low
+Mask,Mask Closable,false,点击遮罩关闭,点击遮罩不关闭对话框,High
+Mask,Mask Closable Enabled,true,点击遮罩可关闭,点击遮罩关闭对话框,Medium
+Mask,Mask Animation Duration,0.3s,遮罩动画时长,遮罩动画时长0.3s,Low
+Close,Closable,true,可关闭,对话框可关闭,High
+Close,Closable Disabled,false,不可关闭,对话框不可关闭,Medium
+Close,Close Icon,CloseOutlined,关闭图标,使用CloseOutlined图标,High
+Close,Close On ESC,true,ESC关闭,按ESC键关闭对话框,High
+Close,Close On Click Outside,false,点击外部关闭,点击外部不关闭对话框,High
+Animation,Animation Duration,0.3s,动画时长,对话框动画时长0.3s,Medium
+Animation,Animation Timing,cubic-bezier(0.23 1 0.32 1),动画曲线,对话框动画曲线,Medium
+Animation,Zoom In Duration,0.3s,放大时长,对话框放大动画时长0.3s,Medium
+Animation,Zoom Out Duration,0.3s,缩小时长,对话框缩小动画时长0.3s,Medium
+Animation,Mask Fade In Duration,0.3s,遮罩淡入时长,遮罩淡入动画时长0.3s,Low
+Animation,Mask Fade Out Duration,0.3s,遮罩淡出时长,遮罩淡出动画时长0.3s,Low
+Animation,Scale From,0.7,缩放起始,对话框缩放起始值0.7,Low
+Animation,Scale To,1,缩放结束,对话框缩放结束值1,Low
+Animation,Opacity From,0,透明度起始,对话框透明度起始值0,Low
+Animation,Opacity To,1,透明度结束,对话框透明度结束值1,Low
+ZIndex,Z Index,1000,层级,对话框层级1000,High
+ZIndex,Z Index Mask,999,遮罩层级,遮罩层级999,Medium
+ZIndex,Z Index Increment,1,层级增量,多个对话框层级递增1,Low
+Position,Position Center,center,中心位置,对话框在中心,High
+Position,Position Top,top,顶部位置,对话框在顶部,Low
+Position,Vertical Offset,15vh,垂直偏移,对话框距离顶部15vh,Medium
+Position,Horizontal Center,true,水平居中,对话框水平居中,High
+Input,Input Visible,false,显示输入框,不显示输入框,Medium
+Input,Input Enabled,true,启用输入框,启用输入框,Medium
+Input,Input Placeholder,请输入,输入框占位符,输入框占位符文字,High
+Input,Input Type,text,输入框类型,输入框文本类型,High
+Input,Input Height,32px,输入框高度,输入框高度32px,Medium
+Input,Input Padding,0 12px,输入框内边距,输入框左右内边距12px,Medium
+Input,Input Border Radius,2px,输入框圆角,输入框圆角2px,Low
+Input,Input Validation,supported,输入验证,支持输入验证,High
+Input,Input Error Message,supported,错误消息,支持显示错误消息,High
+Input,Input Required,false,必填,输入框不必填,Medium
+Textarea,Textarea Visible,false,显示文本域,不显示文本域,Low
+Textarea,Textarea Enabled,true,启用文本域,启用文本域,Low
+Textarea,Textarea Rows,3,文本域行数,文本域默认3行,Low
+Textarea,Textarea Max Length,500,文本域最大长度,文本域最大长度500,Low
+Textarea,Textarea Resize,vertical,文本域调整,文本域垂直调整大小,Low
+State,State Open,open,打开状态,对话框打开状态,High
+State,State Closed,closed,关闭状态,对话框关闭状态,High
+State,State Opening,opening,打开中状态,对话框打开中状态,Medium
+State,State Closing,closing,关闭中状态,对话框关闭中状态,Medium
+Loading,Loading State,false,加载状态,对话框不在加载状态,Medium
+Loading,Loading Icon Size,32px,加载图标大小,加载图标大小32px,Low
+Loading,Loading Icon Color,#165DFF,加载图标颜色,加载图标蓝色#165DFF,Low
+Loading,Loading Text,加载中...,加载文字,加载状态显示文字,Low
+Loading,Loading Mask,true,加载遮罩,加载时显示遮罩,Medium
+Scrollbar,Scrollbar Width,6px,滚动条宽度,对话框滚动条宽度6px,Medium
+Scrollbar,Scrollbar Color,#C9CDD4,滚动条颜色,对话框滚动条灰色#C9CDD4,Low
+Scrollbar,Scrollbar Hover Color,#86909C,滚动条悬停颜色,对话框滚动条悬停深灰#86909C,Low
+Scrollbar,Scrollbar Track Color,transparent,滚动条轨道颜色,对话框滚动条轨道透明,Low
+Focus,Focus Trap,true,焦点捕获,对话框内焦点循环,High
+Focus,Focus First Element,true,聚焦首个元素,打开时聚焦首个可聚焦元素,High
+Focus,Focus Restore,true,焦点恢复,关闭时恢复焦点到触发元素,Medium
+Focus,Focus Visible,true,焦点可见,焦点状态可见,High
+Backdrop,Backdrop Blur,0,背景模糊,背景不模糊,Low
+Backdrop,Backdrop Blur Enabled,4px,背景模糊启用,背景模糊4px,Low
+Backdrop,Backdrop Filter,none,背景滤镜,背景无滤镜,Low
+Divider,Header Divider,true,头部分隔线,显示头部分隔线,Medium
+Divider,Footer Divider,true,底部分隔线,显示底部分隔线,Medium
+Divider,Divider Color,#E5E6EB,分隔线颜色,分隔线灰色#E5E6EB,Low
+Divider,Divider Width,1px,分隔线宽度,分隔线宽度1px,Low
+Responsive,Mobile Width,calc(100vw - 32px),移动端宽度,移动端对话框宽度,High
+Responsive,Mobile Height,auto,移动端高度,移动端对话框高度自动,Medium
+Responsive,Mobile Position,bottom,移动端位置,移动端对话框从底部弹出,High
+Responsive,Mobile Header Height,48px,移动端头部高度,移动端头部高度48px,Medium
+Responsive,Mobile Body Padding,16px,移动端主体内边距,移动端主体内边距16px,Medium
+Responsive,Mobile Footer Height,56px,移动端底部高度,移动端底部高度56px,Medium
+Responsive,Mobile Border Radius,8px 8px 0 0,移动端圆角,移动端顶部圆角8px,Medium
+Responsive,Tablet Width,640px,平板端宽度,平板端对话框宽度640px,Low
+Usage,Alert Usage,警告对话框,警告对话框场景,用于展示警告信息,High
+Usage,Confirm Usage,确认对话框,确认对话框场景,用于确认操作,High
+Usage,Prompt Usage,输入对话框,输入对话框场景,用于输入信息,Medium
+Usage,Form Usage,表单对话框,表单对话框场景,用于表单编辑,High
+Usage,Detail Usage,详情对话框,详情对话框场景,用于展示详细信息,Medium
+Usage,Custom Usage,自定义对话框,自定义对话框场景,用于自定义内容,Medium
+Guideline,Title Length,1-2行,标题长度,标题建议1-2行内,High
+Guideline,Content Length,适中,内容长度,内容不宜过长,High
+Guideline,Icon Visible,true,图标可见,建议显示类型图标,High
+Guideline,Button Text Clear,true,按钮文字明确,按钮文字明确表达操作,High
+Guideline,Dangerous Confirm,true,危险操作确认,危险操作必须确认,High
+Guideline,Auto Focus,true,自动聚焦,建议自动聚焦确定按钮,High
+Guideline,ESC Close,true,ESC关闭,建议支持ESC关闭,High
+Guideline,Click Outside Close,false,点击外部关闭,不建议点击外部关闭,High
+Guideline,Mask Visible,true,遮罩可见,建议显示背景遮罩,High
+Guideline,Focus Trap,true,焦点捕获,建议启用焦点捕获,High
+Guideline,Max Width,90vw,最大宽度,对话框最大宽度90vw,Medium
+Guideline,Max Height,90vh,最大高度,对话框最大高度90vh,Medium
+Accessibility,Keyboard Navigation,supported,键盘导航,支持键盘导航,High
+Accessibility,Tab Navigation,supported,Tab导航,支持Tab键导航,High
+Accessibility,Enter Confirm,supported,回车确认,支持回车键确认,High
+Accessibility,ESC Cancel,supported,ESC取消,支持ESC键取消,High
+Accessibility,Focus Trap,supported,焦点捕获,支持焦点捕获,High
+Accessibility,Focus Visible,true,焦点可见,按钮焦点状态可见,High
+Accessibility,ARIA Role,dialog,ARIA角色,使用dialog角色,High
+Accessibility,ARIA Modal,true,ARIA模态,使用aria-modal属性,High
+Accessibility,ARIA Labelledby,true,ARIA标签引用,使用aria-labelledby属性,High
+Accessibility,ARIA Describedby,true,ARIA描述,使用aria-describedby属性,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Performance,Lazy Render,true,延迟渲染,延迟渲染对话框内容,Medium
+Performance,Destroy On Close,false,关闭时销毁,关闭时不销毁DOM,Medium
+Performance,Cache Content,true,缓存内容,缓存对话框内容,Low
+Performance,GPU Acceleration,true,GPU加速,启用GPU加速,Medium
+Performance,Will Change,transform,Will Change属性,使用will-change优化,Low
+Event,On Open,supported,打开事件,支持对话框打开事件,High
+Event,On Close,supported,关闭事件,支持对话框关闭事件,High
+Event,On Cancel,supported,取消事件,支持取消事件,High
+Event,On OK,supported,确定事件,支持确定事件,High
+Event,Before Close,supported,关闭前事件,支持关闭前事件,Medium
+Event,After Open,supported,打开后事件,支持打开后事件,Medium
+Event,After Close,supported,关闭后事件,支持关闭后事件,Medium
+Method,Open,supported,打开方法,支持打开对话框,High
+Method,Close,supported,关闭方法,支持关闭对话框,High
+Method,Confirm,supported,确认方法,支持触发确认,High
+Method,Cancel,supported,取消方法,支持触发取消,High
+Method,Update,supported,更新方法,支持更新对话框内容,Medium
+Method,Destroy,supported,销毁方法,支持销毁对话框,Low
+Props,Title,supported,标题属性,支持设置标题,High
+Props,Content,supported,内容属性,支持设置内容,High
+Props,Type,supported,类型属性,支持设置类型,High
+Props,Icon,supported,图标属性,支持设置图标,Medium
+Props,Closable,supported,可关闭属性,支持控制可关闭,High
+Props,Mask,supported,遮罩属性,支持控制遮罩,High
+Props,Mask Closable,supported,遮罩可关闭属性,支持控制遮罩关闭,High
+Props,Width,supported,宽度属性,支持设置宽度,High
+Props,OK Text,supported,确定文字属性,支持设置确定按钮文字,High
+Props,Cancel Text,supported,取消文字属性,支持设置取消按钮文字,High
+Props,OK Button Props,supported,确定按钮属性,支持设置确定按钮属性,Medium
+Props,Cancel Button Props,supported,取消按钮属性,支持设置取消按钮属性,Medium
+Props,Show Cancel Button,supported,显示取消按钮属性,支持控制取消按钮显示,High
+Props,Close On Click Modal,supported,点击遮罩关闭属性,支持控制点击遮罩关闭,Medium
+Slot,Default Slot,supported,默认插槽,支持默认内容插槽,High
+Slot,Title Slot,supported,标题插槽,支持标题插槽,Medium
+Slot,Header Slot,supported,头部插槽,支持头部插槽,Medium
+Slot,Footer Slot,supported,底部插槽,支持底部插槽,High
+Slot,Icon Slot,supported,图标插槽,支持图标插槽,Medium
+Custom,Custom Icon,supported,自定义图标,支持自定义类型图标,Medium
+Custom,Custom Buttons,supported,自定义按钮,支持自定义按钮,Medium
+Custom,Custom Footer,supported,自定义底部,支持自定义底部内容,High
+Custom,Custom Header,supported,自定义头部,支持自定义头部内容,Medium
+Custom,Custom Width,supported,自定义宽度,支持自定义宽度,High
+API,MessageBox.alert,supported,警告对话框API,支持警告对话框API,High
+API,MessageBox.confirm,supported,确认对话框API,支持确认对话框API,High
+API,MessageBox.prompt,supported,输入对话框API,支持输入对话框API,Medium
+API,MessageBox.close,supported,关闭对话框API,支持关闭对话框API,High
+Confirm,Confirm Loading,supported,确认加载,支持确认按钮加载状态,High
+Confirm,Confirm Disabled,supported,确认禁用,支持确认按钮禁用,Medium
+Confirm,Confirm Async,supported,异步确认,支持异步确认操作,High
+Confirm,Confirm Promise,supported,Promise确认,支持Promise确认,High
+Confirm,Confirm Callback,supported,回调确认,支持回调函数确认,Medium
+Cancel,Cancel Loading,supported,取消加载,支持取消按钮加载状态,Low
+Cancel,Cancel Disabled,supported,取消禁用,支持取消按钮禁用,Low
+Cancel,Cancel Async,supported,异步取消,支持异步取消操作,Low
+Validation,Validation Before Confirm,supported,确认前验证,支持确认前验证,High
+Validation,Validation Error Message,supported,验证错误消息,支持显示验证错误消息,High
+Validation,Validation Async,supported,异步验证,支持异步验证,Medium
+Transition,Transition Name,zoom,过渡名称,缩放过渡效果,Medium
+Transition,Transition Duration,0.3s,过渡时长,过渡时长0.3s,Medium
+Transition,Transition Timing,cubic-bezier(0.23 1 0.32 1),过渡曲线,过渡曲线,Low
+Transition,Mask Transition,fade,遮罩过渡,遮罩淡入淡出效果,Low
+Body Lock,Body Scroll Lock,true,锁定页面滚动,打开时锁定页面滚动,High
+Body Lock,Body Scroll Lock Delay,0ms,锁定延迟,锁定页面滚动延迟0ms,Low
+Body Lock,Body Scroll Restore,true,恢复页面滚动,关闭时恢复页面滚动,High
+Draggable,Draggable Enabled,false,启用拖拽,不启用对话框拖拽,Low
+Draggable,Draggable Handle,header,拖拽手柄,拖拽手柄为头部,Low
+Draggable,Draggable Boundary,viewport,拖拽边界,拖拽边界为视口,Low
+Fullscreen,Fullscreen Enabled,false,启用全屏,不启用全屏模式,Low
+Fullscreen,Fullscreen Button Visible,false,显示全屏按钮,不显示全屏按钮,Low
+Fullscreen,Fullscreen Width,100vw,全屏宽度,全屏宽度100vw,Low
+Fullscreen,Fullscreen Height,100vh,全屏高度,全屏高度100vh,Low

@@ -1,0 +1,167 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Input Purpose,文本输入,输入框用途,通过鼠标或键盘输入内容是最基础的表单域的包装,High
+Purpose,Input Scenario,表单数据录入,使用场景,用于表单数据录入场景,High
+Purpose,Input Behavior,键盘输入文本,输入行为,通过键盘输入文本内容,High
+Type,Type Text,文本输入框,文本类型,单行文本输入框,High
+Type,Type Password,密码输入框,密码类型,密码输入框内容隐藏,High
+Type,Type Textarea,文本域,多行文本,多行文本输入框,High
+Type,Type Search,搜索输入框,搜索类型,带搜索图标的输入框,Medium
+Type,Type Number,数字输入框,数字类型,仅允许输入数字,Medium
+Size,Size Large,40px,大尺寸,大尺寸输入框高度40px,Medium
+Size,Size Default,32px,默认尺寸,默认尺寸输入框高度32px,High
+Size,Size Small,28px,小尺寸,小尺寸输入框高度28px,Medium
+Size,Size Mini,24px,迷你尺寸,迷你尺寸输入框高度24px,Low
+Structure,Input Height Large,40px,大输入框高度,大尺寸输入框高度40px,Medium
+Structure,Input Height Default,32px,默认输入框高度,默认尺寸输入框高度32px,High
+Structure,Input Height Small,28px,小输入框高度,小尺寸输入框高度28px,Medium
+Structure,Input Height Mini,24px,迷你输入框高度,迷你尺寸输入框高度24px,Low
+Structure,Input Padding Large,0 12px,大输入框内边距,大尺寸输入框左右内边距12px,Medium
+Structure,Input Padding Default,0 12px,默认输入框内边距,默认尺寸输入框左右内边距12px,High
+Structure,Input Padding Small,0 8px,小输入框内边距,小尺寸输入框左右内边距8px,Medium
+Structure,Input Border Radius,2px,输入框圆角,输入框圆角2px,High
+Structure,Input Border Width,1px,输入框边框宽度,输入框边框宽度1px,Medium
+Default,Default Background,#FFFFFF,默认背景,默认状态白色背景,High
+Default,Default Border,1px solid #E5E6EB,默认边框,默认状态灰色边框#E5E6EB,High
+Default,Default Color,#1D2129,默认文字颜色,默认状态深色文字,High
+Default,Default Placeholder,#C9CDD4,默认占位符颜色,默认状态占位符灰色#C9CDD4,High
+Hover,Hover Background,#FFFFFF,悬停背景,悬停状态白色背景,Medium
+Hover,Hover Border,1px solid #C9CDD4,悬停边框,悬停状态深灰边框#C9CDD4,Medium
+Focus,Focus Background,#FFFFFF,聚焦背景,聚焦状态白色背景,High
+Focus,Focus Border,1px solid #165DFF,聚焦边框,聚焦状态蓝色边框#165DFF,High
+Focus,Focus Shadow,0 0 0 2px rgba(22 93 255 0.1),聚焦阴影,聚焦状态蓝色阴影,High
+Disabled,Disabled Background,#F2F3F5,禁用背景,禁用状态灰色背景#F2F3F5,High
+Disabled,Disabled Border,1px solid #E5E6EB,禁用边框,禁用状态灰色边框,High
+Disabled,Disabled Color,#C9CDD4,禁用文字颜色,禁用状态灰色文字,High
+Disabled,Disabled Cursor,not-allowed,禁用光标,禁用状态禁止光标,Medium
+Readonly,Readonly Background,#F7F8FA,只读背景,只读状态浅灰背景,Medium
+Readonly,Readonly Border,1px solid #E5E6EB,只读边框,只读状态灰色边框,Medium
+Readonly,Readonly Color,#1D2129,只读文字颜色,只读状态深色文字,Medium
+Error,Error Background,#FFFFFF,错误背景,错误状态白色背景,High
+Error,Error Border,1px solid #F53F3F,错误边框,错误状态红色边框#F53F3F,High
+Error,Error Focus Shadow,0 0 0 2px rgba(245 63 63 0.1),错误聚焦阴影,错误聚焦状态红色阴影,Medium
+Success,Success Background,#FFFFFF,成功背景,成功状态白色背景,Medium
+Success,Success Border,1px solid #00B42A,成功边框,成功状态绿色边框#00B42A,Medium
+Success,Success Focus Shadow,0 0 0 2px rgba(0 180 42 0.1),成功聚焦阴影,成功聚焦状态绿色阴影,Low
+Warning,Warning Background,#FFFFFF,警告背景,警告状态白色背景,Medium
+Warning,Warning Border,1px solid #FF7D00,警告边框,警告状态橙色边框#FF7D00,Medium
+Warning,Warning Focus Shadow,0 0 0 2px rgba(255 125 0 0.1),警告聚焦阴影,警告聚焦状态橙色阴影,Low
+Font,Font Size Large,14px,大字号,大尺寸输入框文字14px,Medium
+Font,Font Size Default,14px,默认字号,默认尺寸输入框文字14px,High
+Font,Font Size Small,13px,小字号,小尺寸输入框文字13px,Medium
+Font,Font Size Mini,12px,迷你字号,迷你尺寸输入框文字12px,Low
+Font,Font Weight,400,字重,输入框文字常规字重,Medium
+Font,Line Height,22px,行高,输入框文字行高22px,Medium
+Prefix,Prefix Show,true,显示前缀,输入框支持前缀图标/文字,Medium
+Prefix,Prefix Icon Size,16px,前缀图标大小,前缀图标16px,Medium
+Prefix,Prefix Icon Color,#86909C,前缀图标颜色,前缀图标灰色#86909C,Medium
+Prefix,Prefix Text Color,#4E5969,前缀文字颜色,前缀文字灰色#4E5969,Medium
+Prefix,Prefix Gap,8px,前缀间距,前缀与输入内容间距8px,Medium
+Prefix,Prefix Padding,0 12px,前缀内边距,前缀区域内边距,Low
+Suffix,Suffix Show,true,显示后缀,输入框支持后缀图标/文字,Medium
+Suffix,Suffix Icon Size,16px,后缀图标大小,后缀图标16px,Medium
+Suffix,Suffix Icon Color,#86909C,后缀图标颜色,后缀图标灰色#86909C,Medium
+Suffix,Suffix Text Color,#4E5969,后缀文字颜色,后缀文字灰色#4E5969,Medium
+Suffix,Suffix Gap,8px,后缀间距,后缀与输入内容间距8px,Medium
+Suffix,Suffix Padding,0 12px,后缀内边距,后缀区域内边距,Low
+Clear,Clear Show,true,显示清除,输入框支持清除按钮,High
+Clear,Clear Icon,CloseCircleFilled,清除图标,清除按钮圆形关闭图标,High
+Clear,Clear Icon Size,14px,清除图标大小,清除图标14px,Medium
+Clear,Clear Icon Color,#C9CDD4,清除图标颜色,清除图标灰色#C9CDD4,Medium
+Clear,Clear Icon Hover Color,#86909C,清除图标悬停颜色,清除图标悬停深灰色,Medium
+Clear,Clear Visibility,hover,清除显示时机,悬停时显示清除按钮,Medium
+Password,Password Icon Show,EyeOutlined,密码显示图标,密码可见时眼睛图标,High
+Password,Password Icon Hide,EyeInvisibleOutlined,密码隐藏图标,密码隐藏时闭眼图标,High
+Password,Password Icon Size,16px,密码图标大小,密码图标16px,Medium
+Password,Password Icon Color,#86909C,密码图标颜色,密码图标灰色,Medium
+Password,Password Toggle,true,密码切换,支持切换密码显示隐藏,High
+Count,Count Show,true,显示字数,输入框支持显示字数统计,Medium
+Count,Count Position,suffix,字数位置,字数统计在输入框后缀,Medium
+Count,Count Font Size,12px,字数字号,字数统计文字12px,Medium
+Count,Count Color,#86909C,字数颜色,字数统计灰色文字,Medium
+Count,Count Format,X/Y,字数格式,字数统计格式当前/最大,Medium
+Count,Count Exceed Color,#F53F3F,超出字数颜色,超出最大字数红色文字,Medium
+Addon,Addon Before Show,true,显示前置标签,输入框支持前置标签,Medium
+Addon,Addon After Show,true,显示后置标签,输入框支持后置标签,Medium
+Addon,Addon Background,#F7F8FA,标签背景,前后置标签灰色背景,Medium
+Addon,Addon Border,1px solid #E5E6EB,标签边框,前后置标签灰色边框,Medium
+Addon,Addon Color,#4E5969,标签颜色,前后置标签灰色文字,Medium
+Addon,Addon Padding,0 12px,标签内边距,前后置标签内边距,Medium
+Addon,Addon Border Radius Before,2px 0 0 2px,前置标签圆角,前置标签左侧圆角,Low
+Addon,Addon Border Radius After,0 2px 2px 0,后置标签圆角,后置标签右侧圆角,Low
+Textarea,Textarea Min Height,80px,文本域最小高度,文本域最小高度80px,High
+Textarea,Textarea Max Height,auto,文本域最大高度,文本域最大高度自适应,Medium
+Textarea,Textarea Padding,8px 12px,文本域内边距,文本域内边距8px 12px,High
+Textarea,Textarea Resize,vertical,文本域调整,文本域支持垂直调整大小,Medium
+Textarea,Textarea Auto Size,true,文本域自适应,文本域支持自适应高度,Medium
+Textarea,Textarea Line Height,22px,文本域行高,文本域行高22px,Medium
+Textarea,Textarea Count Position,bottom-right,文本域字数位置,文本域字数统计在右下角,Medium
+Search,Search Icon,SearchOutlined,搜索图标,搜索输入框搜索图标,High
+Search,Search Icon Position,prefix,搜索图标位置,搜索图标在前缀位置,Medium
+Search,Search Button Show,true,显示搜索按钮,搜索输入框支持搜索按钮,Medium
+Search,Search Button Text,搜索,搜索按钮文字,搜索按钮文字,Medium
+Search,Search Button Background,#165DFF,搜索按钮背景,搜索按钮蓝色背景,Medium
+Search,Search Button Color,#FFFFFF,搜索按钮颜色,搜索按钮白色文字,Medium
+Search,Search Enter Trigger,true,回车触发搜索,回车键触发搜索,High
+Number,Number Step,1,数字步长,数字输入框步长1,Medium
+Number,Number Min,undefined,数字最小值,数字输入框最小值,Medium
+Number,Number Max,undefined,数字最大值,数字输入框最大值,Medium
+Number,Number Precision,0,数字精度,数字输入框精度,Medium
+Number,Number Controls,true,数字控制按钮,数字输入框显示加减按钮,Medium
+Number,Number Controls Position,right,控制按钮位置,加减按钮在右侧,Medium
+Number,Number Controls Icon Plus,<h-icon-plus />,加号图标,数字加号图标,Low
+Number,Number Controls Icon Minus,<h-icon-minus />,减号图标,数字减号图标,Low
+RichText,RichText Toolbar Height,40px,富文本工具栏高度,富文本编辑器工具栏高度40px,Medium
+RichText,RichText Toolbar Background,#F7F8FA,富文本工具栏背景,富文本工具栏灰色背景,Medium
+RichText,RichText Toolbar Border,1px solid #E5E6EB,富文本工具栏边框,富文本工具栏底部边框,Medium
+RichText,RichText Toolbar Button Size,28px,富文本工具按钮大小,富文本工具按钮28px,Medium
+RichText,RichText Toolbar Button Gap,4px,富文本工具按钮间距,富文本工具按钮间距4px,Low
+RichText,RichText Toolbar Button Hover,#E5E6EB,富文本工具按钮悬停,富文本工具按钮悬停背景,Low
+RichText,RichText Toolbar Button Active,#165DFF,富文本工具按钮激活,富文本工具按钮激活蓝色,Medium
+RichText,RichText Toolbar Divider,1px solid #E5E6EB,富文本工具分隔线,富文本工具栏分隔线,Low
+RichText,RichText Content Min Height,200px,富文本内容最小高度,富文本内容区最小高度200px,Medium
+RichText,RichText Content Padding,16px,富文本内容内边距,富文本内容区内边距16px,Medium
+RichText,RichText Placeholder Color,#C9CDD4,富文本占位符颜色,富文本占位符灰色,Medium
+Label,Label Font Size,14px,标签字号,表单标签文字14px,High
+Label,Label Color,#1D2129,标签颜色,表单标签深色文字,High
+Label,Label Required Color,#F53F3F,必填标记颜色,必填星号红色,High
+Label,Label Required Position,before,必填标记位置,必填星号在标签前,Medium
+Label,Label Colon,：,标签冒号,表单标签后中文冒号,Medium
+Label,Label Gap,8px,标签间距,标签与输入框间距8px,High
+Help,Help Font Size,12px,帮助文字字号,帮助提示文字12px,Medium
+Help,Help Color,#86909C,帮助文字颜色,帮助提示灰色文字,Medium
+Help,Help Margin Top,4px,帮助文字上间距,帮助提示与输入框间距4px,Medium
+Error,Error Message Font Size,12px,错误信息字号,错误提示文字12px,High
+Error,Error Message Color,#F53F3F,错误信息颜色,错误提示红色文字,High
+Error,Error Message Margin Top,4px,错误信息上间距,错误提示与输入框间距4px,Medium
+Error,Error Message Icon,CloseCircleFilled,错误信息图标,错误提示图标,Low
+Animation,Focus Transition,0.2s,聚焦过渡,聚焦状态过渡0.2s,Medium
+Animation,Border Transition,0.2s,边框过渡,边框颜色过渡0.2s,Low
+Animation,Shadow Transition,0.2s,阴影过渡,阴影过渡0.2s,Low
+Animation,Clear Fade,0.15s,清除淡入,清除按钮淡入0.15s,Low
+Responsive,Responsive Breakpoint,768px,响应式断点,小于768px切换移动端样式,Medium
+Responsive,Mobile Height,40px,移动端高度,移动端输入框高度40px,Medium
+Responsive,Mobile Font Size,16px,移动端字号,移动端输入框文字16px防止缩放,High
+Responsive,Mobile Padding,0 12px,移动端内边距,移动端输入框内边距,Medium
+Accessibility,Input Role,textbox,输入框角色,输入框ARIA角色textbox,High
+Accessibility,Textarea Role,textbox,文本域角色,文本域ARIA角色textbox,High
+Accessibility,Aria Required,true/false,必填状态,输入框aria-required状态,Medium
+Accessibility,Aria Invalid,true/false,无效状态,输入框aria-invalid状态,Medium
+Accessibility,Aria Disabled,true/false,禁用状态,输入框aria-disabled状态,Medium
+Accessibility,Aria Describedby,help-text-id,描述关联,输入框关联帮助文字,Medium
+Accessibility,Label Association,true,标签关联,标签与输入框关联,High
+Accessibility,Focus Ring,0 0 0 2px rgba(22 93 255 0.1),焦点环,键盘焦点蓝色环,High
+Accessibility,Autocomplete,on/off,自动完成,输入框自动完成属性,Low
+ZIndex,Input ZIndex,1,输入框层级,输入框z-index 1,Low
+ZIndex,Dropdown ZIndex,1050,下拉层级,输入框下拉建议z-index 1050,Low
+Guideline,Primary Color,#165DFF,主色调,输入框主色调蓝色#165DFF,High
+Guideline,Success Color,#00B42A,成功色,成功状态绿色#00B42A,Medium
+Guideline,Warning Color,#FF7D00,警告色,警告状态橙色#FF7D00,Medium
+Guideline,Error Color,#F53F3F,错误色,错误状态红色#F53F3F,High
+Guideline,Text Primary,#1D2129,主要文字色,主要文字颜色#1D2129,High
+Guideline,Text Regular,#4E5969,常规文字色,常规文字颜色#4E5969,High
+Guideline,Text Placeholder,#C9CDD4,占位符色,占位符颜色#C9CDD4,High
+Guideline,Text Disabled,#C9CDD4,禁用文字色,禁用文字颜色#C9CDD4,Medium
+Guideline,Border Default,#E5E6EB,默认边框色,默认边框颜色#E5E6EB,High
+Guideline,Border Hover,#C9CDD4,悬停边框色,悬停边框颜色#C9CDD4,Medium
+Guideline,Background Disabled,#F2F3F5,禁用背景色,禁用背景颜色#F2F3F5,Medium
+Guideline,Background Addon,#F7F8FA,标签背景色,前后置标签背景#F7F8FA,Medium

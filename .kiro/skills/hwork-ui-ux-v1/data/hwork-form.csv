@@ -1,0 +1,252 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Form Purpose,表单,表单用途,表单用于收集用户输入的信息并进行校验提交,High
+Purpose,Form Scenario,数据录入,使用场景,用于登录注册/信息录入/数据编辑等场景,High
+Purpose,Form Behavior,填写提交,表单行为,用户填写表单项并提交数据,High
+Type,Type Horizontal,水平表单,水平布局,标签在左控件在右的水平布局表单,High
+Type,Type Vertical,垂直表单,垂直布局,标签在上控件在下的垂直布局表单,High
+Type,Type Inline,行内表单,行内布局,表单项在一行内排列的行内布局,Medium
+Type,Type Modal,弹窗表单,弹窗表单,在弹窗中展示的表单,High
+Type,Type Drawer,抽屉表单,抽屉表单,在抽屉中展示的表单,High
+Type,Type Step,分步表单,分步表单,分多个步骤填写的表单,Medium
+Type,Type Filter,筛选表单,筛选表单,用于列表筛选的表单,High
+Layout,Layout Horizontal,horizontal,水平布局,标签和控件水平排列,High
+Layout,Layout Vertical,vertical,垂直布局,标签和控件垂直排列,High
+Layout,Layout Inline,inline,行内布局,表单项行内排列,Medium
+Layout,Layout Label Position,left/top,标签位置,标签在左侧或顶部,High
+Layout,Layout Label Align,right/left,标签对齐,水平布局时标签对齐方式,High
+Layout,Layout Label Width,auto/fixed,标签宽度,标签宽度自适应或固定,High
+Layout,Layout Colon,true,显示冒号,水平布局时标签后显示冒号,Medium
+FormItem,Item Margin Bottom,24px,表单项底部间距,表单项之间底部间距24px,High
+FormItem,Item Margin Bottom Compact,16px,紧凑底部间距,紧凑模式表单项间距16px,Medium
+FormItem,Item Margin Bottom Large,32px,宽松底部间距,宽松模式表单项间距32px,Low
+FormItem,Item Display,flex,表单项显示,表单项flex布局,High
+FormItem,Item Align Items,flex-start,表单项对齐,表单项顶部对齐,Medium
+FormItem,Item Flex Wrap,wrap,表单项换行,表单项内容换行,Medium
+Label,Label Font Size,14px,标签字号,标签文字字号14px,High
+Label,Label Color,#1D2129,标签颜色,标签深色文字#1D2129,High
+Label,Label Font Weight,400,标签字重,标签常规字重,Medium
+Label,Label Line Height,32px,标签行高,标签行高与控件高度一致32px,High
+Label,Label Text Align,right,标签对齐,水平布局标签右对齐,High
+Label,Label Padding Right,12px,标签右内边距,标签右侧内边距12px,High
+Label,Label Width,auto,标签宽度,标签宽度自适应,Medium
+Label,Label Fixed Width,100px,固定标签宽度,固定标签宽度100px,Medium
+Label,Label Max Width,200px,最大标签宽度,标签最大宽度200px,Low
+Label,Label Colon,:,标签冒号,水平布局标签后冒号,Medium
+Label,Label Colon Margin,0 8px 0 2px,冒号间距,冒号左右间距,Low
+Required,Required Show,true,显示必填,必填项显示红色星号,High
+Required,Required Mark,*,必填标记,必填项红色星号标记,High
+Required,Required Color,#F53F3F,必填颜色,必填星号红色#F53F3F,High
+Required,Required Position,before,必填位置,必填星号在标签前,High
+Required,Required Font Size,14px,必填字号,必填星号字号14px,Medium
+Required,Required Margin Right,4px,必填右间距,必填星号右侧间距4px,Medium
+Control,Control Min Height,32px,控件最小高度,表单控件最小高度32px,High
+Control,Control Width,100%,控件宽度,表单控件默认全宽,High
+Control,Control Max Width,none,控件最大宽度,表单控件无最大宽度限制,Medium
+Control,Control Flex,1,控件弹性,表单控件弹性伸缩,Medium
+Validation,Validation Trigger,blur,验证触发,失焦时触发验证,High
+Validation,Validation Trigger Change,change,变化验证,值变化时触发验证,Medium
+Validation,Validation Trigger Submit,submit,提交验证,提交时触发验证,High
+Validation,Validation Status,success/warning/error/validating,验证状态,表单项验证状态,High
+Validation,Validation First,false,首次验证,是否只验证第一个错误,Low
+Error,Error Show,true,显示错误,验证失败显示错误信息,High
+Error,Error Color,#F53F3F,错误颜色,错误信息红色#F53F3F,High
+Error,Error Font Size,12px,错误字号,错误信息字号12px,High
+Error,Error Line Height,20px,错误行高,错误信息行高20px,Medium
+Error,Error Margin Top,4px,错误顶部间距,错误信息与控件间距4px,High
+Error,Error Position,bottom,错误位置,错误信息在控件下方,High
+Error,Error Icon,CloseCircleFilled,错误图标,错误状态图标,Medium
+Error,Error Icon Color,#F53F3F,错误图标颜色,错误图标红色,Medium
+Error,Error Border Color,#F53F3F,错误边框颜色,错误状态控件红色边框,High
+Error,Error Background,transparent,错误背景,错误状态控件透明背景,Medium
+Success,Success Color,#00B42A,成功颜色,成功状态绿色#00B42A,Medium
+Success,Success Icon,CheckCircleFilled,成功图标,成功状态图标,Medium
+Success,Success Border Color,#00B42A,成功边框颜色,成功状态控件绿色边框,Medium
+Warning,Warning Color,#FF7D00,警告颜色,警告状态橙色#FF7D00,Medium
+Warning,Warning Icon,ExclamationCircleFilled,警告图标,警告状态图标,Medium
+Warning,Warning Border Color,#FF7D00,警告边框颜色,警告状态控件橙色边框,Medium
+Help,Help Show,true,显示帮助,显示帮助提示信息,Medium
+Help,Help Color,#86909C,帮助颜色,帮助信息灰色#86909C,Medium
+Help,Help Font Size,12px,帮助字号,帮助信息字号12px,Medium
+Help,Help Line Height,20px,帮助行高,帮助信息行高20px,Medium
+Help,Help Margin Top,4px,帮助顶部间距,帮助信息与控件间距4px,Medium
+Help,Help Position,bottom,帮助位置,帮助信息在控件下方,Medium
+ModalForm,Modal Width,520px,弹窗宽度,弹窗表单默认宽度520px,High
+ModalForm,Modal Width Large,720px,大弹窗宽度,大弹窗表单宽度720px,Medium
+ModalForm,Modal Width Small,400px,小弹窗宽度,小弹窗表单宽度400px,Medium
+ModalForm,Modal Padding,24px,弹窗内边距,弹窗内边距24px,High
+ModalForm,Modal Header Height,56px,弹窗头部高度,弹窗头部高度56px,High
+ModalForm,Modal Header Padding,0 24px,弹窗头部内边距,弹窗头部左右内边距24px,Medium
+ModalForm,Modal Header Border Bottom,1px solid #E5E6EB,弹窗头部底边框,弹窗头部底部分隔线,Medium
+ModalForm,Modal Header Title Font Size,16px,弹窗标题字号,弹窗标题字号16px,High
+ModalForm,Modal Header Title Color,#1D2129,弹窗标题颜色,弹窗标题深色文字,High
+ModalForm,Modal Header Title Font Weight,500,弹窗标题字重,弹窗标题中等字重,Medium
+ModalForm,Modal Body Padding,24px,弹窗内容内边距,弹窗内容区内边距24px,High
+ModalForm,Modal Body Max Height,60vh,弹窗内容最大高度,弹窗内容最大高度60vh,Medium
+ModalForm,Modal Body Overflow,auto,弹窗内容溢出,弹窗内容溢出滚动,Medium
+ModalForm,Modal Footer Height,56px,弹窗底部高度,弹窗底部高度56px,High
+ModalForm,Modal Footer Padding,0 24px,弹窗底部内边距,弹窗底部左右内边距24px,Medium
+ModalForm,Modal Footer Border Top,1px solid #E5E6EB,弹窗底部顶边框,弹窗底部顶部分隔线,Medium
+ModalForm,Modal Footer Align,right,弹窗底部对齐,弹窗底部按钮右对齐,High
+ModalForm,Modal Footer Button Gap,12px,弹窗底部按钮间距,弹窗底部按钮间距12px,Medium
+ModalForm,Modal Close Icon,CloseOutlined,弹窗关闭图标,弹窗关闭按钮图标,High
+ModalForm,Modal Close Icon Size,16px,弹窗关闭图标大小,关闭图标16px,Medium
+ModalForm,Modal Close Icon Color,#86909C,弹窗关闭图标颜色,关闭图标灰色,Medium
+ModalForm,Modal Mask Background,rgba(0 0 0 0.6),弹窗遮罩背景,弹窗遮罩半透明黑色,High
+DrawerForm,Drawer Width,400px,抽屉宽度,抽屉表单默认宽度400px,High
+DrawerForm,Drawer Width Large,600px,大抽屉宽度,大抽屉表单宽度600px,Medium
+DrawerForm,Drawer Width Small,320px,小抽屉宽度,小抽屉表单宽度320px,Medium
+DrawerForm,Drawer Header Height,56px,抽屉头部高度,抽屉头部高度56px,High
+DrawerForm,Drawer Header Padding,0 24px,抽屉头部内边距,抽屉头部左右内边距24px,Medium
+DrawerForm,Drawer Header Border Bottom,1px solid #E5E6EB,抽屉头部底边框,抽屉头部底部分隔线,Medium
+DrawerForm,Drawer Body Padding,24px,抽屉内容内边距,抽屉内容区内边距24px,High
+DrawerForm,Drawer Footer Height,56px,抽屉底部高度,抽屉底部高度56px,High
+DrawerForm,Drawer Footer Padding,0 24px,抽屉底部内边距,抽屉底部左右内边距24px,Medium
+DrawerForm,Drawer Footer Border Top,1px solid #E5E6EB,抽屉底部顶边框,抽屉底部顶部分隔线,Medium
+DrawerForm,Drawer Footer Align,right,抽屉底部对齐,抽屉底部按钮右对齐,High
+FilterForm,Filter Background,#FFFFFF,筛选背景,筛选表单白色背景,High
+FilterForm,Filter Padding,16px 24px,筛选内边距,筛选表单内边距,High
+FilterForm,Filter Border Bottom,1px solid #E5E6EB,筛选底边框,筛选表单底部分隔线,Medium
+FilterForm,Filter Item Margin Right,24px,筛选项右间距,筛选项之间右间距24px,High
+FilterForm,Filter Item Margin Bottom,16px,筛选项底间距,筛选项底部间距16px,High
+FilterForm,Filter Label Width,auto,筛选标签宽度,筛选标签宽度自适应,Medium
+FilterForm,Filter Control Width,200px,筛选控件宽度,筛选控件固定宽度200px,High
+FilterForm,Filter Button Group Gap,12px,筛选按钮间距,筛选按钮之间间距12px,Medium
+FilterForm,Filter Expand Show,true,显示展开收起,筛选表单支持展开收起,Medium
+FilterForm,Filter Expand Text Collapse,收起,收起文字,收起按钮文字,Medium
+FilterForm,Filter Expand Text Expand,展开,展开文字,展开按钮文字,Medium
+FilterForm,Filter Expand Icon,DownOutlined,展开图标,展开收起箭头图标,Medium
+FilterForm,Filter Expand Icon Rotate,180deg,展开图标旋转,展开时图标旋转180度,Low
+FilterForm,Filter Default Rows,1,默认显示行数,筛选表单默认显示1行,Medium
+FilterForm,Filter Max Rows,3,最大显示行数,筛选表单最大显示3行,Low
+StepForm,Step Form Layout,vertical,分步表单布局,分步表单垂直布局,High
+StepForm,Step Header Height,80px,步骤头部高度,分步表单步骤头部高度80px,Medium
+StepForm,Step Header Padding,24px,步骤头部内边距,步骤头部内边距24px,Medium
+StepForm,Step Header Background,#FFFFFF,步骤头部背景,步骤头部白色背景,Medium
+StepForm,Step Header Border Bottom,1px solid #E5E6EB,步骤头部底边框,步骤头部底部分隔线,Medium
+StepForm,Step Content Padding,24px,步骤内容内边距,步骤内容区内边距24px,High
+StepForm,Step Content Min Height,300px,步骤内容最小高度,步骤内容最小高度300px,Medium
+StepForm,Step Footer Height,64px,步骤底部高度,步骤底部高度64px,High
+StepForm,Step Footer Padding,0 24px,步骤底部内边距,步骤底部左右内边距24px,Medium
+StepForm,Step Footer Border Top,1px solid #E5E6EB,步骤底部顶边框,步骤底部顶部分隔线,Medium
+StepForm,Step Footer Align,center,步骤底部对齐,步骤底部按钮居中,High
+StepForm,Step Footer Button Gap,12px,步骤底部按钮间距,步骤底部按钮间距12px,Medium
+StepForm,Step Prev Button Text,上一步,上一步按钮文字,上一步按钮文字,High
+StepForm,Step Next Button Text,下一步,下一步按钮文字,下一步按钮文字,High
+StepForm,Step Submit Button Text,提交,提交按钮文字,提交按钮文字,High
+Grid,Grid Columns,24,栅格列数,表单栅格24列,High
+Grid,Grid Gutter,24px,栅格间距,表单栅格间距24px,High
+Grid,Grid Gutter Vertical,0,栅格垂直间距,表单栅格垂直间距0,Medium
+Grid,Grid Col Span,24,默认列跨度,表单项默认占24列,High
+Grid,Grid Col Span Half,12,半宽列跨度,表单项半宽占12列,High
+Grid,Grid Col Span Third,8,三分之一列跨度,表单项三分之一占8列,Medium
+Grid,Grid Col Span Quarter,6,四分之一列跨度,表单项四分之一占6列,Medium
+Grid,Grid Label Col,6,标签列跨度,水平布局标签占6列,High
+Grid,Grid Wrapper Col,18,控件列跨度,水平布局控件占18列,High
+Group,Group Title Show,true,显示分组标题,表单分组显示标题,Medium
+Group,Group Title Font Size,14px,分组标题字号,分组标题字号14px,Medium
+Group,Group Title Font Weight,500,分组标题字重,分组标题中等字重,Medium
+Group,Group Title Color,#1D2129,分组标题颜色,分组标题深色文字,Medium
+Group,Group Title Margin Bottom,16px,分组标题底间距,分组标题底部间距16px,Medium
+Group,Group Title Border Bottom,1px solid #E5E6EB,分组标题底边框,分组标题底部分隔线,Low
+Group,Group Title Padding Bottom,8px,分组标题底内边距,分组标题底部内边距8px,Low
+Group,Group Margin Bottom,24px,分组底间距,表单分组底部间距24px,Medium
+Group,Group Collapse Show,true,显示折叠,表单分组支持折叠,Low
+Group,Group Collapse Icon,DownOutlined,折叠图标,分组折叠箭头图标,Low
+Readonly,Readonly Background,transparent,只读背景,只读状态透明背景,Medium
+Readonly,Readonly Border,none,只读边框,只读状态无边框,Medium
+Readonly,Readonly Color,#1D2129,只读颜色,只读状态深色文字,High
+Readonly,Readonly Padding,0,只读内边距,只读状态无内边距,Medium
+Readonly,Readonly Display,inline,只读显示,只读状态行内显示,Medium
+Disabled,Disabled Background,#F2F3F5,禁用背景,禁用状态灰色背景,High
+Disabled,Disabled Border,1px solid #E5E6EB,禁用边框,禁用状态灰色边框,High
+Disabled,Disabled Color,#C9CDD4,禁用颜色,禁用状态灰色文字,High
+Disabled,Disabled Cursor,not-allowed,禁用光标,禁用状态禁止光标,High
+Button,Submit Button Type,primary,提交按钮类型,提交按钮主要类型,High
+Button,Submit Button Text,提交,提交按钮文字,提交按钮文字,High
+Button,Submit Button Loading,true,提交按钮加载,提交时显示加载状态,High
+Button,Cancel Button Type,default,取消按钮类型,取消按钮默认类型,High
+Button,Cancel Button Text,取消,取消按钮文字,取消按钮文字,High
+Button,Reset Button Type,default,重置按钮类型,重置按钮默认类型,Medium
+Button,Reset Button Text,重置,重置按钮文字,重置按钮文字,Medium
+Button,Button Gap,12px,按钮间距,表单按钮之间间距12px,High
+Button,Button Align,left/center/right,按钮对齐,表单按钮对齐方式,High
+Button,Button Margin Top,24px,按钮顶部间距,按钮区域顶部间距24px,Medium
+Tooltip,Tooltip Show,true,显示提示,标签支持提示图标,Medium
+Tooltip,Tooltip Icon,QuestionCircleOutlined,提示图标,标签提示问号图标,Medium
+Tooltip,Tooltip Icon Size,14px,提示图标大小,提示图标14px,Medium
+Tooltip,Tooltip Icon Color,#86909C,提示图标颜色,提示图标灰色,Medium
+Tooltip,Tooltip Icon Margin Left,4px,提示图标左间距,提示图标左侧间距4px,Medium
+Tooltip,Tooltip Background,#1D2129,提示背景,提示框深色背景,Medium
+Tooltip,Tooltip Color,#FFFFFF,提示颜色,提示框白色文字,Medium
+Tooltip,Tooltip Font Size,12px,提示字号,提示框字号12px,Medium
+Tooltip,Tooltip Padding,8px 12px,提示内边距,提示框内边距,Medium
+Tooltip,Tooltip Border Radius,4px,提示圆角,提示框圆角4px,Medium
+Tooltip,Tooltip Max Width,300px,提示最大宽度,提示框最大宽度300px,Medium
+Responsive,Responsive Breakpoint XS,<576px,超小屏断点,超小屏幕断点576px以下,Medium
+Responsive,Responsive Breakpoint SM,≥576px,小屏断点,小屏幕断点576px以上,Medium
+Responsive,Responsive Breakpoint MD,≥768px,中屏断点,中屏幕断点768px以上,Medium
+Responsive,Responsive Breakpoint LG,≥992px,大屏断点,大屏幕断点992px以上,Medium
+Responsive,Responsive Breakpoint XL,≥1200px,超大屏断点,超大屏幕断点1200px以上,Medium
+Responsive,Responsive Breakpoint XXL,≥1600px,超超大屏断点,超超大屏幕断点1600px以上,Low
+Responsive,Responsive Mobile Layout,vertical,移动端布局,移动端使用垂直布局,High
+Responsive,Responsive Mobile Label Width,100%,移动端标签宽度,移动端标签全宽,Medium
+Responsive,Responsive Mobile Control Width,100%,移动端控件宽度,移动端控件全宽,Medium
+Animation,Animation Validate,shake,验证动画,验证失败抖动动画,Low
+Animation,Animation Duration,200ms,动画时长,动画持续200毫秒,Low
+Animation,Animation Error Fade,fadeIn,错误淡入,错误信息淡入动画,Low
+Accessibility,A11y Role,form,无障碍角色,表单form角色,High
+Accessibility,A11y Aria Label,表单,无障碍标签,表单aria标签,High
+Accessibility,A11y Aria Required,true,无障碍必填,必填项aria-required,High
+Accessibility,A11y Aria Invalid,true,无障碍无效,验证失败aria-invalid,High
+Accessibility,A11y Aria Describedby,error-id,无障碍描述,错误信息关联,Medium
+Accessibility,A11y Label For,input-id,标签关联,标签与控件关联,High
+Accessibility,A11y Focus Visible,2px solid #165DFF,焦点可见,键盘焦点蓝色边框,Medium
+Accessibility,A11y Tab Order,logical,Tab顺序,Tab键逻辑顺序,High
+ZIndex,ZIndex Modal,1000,弹窗层级,弹窗表单层级1000,High
+ZIndex,ZIndex Drawer,1000,抽屉层级,抽屉表单层级1000,High
+ZIndex,ZIndex Tooltip,1070,提示层级,提示框层级1070,Medium
+ZIndex,ZIndex Dropdown,1050,下拉层级,下拉面板层级1050,Medium
+API,API Model,object,表单数据,表单数据对象,High
+API,API Rules,object,验证规则,表单验证规则对象,High
+API,API Layout,horizontal/vertical/inline,布局方式,表单布局方式,High
+API,API Label Col,object,标签列配置,标签栅格配置,Medium
+API,API Wrapper Col,object,控件列配置,控件栅格配置,Medium
+API,API Label Align,left/right,标签对齐,标签对齐方式,Medium
+API,API Label Width,string/number,标签宽度,标签固定宽度,Medium
+API,API Size,large/default/small,尺寸,表单控件尺寸,High
+API,API Disabled,false,禁用,是否禁用整个表单,High
+API,API Colon,true,冒号,是否显示标签冒号,Medium
+API,API Validate On Rule Change,true,规则变化验证,规则变化时重新验证,Low
+API,API Scroll To First Error,true,滚动到错误,验证失败滚动到第一个错误,High
+API,API Hide Required Mark,false,隐藏必填标记,是否隐藏必填星号,Low
+Event,Event Submit,onSubmit,提交事件,表单提交时触发,High
+Event,Event Submit Success,onFinish,提交成功事件,表单验证通过提交时触发,High
+Event,Event Submit Failed,onFinishFailed,提交失败事件,表单验证失败时触发,High
+Event,Event Validate,onValidate,验证事件,表单项验证时触发,Medium
+Event,Event Reset,onReset,重置事件,表单重置时触发,Medium
+Event,Event Values Change,onValuesChange,值变化事件,表单值变化时触发,High
+Event,Event Field Change,onFieldChange,字段变化事件,单个字段值变化时触发,Medium
+Guideline,Guideline Label Clarity,标签清晰,标签指南,标签文字应清晰描述字段含义,High
+Guideline,Guideline Required Mark,必填标记,必填指南,必填字段应显示红色星号,High
+Guideline,Guideline Placeholder,占位提示,占位符指南,使用占位符提示输入格式,Medium
+Guideline,Guideline Error Message,错误提示,错误指南,验证失败应显示具体错误原因,High
+Guideline,Guideline Help Text,帮助文字,帮助指南,复杂字段应提供帮助说明,Medium
+Guideline,Guideline Field Order,字段顺序,顺序指南,按逻辑顺序排列表单字段,High
+Guideline,Guideline Group Related,相关分组,分组指南,相关字段应分组显示,Medium
+Guideline,Guideline Inline Validation,即时验证,验证指南,重要字段应即时验证,High
+Guideline,Guideline Submit Feedback,提交反馈,反馈指南,提交后应给予明确反馈,High
+Guideline,Guideline Mobile Friendly,移动友好,移动指南,表单应适配移动端,High
+Guideline,Guideline Keyboard Navigation,键盘导航,键盘指南,支持Tab键顺序导航,High
+Guideline,Guideline Auto Save,自动保存,保存指南,长表单考虑自动保存草稿,Low
+Spacing,Spacing Form Padding,24px,表单内边距,表单整体内边距24px,High
+Spacing,Spacing Item Gap,24px,表单项间距,表单项之间间距24px,High
+Spacing,Spacing Label Control,12px,标签控件间距,标签与控件间距12px,High
+Spacing,Spacing Error Gap,4px,错误间距,错误信息与控件间距4px,Medium
+Spacing,Spacing Help Gap,4px,帮助间距,帮助信息与控件间距4px,Medium
+Spacing,Spacing Button Gap,12px,按钮间距,按钮之间间距12px,High
+Spacing,Spacing Group Gap,24px,分组间距,表单分组之间间距24px,Medium
+Extra,Extra Slot Label,label,标签插槽,支持自定义标签插槽,Low
+Extra,Extra Slot Control,control,控件插槽,支持自定义控件插槽,Low
+Extra,Extra Slot Extra,extra,额外插槽,支持额外内容插槽,Low
+Extra,Extra Slot Help,help,帮助插槽,支持自定义帮助插槽,Low
+Extra,Extra Slot Error,error,错误插槽,支持自定义错误插槽,Low

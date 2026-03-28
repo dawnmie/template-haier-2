@@ -1,0 +1,120 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Switch Purpose,开关,开关用途,开关选择器表示两种相互对立的状态间的切换,High
+Purpose,Switch Scenario,状态切换,使用场景,用于功能开启关闭/状态切换等场景,High
+Purpose,Switch Behavior,点击切换,开关行为,点击开关切换开启关闭状态,High
+Type,Type Default,默认开关,默认类型,基础开关样式,High
+Type,Type With Text,文字开关,文字类型,带文字标签的开关,Medium
+Type,Type With Icon,图标开关,图标类型,带图标的开关,Medium
+Type,Type Loading,加载开关,加载类型,带加载状态的开关,Medium
+Size,Size Large,大/40px,大尺寸,大尺寸开关宽度40px,Medium
+Size,Size Default,中/36px,默认尺寸,默认尺寸开关宽度36px,High
+Size,Size Small,小/28px,小尺寸,小尺寸开关宽度28px,Medium
+Size,Size Mini,迷你/24px,迷你尺寸,迷你尺寸开关宽度24px,Low
+SizeLarge,Large Width,40px,大尺寸宽度,大尺寸开关宽度40px,High
+SizeLarge,Large Height,24px,大尺寸高度,大尺寸开关高度24px,High
+SizeLarge,Large Handle Size,20px,大尺寸滑块大小,大尺寸滑块直径20px,High
+SizeLarge,Large Handle Offset,2px,大尺寸滑块偏移,大尺寸滑块边距2px,Medium
+SizeDefault,Default Width,36px,默认尺寸宽度,默认尺寸开关宽度36px,High
+SizeDefault,Default Height,20px,默认尺寸高度,默认尺寸开关高度20px,High
+SizeDefault,Default Handle Size,16px,默认尺寸滑块大小,默认尺寸滑块直径16px,High
+SizeDefault,Default Handle Offset,2px,默认尺寸滑块偏移,默认尺寸滑块边距2px,Medium
+SizeSmall,Small Width,28px,小尺寸宽度,小尺寸开关宽度28px,High
+SizeSmall,Small Height,16px,小尺寸高度,小尺寸开关高度16px,High
+SizeSmall,Small Handle Size,12px,小尺寸滑块大小,小尺寸滑块直径12px,High
+SizeSmall,Small Handle Offset,2px,小尺寸滑块偏移,小尺寸滑块边距2px,Medium
+SizeMini,Mini Width,24px,迷你尺寸宽度,迷你尺寸开关宽度24px,Medium
+SizeMini,Mini Height,14px,迷你尺寸高度,迷你尺寸开关高度14px,Medium
+SizeMini,Mini Handle Size,10px,迷你尺寸滑块大小,迷你尺寸滑块直径10px,Medium
+SizeMini,Mini Handle Offset,2px,迷你尺寸滑块偏移,迷你尺寸滑块边距2px,Medium
+Track,Track Border Radius,100px,轨道圆角,开关轨道全圆角,High
+Track,Track Transition,all 0.2s,轨道过渡,开关轨道过渡动画,Medium
+Track,Track Cursor,pointer,轨道光标,开关可点击光标,High
+Unchecked,Unchecked Background,#C9CDD4,关闭背景,关闭状态灰色背景#C9CDD4,High
+Unchecked,Unchecked Border,none,关闭边框,关闭状态无边框,Medium
+Unchecked,Unchecked Handle Position,left,关闭滑块位置,关闭状态滑块在左侧,High
+Unchecked,Unchecked Handle Left,2px,关闭滑块左偏移,关闭状态滑块左侧偏移2px,High
+UncheckedHover,Unchecked Hover Background,#A9AEB8,关闭悬停背景,关闭悬停深灰背景#A9AEB8,Medium
+Checked,Checked Background,#165DFF,开启背景,开启状态蓝色背景#165DFF,High
+Checked,Checked Border,none,开启边框,开启状态无边框,Medium
+Checked,Checked Handle Position,right,开启滑块位置,开启状态滑块在右侧,High
+Checked,Checked Handle Right,2px,开启滑块右偏移,开启状态滑块右侧偏移2px,High
+CheckedHover,Checked Hover Background,#4080FF,开启悬停背景,开启悬停浅蓝背景#4080FF,Medium
+Handle,Handle Background,#FFFFFF,滑块背景,滑块白色背景,High
+Handle,Handle Border Radius,50%,滑块圆角,滑块圆形,High
+Handle,Handle Shadow,0 1px 2px rgba(0 0 0 0.2),滑块阴影,滑块阴影效果,Medium
+Handle,Handle Transition,all 0.2s,滑块过渡,滑块移动过渡动画,Medium
+Handle,Handle Position,absolute,滑块定位,滑块绝对定位,High
+Handle,Handle Top,50%,滑块顶部,滑块垂直居中,High
+Handle,Handle Transform,translateY(-50%),滑块变换,滑块垂直居中变换,High
+Disabled,Disabled Background Unchecked,#F2F3F5,禁用关闭背景,禁用关闭状态浅灰背景,High
+Disabled,Disabled Background Checked,#94BFFF,禁用开启背景,禁用开启状态浅蓝背景,High
+Disabled,Disabled Handle Background,#FFFFFF,禁用滑块背景,禁用状态滑块白色背景,High
+Disabled,Disabled Cursor,not-allowed,禁用光标,禁用状态禁止光标,High
+Disabled,Disabled Opacity,1,禁用透明度,禁用状态不透明,Medium
+Loading,Loading Show,true,显示加载,开关支持加载状态,Medium
+Loading,Loading Icon,LoadingOutlined,加载图标,加载中旋转图标,Medium
+Loading,Loading Icon Size,12px,加载图标大小,加载图标12px,Medium
+Loading,Loading Icon Color,#165DFF,加载图标颜色,加载图标蓝色,Medium
+Loading,Loading Icon Position,handle,加载图标位置,加载图标在滑块内,Medium
+Loading,Loading Disabled,true,加载时禁用,加载时禁止操作,Medium
+TextInner,Text Inner Show,true,显示内部文字,开关内部显示文字,Medium
+TextInner,Text Inner Checked,开,开启文字,开启状态内部文字,Medium
+TextInner,Text Inner Unchecked,关,关闭文字,关闭状态内部文字,Medium
+TextInner,Text Inner Font Size,12px,内部文字字号,内部文字字号12px,Medium
+TextInner,Text Inner Color,#FFFFFF,内部文字颜色,内部文字白色,Medium
+TextInner,Text Inner Padding,0 6px,内部文字内边距,内部文字左右内边距6px,Medium
+TextOuter,Text Outer Show,true,显示外部文字,开关外部显示文字,Medium
+TextOuter,Text Outer Position,right,外部文字位置,外部文字在右侧,Medium
+TextOuter,Text Outer Checked,已开启,开启外部文字,开启状态外部文字,Medium
+TextOuter,Text Outer Unchecked,已关闭,关闭外部文字,关闭状态外部文字,Medium
+TextOuter,Text Outer Font Size,14px,外部文字字号,外部文字字号14px,Medium
+TextOuter,Text Outer Color,#1D2129,外部文字颜色,外部文字深色,Medium
+TextOuter,Text Outer Margin Left,8px,外部文字左间距,外部文字左侧间距8px,Medium
+IconInner,Icon Inner Show,true,显示内部图标,开关内部显示图标,Medium
+IconInner,Icon Inner Checked,CheckOutlined,开启图标,开启状态内部图标,Medium
+IconInner,Icon Inner Unchecked,CloseOutlined,关闭图标,关闭状态内部图标,Medium
+IconInner,Icon Inner Size,12px,内部图标大小,内部图标12px,Medium
+IconInner,Icon Inner Color,#FFFFFF,内部图标颜色,内部图标白色,Medium
+Focus,Focus Shadow,0 0 0 2px rgba(22 93 255 0.2),聚焦阴影,聚焦状态蓝色阴影,Medium
+Focus,Focus Outline,none,聚焦轮廓,聚焦状态无轮廓,Medium
+Label,Label Show,true,显示标签,开关显示标签,Medium
+Label,Label Position,left/right,标签位置,标签在左侧或右侧,Medium
+Label,Label Font Size,14px,标签字号,标签字号14px,Medium
+Label,Label Color,#1D2129,标签颜色,标签深色文字,Medium
+Label,Label Margin,8px,标签间距,标签与开关间距8px,Medium
+Label,Label Cursor,pointer,标签光标,标签可点击光标,Medium
+Animation,Animation Duration,200ms,动画时长,开关动画200毫秒,Medium
+Animation,Animation Timing,ease-in-out,动画缓动,开关动画缓入缓出,Low
+Animation,Animation Handle Slide,translateX,滑块滑动动画,滑块水平滑动动画,Medium
+Animation,Animation Background Fade,background-color,背景渐变动画,背景色渐变动画,Medium
+Accessibility,A11y Role,switch,无障碍角色,开关switch角色,High
+Accessibility,A11y Aria Checked,true/false,无障碍选中状态,开关选中状态,High
+Accessibility,A11y Aria Label,开关,无障碍标签,开关aria标签,High
+Accessibility,A11y Aria Disabled,true/false,无障碍禁用状态,开关禁用状态,Medium
+Accessibility,A11y Keyboard Space,toggle,空格键切换,空格键切换开关状态,High
+Accessibility,A11y Keyboard Enter,toggle,回车键切换,回车键切换开关状态,High
+Accessibility,A11y Focus Visible,0 0 0 2px rgba(22 93 255 0.2),焦点可见,键盘焦点蓝色阴影,Medium
+Accessibility,A11y Tab Index,0,Tab索引,开关可Tab聚焦,High
+API,API Checked,false,选中状态,开关是否选中,High
+API,API Default Checked,false,默认选中,开关默认是否选中,Medium
+API,API Disabled,false,禁用,是否禁用开关,High
+API,API Loading,false,加载中,是否显示加载状态,Medium
+API,API Size,default,尺寸,开关尺寸large/default/small/mini,High
+API,API Checked Children,string/slot,开启内容,开启状态显示内容,Medium
+API,API Unchecked Children,string/slot,关闭内容,关闭状态显示内容,Medium
+API,API Checked Value,true,开启值,开启状态的值,Medium
+API,API Unchecked Value,false,关闭值,关闭状态的值,Medium
+Event,Event Change,onChange,变化事件,开关状态变化时触发,High
+Event,Event Click,onClick,点击事件,点击开关时触发,Medium
+Event,Event Focus,onFocus,聚焦事件,开关聚焦时触发,Low
+Event,Event Blur,onBlur,失焦事件,开关失焦时触发,Low
+Guideline,Guideline Label,添加标签,标签指南,开关应添加标签说明功能,High
+Guideline,Guideline Default State,默认状态,默认状态指南,根据业务设置合理默认状态,Medium
+Guideline,Guideline Immediate Effect,即时生效,即时生效指南,开关切换应即时生效,High
+Guideline,Guideline Confirm Action,确认操作,确认指南,重要操作可添加二次确认,Medium
+Guideline,Guideline Loading Feedback,加载反馈,加载指南,异步操作显示加载状态,Medium
+Guideline,Guideline Disabled Reason,禁用原因,禁用指南,禁用时说明原因,Medium
+Spacing,Spacing Label Switch,8px,标签开关间距,标签与开关间距8px,High
+Spacing,Spacing Handle Edge,2px,滑块边缘间距,滑块与轨道边缘间距2px,High
+Spacing,Spacing Text Inner,6px,内部文字间距,内部文字左右间距6px,Medium
+Spacing,Spacing Switch Group,16px,开关组间距,多个开关之间间距16px,Medium

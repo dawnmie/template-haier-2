@@ -1,0 +1,167 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Page Header Purpose,展示页面标题和操作,页头用途,展示页面的标题、返回导航、操作按钮等信息,High
+Purpose,Page Header Position,页面顶部内容区首行,页头位置,页头位于页面内容区域的最顶部,High
+Structure,Page Header Height,auto,页头高度,页头高度根据内容自适应,High
+Structure,Page Header Min Height,56px,页头最小高度,页头最小高度56px,Medium
+Structure,Page Header Padding,16px 24px,页头内边距,页头上下16px左右24px内边距,High
+Structure,Page Header Background,#FFFFFF,页头背景色,页头白色背景,High
+Structure,Page Header Border Bottom,1px solid #E5E6EB,页头底部边框,页头底部分割线#E5E6EB,Medium
+Structure,Page Header Margin Bottom,16px,页头底部间距,页头与下方内容间距16px,Medium
+BackButton,Back Button Show,true,显示返回按钮,页头左侧显示返回按钮,High
+BackButton,Back Button Icon,ArrowLeftOutlined,返回按钮图标,返回按钮使用左箭头图标,High
+BackButton,Back Button Size,16px,返回按钮图标大小,返回按钮图标16px,Medium
+BackButton,Back Button Color,#4E5969,返回按钮颜色,返回按钮灰色#4E5969,Medium
+BackButton,Back Button Hover Color,#165DFF,返回按钮悬停颜色,返回按钮悬停蓝色#165DFF,Medium
+BackButton,Back Button Gap,8px,返回按钮间距,返回按钮与标题间距8px,Medium
+BackButton,Back Button Cursor,pointer,返回按钮光标,返回按钮可点击光标,Low
+Title,Title Font Size,20px,标题字号,页头标题文字20px,High
+Title,Title Font Weight,600,标题字重,页头标题加粗600,High
+Title,Title Color,#1D2129,标题颜色,页头标题深色#1D2129,High
+Title,Title Line Height,28px,标题行高,页头标题行高28px,Medium
+Title,Title Max Width,auto,标题最大宽度,标题宽度自适应,Low
+Title,Title Ellipsis,true,标题省略,标题过长显示省略号,Low
+SubTitle,SubTitle Font Size,14px,副标题字号,副标题文字14px,Medium
+SubTitle,SubTitle Font Weight,400,副标题字重,副标题常规字重400,Medium
+SubTitle,SubTitle Color,#86909C,副标题颜色,副标题灰色#86909C,Medium
+SubTitle,SubTitle Line Height,22px,副标题行高,副标题行高22px,Medium
+SubTitle,SubTitle Margin Left,12px,副标题左间距,副标题与标题间距12px,Medium
+SubTitle,SubTitle Divider,1px solid #E5E6EB,副标题分隔线,标题与副标题之间竖线分隔,Low
+Tag,Tag Height,22px,标签高度,标题旁标签高度22px,Medium
+Tag,Tag Padding,0 8px,标签内边距,标签左右内边距8px,Medium
+Tag,Tag Font Size,12px,标签字号,标签文字12px,Medium
+Tag,Tag Border Radius,2px,标签圆角,标签圆角2px,Low
+Tag,Tag Margin Left,8px,标签左间距,标签与标题间距8px,Medium
+Tag,Tag Success Background,#E8FFEA,成功标签背景,成功标签浅绿背景,Medium
+Tag,Tag Success Color,#00B42A,成功标签颜色,成功标签绿色文字,Medium
+Tag,Tag Success Border,#AFF0B5,成功标签边框,成功标签绿色边框,Low
+Tag,Tag Processing Background,#E8F3FF,进行中标签背景,进行中标签浅蓝背景,Medium
+Tag,Tag Processing Color,#165DFF,进行中标签颜色,进行中标签蓝色文字,Medium
+Tag,Tag Processing Border,#BEDAFF,进行中标签边框,进行中标签蓝色边框,Low
+Tag,Tag Warning Background,#FFF7E8,警告标签背景,警告标签浅橙背景,Medium
+Tag,Tag Warning Color,#FF7D00,警告标签颜色,警告标签橙色文字,Medium
+Tag,Tag Warning Border,#FFCF8B,警告标签边框,警告标签橙色边框,Low
+Tag,Tag Error Background,#FFECE8,错误标签背景,错误标签浅红背景,Medium
+Tag,Tag Error Color,#F53F3F,错误标签颜色,错误标签红色文字,Medium
+Tag,Tag Error Border,#FDCDC5,错误标签边框,错误标签红色边框,Low
+Tag,Tag Default Background,#F2F3F5,默认标签背景,默认标签灰色背景,Low
+Tag,Tag Default Color,#4E5969,默认标签颜色,默认标签灰色文字,Low
+Tag,Tag Default Border,#E5E6EB,默认标签边框,默认标签灰色边框,Low
+Actions,Actions Position,right,操作区位置,操作按钮区域右对齐,High
+Actions,Actions Gap,12px,操作按钮间距,操作按钮之间间距12px,High
+Actions,Actions Align,center,操作区对齐,操作区垂直居中对齐,Medium
+Actions,Primary Button Background,#165DFF,主按钮背景,主操作按钮蓝色背景,High
+Actions,Primary Button Color,#FFFFFF,主按钮颜色,主操作按钮白色文字,High
+Actions,Primary Button Height,32px,主按钮高度,主操作按钮高度32px,High
+Actions,Primary Button Padding,0 16px,主按钮内边距,主操作按钮左右内边距16px,Medium
+Actions,Primary Button Border Radius,2px,主按钮圆角,主操作按钮圆角2px,Medium
+Actions,Primary Button Hover,#0E42D2,主按钮悬停,主操作按钮悬停深蓝色,Medium
+Actions,Default Button Background,#FFFFFF,默认按钮背景,默认按钮白色背景,High
+Actions,Default Button Color,#4E5969,默认按钮颜色,默认按钮灰色文字,High
+Actions,Default Button Border,#E5E6EB,默认按钮边框,默认按钮灰色边框,High
+Actions,Default Button Hover Border,#165DFF,默认按钮悬停边框,默认按钮悬停蓝色边框,Medium
+Actions,Default Button Hover Color,#165DFF,默认按钮悬停颜色,默认按钮悬停蓝色文字,Medium
+Actions,Danger Button Background,#F53F3F,危险按钮背景,危险按钮红色背景,High
+Actions,Danger Button Color,#FFFFFF,危险按钮颜色,危险按钮白色文字,High
+Actions,Danger Button Hover,#CB2634,危险按钮悬停,危险按钮悬停深红色,Medium
+Actions,Text Button Color,#165DFF,文字按钮颜色,文字按钮蓝色,Medium
+Actions,Text Button Hover,#0E42D2,文字按钮悬停,文字按钮悬停深蓝色,Medium
+Actions,Icon Button Size,32px,图标按钮大小,图标按钮32px正方形,Medium
+Actions,Icon Button Icon Size,16px,图标按钮图标大小,图标按钮内图标16px,Medium
+Actions,More Button Icon,EllipsisOutlined,更多按钮图标,更多操作省略号图标,Low
+Actions,Dropdown Trigger,click,下拉触发方式,更多操作点击触发下拉,Low
+Breadcrumb,Breadcrumb Show,true,显示面包屑,页头上方显示面包屑导航,High
+Breadcrumb,Breadcrumb Position,above title,面包屑位置,面包屑在标题上方,High
+Breadcrumb,Breadcrumb Font Size,14px,面包屑字号,面包屑文字14px,Medium
+Breadcrumb,Breadcrumb Color,#86909C,面包屑颜色,面包屑灰色文字,Medium
+Breadcrumb,Breadcrumb Link Color,#4E5969,面包屑链接颜色,面包屑可点击项灰色,Medium
+Breadcrumb,Breadcrumb Link Hover,#165DFF,面包屑链接悬停,面包屑链接悬停蓝色,Medium
+Breadcrumb,Breadcrumb Active Color,#1D2129,面包屑当前页颜色,面包屑当前页深色,High
+Breadcrumb,Breadcrumb Separator,/,面包屑分隔符,面包屑使用斜杠分隔,Low
+Breadcrumb,Breadcrumb Separator Color,#C9CDD4,面包屑分隔符颜色,面包屑分隔符浅灰色,Low
+Breadcrumb,Breadcrumb Separator Margin,0 8px,面包屑分隔符间距,面包屑分隔符左右间距8px,Low
+Breadcrumb,Breadcrumb Margin Bottom,8px,面包屑底部间距,面包屑与标题间距8px,Medium
+Breadcrumb,Breadcrumb Icon Size,14px,面包屑图标大小,面包屑首页图标14px,Low
+Breadcrumb,Breadcrumb Home Icon,HomeOutlined,面包屑首页图标,面包屑首页使用房子图标,Low
+Description,Description Show,true,显示描述信息,页头下方显示描述信息,Medium
+Description,Description Position,below title,描述位置,描述在标题下方,Medium
+Description,Description Font Size,14px,描述字号,描述文字14px,Medium
+Description,Description Color,#86909C,描述颜色,描述灰色文字#86909C,Medium
+Description,Description Line Height,22px,描述行高,描述行高22px,Medium
+Description,Description Margin Top,8px,描述上间距,描述与标题间距8px,Medium
+Description,Description Max Lines,2,描述最大行数,描述最多显示2行,Low
+Description,Description Ellipsis,true,描述省略,描述过长显示省略号,Low
+Meta,Meta Show,true,显示元信息,页头显示元信息区域,Medium
+Meta,Meta Position,below description,元信息位置,元信息在描述下方,Medium
+Meta,Meta Font Size,14px,元信息字号,元信息文字14px,Medium
+Meta,Meta Color,#4E5969,元信息颜色,元信息灰色文字,Medium
+Meta,Meta Line Height,22px,元信息行高,元信息行高22px,Medium
+Meta,Meta Gap,24px,元信息间距,元信息项之间间距24px,Medium
+Meta,Meta Margin Top,12px,元信息上间距,元信息与上方内容间距12px,Medium
+Meta,Meta Label Color,#86909C,元信息标签颜色,元信息标签浅灰色,Medium
+Meta,Meta Value Color,#1D2129,元信息值颜色,元信息值深色,Medium
+Meta,Meta Label Width,auto,元信息标签宽度,元信息标签宽度自适应,Low
+Meta,Meta Colon,：,元信息冒号,元信息标签后中文冒号,Low
+Avatar,Avatar Show,true,显示头像,页头显示头像,Medium
+Avatar,Avatar Size,48px,头像大小,页头头像48px,Medium
+Avatar,Avatar Position,left of title,头像位置,头像在标题左侧,Medium
+Avatar,Avatar Gap,12px,头像间距,头像与标题间距12px,Medium
+Avatar,Avatar Border Radius,50%,头像圆角,头像圆形,Medium
+Avatar,Avatar Background,#165DFF,头像背景,头像蓝色背景,Medium
+Avatar,Avatar Text Color,#FFFFFF,头像文字颜色,头像白色文字,Medium
+Avatar,Avatar Font Size,18px,头像文字大小,头像文字18px,Low
+Tabs,Tabs Show,true,显示标签页,页头底部显示标签页,Medium
+Tabs,Tabs Position,bottom,标签页位置,标签页在页头底部,Medium
+Tabs,Tabs Height,40px,标签页高度,标签页高度40px,Medium
+Tabs,Tabs Item Padding,0 16px,标签项内边距,标签项左右内边距16px,Medium
+Tabs,Tabs Item Font Size,14px,标签项字号,标签项文字14px,Medium
+Tabs,Tabs Item Color,#4E5969,标签项颜色,标签项灰色文字,Medium
+Tabs,Tabs Item Hover Color,#165DFF,标签项悬停颜色,标签项悬停蓝色,Medium
+Tabs,Tabs Item Active Color,#165DFF,标签项激活颜色,标签项激活蓝色,High
+Tabs,Tabs Item Active Border,2px solid #165DFF,标签项激活边框,标签项激活底部蓝色边框,High
+Tabs,Tabs Item Gap,0,标签项间距,标签项之间无间距,Low
+Tabs,Tabs Border Bottom,1px solid #E5E6EB,标签页底边框,标签页底部分割线,Medium
+Tabs,Tabs Margin Top,16px,标签页上间距,标签页与上方内容间距16px,Medium
+Layout,Layout Flex,true,弹性布局,页头使用flex布局,High
+Layout,Layout Justify,space-between,主轴对齐,页头左右两端对齐,High
+Layout,Layout Align,flex-start,交叉轴对齐,页头顶部对齐,Medium
+Layout,Left Section Flex,1,左侧区域弹性,左侧区域占据剩余空间,Medium
+Layout,Right Section Flex,none,右侧区域弹性,右侧区域宽度自适应内容,Medium
+Layout,Title Row Align,center,标题行对齐,标题行垂直居中对齐,Medium
+Layout,Title Row Gap,8px,标题行间距,标题行元素间距8px,Medium
+Variant,Variant Default,标准页头,默认变体,标准页头包含返回/标题/操作,High
+Variant,Variant Simple,简单页头,简单变体,仅包含标题和操作按钮,Medium
+Variant,Variant Complex,复杂页头,复杂变体,包含头像/标签/描述/元信息/标签页,Medium
+Variant,Variant With Breadcrumb,带面包屑页头,面包屑变体,页头上方带面包屑导航,High
+Variant,Variant With Tabs,带标签页页头,标签页变体,页头底部带标签页切换,Medium
+Variant,Variant With Avatar,带头像页头,头像变体,页头左侧带头像,Medium
+Responsive,Responsive Breakpoint,768px,响应式断点,小于768px切换移动端样式,Medium
+Responsive,Mobile Title Size,18px,移动端标题大小,移动端标题18px,Medium
+Responsive,Mobile Actions Stack,true,移动端操作堆叠,移动端操作按钮垂直堆叠,Medium
+Responsive,Mobile Padding,12px 16px,移动端内边距,移动端页头内边距,Medium
+Responsive,Mobile Meta Stack,true,移动端元信息堆叠,移动端元信息垂直堆叠,Low
+Animation,Back Button Transition,0.2s,返回按钮过渡,返回按钮颜色过渡0.2s,Low
+Animation,Tab Switch Transition,0.3s,标签切换过渡,标签页切换动画0.3s,Low
+Animation,Hover Transition,0.15s,悬停过渡,悬停状态过渡0.15s,Low
+Accessibility,Back Button Aria,返回上一页,返回按钮无障碍标签,返回按钮aria-label,Medium
+Accessibility,Focus Ring,0 0 0 2px #165DFF40,焦点环,键盘焦点蓝色环,High
+Accessibility,Tab Focus Visible,true,标签焦点可见,标签页键盘焦点可见,Medium
+Accessibility,Min Touch Target,44px,最小触摸目标,移动端最小触摸目标44px,Medium
+ZIndex,Page Header ZIndex,10,页头层级,页头z-index 10,Low
+ZIndex,Sticky ZIndex,100,吸顶层级,吸顶状态z-index 100,Medium
+Sticky,Sticky Enable,false,启用吸顶,页头默认不吸顶,Low
+Sticky,Sticky Top,0,吸顶位置,吸顶时距顶部0,Low
+Sticky,Sticky Shadow,0 2px 8px rgba(0 0 0 0.08),吸顶阴影,吸顶时底部阴影,Low
+Sticky,Sticky Background,#FFFFFF,吸顶背景,吸顶时白色背景,Low
+Extra,Extra Content Position,right,额外内容位置,额外内容在右侧,Low
+Extra,Extra Content Align,flex-end,额外内容对齐,额外内容右对齐,Low
+Extra,Extra Content Gap,16px,额外内容间距,额外内容与操作按钮间距16px,Low
+Footer,Footer Show,false,显示页脚,页头底部页脚默认不显示,Low
+Footer,Footer Border Top,1px solid #E5E6EB,页脚顶部边框,页脚顶部分割线,Low
+Footer,Footer Padding,12px 0,页脚内边距,页脚上下内边距12px,Low
+Footer,Footer Margin Top,16px,页脚上间距,页脚与上方内容间距16px,Low
+Guideline,Primary Color,#165DFF,主色调,页头主色调蓝色#165DFF,High
+Guideline,Text Primary,#1D2129,主要文字色,主要文字颜色#1D2129,High
+Guideline,Text Regular,#4E5969,常规文字色,常规文字颜色#4E5969,High
+Guideline,Text Secondary,#86909C,次要文字色,次要文字颜色#86909C,Medium
+Guideline,Border Color,#E5E6EB,边框色,边框颜色#E5E6EB,High
+Guideline,Background,#FFFFFF,背景色,页头背景白色,High

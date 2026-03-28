@@ -1,0 +1,78 @@
+Category,Name,Value,Usage,Description,Severity
+Base,Base Unit,8px,基础单位,8点网格系统-所有间距都是8的倍数,High
+Base,Space 0,0px,无间距,零间距,Low
+Base,Space 4,4px,超小间距,0.5倍基础单位-紧凑元素间距,Medium
+Base,Space 8,8px,小间距,1倍基础单位-相关元素间距,High
+Base,Space 12,12px,中小间距,1.5倍基础单位-组件内部间距,High
+Base,Space 16,16px,中间距,2倍基础单位-区块间距,High
+Base,Space 24,24px,大间距,3倍基础单位-模块间距,High
+Base,Space 32,32px,超大间距,4倍基础单位-页面区域间距,Medium
+Base,Space 40,40px,特大间距,5倍基础单位-大区块间距,Low
+Base,Space 48,48px,巨大间距,6倍基础单位-页面顶部间距,Low
+Base,Space 56,56px,超巨间距,7倍基础单位-特殊场景,Low
+Base,Space 64,64px,最大间距,8倍基础单位-大屏场景,Low
+Inline,Inline XS,4px,行内超小间距,行内元素水平间距-紧凑,Medium
+Inline,Inline SM,8px,行内小间距,行内元素水平间距-常规,High
+Inline,Inline MD,12px,行内中间距,行内元素水平间距-宽松,High
+Inline,Inline LG,16px,行内大间距,行内元素水平间距-分组,Medium
+Inline,Inline XL,24px,行内超大间距,行内元素水平间距-区块,Medium
+Stack,Stack XS,4px,堆叠超小间距,垂直元素间距-紧凑,Medium
+Stack,Stack SM,8px,堆叠小间距,垂直元素间距-常规,High
+Stack,Stack MD,12px,堆叠中间距,垂直元素间距-宽松,High
+Stack,Stack LG,16px,堆叠大间距,垂直元素间距-分组,High
+Stack,Stack XL,24px,堆叠超大间距,垂直元素间距-区块,Medium
+Stack,Stack XXL,32px,堆叠特大间距,垂直元素间距-模块,Medium
+Component,Button Gap,8px,按钮间距,按钮之间水平间距8px,High
+Component,Button Icon Gap,8px,按钮图标间距,按钮内图标与文字间距8px,Medium
+Component,Input Label Gap,8px,输入框标签间距,标签与输入框间距8px,High
+Component,Form Item Gap,24px,表单项间距,表单项垂直间距24px,High
+Component,Form Item Gap Horizontal,16px,表单项水平间距,表单项水平间距16px,Medium
+Component,Filter Item Gap,16px,筛选项间距,筛选项之间间距16px,High
+Component,Filter Label Gap,8px,筛选标签间距,筛选标签与输入框间距8px,Medium
+Component,Table Cell Padding,12px 16px,表格单元格内边距,表格单元格内边距,High
+Component,Card Padding,16px,卡片内边距,卡片内边距16px,High
+Component,Card Padding Large,24px,大卡片内边距,大卡片内边距24px,Medium
+Component,Card Gap,16px,卡片间距,卡片之间间距16px,High
+Component,Modal Padding,24px,弹窗内边距,弹窗内容区内边距24px,High
+Component,Modal Header Padding,16px 24px,弹窗头部内边距,弹窗标题区内边距,Medium
+Component,Modal Footer Padding,10px 16px,弹窗底部内边距,弹窗按钮区内边距,Medium
+Component,Drawer Padding,24px,抽屉内边距,抽屉内容区内边距24px,High
+Component,Dropdown Item Padding,8px 12px,下拉项内边距,下拉菜单项内边距,Medium
+Component,Menu Item Padding,0 16px,菜单项内边距,菜单项左右内边距16px,High
+Component,Menu Item Height,40px,菜单项高度,菜单项高度40px,High
+Component,Tab Padding,12px 16px,标签页内边距,Tab标签内边距,Medium
+Component,Tag Padding,0 8px,标签内边距,状态标签内边距,Medium
+Component,Tooltip Padding,8px 12px,提示框内边距,Tooltip内边距,Medium
+Component,Alert Padding,8px 12px,警告框内边距,Alert内边距,Medium
+
+Layout,Page Padding,24px,页面内边距,页面内容区内边距24px,High
+Layout,Page Padding Mobile,16px,移动端页面内边距,移动端页面内边距16px,Medium
+Layout,Section Gap,24px,区块间距,页面区块之间间距24px,High
+Layout,Section Gap Large,32px,大区块间距,大区块之间间距32px,Medium
+Layout,Header Padding,0 24px,顶部导航内边距,顶部导航左右内边距24px,High
+Layout,Sider Padding,0 0 16px,侧边栏内边距,侧边栏底部内边距16px,Medium
+Layout,Content Padding,24px,内容区内边距,内容区四周内边距24px,High
+Layout,Footer Padding,0 24px,底部内边距,底部左右内边距24px,Low
+Scenario,Filter Form Gap,16px,筛选表单间距,筛选区表单项间距16px,High
+Scenario,Filter Button Gap,12px,筛选按钮间距,查询/重置按钮间距12px,Medium
+Scenario,Toolbar Gap,12px,工具栏间距,工具栏按钮间距12px,Medium
+Scenario,Table Filter Gap,16px,表格筛选间距,表格与筛选区间距16px,Medium
+Scenario,Table Pagination Gap,16px,表格分页间距,表格与分页间距16px,Medium
+Scenario,Action Link Gap,8px,操作链接间距,操作链接之间间距8px,Medium
+Scenario,Breadcrumb Gap,8px,面包屑间距,面包屑项之间间距8px,Medium
+Scenario,Steps Gap,8px,步骤条间距,步骤项之间间距8px,Low
+Scenario,Avatar Group Gap,-8px,头像组重叠,头像组重叠间距-8px,Low
+Scenario,Checkbox Group Gap,8px,复选框组间距,复选框组项间距8px,Medium
+Scenario,Radio Group Gap,8px,单选框组间距,单选框组项间距8px,Medium
+Scenario,Select Tag Gap,4px,选择器标签间距,多选标签间距4px,Low
+Responsive,Mobile Gap,12px,移动端间距,移动端默认间距12px,Medium
+Responsive,Tablet Gap,16px,平板间距,平板默认间距16px,Medium
+Responsive,Desktop Gap,24px,桌面端间距,桌面端默认间距24px,High
+Responsive,Large Screen Gap,32px,大屏间距,大屏默认间距32px,Medium
+Negative,Margin Negative 4,-4px,负间距4,负间距-4px,Low
+Negative,Margin Negative 8,-8px,负间距8,负间距-8px,Low
+Negative,Margin Negative 12,-12px,负间距12,负间距-12px,Low
+Negative,Margin Negative 16,-16px,负间距16,负间距-16px,Low
+Auto,Margin Auto,auto,自动间距,自动居中间距,Medium
+Auto,Margin Auto Horizontal,0 auto,水平自动居中,水平方向自动居中,Medium
+Auto,Margin Auto Vertical,auto 0,垂直自动居中,垂直方向自动居中,Low

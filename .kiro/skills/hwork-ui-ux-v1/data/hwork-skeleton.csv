@@ -1,0 +1,205 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Skeleton Line Height Small,12px,小骨架屏行高,小尺寸骨架屏行高12px,Medium
+Size,Skeleton Line Height Default,16px,默认骨架屏行高,默认骨架屏行高16px,High
+Size,Skeleton Line Height Large,20px,大骨架屏行高,大尺寸骨架屏行高20px,Medium
+Size,Skeleton Line Width,100%,骨架屏行宽度,骨架屏行宽度100%,High
+Size,Skeleton Line Gap,12px,骨架屏行间距,骨架屏行间距12px,High
+Size,Skeleton Avatar Size Small,32px,小头像骨架尺寸,小尺寸头像骨架32px,Medium
+Size,Skeleton Avatar Size Default,40px,默认头像骨架尺寸,默认头像骨架40px,High
+Size,Skeleton Avatar Size Large,64px,大头像骨架尺寸,大尺寸头像骨架64px,Medium
+Size,Skeleton Avatar Size XLarge,80px,超大头像骨架尺寸,超大头像骨架80px,Low
+Size,Skeleton Title Width,40%,标题骨架宽度,标题骨架宽度40%,High
+Size,Skeleton Title Height,16px,标题骨架高度,标题骨架高度16px,High
+Size,Skeleton Paragraph Width,100%,段落骨架宽度,段落骨架宽度100%,High
+Size,Skeleton Paragraph Height,16px,段落骨架高度,段落骨架高度16px,High
+Size,Skeleton Paragraph Last Width,60%,段落最后行宽度,段落最后行宽度60%,Medium
+Size,Skeleton Button Width Small,64px,小按钮骨架宽度,小按钮骨架宽度64px,Medium
+Size,Skeleton Button Width Default,80px,默认按钮骨架宽度,默认按钮骨架宽度80px,Medium
+Size,Skeleton Button Width Large,96px,大按钮骨架宽度,大按钮骨架宽度96px,Low
+Size,Skeleton Button Height Small,24px,小按钮骨架高度,小按钮骨架高度24px,Medium
+Size,Skeleton Button Height Default,32px,默认按钮骨架高度,默认按钮骨架高度32px,Medium
+Size,Skeleton Button Height Large,40px,大按钮骨架高度,大按钮骨架高度40px,Low
+Size,Skeleton Image Width,100%,图片骨架宽度,图片骨架宽度100%,Medium
+Size,Skeleton Image Height,200px,图片骨架高度,图片骨架高度200px,Medium
+Size,Skeleton Card Padding,16px,卡片骨架内边距,卡片骨架内边距16px,Medium
+Size,Skeleton Border Radius,4px,骨架屏圆角,骨架屏圆角4px,High
+Size,Skeleton Avatar Border Radius,50%,头像骨架圆角,头像骨架圆形50%,High
+Size,Skeleton Button Border Radius,2px,按钮骨架圆角,按钮骨架圆角2px,Medium
+Color,Skeleton Background,#F2F3F5,骨架屏背景,骨架屏灰色背景#F2F3F5,High
+Color,Skeleton Background Light,#FAFAFA,骨架屏浅色背景,骨架屏浅灰色背景#FAFAFA,Medium
+Color,Skeleton Background Dark,#E5E6EB,骨架屏深色背景,骨架屏深灰色背景#E5E6EB,Low
+Color,Skeleton Animation From,#F2F3F5,动画起始颜色,动画起始灰色#F2F3F5,High
+Color,Skeleton Animation To,#E5E6EB,动画结束颜色,动画结束深灰#E5E6EB,High
+Color,Skeleton Shimmer Color,rgba(255 255 255 0.8),闪烁颜色,闪烁半透明白色,Medium
+Type,Type Text,text,文本类型,文本骨架屏,High
+Type,Type Avatar,avatar,头像类型,头像骨架屏,High
+Type,Type Image,image,图片类型,图片骨架屏,Medium
+Type,Type Button,button,按钮类型,按钮骨架屏,Medium
+Type,Type Input,input,输入框类型,输入框骨架屏,Medium
+Type,Type Card,card,卡片类型,卡片骨架屏,High
+Type,Type List,list,列表类型,列表骨架屏,High
+Type,Type Table,table,表格类型,表格骨架屏,Medium
+Shape,Shape Default,default,默认形状,默认矩形形状,High
+Shape,Shape Circle,circle,圆形形状,圆形骨架,High
+Shape,Shape Square,square,方形形状,方形骨架,Medium
+Shape,Shape Round,round,圆角形状,圆角矩形骨架,Medium
+Animation,Animation Enabled,true,启用动画,启用骨架屏动画,High
+Animation,Animation Disabled,false,禁用动画,禁用骨架屏动画,Low
+Animation,Animation Type Wave,wave,波浪动画,波浪闪烁动画,High
+Animation,Animation Type Pulse,pulse,脉冲动画,脉冲动画效果,Medium
+Animation,Animation Type Shimmer,shimmer,闪烁动画,闪烁动画效果,Medium
+Animation,Animation Duration,1.5s,动画时长,骨架屏动画时长1.5s,High
+Animation,Animation Timing,ease-in-out,动画曲线,骨架屏动画曲线,Medium
+Animation,Animation Delay,0s,动画延迟,骨架屏动画延迟0s,Low
+Animation,Animation Iteration,infinite,动画循环,骨架屏动画无限循环,High
+Animation,Animation Direction,normal,动画方向,骨架屏动画正向,Medium
+Wave,Wave Animation,true,波浪动画,启用波浪动画效果,High
+Wave,Wave Duration,1.5s,波浪动画时长,波浪动画时长1.5s,High
+Wave,Wave Timing,ease-in-out,波浪动画曲线,波浪动画曲线,Medium
+Wave,Wave Gradient,linear-gradient(90deg rgba(0 0 0 0.05) 25% rgba(0 0 0 0.15) 37% rgba(0 0 0 0.05) 63%),波浪渐变,波浪渐变效果,High
+Wave,Wave Background Size,400% 100%,波浪背景尺寸,波浪背景尺寸,Medium
+Wave,Wave Animation Name,skeleton-wave,波浪动画名称,波浪动画关键帧名称,Low
+Pulse,Pulse Animation,false,脉冲动画,不启用脉冲动画,Low
+Pulse,Pulse Duration,1.5s,脉冲动画时长,脉冲动画时长1.5s,Low
+Pulse,Pulse Timing,ease-in-out,脉冲动画曲线,脉冲动画曲线,Low
+Pulse,Pulse Opacity From,1,脉冲起始透明度,脉冲起始透明度1,Low
+Pulse,Pulse Opacity To,0.4,脉冲结束透明度,脉冲结束透明度0.4,Low
+Shimmer,Shimmer Animation,false,闪烁动画,不启用闪烁动画,Low
+Shimmer,Shimmer Duration,2s,闪烁动画时长,闪烁动画时长2s,Low
+Shimmer,Shimmer Timing,linear,闪烁动画曲线,闪烁动画线性曲线,Low
+Shimmer,Shimmer Angle,45deg,闪烁角度,闪烁角度45度,Low
+Shimmer,Shimmer Width,200px,闪烁宽度,闪烁宽度200px,Low
+Loading,Loading State,true,加载状态,骨架屏加载状态,High
+Loading,Loading Finished,false,加载完成,骨架屏加载完成状态,High
+Loading,Loading Delay,0ms,加载延迟,骨架屏加载延迟0ms,Low
+Active,Active State,true,激活状态,骨架屏激活状态,High
+Active,Active Animation,true,激活动画,激活状态显示动画,High
+Rows,Rows Count,3,行数,骨架屏行数3,High
+Rows,Rows Gap,12px,行间距,骨架屏行间距12px,High
+Rows,Rows Width Array,[100% 100% 60%],行宽度数组,骨架屏各行宽度数组,Medium
+Paragraph,Paragraph Rows,3,段落行数,段落骨架行数3,High
+Paragraph,Paragraph Width,100%,段落宽度,段落骨架宽度100%,High
+Paragraph,Paragraph Last Width,60%,段落最后行宽度,段落最后行宽度60%,Medium
+Title,Title Visible,true,显示标题,显示标题骨架,High
+Title,Title Hidden,false,隐藏标题,隐藏标题骨架,Low
+Title,Title Width,40%,标题宽度,标题骨架宽度40%,High
+Title,Title Height,16px,标题高度,标题骨架高度16px,High
+Title,Title Margin Bottom,12px,标题底部间距,标题底部间距12px,Medium
+Avatar,Avatar Visible,true,显示头像,显示头像骨架,High
+Avatar,Avatar Hidden,false,隐藏头像,隐藏头像骨架,Low
+Avatar,Avatar Size,40px,头像尺寸,头像骨架尺寸40px,High
+Avatar,Avatar Shape Circle,circle,头像圆形,头像骨架圆形,High
+Avatar,Avatar Shape Square,square,头像方形,头像骨架方形,Medium
+Avatar,Avatar Position Left,left,头像左侧,头像在左侧,High
+Avatar,Avatar Position Right,right,头像右侧,头像在右侧,Low
+Avatar,Avatar Margin Right,16px,头像右间距,头像右间距16px,Medium
+Image,Image Width,100%,图片宽度,图片骨架宽度100%,Medium
+Image,Image Height,200px,图片高度,图片骨架高度200px,Medium
+Image,Image Aspect Ratio,16/9,图片宽高比,图片骨架宽高比16:9,Low
+Image,Image Border Radius,4px,图片圆角,图片骨架圆角4px,Medium
+Button,Button Visible,false,显示按钮,不显示按钮骨架,Low
+Button,Button Width,80px,按钮宽度,按钮骨架宽度80px,Low
+Button,Button Height,32px,按钮高度,按钮骨架高度32px,Low
+Button,Button Border Radius,2px,按钮圆角,按钮骨架圆角2px,Low
+Input,Input Width,100%,输入框宽度,输入框骨架宽度100%,Medium
+Input,Input Height,32px,输入框高度,输入框骨架高度32px,Medium
+Input,Input Border Radius,2px,输入框圆角,输入框骨架圆角2px,Medium
+Card,Card Padding,16px,卡片内边距,卡片骨架内边距16px,Medium
+Card,Card Border Radius,8px,卡片圆角,卡片骨架圆角8px,Medium
+Card,Card Background,#FFFFFF,卡片背景,卡片骨架白色背景,Medium
+Card,Card Shadow,0 2px 8px rgba(0 0 0 0.08),卡片阴影,卡片骨架阴影效果,Low
+List,List Item Count,3,列表项数量,列表骨架项数量3,High
+List,List Item Gap,16px,列表项间距,列表项间距16px,Medium
+List,List Item Padding,16px,列表项内边距,列表项内边距16px,Medium
+List,List Item Border Bottom,1px solid #E5E6EB,列表项底部边框,列表项底部灰色边框,Low
+Table,Table Row Count,5,表格行数,表格骨架行数5,Medium
+Table,Table Column Count,4,表格列数,表格骨架列数4,Medium
+Table,Table Cell Height,48px,表格单元格高度,表格单元格高度48px,Medium
+Table,Table Cell Padding,12px 16px,表格单元格内边距,表格单元格内边距,Medium
+Table,Table Header Height,56px,表格头部高度,表格头部高度56px,Medium
+Table,Table Border,1px solid #E5E6EB,表格边框,表格灰色边框,Low
+Layout,Layout Vertical,vertical,垂直布局,垂直排列布局,High
+Layout,Layout Horizontal,horizontal,水平布局,水平排列布局,Medium
+Layout,Layout Grid,grid,网格布局,网格排列布局,Medium
+Layout,Layout Flex,flex,弹性布局,弹性盒子布局,High
+Layout,Layout Gap,16px,布局间距,布局元素间距16px,Medium
+Variant,Variant Basic,basic,基础变体,基础骨架屏样式,High
+Variant,Variant List,list,列表变体,列表骨架屏样式,High
+Variant,Variant Card,card,卡片变体,卡片骨架屏样式,High
+Variant,Variant Article,article,文章变体,文章骨架屏样式,Medium
+Variant,Variant Form,form,表单变体,表单骨架屏样式,Medium
+Variant,Variant Table,table,表格变体,表格骨架屏样式,Medium
+Content,Content Avatar Text,avatar-text,头像文本,头像加文本组合,High
+Content,Content Avatar List,avatar-list,头像列表,头像加列表组合,High
+Content,Content Image Text,image-text,图片文本,图片加文本组合,Medium
+Content,Content Card Grid,card-grid,卡片网格,卡片网格组合,High
+Responsive,Mobile Line Height,14px,移动端行高,移动端骨架行高14px,Medium
+Responsive,Mobile Avatar Size,32px,移动端头像尺寸,移动端头像骨架32px,Medium
+Responsive,Mobile Card Padding,12px,移动端卡片内边距,移动端卡片内边距12px,Medium
+Responsive,Mobile List Item Gap,12px,移动端列表项间距,移动端列表项间距12px,Medium
+Responsive,Tablet Line Height,16px,平板端行高,平板端骨架行高16px,Low
+Responsive,Tablet Avatar Size,40px,平板端头像尺寸,平板端头像骨架40px,Low
+Usage,Basic Usage,基础骨架屏,基础骨架屏场景,用于基础内容加载,High
+Usage,List Usage,列表骨架屏,列表骨架屏场景,用于列表内容加载,High
+Usage,Card Usage,卡片骨架屏,卡片骨架屏场景,用于卡片内容加载,High
+Usage,Table Usage,表格骨架屏,表格骨架屏场景,用于表格内容加载,Medium
+Usage,Form Usage,表单骨架屏,表单骨架屏场景,用于表单内容加载,Medium
+Usage,Article Usage,文章骨架屏,文章骨架屏场景,用于文章内容加载,Medium
+Guideline,Show Animation,true,显示动画,建议显示加载动画,High
+Guideline,Match Content,true,匹配内容,建议匹配实际内容结构,High
+Guideline,Rows Count,3-5,行数建议,建议行数3-5行,High
+Guideline,Avatar With Text,true,头像配文本,建议头像配合文本使用,High
+Guideline,Last Row Width,60%,最后行宽度,建议最后行宽度60%,Medium
+Guideline,Animation Duration,1.5s,动画时长建议,建议动画时长1.5s,Medium
+Guideline,Background Color,#F2F3F5,背景颜色建议,建议使用灰色背景,High
+Guideline,Border Radius,4px,圆角建议,建议圆角4px,Medium
+Accessibility,ARIA Busy,true,ARIA忙碌状态,使用aria-busy属性,High
+Accessibility,ARIA Live,polite,ARIA实时区域,使用aria-live属性,Medium
+Accessibility,ARIA Label,正在加载,ARIA标签,使用aria-label描述加载状态,High
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,Loading Text,正在加载中...,加载文字,提供加载状态文字,High
+Performance,GPU Acceleration,true,GPU加速,启用GPU加速,Medium
+Performance,Will Change,transform,Will Change属性,使用will-change优化,Low
+Performance,Render Optimization,true,渲染优化,启用渲染优化,Medium
+Performance,Lazy Render,false,延迟渲染,不延迟渲染,Low
+Performance,Virtual List,false,虚拟列表,不使用虚拟列表,Low
+Event,On Load,supported,加载事件,支持加载事件,Medium
+Event,On Finish,supported,完成事件,支持加载完成事件,Medium
+Method,Show,supported,显示方法,支持显示骨架屏,High
+Method,Hide,supported,隐藏方法,支持隐藏骨架屏,High
+Method,Reset,supported,重置方法,支持重置骨架屏,Low
+Props,Loading,supported,加载属性,支持设置加载状态,High
+Props,Active,supported,激活属性,支持设置激活状态,High
+Props,Avatar,supported,头像属性,支持设置头像骨架,High
+Props,Title,supported,标题属性,支持设置标题骨架,High
+Props,Paragraph,supported,段落属性,支持设置段落骨架,High
+Props,Rows,supported,行数属性,支持设置行数,High
+Props,Animation,supported,动画属性,支持设置动画效果,High
+Props,Round,supported,圆角属性,支持设置圆角,Medium
+Slot,Default Slot,supported,默认插槽,支持默认内容插槽,High
+Slot,Avatar Slot,supported,头像插槽,支持头像插槽,Medium
+Slot,Title Slot,supported,标题插槽,支持标题插槽,Medium
+Slot,Paragraph Slot,supported,段落插槽,支持段落插槽,Medium
+Custom,Custom Rows,supported,自定义行数,支持自定义行数,High
+Custom,Custom Width,supported,自定义宽度,支持自定义宽度,High
+Custom,Custom Height,supported,自定义高度,支持自定义高度,Medium
+Custom,Custom Shape,supported,自定义形状,支持自定义形状,Medium
+Custom,Custom Animation,supported,自定义动画,支持自定义动画,Medium
+Theme,Theme Light,light,浅色主题,浅色主题样式,High
+Theme,Theme Dark,dark,深色主题,深色主题样式,Low
+Theme,Dark Background,#2E2E30,深色背景,深色主题背景#2E2E30,Low
+Theme,Dark Animation From,#2E2E30,深色动画起始,深色主题动画起始色,Low
+Theme,Dark Animation To,#3E3E42,深色动画结束,深色主题动画结束色,Low
+Transition,Transition Property,opacity,过渡属性,过渡透明度属性,Medium
+Transition,Transition Duration,0.3s,过渡时长,过渡时长0.3s,Medium
+Transition,Transition Timing,ease,过渡曲线,过渡曲线ease,Medium
+Transition,Fade In Duration,0.3s,淡入时长,淡入动画时长0.3s,Low
+Transition,Fade Out Duration,0.3s,淡出时长,淡出动画时长0.3s,Low
+State,State Loading,loading,加载状态,骨架屏加载状态,High
+State,State Loaded,loaded,已加载状态,骨架屏已加载状态,High
+State,State Error,error,错误状态,骨架屏错误状态,Low
+Spin,Spin Type,spin,旋转类型,旋转加载类型,Medium
+Spin,Spin Size,32px,旋转尺寸,旋转加载图标尺寸32px,Medium
+Spin,Spin Color,#165DFF,旋转颜色,旋转加载图标蓝色#165DFF,Medium
+Spin,Spin Duration,1s,旋转时长,旋转动画时长1s,Medium
+Spin,Spin Tip,加载中...,旋转提示,旋转加载提示文字,Medium

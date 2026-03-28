@@ -1,0 +1,183 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Transfer Purpose,穿梭框,穿梭框用途,需要在多个可选项中进行多选时比起Select和TreeSelect穿梭框占据更大的空间可以展示可选项的更多信息,High
+Purpose,Transfer Scenario,多选转移,使用场景,选择一个或以上的选项后点击对应的方向键可以把选中的选项移动到另一栏,High
+Purpose,Transfer Behavior,左右穿梭,穿梭行为,其中左边一栏为来源右边一栏为目标API的设计也反映了这两个概念,High
+Type,Type Basic,基本穿梭框,基本类型,基础穿梭框样式,High
+Type,Type Search,带搜索穿梭框,搜索类型,支持搜索过滤的穿梭框,High
+Type,Type Tree,树穿梭框,树类型,树形结构的穿梭框,Medium
+Type,Type Table,表格穿梭框,表格类型,表格形式的穿梭框,Medium
+Type,Type Modal,弹窗穿梭框,弹窗类型,在弹窗中展示的穿梭框,High
+Type,Type Simple,简单穿梭框,简单类型,简化版穿梭框无操作按钮,Low
+Container,Container Display,flex,容器显示,穿梭框flex布局,High
+Container,Container Align Items,stretch,容器对齐,穿梭框拉伸对齐,Medium
+Container,Container Gap,16px,容器间距,左右面板间距16px,High
+Panel,Panel Width,200px,面板宽度,单个面板宽度200px,High
+Panel,Panel Min Width,180px,面板最小宽度,面板最小宽度180px,Medium
+Panel,Panel Height,300px,面板高度,面板高度300px,High
+Panel,Panel Background,#FFFFFF,面板背景,面板白色背景,High
+Panel,Panel Border,1px solid #E5E6EB,面板边框,面板灰色边框,High
+Panel,Panel Border Radius,4px,面板圆角,面板圆角4px,High
+Panel,Panel Overflow,hidden,面板溢出,面板内容溢出隐藏,Medium
+PanelHeader,Header Height,40px,头部高度,面板头部高度40px,High
+PanelHeader,Header Padding,0 12px,头部内边距,头部左右内边距12px,High
+PanelHeader,Header Background,#F7F8FA,头部背景,头部浅灰背景,High
+PanelHeader,Header Border Bottom,1px solid #E5E6EB,头部底边框,头部底部分隔线,Medium
+PanelHeader,Header Display,flex,头部显示,头部flex布局,High
+PanelHeader,Header Justify,space-between,头部对齐,头部两端对齐,High
+PanelHeader,Header Align Items,center,头部垂直对齐,头部垂直居中,Medium
+PanelHeader,Header Title Font Size,14px,头部标题字号,头部标题字号14px,High
+PanelHeader,Header Title Color,#1D2129,头部标题颜色,头部标题深色文字,High
+PanelHeader,Header Title Font Weight,500,头部标题字重,头部标题中等字重,Medium
+PanelHeader,Header Count Font Size,12px,头部计数字号,头部计数字号12px,Medium
+PanelHeader,Header Count Color,#86909C,头部计数颜色,头部计数灰色文字,Medium
+SourcePanel,Source Title,来源,来源标题,左侧面板标题来源,High
+SourcePanel,Source Position,left,来源位置,来源面板在左侧,High
+SourcePanel,Source Checkbox All,true,来源全选,来源面板支持全选,High
+TargetPanel,Target Title,目标,目标标题,右侧面板标题目标,High
+TargetPanel,Target Position,right,目标位置,目标面板在右侧,High
+TargetPanel,Target Checkbox All,true,目标全选,目标面板支持全选,High
+PanelBody,Body Padding,8px 0,内容内边距,面板内容上下内边距8px,High
+PanelBody,Body Max Height,220px,内容最大高度,面板内容最大高度220px,High
+PanelBody,Body Overflow Y,auto,内容垂直溢出,面板内容垂直滚动,High
+PanelBody,Body Overflow X,hidden,内容水平溢出,面板内容水平隐藏,Medium
+Item,Item Height,32px,选项高度,选项高度32px,High
+Item,Item Padding,0 12px,选项内边距,选项左右内边距12px,High
+Item,Item Display,flex,选项显示,选项flex布局,High
+Item,Item Align Items,center,选项对齐,选项垂直居中,Medium
+Item,Item Cursor,pointer,选项光标,选项可点击光标,High
+Item,Item Font Size,14px,选项字号,选项字号14px,High
+Item,Item Color,#1D2129,选项颜色,选项深色文字,High
+Item,Item Background,transparent,选项背景,选项默认透明背景,Medium
+Item,Item Border Radius,0,选项圆角,选项无圆角,Medium
+Item,Item Transition,background-color 0.2s,选项过渡,选项背景过渡动画,Low
+ItemHover,Item Hover Background,#F2F3F5,选项悬停背景,悬停时灰色背景,High
+ItemHover,Item Hover Color,#1D2129,选项悬停颜色,悬停时深色文字,Medium
+ItemSelected,Item Selected Background,#E8F3FF,选项选中背景,选中时浅蓝背景,High
+ItemSelected,Item Selected Color,#165DFF,选项选中颜色,选中时蓝色文字,High
+ItemDisabled,Item Disabled Color,#C9CDD4,选项禁用颜色,禁用时灰色文字,High
+ItemDisabled,Item Disabled Background,transparent,选项禁用背景,禁用时透明背景,Medium
+ItemDisabled,Item Disabled Cursor,not-allowed,选项禁用光标,禁用时禁止光标,High
+Checkbox,Checkbox Size,16px,复选框大小,复选框16px,High
+Checkbox,Checkbox Margin Right,8px,复选框右间距,复选框右侧间距8px,High
+Checkbox,Checkbox Border Radius,2px,复选框圆角,复选框圆角2px,Medium
+Checkbox,Checkbox Unchecked Border,1px solid #C9CDD4,未选中边框,未选中灰色边框,High
+Checkbox,Checkbox Unchecked Background,#FFFFFF,未选中背景,未选中白色背景,High
+Checkbox,Checkbox Checked Border,1px solid #165DFF,选中边框,选中蓝色边框,High
+Checkbox,Checkbox Checked Background,#165DFF,选中背景,选中蓝色背景,High
+Checkbox,Checkbox Checked Icon,CheckOutlined,选中图标,选中勾选图标,High
+Checkbox,Checkbox Checked Icon Color,#FFFFFF,选中图标颜色,选中图标白色,High
+Checkbox,Checkbox Indeterminate Background,#165DFF,半选背景,半选蓝色背景,Medium
+Checkbox,Checkbox Disabled Background,#F2F3F5,禁用背景,禁用灰色背景,Medium
+Operation,Operation Width,40px,操作区宽度,操作按钮区域宽度40px,High
+Operation,Operation Display,flex,操作区显示,操作区flex布局,High
+Operation,Operation Flex Direction,column,操作区方向,操作区垂直排列,High
+Operation,Operation Justify,center,操作区对齐,操作区垂直居中,High
+Operation,Operation Align Items,center,操作区水平对齐,操作区水平居中,Medium
+Operation,Operation Gap,8px,操作区间距,操作按钮间距8px,High
+OperationButton,Button Width,24px,操作按钮宽度,操作按钮宽度24px,High
+OperationButton,Button Height,24px,操作按钮高度,操作按钮高度24px,High
+OperationButton,Button Border Radius,2px,操作按钮圆角,操作按钮圆角2px,Medium
+OperationButton,Button Border,1px solid #E5E6EB,操作按钮边框,操作按钮灰色边框,High
+OperationButton,Button Background,#FFFFFF,操作按钮背景,操作按钮白色背景,High
+OperationButton,Button Icon Size,12px,操作按钮图标大小,操作按钮图标12px,High
+OperationButton,Button Icon Color,#4E5969,操作按钮图标颜色,操作按钮图标灰色,High
+OperationButton,Button To Right Icon,RightOutlined,向右按钮图标,向右移动箭头图标,High
+OperationButton,Button To Left Icon,LeftOutlined,向左按钮图标,向左移动箭头图标,High
+OperationButton,Button Hover Background,#F2F3F5,操作按钮悬停背景,悬停时灰色背景,Medium
+OperationButton,Button Hover Border,1px solid #165DFF,操作按钮悬停边框,悬停时蓝色边框,Medium
+OperationButton,Button Hover Icon Color,#165DFF,操作按钮悬停图标颜色,悬停时蓝色图标,Medium
+OperationButton,Button Active Background,#165DFF,操作按钮激活背景,有选中项时蓝色背景,High
+OperationButton,Button Active Border,1px solid #165DFF,操作按钮激活边框,有选中项时蓝色边框,High
+OperationButton,Button Active Icon Color,#FFFFFF,操作按钮激活图标颜色,有选中项时白色图标,High
+OperationButton,Button Disabled Background,#F2F3F5,操作按钮禁用背景,禁用时灰色背景,High
+OperationButton,Button Disabled Border,1px solid #E5E6EB,操作按钮禁用边框,禁用时灰色边框,High
+OperationButton,Button Disabled Icon Color,#C9CDD4,操作按钮禁用图标颜色,禁用时灰色图标,High
+OperationButton,Button Disabled Cursor,not-allowed,操作按钮禁用光标,禁用时禁止光标,High
+Search,Search Show,true,显示搜索,穿梭框支持搜索,High
+Search,Search Position,header,搜索位置,搜索框在头部下方,High
+Search,Search Height,32px,搜索框高度,搜索框高度32px,High
+Search,Search Margin,8px 12px,搜索框外边距,搜索框外边距,Medium
+Search,Search Padding,0 8px,搜索框内边距,搜索框内边距,Medium
+Search,Search Border,1px solid #E5E6EB,搜索框边框,搜索框灰色边框,High
+Search,Search Border Radius,2px,搜索框圆角,搜索框圆角2px,Medium
+Search,Search Placeholder,关键词搜索,搜索占位符,搜索框占位符文字,High
+Search,Search Icon,SearchOutlined,搜索图标,搜索框搜索图标,Medium
+Search,Search Icon Color,#86909C,搜索图标颜色,搜索图标灰色,Medium
+Search,Search Clear Icon,CloseCircleFilled,搜索清除图标,搜索框清除图标,Medium
+Search,Search Highlight Color,#165DFF,搜索高亮颜色,搜索匹配文字蓝色高亮,Medium
+Tree,Tree Show,true,显示树形,穿梭框支持树形结构,Medium
+Tree,Tree Indent,24px,树缩进,树节点缩进24px,Medium
+Tree,Tree Expand Icon,CaretDownFilled,树展开图标,树展开收起图标,Medium
+Tree,Tree Expand Icon Size,12px,树展开图标大小,树展开图标12px,Medium
+Tree,Tree Checkable,true,树可选,树节点可选中,Medium
+Tree,Tree Check Strictly,false,树严格选中,父子节点选中关联,Medium
+Avatar,Avatar Show,true,显示头像,选项显示头像,Medium
+Avatar,Avatar Size,24px,头像大小,头像24px,Medium
+Avatar,Avatar Margin Right,8px,头像右间距,头像右侧间距8px,Medium
+Avatar,Avatar Border Radius,50%,头像圆角,头像圆形,Medium
+Avatar,Avatar Background,#165DFF,头像背景,头像蓝色背景,Medium
+Description,Description Show,true,显示描述,选项显示描述信息,Medium
+Description,Description Font Size,12px,描述字号,描述字号12px,Medium
+Description,Description Color,#86909C,描述颜色,描述灰色文字,Medium
+Description,Description Margin Left,8px,描述左间距,描述左侧间距8px,Medium
+Empty,Empty Show,true,显示空状态,无数据时显示空状态,High
+Empty,Empty Icon,InboxOutlined,空状态图标,空状态图标,Medium
+Empty,Empty Icon Size,48px,空状态图标大小,空状态图标48px,Medium
+Empty,Empty Icon Color,#C9CDD4,空状态图标颜色,空状态图标灰色,Medium
+Empty,Empty Text,暂无数据,空状态文字,空状态提示文字,High
+Empty,Empty Text Color,#86909C,空状态文字颜色,空状态文字灰色,Medium
+Empty,Empty Text Font Size,14px,空状态文字字号,空状态文字14px,Medium
+Empty,Empty Padding,32px 0,空状态内边距,空状态上下内边距32px,Medium
+ModalTransfer,Modal Width,720px,弹窗宽度,弹窗穿梭框宽度720px,High
+ModalTransfer,Modal Title,选择人员,弹窗标题,弹窗穿梭框标题,High
+ModalTransfer,Modal Panel Width,300px,弹窗面板宽度,弹窗内面板宽度300px,High
+ModalTransfer,Modal Panel Height,400px,弹窗面板高度,弹窗内面板高度400px,High
+ModalTransfer,Modal Footer Height,56px,弹窗底部高度,弹窗底部高度56px,High
+ModalTransfer,Modal Footer Padding,0 24px,弹窗底部内边距,弹窗底部内边距,Medium
+ModalTransfer,Modal Footer Align,right,弹窗底部对齐,弹窗底部按钮右对齐,High
+ModalTransfer,Modal Cancel Button,取消,取消按钮文字,弹窗取消按钮文字,High
+ModalTransfer,Modal Confirm Button,确定,确定按钮文字,弹窗确定按钮文字,High
+ModalTransfer,Modal Selected Count,已选 N 项,已选计数,弹窗显示已选数量,High
+ModalTransfer,Modal Clear Button,全部清除,清除按钮文字,弹窗清除按钮文字,Medium
+Scroll,Scroll Bar Width,4px,滚动条宽度,滚动条宽度4px,Low
+Scroll,Scroll Bar Color,#E5E6EB,滚动条颜色,滚动条灰色,Low
+Scroll,Scroll Bar Hover Color,#C9CDD4,滚动条悬停颜色,悬停时深灰色,Low
+Scroll,Scroll Bar Border Radius,2px,滚动条圆角,滚动条圆角2px,Low
+Animation,Animation Duration,200ms,动画时长,穿梭动画200毫秒,Low
+Animation,Animation Timing,ease-out,动画缓动,动画缓出效果,Low
+Animation,Animation Item Move,slideIn,选项移动动画,选项移动滑入动画,Low
+Accessibility,A11y Role,listbox,无障碍角色,穿梭框listbox角色,High
+Accessibility,A11y Aria Label,穿梭框,无障碍标签,穿梭框aria标签,High
+Accessibility,A11y Keyboard Navigation,true,键盘导航,支持键盘导航,High
+Accessibility,A11y Arrow Keys,选项导航,方向键,方向键导航选项,Medium
+Accessibility,A11y Space,切换选中,空格键,空格键切换选中,Medium
+Accessibility,A11y Enter,移动选项,回车键,回车键移动选项,Medium
+Accessibility,A11y Focus Visible,2px solid #165DFF,焦点可见,键盘焦点蓝色边框,Medium
+ZIndex,ZIndex Modal,1000,弹窗层级,弹窗穿梭框层级1000,High
+ZIndex,ZIndex Dropdown,1050,下拉层级,下拉面板层级1050,Medium
+API,API Data Source,array,数据源,穿梭框数据源数组,High
+API,API Target Keys,array,目标键,已选中的键数组,High
+API,API Selected Keys,array,选中键,当前选中的键数组,Medium
+API,API Disabled,false,禁用,是否禁用穿梭框,High
+API,API Show Search,false,显示搜索,是否显示搜索框,High
+API,API Show Select All,true,显示全选,是否显示全选复选框,High
+API,API Titles,[来源 目标],标题,左右面板标题,High
+API,API Operations,[> <],操作按钮,操作按钮文字,Medium
+API,API List Style,object,列表样式,自定义列表样式,Low
+API,API Filter Option,function,过滤函数,自定义过滤函数,Medium
+API,API Render,function,渲染函数,自定义选项渲染函数,Medium
+API,API One Way,false,单向模式,是否为单向穿梭,Low
+Event,Event Change,onChange,变化事件,目标键变化时触发,High
+Event,Event Select Change,onSelectChange,选中变化事件,选中键变化时触发,Medium
+Event,Event Search,onSearch,搜索事件,搜索输入时触发,Medium
+Event,Event Scroll,onScroll,滚动事件,列表滚动时触发,Low
+Guideline,Guideline Panel Title,面板标题,标题指南,左右面板应有明确标题,High
+Guideline,Guideline Search,搜索功能,搜索指南,数据量大时启用搜索功能,High
+Guideline,Guideline Empty State,空状态,空状态指南,无数据时显示空状态提示,High
+Guideline,Guideline Selection Feedback,选中反馈,反馈指南,选中项应有明确视觉反馈,High
+Guideline,Guideline Operation Button,操作按钮,按钮指南,操作按钮状态应与选中项关联,High
+Guideline,Guideline Count Display,数量显示,数量指南,显示已选数量和总数量,Medium
+Spacing,Spacing Panel Gap,16px,面板间距,左右面板间距16px,High
+Spacing,Spacing Header Padding,0 12px,头部内边距,头部左右内边距12px,Medium
+Spacing,Spacing Item Padding,0 12px,选项内边距,选项左右内边距12px,Medium
+Spacing,Spacing Checkbox Label,8px,复选框标签间距,复选框与标签间距8px,Medium

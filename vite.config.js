@@ -1,7 +1,7 @@
 import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import Components from 'unplugin-vue-components/vite'
-import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
+import Components from '@hwork/unplugin-vue-components/vite'
+import { AntDesignVueResolver } from '@hwork/unplugin-vue-components/resolvers'
 import qiankun from 'vite-plugin-qiankun'
 import { join } from 'path'
 
@@ -69,6 +69,9 @@ export default defineConfig(({ mode, command }) => {
             '^/api': '/api'
           }
         }
+      },
+      hmr: {
+        overlay: false // 禁用错误遮罩层（红屏），但错误仍会在控制台显示
       },
       headers: {
         'Access-Control-Allow-Origin': '*'

@@ -1,0 +1,240 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,TreeSelect Purpose,树选择,树选择器用途,类似Select的选择控件可选择的数据结构是一个树形结构时可以使用TreeSelect,High
+Purpose,TreeSelect Scenario,树形数据选择,使用场景,用于组织架构/学科体系/分类级联等场景,High
+Purpose,TreeSelect Behavior,点击弹出树面板,树选择行为,点击TreeSelect然后可以在浮层中选择树节点,High
+Type,Type Basic,基础用法,基础类型,展示常规的树形选择结构可按需多选单选,High
+Type,Type Multiple,可复选用法,多选类型,支持多选的树形选择,High
+Type,Type Checkable,复选框模式,复选框类型,带复选框的树形选择,High
+Type,Type Search,可搜索,搜索类型,支持搜索过滤的树形选择,High
+Size,Size Large,40px,大尺寸,大尺寸树选择器高度40px,Medium
+Size,Size Default,32px,默认尺寸,默认尺寸树选择器高度32px,High
+Size,Size Small,28px,小尺寸,小尺寸树选择器高度28px,Medium
+Selector,Selector Height,32px,选择器高度,树选择器高度32px,High
+Selector,Selector Min Height,32px,选择器最小高度,多选时最小高度32px,High
+Selector,Selector Padding,0 12px,选择器内边距,树选择器左右内边距12px,High
+Selector,Selector Border Radius,2px,选择器圆角,树选择器圆角2px,High
+Selector,Selector Border,1px solid #E5E6EB,选择器边框,树选择器灰色边框,High
+Selector,Selector Background,#FFFFFF,选择器背景,树选择器白色背景,High
+Selector,Selector Min Width,200px,选择器最小宽度,树选择器最小宽度200px,Medium
+Default,Default Border,1px solid #E5E6EB,默认边框,默认状态灰色边框#E5E6EB,High
+Default,Default Color,#1D2129,默认文字颜色,默认状态深色文字,High
+Default,Default Placeholder,#C9CDD4,默认占位符颜色,默认状态占位符灰色,High
+Default,Default Placeholder Text,请选择,默认占位符文字,默认占位符文字请选择,High
+Hover,Hover Border,1px solid #C9CDD4,悬停边框,悬停状态深灰边框,Medium
+Focus,Focus Border,1px solid #165DFF,聚焦边框,聚焦状态蓝色边框#165DFF,High
+Focus,Focus Shadow,0 0 0 2px rgba(22 93 255 0.1),聚焦阴影,聚焦状态蓝色阴影,High
+Disabled,Disabled Background,#F2F3F5,禁用背景,禁用状态灰色背景,High
+Disabled,Disabled Border,1px solid #E5E6EB,禁用边框,禁用状态灰色边框,High
+Disabled,Disabled Color,#C9CDD4,禁用文字颜色,禁用状态灰色文字,High
+Error,Error Border,1px solid #F53F3F,错误边框,错误状态红色边框,High
+Error,Error Focus Shadow,0 0 0 2px rgba(245 63 63 0.1),错误聚焦阴影,错误聚焦状态红色阴影,Medium
+Icon,Icon Arrow,DownOutlined,下拉箭头图标,选择器下拉箭头图标,High
+Icon,Icon Arrow Size,14px,箭头图标大小,下拉箭头14px,Medium
+Icon,Icon Arrow Color,#86909C,箭头图标颜色,下拉箭头灰色#86909C,Medium
+Icon,Icon Arrow Rotate,180deg,箭头旋转角度,展开时箭头旋转180度,Medium
+Icon,Icon Arrow Transition,transform 0.2s,箭头过渡动画,箭头旋转过渡动画,Low
+Clear,Clear Show,true,显示清除,树选择器支持清除按钮,High
+Clear,Clear Icon,CloseCircleFilled,清除图标,清除按钮圆形关闭图标,High
+Clear,Clear Icon Size,14px,清除图标大小,清除图标14px,Medium
+Clear,Clear Icon Color,#C9CDD4,清除图标颜色,清除图标灰色,Medium
+Clear,Clear Visibility,hover,清除显示时机,悬停时显示清除按钮,Medium
+Panel,Panel Background,#FFFFFF,面板背景,树面板白色背景,High
+Panel,Panel Border,none,面板边框,树面板无边框,Medium
+Panel,Panel Border Radius,4px,面板圆角,树面板圆角4px,High
+Panel,Panel Shadow,0 4px 10px rgba(0 0 0 0.1),面板阴影,树面板阴影效果,High
+Panel,Panel Padding,4px 0,面板内边距,树面板上下内边距4px,Medium
+Panel,Panel Margin Top,4px,面板顶部间距,树面板与选择器间距4px,Medium
+Panel,Panel Max Height,256px,面板最大高度,树面板最大高度256px,High
+Panel,Panel Min Width,200px,面板最小宽度,树面板最小宽度200px,Medium
+Panel,Panel Overflow,auto,面板溢出,树面板内容溢出滚动,Medium
+TreeNode,Node Height,32px,节点高度,树节点高度32px,High
+TreeNode,Node Padding,0 12px,节点内边距,树节点左右内边距12px,High
+TreeNode,Node Padding Left Base,12px,节点基础左内边距,树节点基础左内边距12px,Medium
+TreeNode,Node Indent,24px,节点缩进,每级节点缩进24px,High
+TreeNode,Node Font Size,14px,节点字号,树节点字号14px,High
+TreeNode,Node Line Height,32px,节点行高,树节点行高32px,Medium
+TreeNode,Node Color,#1D2129,节点颜色,树节点深色文字,High
+TreeNode,Node Background,transparent,节点背景,树节点默认透明背景,Medium
+TreeNode,Node Cursor,pointer,节点光标,树节点可点击光标,Medium
+TreeNode,Node Border Radius,2px,节点圆角,树节点圆角2px,Medium
+TreeNode,Node Transition,all 0.2s,节点过渡,树节点状态过渡动画,Low
+NodeHover,Node Hover Background,#F2F3F5,节点悬停背景,悬停时灰色背景#F2F3F5,High
+NodeHover,Node Hover Color,#1D2129,节点悬停颜色,悬停时深色文字,Medium
+NodeSelected,Node Selected Background,#E8F3FF,节点选中背景,选中时浅蓝背景#E8F3FF,High
+NodeSelected,Node Selected Color,#165DFF,节点选中颜色,选中时蓝色文字#165DFF,High
+NodeSelected,Node Selected Font Weight,400,节点选中字重,选中时常规字重,Medium
+NodeDisabled,Node Disabled Color,#C9CDD4,节点禁用颜色,禁用时灰色文字,High
+NodeDisabled,Node Disabled Background,transparent,节点禁用背景,禁用时透明背景,Medium
+NodeDisabled,Node Disabled Cursor,not-allowed,节点禁用光标,禁用时禁止光标,High
+ExpandIcon,Expand Icon Type,CaretDownFilled,展开图标类型,展开收起三角图标,High
+ExpandIcon,Expand Icon Size,12px,展开图标大小,展开图标12px,Medium
+ExpandIcon,Expand Icon Color,#86909C,展开图标颜色,展开图标灰色#86909C,Medium
+ExpandIcon,Expand Icon Margin Right,4px,展开图标右间距,展开图标右侧间距4px,Medium
+ExpandIcon,Expand Icon Rotate,0deg,展开图标旋转收起,收起状态旋转0度,Medium
+ExpandIcon,Expand Icon Rotate Expanded,-90deg,展开图标旋转展开,展开状态旋转-90度,Medium
+ExpandIcon,Expand Icon Transition,transform 0.2s,展开图标过渡,展开图标旋转过渡动画,Low
+ExpandIcon,Expand Icon Cursor,pointer,展开图标光标,展开图标可点击光标,Medium
+Checkbox,Checkbox Show,true,显示复选框,复选模式显示复选框,High
+Checkbox,Checkbox Size,16px,复选框大小,复选框16px,High
+Checkbox,Checkbox Border Radius,2px,复选框圆角,复选框圆角2px,Medium
+Checkbox,Checkbox Margin Right,8px,复选框右间距,复选框右侧间距8px,Medium
+Checkbox,Checkbox Unchecked Border,1px solid #C9CDD4,未选中边框,未选中灰色边框,High
+Checkbox,Checkbox Unchecked Background,#FFFFFF,未选中背景,未选中白色背景,High
+Checkbox,Checkbox Hover Border,1px solid #165DFF,悬停边框,悬停时蓝色边框,Medium
+Checkbox,Checkbox Checked Border,1px solid #165DFF,选中边框,选中时蓝色边框,High
+Checkbox,Checkbox Checked Background,#165DFF,选中背景,选中时蓝色背景#165DFF,High
+Checkbox,Checkbox Checked Icon,CheckOutlined,选中图标,选中时勾选图标,High
+Checkbox,Checkbox Checked Icon Color,#FFFFFF,选中图标颜色,选中图标白色,High
+Checkbox,Checkbox Indeterminate Border,1px solid #165DFF,半选边框,半选时蓝色边框,High
+Checkbox,Checkbox Indeterminate Background,#165DFF,半选背景,半选时蓝色背景,High
+Checkbox,Checkbox Indeterminate Icon,MinusOutlined,半选图标,半选时横线图标,High
+Checkbox,Checkbox Disabled Border,1px solid #E5E6EB,禁用边框,禁用时灰色边框,Medium
+Checkbox,Checkbox Disabled Background,#F2F3F5,禁用背景,禁用时灰色背景,Medium
+Checkbox,Checkbox Disabled Checked Background,#94BFFF,禁用选中背景,禁用选中浅蓝背景,Medium
+NodeIcon,Node Icon Show,true,显示节点图标,树节点显示图标,Medium
+NodeIcon,Node Icon Size,16px,节点图标大小,节点图标16px,Medium
+NodeIcon,Node Icon Color,#86909C,节点图标颜色,节点图标灰色,Medium
+NodeIcon,Node Icon Margin Right,8px,节点图标右间距,节点图标右侧间距8px,Medium
+NodeIcon,Node Icon Folder,FolderOutlined,文件夹图标,文件夹节点图标,Medium
+NodeIcon,Node Icon Folder Open,FolderOpenOutlined,文件夹展开图标,文件夹展开时图标,Medium
+NodeIcon,Node Icon File,FileOutlined,文件图标,文件节点图标,Medium
+Search,Search Show,true,显示搜索,树选择器支持搜索,High
+Search,Search Position,dropdown,搜索位置,搜索框在下拉面板内,High
+Search,Search Placeholder,请输入关键词,搜索占位符,搜索框占位符文字,High
+Search,Search Height,32px,搜索框高度,搜索框高度32px,Medium
+Search,Search Padding,8px 12px,搜索框内边距,搜索框内边距,Medium
+Search,Search Border Bottom,1px solid #E5E6EB,搜索框底边框,搜索框底部分隔线,Medium
+Search,Search Icon,SearchOutlined,搜索图标,搜索框搜索图标,Medium
+Search,Search Icon Color,#86909C,搜索图标颜色,搜索图标灰色,Medium
+Search,Search Clear Icon,CloseCircleFilled,搜索清除图标,搜索框清除图标,Medium
+Search,Search Highlight Color,#165DFF,搜索高亮颜色,搜索匹配文字蓝色高亮,High
+Search,Search Highlight Background,transparent,搜索高亮背景,搜索匹配文字透明背景,Medium
+Search,Search No Result Text,无匹配数据,无结果文字,搜索无结果提示文字,Medium
+Search,Search No Result Color,#86909C,无结果颜色,无结果提示灰色文字,Medium
+Multiple,Multiple Tag Show,true,显示标签,多选时显示标签,High
+Multiple,Multiple Tag Height,24px,标签高度,多选标签高度24px,High
+Multiple,Multiple Tag Padding,0 8px,标签内边距,多选标签内边距,Medium
+Multiple,Multiple Tag Background,#F2F3F5,标签背景,多选标签灰色背景,High
+Multiple,Multiple Tag Color,#1D2129,标签颜色,多选标签深色文字,High
+Multiple,Multiple Tag Font Size,14px,标签字号,多选标签字号14px,Medium
+Multiple,Multiple Tag Border Radius,2px,标签圆角,多选标签圆角2px,Medium
+Multiple,Multiple Tag Margin,2px 4px 2px 0,标签外边距,多选标签外边距,Medium
+Multiple,Multiple Tag Close Icon,CloseOutlined,标签关闭图标,多选标签关闭图标,High
+Multiple,Multiple Tag Close Size,12px,标签关闭图标大小,关闭图标12px,Medium
+Multiple,Multiple Tag Close Color,#86909C,标签关闭图标颜色,关闭图标灰色,Medium
+Multiple,Multiple Tag Close Hover Color,#4E5969,标签关闭悬停颜色,关闭图标悬停深灰,Medium
+Multiple,Multiple Tag Max Count,responsive,标签最大数量,标签数量响应式显示,Medium
+Multiple,Multiple Tag Collapse,+N,标签折叠显示,超出标签显示+N,Medium
+Multiple,Multiple Tag Collapse Background,#F2F3F5,折叠标签背景,折叠标签灰色背景,Medium
+Multiple,Multiple Max Tag Count,3,最大标签数,最多显示3个标签,Medium
+Multiple,Multiple Max Tag Placeholder,+{count},超出占位符,超出标签数占位符,Medium
+SelectStrategy,Strategy All,all,全选策略,选中所有节点包括父子,Medium
+SelectStrategy,Strategy Parent,parent,父节点策略,只选中父节点,Medium
+SelectStrategy,Strategy Children,children,子节点策略,只选中子节点,Medium
+SelectStrategy,Strategy Check Strictly,true,严格选中,父子节点选中不关联,High
+SelectStrategy,Strategy Show Checked Strategy,all/parent/child,显示选中策略,显示选中节点的策略,Medium
+TreeLine,Tree Line Show,false,显示连接线,是否显示树连接线,Low
+TreeLine,Tree Line Color,#E5E6EB,连接线颜色,树连接线灰色,Low
+TreeLine,Tree Line Width,1px,连接线宽度,树连接线宽度1px,Low
+TreeLine,Tree Line Style,dashed,连接线样式,树连接线虚线样式,Low
+LoadMore,Load More Show,true,显示加载更多,支持异步加载子节点,Medium
+LoadMore,Load More Icon,LoadingOutlined,加载图标,加载中旋转图标,Medium
+LoadMore,Load More Icon Size,14px,加载图标大小,加载图标14px,Medium
+LoadMore,Load More Icon Color,#165DFF,加载图标颜色,加载图标蓝色,Medium
+LoadMore,Load More Text,加载中...,加载文字,加载中提示文字,Medium
+Empty,Empty Show,true,显示空状态,无数据时显示空状态,High
+Empty,Empty Icon,InboxOutlined,空状态图标,空状态图标,Medium
+Empty,Empty Icon Size,48px,空状态图标大小,空状态图标48px,Medium
+Empty,Empty Icon Color,#C9CDD4,空状态图标颜色,空状态图标灰色,Medium
+Empty,Empty Text,暂无数据,空状态文字,空状态提示文字,High
+Empty,Empty Text Color,#86909C,空状态文字颜色,空状态文字灰色,Medium
+Empty,Empty Text Font Size,14px,空状态文字字号,空状态文字14px,Medium
+Empty,Empty Padding,32px 0,空状态内边距,空状态上下内边距32px,Medium
+Layout,Layout Vertical,垂直结构,垂直布局,标签在上选择器在下的垂直布局,High
+Layout,Layout Horizontal,水平结构,水平布局,标签在左选择器在右的水平布局,High
+Layout,Vertical Gap,4px,垂直间距,垂直结构标签与选择器间距4px,Medium
+Layout,Horizontal Gap,8px,水平间距,水平结构标签与选择器间距8px,Medium
+Label,Label Font Size,14px,标签字号,标签文字字号14px,High
+Label,Label Color,#1D2129,标签颜色,标签深色文字#1D2129,High
+Label,Label Font Weight,400,标签字重,标签常规字重,Medium
+Label,Label Line Height,22px,标签行高,标签行高22px,Medium
+Label,Label Required,*,必填标记,必填项显示红色星号,High
+Label,Label Required Color,#F53F3F,必填标记颜色,必填星号红色#F53F3F,High
+Trigger,Trigger Type,click,触发类型,点击触发面板,High
+Trigger,Trigger Position,bottom-start,触发位置,面板在下方左对齐,High
+Trigger,Trigger Auto Adjust,true,触发自动调整,空间不足时自动调整位置,Medium
+Trigger,Trigger Click Outside Close,true,点击外部关闭,点击面板外部关闭,High
+Trigger,Trigger Esc Close,true,ESC关闭,按ESC键关闭面板,High
+Animation,Animation Enter,fadeIn slideDown,进入动画,面板进入淡入下滑动画,Medium
+Animation,Animation Leave,fadeOut slideUp,离开动画,面板离开淡出上滑动画,Medium
+Animation,Animation Duration,200ms,动画时长,动画持续200毫秒,Medium
+Animation,Animation Timing,ease-out,动画缓动,动画缓出效果,Low
+Animation,Animation Expand Duration,200ms,展开动画时长,节点展开动画200毫秒,Low
+Scroll,Scroll Bar Width,4px,滚动条宽度,滚动条宽度4px,Low
+Scroll,Scroll Bar Color,#E5E6EB,滚动条颜色,滚动条灰色,Low
+Scroll,Scroll Bar Hover Color,#C9CDD4,滚动条悬停颜色,悬停时深灰色,Low
+Scroll,Scroll Bar Border Radius,2px,滚动条圆角,滚动条圆角2px,Low
+Scroll,Scroll Behavior,smooth,滚动行为,平滑滚动,Medium
+Virtual,Virtual Scroll,true,虚拟滚动,大数据量时启用虚拟滚动,Medium
+Virtual,Virtual Item Height,32px,虚拟项高度,虚拟滚动项高度32px,Medium
+Virtual,Virtual Buffer,5,虚拟缓冲,虚拟滚动缓冲区5项,Low
+Responsive,Responsive Mobile Width,100%,移动端宽度,移动端全宽,Medium
+Responsive,Responsive Mobile Panel,bottom-sheet,移动端面板,移动端底部弹出,Medium
+Responsive,Responsive Breakpoint,768px,响应断点,移动端断点768px,Medium
+Accessibility,A11y Role,combobox,无障碍角色,树选择器combobox角色,High
+Accessibility,A11y Aria Label,树选择,无障碍标签,树选择器aria标签,High
+Accessibility,A11y Aria Expanded,true/false,无障碍展开状态,面板展开状态,Medium
+Accessibility,A11y Aria Haspopup,tree,无障碍弹出类型,弹出tree类型,Medium
+Accessibility,A11y Keyboard Navigation,true,键盘导航,支持键盘导航,High
+Accessibility,A11y Arrow Up,上一节点,上箭头,上箭头选择上一节点,Medium
+Accessibility,A11y Arrow Down,下一节点,下箭头,下箭头选择下一节点,Medium
+Accessibility,A11y Arrow Left,收起节点,左箭头,左箭头收起节点,Medium
+Accessibility,A11y Arrow Right,展开节点,右箭头,右箭头展开节点,Medium
+Accessibility,A11y Enter,确认选择,回车键,回车键确认选择,Medium
+Accessibility,A11y Space,切换选中,空格键,空格键切换选中状态,Medium
+Accessibility,A11y Focus Visible,2px solid #165DFF,焦点可见,键盘焦点蓝色边框,Medium
+ZIndex,ZIndex Panel,1050,面板层级,树面板层级1050,High
+ZIndex,ZIndex Above Modal,1060,模态框上层级,在模态框中时层级1060,Medium
+Validation,Validation Trigger,blur,验证触发,失焦时触发验证,High
+Validation,Validation Error Border,1px solid #F53F3F,验证错误边框,验证错误红色边框,High
+Validation,Validation Error Message Position,bottom,错误信息位置,错误信息在选择器下方,Medium
+Validation,Validation Error Message Color,#F53F3F,错误信息颜色,错误信息红色文字,High
+Validation,Validation Error Message Font Size,12px,错误信息字号,错误信息字号12px,Medium
+API,API Value,string/string[],值类型,选中值类型字符串或数组,High
+API,API Default Value,undefined,默认值,默认值未定义,Medium
+API,API Tree Data,array,树数据,树形结构数据数组,High
+API,API Field Names,{label value children},字段名,自定义字段名映射,Medium
+API,API Disabled,false,禁用,是否禁用树选择器,High
+API,API Multiple,false,多选,是否支持多选,High
+API,API Checkable,false,复选框,是否显示复选框,High
+API,API Check Strictly,false,严格选中,父子节点选中不关联,Medium
+API,API Show Search,false,显示搜索,是否显示搜索框,High
+API,API Filter Tree Node,function,过滤函数,自定义过滤函数,Medium
+API,API Placeholder,请选择,占位符,选择器占位符文字,High
+API,API Size,default,尺寸,选择器尺寸large/default/small,High
+API,API Allow Clear,true,允许清除,是否显示清除按钮,High
+API,API Max Tag Count,responsive,最大标签数,多选时最大显示标签数,Medium
+API,API Tree Default Expand All,false,默认全部展开,是否默认展开所有节点,Medium
+API,API Tree Default Expanded Keys,array,默认展开节点,默认展开的节点key数组,Medium
+API,API Load Data,function,异步加载,异步加载子节点函数,Medium
+API,API Show Tree Line,false,显示连接线,是否显示树连接线,Low
+Event,Event Change,onChange,值变化事件,选中值变化时触发,High
+Event,Event Select,onSelect,选择事件,选择节点时触发,High
+Event,Event Tree Expand,onTreeExpand,展开事件,节点展开收起时触发,Medium
+Event,Event Search,onSearch,搜索事件,搜索输入时触发,Medium
+Event,Event Dropdown Visible Change,onDropdownVisibleChange,面板显示事件,面板显示隐藏时触发,Medium
+Event,Event Focus,onFocus,聚焦事件,选择器聚焦时触发,Medium
+Event,Event Blur,onBlur,失焦事件,选择器失焦时触发,Medium
+Event,Event Clear,onClear,清除事件,点击清除按钮时触发,Medium
+Guideline,Guideline Label,添加标签,标签指南,树选择器应添加标签说明,High
+Guideline,Guideline Placeholder,使用占位符,占位符指南,使用占位符提示选择内容,Medium
+Guideline,Guideline Default Expand,合理展开,展开指南,根据数据量合理设置默认展开层级,Medium
+Guideline,Guideline Search,大数据搜索,搜索指南,数据量大时启用搜索功能,High
+Guideline,Guideline Virtual Scroll,虚拟滚动,虚拟滚动指南,超过1000条数据启用虚拟滚动,Medium
+Guideline,Guideline Check Strategy,选中策略,选中策略指南,根据业务需求选择合适的选中策略,Medium
+Guideline,Guideline Async Load,异步加载,异步加载指南,大数据量时使用异步加载子节点,Medium
+Spacing,Spacing Label Selector,4px,标签选择器间距,标签与选择器间距4px,Medium
+Spacing,Spacing Selector Panel,4px,选择器面板间距,选择器与面板间距4px,Medium
+Spacing,Spacing Node Indent,24px,节点缩进间距,每级节点缩进24px,High
+Spacing,Spacing Checkbox Label,8px,复选框标签间距,复选框与标签间距8px,Medium
+Spacing,Spacing Icon Label,8px,图标标签间距,图标与标签间距8px,Medium

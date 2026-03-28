@@ -1,0 +1,156 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Dropdown Purpose,向下弹出菜单列表,下拉菜单用途,向下弹出的菜单列表用于承载操作命令,High
+Purpose,Dropdown Scenario,操作命令/筛选选择,使用场景,用于操作命令集合或筛选选择场景,High
+Purpose,Dropdown Behavior,点击/悬停触发,下拉行为,点击或悬停触发下拉菜单显示,High
+Trigger,Trigger Type Click,click,点击触发,点击触发下拉菜单,High
+Trigger,Trigger Type Hover,hover,悬停触发,悬停触发下拉菜单,Medium
+Trigger,Trigger Type Context,contextMenu,右键触发,右键触发下拉菜单,Low
+Trigger,Trigger Delay Show,100ms,显示延迟,悬停触发显示延迟100ms,Low
+Trigger,Trigger Delay Hide,100ms,隐藏延迟,悬停触发隐藏延迟100ms,Low
+Panel,Panel Background,#FFFFFF,面板背景,下拉面板白色背景,High
+Panel,Panel Border,none,面板边框,下拉面板无边框,Medium
+Panel,Panel Border Radius,4px,面板圆角,下拉面板圆角4px,High
+Panel,Panel Shadow,0 4px 10px rgba(0 0 0 0.1),面板阴影,下拉面板阴影效果,High
+Panel,Panel Min Width,120px,面板最小宽度,下拉面板最小宽度120px,Medium
+Panel,Panel Max Width,280px,面板最大宽度,下拉面板最大宽度280px,Medium
+Panel,Panel Max Height,300px,面板最大高度,下拉面板最大高度300px超出滚动,Medium
+Panel,Panel Padding,4px 0,面板内边距,下拉面板上下内边距4px,High
+Panel,Panel Margin Top,4px,面板顶部间距,下拉面板与触发器间距4px,Medium
+Item,Item Height,36px,菜单项高度,下拉菜单项高度36px,High
+Item,Item Padding,0 12px,菜单项内边距,下拉菜单项左右内边距12px,High
+Item,Item Font Size,14px,菜单项字号,下拉菜单项文字14px,High
+Item,Item Color,#1D2129,菜单项颜色,下拉菜单项深色文字,High
+Item,Item Line Height,36px,菜单项行高,下拉菜单项行高36px,Medium
+Item,Item Background,transparent,菜单项背景,下拉菜单项透明背景,Medium
+Item,Item Hover Background,#F2F3F5,菜单项悬停背景,下拉菜单项悬停灰色背景,High
+Item,Item Hover Color,#1D2129,菜单项悬停颜色,下拉菜单项悬停深色文字,Medium
+Item,Item Active Background,#E8F3FF,菜单项激活背景,下拉菜单项激活蓝色背景,High
+Item,Item Active Color,#165DFF,菜单项激活颜色,下拉菜单项激活蓝色文字,High
+Item,Item Cursor,pointer,菜单项光标,下拉菜单项可点击光标,Low
+Item,Item Transition,background 0.2s,菜单项过渡,下拉菜单项背景过渡0.2s,Low
+Disabled,Disabled Color,#C9CDD4,禁用颜色,禁用菜单项灰色文字,High
+Disabled,Disabled Background,transparent,禁用背景,禁用菜单项透明背景,Medium
+Disabled,Disabled Cursor,not-allowed,禁用光标,禁用菜单项禁止光标,Medium
+Disabled,Disabled Opacity,1,禁用透明度,禁用菜单项不透明,Low
+Danger,Danger Color,#F53F3F,危险颜色,危险菜单项红色文字,High
+Danger,Danger Hover Background,#FFECE8,危险悬停背景,危险菜单项悬停浅红背景,High
+Danger,Danger Hover Color,#F53F3F,危险悬停颜色,危险菜单项悬停红色文字,Medium
+Icon,Icon Show,true,显示图标,菜单项支持显示图标,Medium
+Icon,Icon Size,16px,图标大小,菜单项图标16px,Medium
+Icon,Icon Gap,8px,图标间距,图标与文字间距8px,Medium
+Icon,Icon Position,left,图标位置,图标在文字左侧,Medium
+Icon,Icon Color Inherit,true,图标颜色继承,图标颜色继承文字颜色,Low
+Arrow,Arrow Show,true,显示箭头,子菜单项显示右箭头,Medium
+Arrow,Arrow Icon,RightOutlined,箭头图标,子菜单右箭头图标,Medium
+Arrow,Arrow Size,12px,箭头大小,子菜单箭头12px,Low
+Arrow,Arrow Color,#86909C,箭头颜色,子菜单箭头灰色,Low
+Arrow,Arrow Position,right,箭头位置,子菜单箭头在右侧,Low
+Divider,Divider Show,true,显示分割线,菜单项之间显示分割线,Medium
+Divider,Divider Height,1px,分割线高度,分割线高度1px,Low
+Divider,Divider Color,#E5E6EB,分割线颜色,分割线灰色,Medium
+Divider,Divider Margin,4px 12px,分割线间距,分割线上下4px左右12px间距,Low
+Group,Group Title Show,true,显示分组标题,菜单支持分组标题,Medium
+Group,Group Title Height,32px,分组标题高度,分组标题高度32px,Medium
+Group,Group Title Padding,0 12px,分组标题内边距,分组标题左右内边距12px,Medium
+Group,Group Title Font Size,12px,分组标题字号,分组标题文字12px,Medium
+Group,Group Title Color,#86909C,分组标题颜色,分组标题灰色文字,Medium
+Group,Group Title Font Weight,400,分组标题字重,分组标题常规字重,Low
+Group,Group Title Background,transparent,分组标题背景,分组标题透明背景,Low
+SubMenu,SubMenu Trigger,hover,子菜单触发,子菜单悬停触发,Medium
+SubMenu,SubMenu Delay,200ms,子菜单延迟,子菜单显示延迟200ms,Low
+SubMenu,SubMenu Position,right,子菜单位置,子菜单在右侧展开,Medium
+SubMenu,SubMenu Offset,4px,子菜单偏移,子菜单水平偏移4px,Low
+SubMenu,SubMenu Panel Same Style,true,子菜单面板样式,子菜单面板样式与主菜单一致,Medium
+Checkbox,Checkbox Show,true,显示复选框,菜单项支持复选框,Medium
+Checkbox,Checkbox Size,16px,复选框大小,复选框16px,Medium
+Checkbox,Checkbox Gap,8px,复选框间距,复选框与文字间距8px,Medium
+Checkbox,Checkbox Position,left,复选框位置,复选框在文字左侧,Medium
+Checkbox,Checkbox Checked Color,#165DFF,复选框选中颜色,复选框选中蓝色,High
+Checkbox,Checkbox Unchecked Border,#C9CDD4,复选框未选边框,复选框未选灰色边框,Medium
+Radio,Radio Show,true,显示单选框,菜单项支持单选框,Medium
+Radio,Radio Size,16px,单选框大小,单选框16px,Medium
+Radio,Radio Gap,8px,单选框间距,单选框与文字间距8px,Medium
+Radio,Radio Position,left,单选框位置,单选框在文字左侧,Medium
+Radio,Radio Checked Color,#165DFF,单选框选中颜色,单选框选中蓝色,High
+Selected,Selected Icon,CheckOutlined,选中图标,选中项显示勾选图标,Medium
+Selected,Selected Icon Size,14px,选中图标大小,选中图标14px,Low
+Selected,Selected Icon Color,#165DFF,选中图标颜色,选中图标蓝色,Medium
+Selected,Selected Icon Position,right,选中图标位置,选中图标在右侧,Medium
+Selected,Selected Background,#E8F3FF,选中背景,选中项浅蓝背景,High
+Selected,Selected Color,#165DFF,选中颜色,选中项蓝色文字,High
+Search,Search Show,true,显示搜索,下拉菜单支持搜索,Medium
+Search,Search Position,top,搜索位置,搜索框在菜单顶部,Medium
+Search,Search Height,32px,搜索框高度,搜索框高度32px,Medium
+Search,Search Padding,8px 12px,搜索区内边距,搜索区域内边距,Medium
+Search,Search Input Border,1px solid #E5E6EB,搜索框边框,搜索框灰色边框,Medium
+Search,Search Input Border Radius,2px,搜索框圆角,搜索框圆角2px,Low
+Search,Search Placeholder,搜索,搜索占位符,搜索框占位符文字,Low
+Search,Search Icon,SearchOutlined,搜索图标,搜索框搜索图标,Low
+Placement,Placement Bottom,bottom,底部弹出,下拉菜单在触发器下方弹出,High
+Placement,Placement Bottom Left,bottomLeft,左下弹出,下拉菜单在触发器左下方弹出,Medium
+Placement,Placement Bottom Right,bottomRight,右下弹出,下拉菜单在触发器右下方弹出,Medium
+Placement,Placement Top,top,顶部弹出,下拉菜单在触发器上方弹出,Low
+Placement,Placement Top Left,topLeft,左上弹出,下拉菜单在触发器左上方弹出,Low
+Placement,Placement Top Right,topRight,右上弹出,下拉菜单在触发器右上方弹出,Low
+Spacing,Spacing Panel Padding Top,4px,面板顶部内边距,下拉面板顶部内边距4px,Medium
+Spacing,Spacing Panel Padding Bottom,4px,面板底部内边距,下拉面板底部内边距4px,Medium
+Spacing,Spacing Panel Padding Left,0,面板左侧内边距,下拉面板左侧内边距0,Low
+Spacing,Spacing Panel Padding Right,0,面板右侧内边距,下拉面板右侧内边距0,Low
+Spacing,Spacing Item Padding Left,12px,菜单项左内边距,菜单项左内边距12px,Medium
+Spacing,Spacing Item Padding Right,12px,菜单项右内边距,菜单项右内边距12px,Medium
+Spacing,Spacing Icon Text Gap,8px,图标文字间距,图标与文字间距8px,Medium
+Spacing,Spacing Text Arrow Gap,8px,文字箭头间距,文字与箭头间距8px,Low
+Spacing,Spacing Group Gap,4px,分组间距,分组之间间距4px,Low
+Button,Button Trigger Height,32px,按钮触发器高度,按钮触发器高度32px,Medium
+Button,Button Trigger Padding,0 12px,按钮触发器内边距,按钮触发器左右内边距12px,Medium
+Button,Button Trigger Border,1px solid #E5E6EB,按钮触发器边框,按钮触发器灰色边框,Medium
+Button,Button Trigger Border Radius,2px,按钮触发器圆角,按钮触发器圆角2px,Medium
+Button,Button Trigger Background,#FFFFFF,按钮触发器背景,按钮触发器白色背景,Medium
+Button,Button Trigger Hover Border,#165DFF,按钮触发器悬停边框,按钮触发器悬停蓝色边框,Medium
+Button,Button Trigger Arrow,DownOutlined,按钮触发器箭头,按钮触发器下拉箭头图标,Medium
+Button,Button Trigger Arrow Size,12px,按钮触发器箭头大小,按钮触发器箭头12px,Low
+Button,Button Trigger Arrow Gap,8px,按钮触发器箭头间距,按钮触发器箭头与文字间距8px,Low
+Button,Button Trigger Arrow Rotate,180deg,按钮触发器箭头旋转,展开时箭头旋转180度,Low
+Link,Link Trigger Color,#165DFF,链接触发器颜色,链接触发器蓝色文字,Medium
+Link,Link Trigger Hover Color,#0E42D2,链接触发器悬停颜色,链接触发器悬停深蓝色,Medium
+Link,Link Trigger Font Size,14px,链接触发器字号,链接触发器文字14px,Medium
+Link,Link Trigger Arrow,DownOutlined,链接触发器箭头,链接触发器下拉箭头图标,Low
+Scroll,Scroll Enable,true,启用滚动,内容超出时启用滚动,Medium
+Scroll,Scroll Max Height,300px,滚动最大高度,滚动区域最大高度300px,Medium
+Scroll,Scroll Bar Width,6px,滚动条宽度,滚动条宽度6px,Low
+Scroll,Scroll Bar Color,#C9CDD4,滚动条颜色,滚动条灰色,Low
+Scroll,Scroll Bar Hover Color,#86909C,滚动条悬停颜色,滚动条悬停深灰色,Low
+Scroll,Scroll Bar Border Radius,3px,滚动条圆角,滚动条圆角3px,Low
+Empty,Empty Show,true,显示空状态,无数据时显示空状态,Medium
+Empty,Empty Text,暂无数据,空状态文字,空状态默认文字,Medium
+Empty,Empty Icon,InboxOutlined,空状态图标,空状态图标,Low
+Empty,Empty Icon Size,32px,空状态图标大小,空状态图标32px,Low
+Empty,Empty Icon Color,#C9CDD4,空状态图标颜色,空状态图标灰色,Low
+Empty,Empty Text Color,#86909C,空状态文字颜色,空状态文字灰色,Low
+Empty,Empty Padding,24px 0,空状态内边距,空状态上下内边距24px,Low
+Animation,Show Animation,fade-slide,显示动画,下拉菜单淡入滑动动画,Medium
+Animation,Show Duration,0.15s,显示时长,下拉菜单显示动画0.15s,Low
+Animation,Hide Duration,0.1s,隐藏时长,下拉菜单隐藏动画0.1s,Low
+Animation,Easing,ease-out,缓动函数,下拉菜单动画缓动函数,Low
+Responsive,Responsive Breakpoint,768px,响应式断点,小于768px切换移动端样式,Medium
+Responsive,Mobile Full Width,true,移动端全宽,移动端下拉菜单全宽,Low
+Responsive,Mobile Item Height,44px,移动端菜单项高度,移动端菜单项高度44px,Low
+Responsive,Mobile Font Size,16px,移动端字号,移动端菜单项文字16px,Low
+Accessibility,Menu Role,menu,菜单角色,下拉菜单ARIA角色menu,High
+Accessibility,Item Role,menuitem,菜单项角色,菜单项ARIA角色menuitem,High
+Accessibility,Checkbox Role,menuitemcheckbox,复选框角色,复选框菜单项ARIA角色,Medium
+Accessibility,Radio Role,menuitemradio,单选框角色,单选框菜单项ARIA角色,Medium
+Accessibility,Keyboard Navigation,true,键盘导航,支持上下箭头键盘导航,High
+Accessibility,Focus Ring,0 0 0 2px #165DFF40,焦点环,键盘焦点蓝色环,High
+Accessibility,Escape Close,true,ESC关闭,按ESC键关闭下拉菜单,High
+ZIndex,Dropdown ZIndex,1050,下拉菜单层级,下拉菜单z-index 1050,High
+ZIndex,SubMenu ZIndex,1051,子菜单层级,子菜单z-index 1051,Medium
+Guideline,Primary Color,#165DFF,主色调,下拉菜单主色调蓝色#165DFF,High
+Guideline,Danger Color,#F53F3F,危险色,危险操作红色#F53F3F,High
+Guideline,Text Primary,#1D2129,主要文字色,主要文字颜色#1D2129,High
+Guideline,Text Regular,#4E5969,常规文字色,常规文字颜色#4E5969,High
+Guideline,Text Secondary,#86909C,次要文字色,次要文字颜色#86909C,Medium
+Guideline,Text Disabled,#C9CDD4,禁用文字色,禁用文字颜色#C9CDD4,Medium
+Guideline,Border Color,#E5E6EB,边框色,边框颜色#E5E6EB,High
+Guideline,Background Hover,#F2F3F5,悬停背景色,悬停背景颜色#F2F3F5,High
+Guideline,Background Selected,#E8F3FF,选中背景色,选中背景颜色#E8F3FF,High

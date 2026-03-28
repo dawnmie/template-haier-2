@@ -1,0 +1,120 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Segment Purpose,展示多个选项供用户选择,分段控制器用途,用于展示多个选项共允许用户选择其中单个选项,High
+Purpose,Segment Scenario,内容层级选择,使用场景,当切换选中选项时关联区域的内容会发生变化,High
+Purpose,Segment Behavior,单选切换,分段行为,点击选项切换选中状态仅允许单选,High
+Type,Type Basic,基础类型,基础分段,基础样式的分段控制器,High
+Type,Type Icon,带图标类型,图标分段,带图标的分段控制器,Medium
+Type,Type Block,填充类型,填充分段,选项填充整个容器的分段控制器,Medium
+Size,Size Large,40px,大尺寸,大尺寸分段控制器高度40px,Medium
+Size,Size Default,32px,默认尺寸,默认尺寸分段控制器高度32px,High
+Size,Size Small,28px,小尺寸,小尺寸分段控制器高度28px,Medium
+Size,Size Mini,24px,迷你尺寸,迷你尺寸分段控制器高度24px,Low
+Container,Container Background,#F2F3F5,容器背景,分段控制器容器灰色背景,High
+Container,Container Border Radius,4px,容器圆角,分段控制器容器圆角4px,High
+Container,Container Padding,2px,容器内边距,分段控制器容器内边距2px,High
+Container,Container Border,none,容器边框,分段控制器容器无边框,Medium
+Container,Container Height Large,40px,大容器高度,大尺寸容器高度40px,Medium
+Container,Container Height Default,32px,默认容器高度,默认尺寸容器高度32px,High
+Container,Container Height Small,28px,小容器高度,小尺寸容器高度28px,Medium
+Container,Container Height Mini,24px,迷你容器高度,迷你尺寸容器高度24px,Low
+Item,Item Height Large,36px,大选项高度,大尺寸选项高度36px,Medium
+Item,Item Height Default,28px,默认选项高度,默认尺寸选项高度28px,High
+Item,Item Height Small,24px,小选项高度,小尺寸选项高度24px,Medium
+Item,Item Height Mini,20px,迷你选项高度,迷你尺寸选项高度20px,Low
+Item,Item Padding Large,0 16px,大选项内边距,大尺寸选项左右内边距16px,Medium
+Item,Item Padding Default,0 12px,默认选项内边距,默认尺寸选项左右内边距12px,High
+Item,Item Padding Small,0 10px,小选项内边距,小尺寸选项左右内边距10px,Medium
+Item,Item Padding Mini,0 8px,迷你选项内边距,迷你尺寸选项左右内边距8px,Low
+Item,Item Border Radius,2px,选项圆角,选项圆角2px,High
+Item,Item Font Size Large,14px,大选项字号,大尺寸选项文字14px,Medium
+Item,Item Font Size Default,14px,默认选项字号,默认尺寸选项文字14px,High
+Item,Item Font Size Small,13px,小选项字号,小尺寸选项文字13px,Medium
+Item,Item Font Size Mini,12px,迷你选项字号,迷你尺寸选项文字12px,Low
+Item,Item Font Weight,400,选项字重,选项文字常规字重400,Medium
+Item,Item Line Height,inherit,选项行高,选项行高继承高度,Low
+Item,Item Cursor,pointer,选项光标,选项可点击光标,Low
+Default,Default Background,transparent,默认背景,默认状态透明背景,High
+Default,Default Color,#4E5969,默认颜色,默认状态灰色文字,High
+Hover,Hover Background,rgba(0 0 0 0.04),悬停背景,悬停状态半透明背景,Medium
+Hover,Hover Color,#4E5969,悬停颜色,悬停状态灰色文字,Medium
+Selected,Selected Background,#FFFFFF,选中背景,选中状态白色背景,High
+Selected,Selected Color,#1D2129,选中颜色,选中状态深色文字,High
+Selected,Selected Font Weight,500,选中字重,选中状态中等字重500,Medium
+Selected,Selected Shadow,0 1px 2px rgba(0 0 0 0.08),选中阴影,选中状态轻微阴影,Medium
+Selected,Selected Border Radius,2px,选中圆角,选中状态圆角2px,Medium
+Disabled,Disabled Background,transparent,禁用背景,禁用状态透明背景,Medium
+Disabled,Disabled Color,#C9CDD4,禁用颜色,禁用状态灰色文字,High
+Disabled,Disabled Cursor,not-allowed,禁用光标,禁用状态禁止光标,Medium
+Disabled,Disabled Opacity,1,禁用透明度,禁用状态不透明,Low
+Icon,Icon Show,true,显示图标,选项支持显示图标,Medium
+Icon,Icon Size Large,16px,大图标大小,大尺寸图标16px,Medium
+Icon,Icon Size Default,14px,默认图标大小,默认尺寸图标14px,Medium
+Icon,Icon Size Small,14px,小图标大小,小尺寸图标14px,Medium
+Icon,Icon Size Mini,12px,迷你图标大小,迷你尺寸图标12px,Low
+Icon,Icon Gap,6px,图标间距,图标与文字间距6px,Medium
+Icon,Icon Position,left,图标位置,图标在文字左侧,Medium
+Icon,Icon Only Padding,0 8px,纯图标内边距,纯图标选项内边距,Low
+Icon,Icon Color Inherit,true,图标颜色继承,图标颜色继承文字颜色,Low
+Block,Block Enable,true,启用填充,选项填充整个容器,Medium
+Block,Block Item Flex,1,填充选项弹性,填充模式选项等分,High
+Block,Block Item Min Width,0,填充选项最小宽度,填充模式选项最小宽度0,Low
+Block,Block Item Text Align,center,填充选项文字对齐,填充模式选项文字居中,Medium
+Indicator,Indicator Type,background,指示器类型,使用背景色作为选中指示器,High
+Indicator,Indicator Animation,0.2s,指示器动画,选中指示器滑动动画0.2s,Medium
+Indicator,Indicator Easing,ease-out,指示器缓动,选中指示器动画缓动函数,Low
+Spacing,Spacing Container Padding,2px,容器内边距,容器内边距2px,High
+Spacing,Spacing Item Gap,0,选项间距,选项之间无间距,Medium
+Spacing,Spacing Icon Text,6px,图标文字间距,图标与文字间距6px,Medium
+LargeSizeSpec,Large Container Height,40px,大尺寸容器高度,大尺寸容器高度40px,Medium
+LargeSizeSpec,Large Item Height,36px,大尺寸选项高度,大尺寸选项高度36px,Medium
+LargeSizeSpec,Large Item Padding,0 16px,大尺寸选项内边距,大尺寸选项内边距0 16px,Medium
+LargeSizeSpec,Large Font Size,14px,大尺寸字号,大尺寸文字14px,Medium
+LargeSizeSpec,Large Icon Size,16px,大尺寸图标,大尺寸图标16px,Medium
+LargeSizeSpec,Large Border Radius,4px,大尺寸容器圆角,大尺寸容器圆角4px,Low
+DefaultSizeSpec,Default Container Height,32px,默认尺寸容器高度,默认尺寸容器高度32px,High
+DefaultSizeSpec,Default Item Height,28px,默认尺寸选项高度,默认尺寸选项高度28px,High
+DefaultSizeSpec,Default Item Padding,0 12px,默认尺寸选项内边距,默认尺寸选项内边距0 12px,High
+DefaultSizeSpec,Default Font Size,14px,默认尺寸字号,默认尺寸文字14px,High
+DefaultSizeSpec,Default Icon Size,14px,默认尺寸图标,默认尺寸图标14px,Medium
+DefaultSizeSpec,Default Border Radius,4px,默认尺寸容器圆角,默认尺寸容器圆角4px,Medium
+SmallSizeSpec,Small Container Height,28px,小尺寸容器高度,小尺寸容器高度28px,Medium
+SmallSizeSpec,Small Item Height,24px,小尺寸选项高度,小尺寸选项高度24px,Medium
+SmallSizeSpec,Small Item Padding,0 10px,小尺寸选项内边距,小尺寸选项内边距0 10px,Medium
+SmallSizeSpec,Small Font Size,13px,小尺寸字号,小尺寸文字13px,Medium
+SmallSizeSpec,Small Icon Size,14px,小尺寸图标,小尺寸图标14px,Medium
+SmallSizeSpec,Small Border Radius,4px,小尺寸容器圆角,小尺寸容器圆角4px,Low
+MiniSizeSpec,Mini Container Height,24px,迷你尺寸容器高度,迷你尺寸容器高度24px,Low
+MiniSizeSpec,Mini Item Height,20px,迷你尺寸选项高度,迷你尺寸选项高度20px,Low
+MiniSizeSpec,Mini Item Padding,0 8px,迷你尺寸选项内边距,迷你尺寸选项内边距0 8px,Low
+MiniSizeSpec,Mini Font Size,12px,迷你尺寸字号,迷你尺寸文字12px,Low
+MiniSizeSpec,Mini Icon Size,12px,迷你尺寸图标,迷你尺寸图标12px,Low
+MiniSizeSpec,Mini Border Radius,2px,迷你尺寸容器圆角,迷你尺寸容器圆角2px,Low
+Scenario,Scenario Page Level,页面层级,页面层级场景,分段控制器各类型根据页面内容层级选择相应的控制器,High
+Scenario,Scenario Tab Switch,标签切换,标签切换场景,用于切换不同内容面板,High
+Scenario,Scenario View Mode,视图模式,视图模式场景,用于切换列表/卡片等视图模式,Medium
+Scenario,Scenario Filter,筛选过滤,筛选场景,用于快速筛选过滤数据,Medium
+Animation,Switch Animation,0.2s,切换动画,选项切换动画0.2s,Medium
+Animation,Hover Animation,0.15s,悬停动画,悬停状态过渡0.15s,Low
+Animation,Indicator Slide,true,指示器滑动,选中指示器滑动效果,Medium
+Animation,Easing Function,cubic-bezier(0.645 0.045 0.355 1),缓动函数,动画缓动函数,Low
+Responsive,Responsive Breakpoint,768px,响应式断点,小于768px切换移动端样式,Medium
+Responsive,Mobile Full Width,true,移动端全宽,移动端分段控制器全宽,Medium
+Responsive,Mobile Item Height,36px,移动端选项高度,移动端选项高度36px,Low
+Responsive,Mobile Font Size,14px,移动端字号,移动端文字14px,Low
+Responsive,Mobile Scroll,true,移动端滚动,移动端选项过多时可滚动,Low
+Accessibility,Segment Role,radiogroup,分段角色,分段控制器ARIA角色radiogroup,High
+Accessibility,Item Role,radio,选项角色,选项ARIA角色radio,High
+Accessibility,Aria Checked,true,选中状态,选中选项aria-checked=true,Medium
+Accessibility,Keyboard Navigation,true,键盘导航,支持左右箭头键盘导航,High
+Accessibility,Focus Ring,0 0 0 2px #165DFF40,焦点环,键盘焦点蓝色环,High
+Accessibility,Focus Visible,true,焦点可见,键盘焦点状态可见,Medium
+Accessibility,Tab Index,0,Tab索引,分段控制器可Tab聚焦,Medium
+ZIndex,Segment ZIndex,1,分段层级,分段控制器z-index 1,Low
+Guideline,Primary Color,#165DFF,主色调,分段控制器主色调蓝色#165DFF,High
+Guideline,Text Primary,#1D2129,主要文字色,主要文字颜色#1D2129,High
+Guideline,Text Regular,#4E5969,常规文字色,常规文字颜色#4E5969,High
+Guideline,Text Disabled,#C9CDD4,禁用文字色,禁用文字颜色#C9CDD4,Medium
+Guideline,Background Container,#F2F3F5,容器背景色,容器背景颜色#F2F3F5,High
+Guideline,Background Selected,#FFFFFF,选中背景色,选中背景白色,High
+Guideline,Background Hover,rgba(0 0 0 0.04),悬停背景色,悬停背景半透明,Medium
+Guideline,Shadow Selected,0 1px 2px rgba(0 0 0 0.08),选中阴影,选中状态阴影,Medium

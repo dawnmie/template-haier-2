@@ -1,0 +1,53 @@
+Category,Name,Radius,Usage,Components,Description,Severity
+Base,Radius None,0px,无圆角,分隔线/表格边框,直角元素,Low
+Base,Radius XS,2px,超小圆角,复选框/标签/小按钮,最小圆角-精致细节,High
+Base,Radius SM,4px,小圆角,按钮/输入框/选择器/卡片,常用圆角-大多数组件,High
+Base,Radius MD,6px,中圆角,大卡片/弹窗/下拉面板,中等圆角-容器类,Medium
+Base,Radius LG,8px,大圆角,模态框/抽屉/大面板,较大圆角-大型容器,Medium
+Base,Radius XL,12px,超大圆角,特殊卡片/引导页,装饰性圆角,Low
+Base,Radius Full,9999px,全圆角,头像/徽标/开关,完全圆形,Medium
+Level1,Level 1 - 4px,4px,常用组件圆角,复选框/按钮/输入框/标签/各类弹窗等,第一层级-4px适用于复选框/按钮/输入框/标签/各类弹窗等,High
+Level2,Level 2 - 6px,6px,中小型组件圆角,中小型选择器/输入框/全屏状态花/选项块/消息队列/分页器等,第二层级-6px适用于中小型选择器/输入框等,High
+Level3,Level 3 - 8px,8px,大型组件圆角,大号选择器/输入框/空状态/聚合操作等,第三层级-8px适用于大号选择器/输入框/空状态等,Medium
+Level4,Level 4 - 12px,12px,容器圆角,页面交互区/气泡卡片/选项卡/全局提示/弹窗/卡片等,第四层级-12px适用于页面交互区/气泡卡片/弹窗/卡片等,Medium
+Level5,Level 5 - Full,9999px,全圆形,开关/圆形按钮,第五层级-全圆形适用于开关/圆形按钮,Medium
+Component,Checkbox,2px,复选框,a-checkbox,复选框圆角2px,High
+Component,Radio,50%,单选框,a-radio,单选框圆形,High
+Component,Button Small,2px,小按钮,a-button size=small,小按钮圆角2px,High
+Component,Button Default,4px,默认按钮,a-button,默认按钮圆角4px,High
+Component,Button Large,4px,大按钮,a-button size=large,大按钮圆角4px,High
+Component,Input Small,2px,小输入框,a-input size=small,小输入框圆角2px,Medium
+Component,Input Default,4px,默认输入框,a-input,默认输入框圆角4px,High
+Component,Input Large,6px,大输入框,a-input size=large,大输入框圆角6px,Medium
+Component,Select Small,2px,小选择器,a-select size=small,小选择器圆角2px,Medium
+Component,Select Default,4px,默认选择器,a-select,默认选择器圆角4px,High
+Component,Select Large,6px,大选择器,a-select size=large,大选择器圆角6px,Medium
+Component,Tag,2px,标签,a-tag,标签圆角2px,High
+Component,Badge,10px,徽标,a-badge,徽标圆角10px,Medium
+Component,Avatar,4px,方形头像,a-avatar shape=square,方形头像圆角4px,Medium
+Component,Avatar Circle,50%,圆形头像,a-avatar,圆形头像,High
+Component,Card,8px,卡片,a-card,卡片圆角8px,High
+Component,Modal,8px,弹窗,a-modal,弹窗圆角8px,High
+Component,Drawer,0px,抽屉,a-drawer,抽屉无圆角,Medium
+Component,Dropdown,4px,下拉菜单,a-dropdown,下拉菜单圆角4px,High
+Component,Popover,8px,气泡卡片,a-popover,气泡卡片圆角8px,Medium
+Component,Tooltip,4px,文字提示,a-tooltip,文字提示圆角4px,Medium
+Component,Message,4px,全局提示,a-message,全局提示圆角4px,Medium
+Component,Notification,8px,通知提醒,a-notification,通知提醒圆角8px,Medium
+Component,Alert,4px,警告提示,a-alert,警告提示圆角4px,Medium
+Component,Progress,100px,进度条,a-progress,进度条全圆角,Medium
+Component,Switch,100px,开关,a-switch,开关全圆角,High
+Component,Slider,100px,滑块,a-slider,滑块轨道全圆角,Medium
+Component,Table,0px,表格,a-table,表格无圆角,High
+Component,Table Container,8px,表格容器,表格外层容器,表格容器圆角8px,Medium
+Component,Pagination,4px,分页,a-pagination,分页按钮圆角4px,Medium
+Component,Tabs,4px,标签页,a-tabs,标签页圆角4px,Medium
+Component,Menu,4px,菜单,a-menu,菜单项圆角4px,Medium
+Component,Breadcrumb,0px,面包屑,a-breadcrumb,面包屑无圆角,Low
+Component,Steps,50%,步骤条,a-steps,步骤圆点圆形,Medium
+Component,Image,4px,图片,a-image,图片圆角4px,Medium
+Component,Image Preview,8px,图片预览,a-image preview,图片预览圆角8px,Low
+Special,Empty State,8px,空状态,a-empty,空状态容器圆角8px,Low
+Special,Result,8px,结果页,a-result,结果页容器圆角8px,Low
+Special,Skeleton,4px,骨架屏,a-skeleton,骨架屏圆角4px,Low
+Special,Spin Container,8px,加载容器,a-spin,加载容器圆角8px,Low

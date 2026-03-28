@@ -1,0 +1,118 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Description Label Width Small,80px,小尺寸标签宽度,小尺寸描述列表标签宽度80px,Medium
+Size,Description Label Width Medium,120px,中尺寸标签宽度,中尺寸描述列表标签宽度120px,High
+Size,Description Label Width Large,160px,大尺寸标签宽度,大尺寸描述列表标签宽度160px,Medium
+Size,Description Item Height,32px,描述项高度,描述列表项最小高度32px,High
+Size,Description Item Padding,8px 0,描述项内边距,描述列表项上下内边距8px,Medium
+Size,Description Label Font Size,14px,标签字号,描述列表标签文字14px,High
+Size,Description Content Font Size,14px,内容字号,描述列表内容文字14px,High
+Size,Description Title Font Size,16px,标题字号,描述列表标题文字16px,Medium
+Size,Description Title Margin Bottom,16px,标题下边距,描述列表标题下边距16px,Medium
+Size,Description Colon Gap,8px,冒号间距,标签与冒号间距8px,Low
+Size,Description Content Gap,16px,内容间距,冒号与内容间距16px,Medium
+Size,Description Row Gap,16px,行间距,描述列表行与行间距16px,Medium
+Size,Description Border Width,1px,边框宽度,描述列表边框宽度1px,Medium
+Color,Description Label Color,#4E5969,标签文字颜色,描述列表标签灰色文字#4E5969,High
+Color,Description Content Color,#1D2129,内容文字颜色,描述列表内容深色文字#1D2129,High
+Color,Description Title Color,#1D2129,标题文字颜色,描述列表标题深色文字#1D2129,High
+Color,Description Colon Color,#4E5969,冒号颜色,描述列表冒号灰色#4E5969,Medium
+Color,Description Border Color,#E5E6EB,边框颜色,描述列表边框灰色#E5E6EB,High
+Color,Description Background,#FFFFFF,背景颜色,描述列表白色背景,High
+Color,Description Stripe Background,#F7F8FA,斑马纹背景,描述列表斑马纹浅灰背景#F7F8FA,Medium
+Color,Description Hover Background,#F7F8FA,悬停背景,描述列表悬停浅灰背景#F7F8FA,Low
+Layout,Layout Horizontal,horizontal,水平布局,标签和内容水平排列,High
+Layout,Layout Vertical,vertical,垂直布局,标签和内容垂直排列,Medium
+Layout,Layout Inline Horizontal,inline-horizontal,行内水平布局,标签和内容在同一行水平排列,Medium
+Layout,Column Count Single,1,单列布局,描述列表单列显示,High
+Layout,Column Count Double,2,双列布局,描述列表双列显示,Medium
+Layout,Column Count Triple,3,三列布局,描述列表三列显示,Medium
+Layout,Column Gap,24px,列间距,多列布局列与列间距24px,Medium
+Size,Size Small,small,小尺寸,小尺寸描述列表,Medium
+Size,Size Default,default,默认尺寸,默认尺寸描述列表,High
+Size,Size Large,large,大尺寸,大尺寸描述列表,Medium
+Border,Border None,none,无边框,无边框描述列表,Medium
+Border,Border Horizontal,horizontal,水平边框,仅显示水平边框,High
+Border,Border Vertical,vertical,垂直边框,仅显示垂直边框,Low
+Border,Border All,all,全边框,显示所有边框,Medium
+Border,Border Outer,outer,外边框,仅显示外边框,Medium
+Colon,Show Colon,true,显示冒号,标签后显示冒号,High
+Colon,Hide Colon,false,隐藏冒号,标签后不显示冒号,Medium
+Colon,Colon Character,:,冒号字符,使用冒号作为分隔符,High
+Colon,Colon Position,after,冒号位置,冒号在标签后,High
+Title,Title Font Weight,500,标题字重,描述列表标题字重500,Medium
+Title,Title Line Height,24px,标题行高,描述列表标题行高24px,Medium
+Title,Title Align,left,标题对齐,描述列表标题左对齐,High
+Label,Label Font Weight,400,标签字重,描述列表标签字重400,High
+Label,Label Line Height,22px,标签行高,描述列表标签行高22px,Medium
+Label,Label Align,left,标签对齐,描述列表标签左对齐,High
+Label,Label Align Right,right,标签右对齐,描述列表标签右对齐,Medium
+Label,Label Vertical Align Top,top,标签顶部对齐,标签与内容顶部对齐,Medium
+Label,Label Vertical Align Middle,middle,标签居中对齐,标签与内容居中对齐,High
+Content,Content Font Weight,400,内容字重,描述列表内容字重400,High
+Content,Content Line Height,22px,内容行高,描述列表内容行高22px,Medium
+Content,Content Align,left,内容对齐,描述列表内容左对齐,High
+Content,Content Word Break,break-word,内容换行,内容过长自动换行,Medium
+Content,Content Min Width,100px,内容最小宽度,内容区域最小宽度100px,Low
+Stripe,Stripe Enabled,true,启用斑马纹,启用斑马纹背景,Medium
+Stripe,Stripe Disabled,false,禁用斑马纹,禁用斑马纹背景,Medium
+Stripe,Stripe Odd Background,#FFFFFF,奇数行背景,奇数行白色背景,Medium
+Stripe,Stripe Even Background,#F7F8FA,偶数行背景,偶数行浅灰背景#F7F8FA,Medium
+Responsive,Responsive Breakpoint Mobile,768px,移动端断点,移动端响应式断点768px,Medium
+Responsive,Responsive Breakpoint Tablet,1024px,平板端断点,平板端响应式断点1024px,Low
+Responsive,Mobile Layout,vertical,移动端布局,移动端使用垂直布局,Medium
+Responsive,Mobile Column Count,1,移动端列数,移动端单列显示,Medium
+Extra,Extra Position,right,额外内容位置,额外内容在右侧,Medium
+Extra,Extra Gap,8px,额外内容间距,额外内容与标签间距8px,Low
+Extra,Extra Font Size,14px,额外内容字号,额外内容文字14px,Low
+Extra,Extra Color,#86909C,额外内容颜色,额外内容灰色文字#86909C,Low
+Padding,Container Padding,16px,容器内边距,描述列表容器内边距16px,Medium
+Padding,Container Padding Large,24px,容器大内边距,描述列表容器大内边距24px,Medium
+Padding,Item Padding Horizontal,16px,项水平内边距,描述列表项左右内边距16px,Medium
+Padding,Item Padding Vertical,8px,项垂直内边距,描述列表项上下内边距8px,Medium
+Margin,Item Margin Bottom,0,项下边距,描述列表项下边距0,Low
+Margin,Group Margin Bottom,16px,组下边距,描述列表组下边距16px,Medium
+Margin,Title Margin Top,0,标题上边距,描述列表标题上边距0,Low
+Type,Type Plain,plain,普通类型,普通描述列表,High
+Type,Type Bordered,bordered,带边框类型,带边框描述列表,Medium
+Type,Type Card,card,卡片类型,卡片样式描述列表,Medium
+Card,Card Background,#FFFFFF,卡片背景,卡片样式白色背景,Medium
+Card,Card Border,1px solid #E5E6EB,卡片边框,卡片样式灰色边框,Medium
+Card,Card Border Radius,4px,卡片圆角,卡片样式圆角4px,Medium
+Card,Card Padding,16px,卡片内边距,卡片样式内边距16px,Medium
+Card,Card Shadow,0 2px 8px rgba(0 0 0 0.08),卡片阴影,卡片样式阴影效果,Low
+Divider,Divider Style,solid,分隔线样式,分隔线实线样式,Medium
+Divider,Divider Color,#E5E6EB,分隔线颜色,分隔线灰色#E5E6EB,Medium
+Divider,Divider Width,1px,分隔线宽度,分隔线宽度1px,Medium
+Divider,Divider Margin,8px 0,分隔线边距,分隔线上下边距8px,Low
+Empty,Empty Text,暂无数据,空状态文字,无数据时显示文字,Medium
+Empty,Empty Color,#86909C,空状态颜色,空状态灰色文字#86909C,Low
+Empty,Empty Font Size,14px,空状态字号,空状态文字14px,Low
+Empty,Empty Padding,24px,空状态内边距,空状态内边距24px,Low
+Usage,Basic Usage,基础描述列表,基础使用场景,用于展示详情信息,High
+Usage,Horizontal Usage,水平布局,水平布局场景,用于标签和内容水平排列,High
+Usage,Vertical Usage,垂直布局,垂直布局场景,用于标签和内容垂直排列,Medium
+Usage,Multi Column Usage,多列布局,多列布局场景,用于多列展示详情信息,Medium
+Usage,Bordered Usage,带边框,带边框场景,用于需要明确分隔的详情展示,Medium
+Usage,Card Usage,卡片样式,卡片样式场景,用于卡片形式的详情展示,Medium
+Guideline,Max Columns,3,最大列数,建议最多3列,Medium
+Guideline,Label Length,适中,标签长度,标签文字不宜过长,Medium
+Guideline,Content Length,适中,内容长度,单项内容不宜过长,Medium
+Guideline,Colon Consistency,consistent,冒号一致性,同一页面冒号使用保持一致,High
+Guideline,Layout Consistency,consistent,布局一致性,同一页面布局方式保持一致,High
+Guideline,Alignment,aligned,对齐方式,标签和内容对齐方式保持一致,High
+Guideline,Mobile First,true,移动优先,移动端优先考虑垂直布局,Medium
+Accessibility,Label For Content,true,标签关联内容,标签与内容语义关联,Medium
+Accessibility,Semantic HTML,true,语义化HTML,使用语义化HTML标签,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,Keyboard Navigation,supported,键盘导航,支持键盘导航,Low
+State,Loading State,loading,加载状态,数据加载中状态,Medium
+State,Empty State,empty,空状态,无数据状态,Medium
+State,Error State,error,错误状态,数据加载错误状态,Low
+Animation,Transition Duration,0.2s,过渡时长,状态切换过渡时长0.2s,Low
+Animation,Transition Timing,ease,过渡曲线,状态切换过渡曲线ease,Low
+Hover,Hover Enabled,true,启用悬停,启用悬停效果,Low
+Hover,Hover Background,#F7F8FA,悬停背景,悬停浅灰背景#F7F8FA,Low
+Hover,Hover Transition,all 0.2s,悬停过渡,悬停过渡动画0.2s,Low
+Print,Print Friendly,true,打印友好,支持打印样式优化,Low
+Print,Print Border,1px solid #000,打印边框,打印时使用黑色边框,Low
+Print,Print Background,none,打印背景,打印时移除背景色,Low

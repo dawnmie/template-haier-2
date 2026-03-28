@@ -1,0 +1,61 @@
+Category,Name,Type,Background,Border,Usage,Description,Severity
+Container,Container-1,常规,#FFFFFF,#E5E6EB,默认容器,白色背景灰色边框-常规卡片,High
+Container,Container-2,移入,#F7F8FA,#E5E6EB,hover容器,浅灰背景-鼠标悬停状态,Medium
+Container,Container-3,激活,#E8F3FF,#165DFF,激活容器,浅蓝背景蓝色边框-选中激活状态,High
+Container,Container-4,不可编辑,#F2F3F5,#E5E6EB,禁用容器,灰色背景-不可编辑状态,Medium
+Container,Container-5,危险,#FFECE8,#F53F3F,危险容器,浅红背景红色边框-危险警示状态,High
+Container,Container-6,成功,#E8FFEA,#00B42A,成功容器,浅绿背景绿色边框-成功状态,High
+Container,Container-7,错误,#FFECE8,#F53F3F,错误容器,浅红背景红色边框-错误状态,High
+Container,Container-8,常规提示,#E8F3FF,#165DFF,信息容器,浅蓝背景蓝色边框-信息提示,Medium
+Container,Container-9,警告,#FFF7E8,#FF7D00,警告容器,浅橙背景橙色边框-警告状态,High
+Container,Container-10,文字提示框背景,#4E5969,none,提示框容器,深灰背景-tooltip背景,Medium
+Container,Container-11,遮罩,#1D2129,none,遮罩容器,深色半透明-模态遮罩层,Medium
+State,Default,默认状态,#FFFFFF,#E5E6EB,默认,白色背景灰色边框,High
+State,Hover,悬停状态,#F7F8FA,#E5E6EB,悬停,浅灰背景-鼠标移入,Medium
+State,Active,激活状态,#E8F3FF,#165DFF,激活,浅蓝背景蓝色边框,High
+State,Focus,聚焦状态,#FFFFFF,#165DFF,聚焦,白色背景蓝色边框,High
+State,Disabled,禁用状态,#F2F3F5,#E5E6EB,禁用,灰色背景-不可操作,Medium
+State,Selected,选中状态,#E8F3FF,#165DFF,选中,浅蓝背景蓝色边框,High
+State,Error,错误状态,#FFECE8,#F53F3F,错误,浅红背景红色边框,High
+State,Success,成功状态,#E8FFEA,#00B42A,成功,浅绿背景绿色边框,High
+State,Warning,警告状态,#FFF7E8,#FF7D00,警告,浅橙背景橙色边框,High
+Card,Card Default,默认卡片,#FFFFFF,none,卡片容器,白色背景无边框带阴影,High
+Card,Card Bordered,边框卡片,#FFFFFF,#E5E6EB,卡片容器,白色背景灰色边框,Medium
+Card,Card Hover,悬停卡片,#FFFFFF,#E5E6EB,卡片容器,白色背景-hover加深阴影,Medium
+Card,Card Selected,选中卡片,#E8F3FF,#165DFF,卡片容器,浅蓝背景蓝色边框,High
+Card,Card Disabled,禁用卡片,#F2F3F5,#E5E6EB,卡片容器,灰色背景-不可操作,Low
+Alert,Alert Info,信息提示,#E8F3FF,#BEDAFF,提示框,浅蓝背景-信息提示,Medium
+Alert,Alert Success,成功提示,#E8FFEA,#AFF0B5,提示框,浅绿背景-成功提示,High
+Alert,Alert Warning,警告提示,#FFF7E8,#FFCF8B,提示框,浅橙背景-警告提示,High
+Alert,Alert Error,错误提示,#FFECE8,#FDCDC5,提示框,浅红背景-错误提示,High
+Input,Input Default,默认输入框,#FFFFFF,#E5E6EB,输入框,白色背景灰色边框,High
+Input,Input Hover,悬停输入框,#FFFFFF,#C9CDD4,输入框,白色背景深灰边框,Medium
+Input,Input Focus,聚焦输入框,#FFFFFF,#165DFF,输入框,白色背景蓝色边框,High
+Input,Input Disabled,禁用输入框,#F2F3F5,#E5E6EB,输入框,灰色背景-不可编辑,Medium
+Input,Input Error,错误输入框,#FFFFFF,#F53F3F,输入框,白色背景红色边框,High
+Input,Input Success,成功输入框,#FFFFFF,#00B42A,输入框,白色背景绿色边框,Medium
+Button,Button Primary,主按钮,#165DFF,none,按钮,蓝色背景-主要操作,High
+Button,Button Primary Hover,主按钮悬停,#0E42D2,none,按钮,深蓝背景-悬停状态,Medium
+Button,Button Primary Disabled,主按钮禁用,#94BFFF,none,按钮,浅蓝背景-禁用状态,Medium
+Button,Button Default,默认按钮,#FFFFFF,#E5E6EB,按钮,白色背景灰色边框,High
+Button,Button Default Hover,默认按钮悬停,#FFFFFF,#165DFF,按钮,白色背景蓝色边框,Medium
+Button,Button Default Disabled,默认按钮禁用,#F2F3F5,#E5E6EB,按钮,灰色背景-禁用状态,Medium
+Button,Button Danger,危险按钮,#F53F3F,none,按钮,红色背景-危险操作,High
+Button,Button Danger Hover,危险按钮悬停,#CB2634,none,按钮,深红背景-悬停状态,Medium
+Table,Table Header,表头,#F7F8FA,#E5E6EB,表格,浅灰背景-表头区域,High
+Table,Table Row Default,表格行默认,#FFFFFF,#E5E6EB,表格,白色背景-默认行,High
+Table,Table Row Hover,表格行悬停,#F2F3F5,#E5E6EB,表格,浅灰背景-悬停行,Medium
+Table,Table Row Selected,表格行选中,#E8F3FF,#E5E6EB,表格,浅蓝背景-选中行,High
+Table,Table Row Stripe,表格行斑马纹,#FAFBFC,#E5E6EB,表格,极浅灰背景-偶数行,Low
+Modal,Modal Mask,模态遮罩,rgba(29 33 41 0.6),none,遮罩,深色半透明遮罩,High
+Modal,Modal Content,模态内容,#FFFFFF,none,弹窗,白色背景-弹窗内容区,High
+Tooltip,Tooltip Dark,深色提示,#4E5969,none,提示框,深灰背景白色文字,Medium
+Tooltip,Tooltip Light,浅色提示,#FFFFFF,#E5E6EB,提示框,白色背景灰色边框,Medium
+Dropdown,Dropdown Menu,下拉菜单,#FFFFFF,#E5E6EB,下拉框,白色背景带阴影,High
+Dropdown,Dropdown Item Hover,下拉项悬停,#F2F3F5,none,下拉框,浅灰背景-悬停项,Medium
+Dropdown,Dropdown Item Selected,下拉项选中,#E8F3FF,none,下拉框,浅蓝背景-选中项,High
+Tag,Tag Default,默认标签,#F2F3F5,#E5E6EB,标签,灰色背景-默认标签,Medium
+Tag,Tag Primary,主要标签,#E8F3FF,#BEDAFF,标签,浅蓝背景-信息标签,Medium
+Tag,Tag Success,成功标签,#E8FFEA,#AFF0B5,标签,浅绿背景-成功标签,High
+Tag,Tag Warning,警告标签,#FFF7E8,#FFCF8B,标签,浅橙背景-警告标签,High
+Tag,Tag Error,错误标签,#FFECE8,#FDCDC5,标签,浅红背景-错误标签,High

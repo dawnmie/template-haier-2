@@ -1,0 +1,141 @@
+Category,Name,Value,Usage,Description,Severity
+icon,居中对齐,h-icon-align-center,文本编辑器居中对齐,文本编辑类图标,Medium
+icon,两端对齐,h-icon-align-justify,文本编辑器两端对齐,文本编辑类图标,Medium
+icon,左对齐,h-icon-align-left,文本编辑器左对齐,文本编辑类图标,Medium
+icon,右对齐,h-icon-align-right,文本编辑器右对齐,文本编辑类图标,Medium
+icon,加粗,h-icon-bold,文本加粗样式,文本编辑类图标,Medium
+icon,斜体,h-icon-italic,文本斜体样式,文本编辑类图标,Medium
+icon,下划线,h-icon-underline,文本下划线样式,文本编辑类图标,Medium
+icon,删除线,h-icon-strikethrough,文本删除线样式,文本编辑类图标,Medium
+icon,有序列表,h-icon-ordered-list,有序列表格式,文本编辑类图标,Medium
+icon,无序列表,h-icon-unordered-list,无序列表格式,文本编辑类图标,Medium
+icon,行高,h-icon-row-height,调整行高,文本编辑类图标,Medium
+icon,分割线,h-icon-split-line,插入分割线,文本编辑类图标,Medium
+icon,垂直居中,h-icon-vertical-align-middle,垂直居中对齐,文本编辑类图标,Medium
+icon,垂直顶部,h-icon-vertical-align-top,垂直顶部对齐,文本编辑类图标,Medium
+icon,向上,h-icon-up,向上箭头 返回顶部 上移,方向指示类图标,High
+icon,向下,h-icon-down,向下箭头 展开 下移,方向指示类图标,High
+icon,向左,h-icon-left,向左箭头 返回 左移,方向指示类图标,High
+icon,向右,h-icon-right,向右箭头 前进 右移,方向指示类图标,High
+icon,小箭头向上,h-icon-caret-up,下拉框折叠面板收起状态,方向指示类图标,Medium
+icon,小箭头向下,h-icon-caret-down,下拉框折叠面板展开状态,方向指示类图标,Medium
+icon,小箭头向左,h-icon-caret-left,侧边栏收起树形结构折叠,方向指示类图标,Medium
+icon,小箭头向右,h-icon-caret-right,侧边栏展开树形结构展开,方向指示类图标,Medium
+icon,双箭头向左,h-icon-double-left,分页器首页快速向左翻页,方向指示类图标,Medium
+icon,双箭头向右,h-icon-double-right,分页器末页快速向右翻页,方向指示类图标,Medium
+icon,上升箭头,h-icon-arrow-rise,数据上涨增长趋势,方向指示类图标,Medium
+icon,下降箭头,h-icon-arrow-fall,数据下跌下降趋势,方向指示类图标,Medium
+icon,置顶,h-icon-top,内容置顶功能,方向指示类图标,Medium
+icon,垂直向左,h-icon-vertical-left,垂直方向向左,方向指示类图标,Low
+icon,垂直向右,h-icon-vertical-right,垂直方向向右,方向指示类图标,Low
+icon,勾选,h-icon-check,确认 选中 完成状态,操作类图标,High
+icon,圆形勾选,h-icon-check-circle,成功提示 已完成状态,操作类图标,High
+icon,实心圆形勾选,h-icon-check-circle-fill,强调的成功状态,操作类图标,High
+icon,关闭,h-icon-close,关闭弹窗 删除标签 取消操作,操作类图标,High
+icon,圆形关闭,h-icon-close-circle,错误提示 取消状态,操作类图标,High
+icon,实心圆形关闭,h-icon-close-circle-fill,强调的错误状态,操作类图标,High
+icon,加号,h-icon-plus,新增 添加功能,操作类图标,High
+icon,圆形加号,h-icon-plus-circle,新增按钮 添加项,操作类图标,High
+icon,减号,h-icon-minus,删除 减少 折叠,操作类图标,High
+icon,圆形减号,h-icon-minus-circle,删除按钮 减少项,操作类图标,High
+icon,编辑,h-icon-edit,编辑内容 修改信息,操作类图标,High
+icon,删除,h-icon-delete,删除数据 移除项,操作类图标,High
+icon,复制,h-icon-copy,复制文本 复制内容,操作类图标,High
+icon,搜索,h-icon-search,搜索框 查询功能,操作类图标,High
+icon,筛选,h-icon-filter,数据筛选 条件过滤,操作类图标,High
+icon,刷新,h-icon-refresh,重新加载 更新数据,操作类图标,High
+icon,重做,h-icon-redo,恢复操作 重新执行,操作类图标,Medium
+icon,撤销,h-icon-undo,撤销操作 返回上一步,操作类图标,Medium
+icon,下载,h-icon-download,下载文件 导出数据,操作类图标,High
+icon,上传,h-icon-upload,上传文件 导入数据,操作类图标,High
+icon,导出,h-icon-export,导出数据 输出文件,操作类图标,High
+icon,导入,h-icon-import,导入数据 输入文件,操作类图标,High
+icon,打印,h-icon-print,打印文档 打印页面,操作类图标,Medium
+icon,拖拽,h-icon-drag,拖拽排序 移动元素,操作类图标,Medium
+icon,移动,h-icon-move,移动位置 拖动,操作类图标,Medium
+icon,交换,h-icon-swap,切换 互换位置,操作类图标,Medium
+icon,重新检查,h-icon-recheck,重新验证 再次审核,操作类图标,Medium
+icon,向左旋转,h-icon-rotate-left,逆时针旋转,操作类图标,Low
+icon,向右旋转,h-icon-rotate-right,顺时针旋转,操作类图标,Low
+icon,拆解,h-icon-disassemble,拆解 分解,操作类图标,Low
+icon,关联,h-icon-relevance,关联 建立联系,操作类图标,Low
+icon,批量上传,h-icon-piliangupload,批量上传文件,操作类图标,Medium
+icon,信息提示,h-icon-info-circle,普通信息提示,状态提示类图标,High
+icon,实心信息提示,h-icon-info-circle-fill,强调的信息提示,状态提示类图标,High
+icon,感叹号,h-icon-exclamation,警告 注意,状态提示类图标,High
+icon,圆形感叹号,h-icon-exclamation-circle,警告提示,状态提示类图标,High
+icon,实心圆形感叹号,h-icon-exclamation-circle-fill,强调的警告提示,状态提示类图标,High
+icon,问号,h-icon-question-circle,帮助 疑问,状态提示类图标,High
+icon,实心问号,h-icon-question-circle-fill,强调的帮助提示,状态提示类图标,High
+icon,警告,h-icon-warning,危险警告 错误提示,状态提示类图标,High
+icon,加载中,h-icon-loading,数据加载 处理中状态 可配合spin使用,状态提示类图标,High
+icon,文件,h-icon-file,通用文件图标,文件类图标,Medium
+icon,添加文件,h-icon-file-add,新建文件 上传文件,文件类图标,Medium
+icon,收藏文件,h-icon-file-star,重要文件 标记文件,文件类图标,Medium
+icon,云文档,h-icon-cloud-document,云端文件 在线文档,文件类图标,Medium
+icon,附件,h-icon-attachment,邮件附件 文件附件,文件类图标,Medium
+icon,图片,h-icon-image,图片文件 图像预览,媒体类图标,Medium
+icon,视频,h-icon-video,视频文件 视频播放,媒体类图标,Medium
+icon,播放,h-icon-play-circle,播放视频 开始播放,媒体类图标,Medium
+icon,暂停,h-icon-pause,暂停播放,媒体类图标,Medium
+icon,圆形暂停,h-icon-pause-circle,暂停按钮,媒体类图标,Medium
+icon,可见,h-icon-eye,显示内容 查看详情 查看,视图控制类图标,High
+icon,不可见,h-icon-eye-invisible,隐藏内容 密码隐藏 隐藏,视图控制类图标,High
+icon,全屏,h-icon-fullscreen,全屏显示 最大化,视图控制类图标,Medium
+icon,放大,h-icon-zoom-in,放大视图 增大尺寸,视图控制类图标,Medium
+icon,缩小,h-icon-zoom-out,缩小视图 减小尺寸,视图控制类图标,Medium
+icon,折叠菜单,h-icon-menu-fold,收起侧边栏 折叠导航,视图控制类图标,Medium
+icon,展开菜单,h-icon-menu-unfold,展开侧边栏 展开导航,视图控制类图标,Medium
+icon,列表,h-icon-list,列表视图 列表展示,视图控制类图标,Medium
+icon,柱状图,h-icon-bar,柱状图 条形图,图表类图标,Medium
+icon,横向柱状图,h-icon-bar-horizontal,横向柱状图,图表类图标,Medium
+icon,纵向柱状图,h-icon-bar-vertical,纵向柱状图,图表类图标,Medium
+icon,折线图,h-icon-line-chart,折线图 趋势图,图表类图标,Medium
+icon,饼图,h-icon-pie-chart,饼图 占比图,图表类图标,Medium
+icon,层级,h-icon-hierarchy,层级结构 树形结构,结构类图标,Medium
+icon,模块,h-icon-module,模块 组件,结构类图标,Medium
+icon,代码,h-icon-code,代码 源码,开发类图标,Medium
+icon,编程,h-icon-coding,编程 开发,开发类图标,Medium
+icon,首页,h-icon-home,主页 返回首页,业务功能类图标,High
+icon,用户,h-icon-user,用户中心 个人信息,业务功能类图标,High
+icon,组织,h-icon-organization,组织架构 部门管理,业务功能类图标,High
+icon,日历,h-icon-calendar,日期选择 日程安排,业务功能类图标,High
+icon,日程,h-icon-schedule,日程管理 时间表,业务功能类图标,Medium
+icon,日程V2,h-icon-schedule-v2,日程管理新版,业务功能类图标,Medium
+icon,事件,h-icon-event,事件管理 活动,业务功能类图标,Medium
+icon,消息,h-icon-message,消息通知 聊天,业务功能类图标,High
+icon,通知,h-icon-notification,系统通知 提醒,业务功能类图标,High
+icon,反馈,h-icon-feedback,用户反馈 意见建议,业务功能类图标,Medium
+icon,客服,h-icon-customer-service,客户服务 在线咨询,业务功能类图标,Medium
+icon,锁定,h-icon-lock,加密 权限限制,业务功能类图标,High
+icon,解锁,h-icon-unlock,解除锁定 开放权限,业务功能类图标,High
+icon,安全,h-icon-safe,安全设置 安全中心,业务功能类图标,High
+icon,关机,h-icon-poweroff,退出登录 关闭系统,业务功能类图标,Medium
+icon,设置,h-icon-settings,系统设置 配置,业务功能类图标,High
+icon,管理,h-icon-management,后台管理 系统管理,业务功能类图标,Medium
+icon,操作,h-icon-operations,操作记录 操作日志,业务功能类图标,Medium
+icon,小程序,h-icon-applet,小程序 轻应用,业务功能类图标,Low
+icon,计算器,h-icon-calculator,计算器 计算功能,业务功能类图标,Low
+icon,商品,h-icon-commodity,商品 产品,业务功能类图标,Medium
+icon,设计,h-icon-design,设计 创意,业务功能类图标,Low
+icon,交互,h-icon-interaction,交互 互动,业务功能类图标,Low
+icon,问题,h-icon-issue,问题 工单,业务功能类图标,Medium
+icon,推广,h-icon-promotion,推广 营销,业务功能类图标,Medium
+icon,推送,h-icon-push,推送 消息推送,业务功能类图标,Medium
+icon,排名,h-icon-rank,排名 排行榜,业务功能类图标,Medium
+icon,皮肤,h-icon-skin,皮肤 外观,业务功能类图标,Low
+icon,印章,h-icon-stamp,印章 盖章,业务功能类图标,Low
+icon,主题,h-icon-theme,主题 风格,业务功能类图标,Low
+icon,版本,h-icon-versions,版本 版本管理,业务功能类图标,Medium
+icon,扣款,h-icon-withhold,扣款 代扣,业务功能类图标,Low
+icon,菜单,h-icon-menu,导航菜单 选项菜单,交互类图标,High
+icon,更多,h-icon-more,更多操作 展开选项,交互类图标,High
+icon,纵向更多,h-icon-more-vertical,垂直方向的更多操作,交互类图标,Medium
+icon,定位,h-icon-location,地理位置 位置标记,交互类图标,Medium
+icon,星标,h-icon-star,收藏 标记重要,交互类图标,Medium
+icon,实心星标,h-icon-star-fill,已收藏状态,交互类图标,Medium
+icon,喜欢,h-icon-heart,点赞 收藏,交互类图标,Medium
+icon,实心喜欢,h-icon-heart-fill,已点赞状态,交互类图标,Medium
+icon,点赞,h-icon-thumb-up,赞同 支持,交互类图标,Medium
+icon,踩,h-icon-thumb-down,反对 不喜欢,交互类图标,Medium
+icon,笑脸,h-icon-face-smile,表情 满意度,交互类图标,Low

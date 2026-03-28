@@ -1,5 +1,5 @@
 import * as Const from '@/tool/const.js'
-import { message as AntMessage } from 'ant-design-vue'
+import { message as AntMessage } from '@hwork/ant-design-vue'
 import { container } from '@/main'
 
 // 终端环境

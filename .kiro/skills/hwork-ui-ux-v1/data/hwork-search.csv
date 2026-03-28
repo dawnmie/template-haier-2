@@ -1,0 +1,193 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Search Purpose,高级筛选,查询表格用途,每条业务页面表格都需要设置筛选字段用户在搜索条件后可筛选出准确的查询范围的数据,High
+Purpose,Search Scenario,列表筛选,使用场景,用于列表页面的数据筛选查询,High
+Purpose,Search Behavior,条件筛选,筛选行为,用户设置筛选条件后点击查询筛选数据,High
+Type,Type Basic,基础筛选,基础类型,单行显示的基础筛选表单,High
+Type,Type Advanced,高级筛选,高级类型,支持展开收起的高级筛选表单,High
+Type,Type Inline,行内筛选,行内类型,筛选项在一行内排列,Medium
+Layout,Layout Default,1440分辨率默认五列,默认布局,1440分辨率默认五列栅格适配分布,High
+Layout,Layout Grid,栅格适配分布,栅格布局,高度默认显示两行点击展开收起对高级筛选内容进行高度调整,High
+Layout,Layout Rows Default,2,默认显示行数,高级筛选默认显示两行,High
+Layout,Layout Expand,展开/收起,展开收起,支持展开收起高级筛选内容,High
+Container,Container Background,#FFFFFF,容器背景,筛选区域白色背景,High
+Container,Container Padding,16px 24px,容器内边距,筛选区域内边距16px 24px,High
+Container,Container Border Radius,4px,容器圆角,筛选区域圆角4px,Medium
+Container,Container Border,none,容器边框,筛选区域无边框,Medium
+Container,Container Shadow,none,容器阴影,筛选区域无阴影,Medium
+Container,Container Margin Bottom,16px,容器底部间距,筛选区域与表格间距16px,High
+Header,Header Show,true,显示头部,筛选区域显示头部标题,Medium
+Header,Header Title,设备筛选区域,头部标题,筛选区域标题文字,Medium
+Header,Header Title Font Size,14px,头部标题字号,标题字号14px,Medium
+Header,Header Title Font Weight,500,头部标题字重,标题中等字重,Medium
+Header,Header Title Color,#1D2129,头部标题颜色,标题深色文字,Medium
+Header,Header Background,#F7F8FA,头部背景,头部浅灰背景,Medium
+Header,Header Padding,12px 16px,头部内边距,头部内边距12px 16px,Medium
+Header,Header Border Bottom,1px solid #E5E6EB,头部底边框,头部底部分隔线,Medium
+FormItem,Item Layout,inline,表单项布局,筛选项行内布局,High
+FormItem,Item Margin Right,24px,表单项右间距,筛选项之间右间距24px,High
+FormItem,Item Margin Bottom,16px,表单项底间距,筛选项底部间距16px,High
+FormItem,Item Display,flex,表单项显示,筛选项flex布局,High
+FormItem,Item Align Items,center,表单项对齐,筛选项垂直居中,High
+FormItem,Item Flex Wrap,wrap,表单项换行,筛选项自动换行,Medium
+Label,Label Font Size,14px,标签字号,筛选标签字号14px,High
+Label,Label Color,#1D2129,标签颜色,筛选标签深色文字,High
+Label,Label Font Weight,400,标签字重,筛选标签常规字重,Medium
+Label,Label Line Height,32px,标签行高,筛选标签行高32px,High
+Label,Label Margin Right,8px,标签右间距,标签与控件间距8px,High
+Label,Label White Space,nowrap,标签不换行,标签文字不换行,Medium
+Label,Label Colon,:,标签冒号,标签后显示冒号,Medium
+Label,Label Colon Show,false,显示冒号,筛选标签默认不显示冒号,Medium
+Control,Control Height,32px,控件高度,筛选控件高度32px,High
+Control,Control Min Width,120px,控件最小宽度,筛选控件最小宽度120px,High
+Control,Control Width,auto,控件宽度,筛选控件宽度自适应,Medium
+Control,Control Border Radius,2px,控件圆角,筛选控件圆角2px,High
+Control,Control Border,1px solid #E5E6EB,控件边框,筛选控件灰色边框,High
+Control,Control Background,#FFFFFF,控件背景,筛选控件白色背景,High
+Control,Control Font Size,14px,控件字号,筛选控件字号14px,High
+Control,Control Color,#1D2129,控件颜色,筛选控件深色文字,High
+Control,Control Placeholder Color,#C9CDD4,控件占位符颜色,筛选控件占位符灰色,High
+Select,Select Width,120px,选择器宽度,筛选选择器宽度120px,High
+Select,Select Min Width,100px,选择器最小宽度,筛选选择器最小宽度100px,Medium
+Select,Select Placeholder,请选择,选择器占位符,筛选选择器占位符文字,High
+Input,Input Width,160px,输入框宽度,筛选输入框宽度160px,High
+Input,Input Min Width,120px,输入框最小宽度,筛选输入框最小宽度120px,Medium
+Input,Input Placeholder,请输入,输入框占位符,筛选输入框占位符文字,High
+DatePicker,DatePicker Width,240px,日期选择器宽度,筛选日期选择器宽度240px,High
+DatePicker,DatePicker Placeholder,请选择日期,日期选择器占位符,筛选日期选择器占位符,High
+RangePicker,RangePicker Width,280px,范围选择器宽度,筛选范围选择器宽度280px,High
+RangePicker,RangePicker Placeholder Start,开始日期,范围开始占位符,筛选范围开始占位符,High
+RangePicker,RangePicker Placeholder End,结束日期,范围结束占位符,筛选范围结束占位符,High
+ButtonGroup,Button Group Position,right,按钮组位置,筛选按钮组在右侧,High
+ButtonGroup,Button Group Margin Left,auto,按钮组左间距,筛选按钮组左侧自动间距,High
+ButtonGroup,Button Group Gap,12px,按钮组间距,筛选按钮之间间距12px,High
+ButtonGroup,Button Group Align,flex-end,按钮组对齐,筛选按钮组右对齐,High
+SearchButton,Search Button Type,primary,查询按钮类型,查询按钮主要类型,High
+SearchButton,Search Button Text,查询,查询按钮文字,查询按钮文字,High
+SearchButton,Search Button Icon,SearchOutlined,查询按钮图标,查询按钮搜索图标,Medium
+SearchButton,Search Button Height,32px,查询按钮高度,查询按钮高度32px,High
+SearchButton,Search Button Padding,0 16px,查询按钮内边距,查询按钮内边距,Medium
+SearchButton,Search Button Background,#165DFF,查询按钮背景,查询按钮蓝色背景,High
+SearchButton,Search Button Color,#FFFFFF,查询按钮颜色,查询按钮白色文字,High
+SearchButton,Search Button Border Radius,2px,查询按钮圆角,查询按钮圆角2px,Medium
+SearchButton,Search Button Hover Background,#4080FF,查询按钮悬停背景,悬停时浅蓝背景,Medium
+ResetButton,Reset Button Type,default,重置按钮类型,重置按钮默认类型,High
+ResetButton,Reset Button Text,重置,重置按钮文字,重置按钮文字,High
+ResetButton,Reset Button Height,32px,重置按钮高度,重置按钮高度32px,High
+ResetButton,Reset Button Padding,0 16px,重置按钮内边距,重置按钮内边距,Medium
+ResetButton,Reset Button Background,#FFFFFF,重置按钮背景,重置按钮白色背景,High
+ResetButton,Reset Button Color,#1D2129,重置按钮颜色,重置按钮深色文字,High
+ResetButton,Reset Button Border,1px solid #E5E6EB,重置按钮边框,重置按钮灰色边框,High
+ResetButton,Reset Button Border Radius,2px,重置按钮圆角,重置按钮圆角2px,Medium
+ResetButton,Reset Button Hover Border,1px solid #165DFF,重置按钮悬停边框,悬停时蓝色边框,Medium
+ResetButton,Reset Button Hover Color,#165DFF,重置按钮悬停颜色,悬停时蓝色文字,Medium
+ExpandButton,Expand Button Type,link,展开按钮类型,展开按钮链接类型,High
+ExpandButton,Expand Button Text Expand,展开,展开按钮文字,展开按钮展开文字,High
+ExpandButton,Expand Button Text Collapse,收起,收起按钮文字,展开按钮收起文字,High
+ExpandButton,Expand Button Color,#165DFF,展开按钮颜色,展开按钮蓝色文字,High
+ExpandButton,Expand Button Font Size,14px,展开按钮字号,展开按钮字号14px,Medium
+ExpandButton,Expand Button Icon,DownOutlined,展开按钮图标,展开按钮下箭头图标,High
+ExpandButton,Expand Button Icon Rotate,180deg,展开图标旋转,收起时图标旋转180度,Medium
+ExpandButton,Expand Button Icon Margin Left,4px,展开图标左间距,展开图标左侧间距4px,Medium
+ExpandButton,Expand Button Position,right,展开按钮位置,展开按钮在右侧,High
+MoreButton,More Button Type,link,更多按钮类型,更多按钮链接类型,Medium
+MoreButton,More Button Text,更多,更多按钮文字,更多按钮文字,Medium
+MoreButton,More Button Color,#165DFF,更多按钮颜色,更多按钮蓝色文字,Medium
+MoreButton,More Button Icon,MoreOutlined,更多按钮图标,更多按钮更多图标,Medium
+Spacing,Spacing Text Distance,8px,文字距离按钮,文字距离按钮上下左右间距8px,High
+Spacing,Spacing Label Control,8px,标签控件间距,标签与控件间距8px,High
+Spacing,Spacing Item Horizontal,24px,水平项间距,筛选项水平间距24px,High
+Spacing,Spacing Item Vertical,16px,垂直项间距,筛选项垂直间距16px,High
+Spacing,Spacing Button Gap,12px,按钮间距,按钮之间间距12px,High
+Spacing,Spacing Row Gap,16px,行间距,筛选行之间间距16px,High
+Spacing,Spacing Container Padding,16px 24px,容器内边距,筛选容器内边距,High
+Responsive,Responsive 1600,1440×屏幕宽度<1600 显示5列操作,1600断点,1600分辨率显示5列,High
+Responsive,Responsive 1440,1200×屏幕宽度<1440 显示4列操作,1440断点,1440分辨率显示4列,High
+Responsive,Responsive 1200,992×屏幕宽度<1200 显示3列操作,1200断点,1200分辨率显示3列,High
+Responsive,Responsive 992,768×屏幕宽度<992 显示2列操作,992断点,992分辨率显示2列,High
+Responsive,Responsive 768,屏幕宽度<768 显示1列操作,768断点,768分辨率显示1列,High
+Responsive,Responsive Columns 5,5列,五列布局,1440分辨率默认五列,High
+Responsive,Responsive Columns 4,4列,四列布局,1200-1440分辨率四列,High
+Responsive,Responsive Columns 3,3列,三列布局,992-1200分辨率三列,High
+Responsive,Responsive Columns 2,2列,两列布局,768-992分辨率两列,Medium
+Responsive,Responsive Columns 1,1列,单列布局,768以下分辨率单列,Medium
+Responsive,Responsive Item Width,calc((100% - 96px) / 5),响应式项宽度,五列布局时每项宽度,High
+Responsive,Responsive Breakpoint XXL,≥1600px,超大屏断点,超大屏幕断点1600px,Medium
+Responsive,Responsive Breakpoint XL,≥1440px,大屏断点,大屏幕断点1440px,High
+Responsive,Responsive Breakpoint LG,≥1200px,中大屏断点,中大屏幕断点1200px,High
+Responsive,Responsive Breakpoint MD,≥992px,中屏断点,中屏幕断点992px,Medium
+Responsive,Responsive Breakpoint SM,≥768px,小屏断点,小屏幕断点768px,Medium
+Interaction,Interaction Expand Default,false,默认展开状态,默认收起高级筛选,High
+Interaction,Interaction Expand Animation,true,展开动画,展开收起有动画效果,Medium
+Interaction,Interaction Expand Duration,200ms,展开动画时长,展开动画200毫秒,Low
+Interaction,Interaction Search On Enter,true,回车搜索,输入框回车触发搜索,High
+Interaction,Interaction Search On Change,false,变化搜索,值变化时不自动搜索,Medium
+Interaction,Interaction Reset Clear All,true,重置清空,重置按钮清空所有筛选条件,High
+Interaction,Interaction Remember State,false,记住状态,是否记住筛选条件,Low
+Grid,Grid Columns,24,栅格列数,筛选栅格24列,High
+Grid,Grid Gutter,24px,栅格间距,筛选栅格间距24px,High
+Grid,Grid Item Span 5,calc(24/5),五列跨度,五列布局每项跨度,High
+Grid,Grid Item Span 4,6,四列跨度,四列布局每项跨6列,High
+Grid,Grid Item Span 3,8,三列跨度,三列布局每项跨8列,High
+Grid,Grid Item Span 2,12,两列跨度,两列布局每项跨12列,Medium
+Grid,Grid Item Span 1,24,单列跨度,单列布局每项跨24列,Medium
+Grid,Grid Button Span,auto,按钮跨度,按钮组跨度自适应,High
+Collapse,Collapse Default Rows,2,默认显示行数,默认显示两行筛选项,High
+Collapse,Collapse Max Rows,none,最大显示行数,展开后无行数限制,Medium
+Collapse,Collapse Animation,slideDown,折叠动画,折叠展开滑动动画,Medium
+Collapse,Collapse Duration,200ms,折叠动画时长,折叠动画200毫秒,Low
+Collapse,Collapse Overflow,hidden,折叠溢出,折叠时内容隐藏,Medium
+State,State Loading,false,加载状态,筛选加载状态,Medium
+State,State Loading Icon,LoadingOutlined,加载图标,加载中旋转图标,Medium
+State,State Loading Text,查询中...,加载文字,加载中提示文字,Medium
+State,State Disabled,false,禁用状态,筛选禁用状态,Medium
+Validation,Validation Show,false,显示验证,筛选项默认不显示验证,Low
+Validation,Validation Trigger,submit,验证触发,提交时触发验证,Low
+Validation,Validation Error Color,#F53F3F,验证错误颜色,验证错误红色,Medium
+Accessibility,A11y Role,search,无障碍角色,筛选区域search角色,High
+Accessibility,A11y Aria Label,高级筛选,无障碍标签,筛选区域aria标签,High
+Accessibility,A11y Keyboard Navigation,true,键盘导航,支持Tab键导航,High
+Accessibility,A11y Enter Submit,true,回车提交,回车键触发查询,High
+Accessibility,A11y Focus Visible,2px solid #165DFF,焦点可见,键盘焦点蓝色边框,Medium
+ZIndex,ZIndex Dropdown,1050,下拉层级,下拉面板层级1050,Medium
+ZIndex,ZIndex DatePicker,1050,日期选择器层级,日期面板层级1050,Medium
+API,API Model,object,筛选数据,筛选表单数据对象,High
+API,API Fields,array,筛选字段,筛选字段配置数组,High
+API,API Columns,5,列数,筛选项列数,High
+API,API Default Rows,2,默认行数,默认显示行数,High
+API,API Expand,false,展开状态,是否展开高级筛选,High
+API,API Loading,false,加载状态,是否显示加载状态,Medium
+API,API Show Search,true,显示查询,是否显示查询按钮,High
+API,API Show Reset,true,显示重置,是否显示重置按钮,High
+API,API Show Expand,true,显示展开,是否显示展开按钮,High
+API,API Label Width,auto,标签宽度,筛选标签宽度,Medium
+API,API Gutter,24,栅格间距,筛选栅格间距,Medium
+Event,Event Search,onSearch,查询事件,点击查询按钮时触发,High
+Event,Event Reset,onReset,重置事件,点击重置按钮时触发,High
+Event,Event Expand,onExpand,展开事件,展开收起时触发,Medium
+Event,Event Change,onChange,变化事件,筛选值变化时触发,Medium
+Event,Event Submit,onSubmit,提交事件,表单提交时触发,High
+Event,Event Values Change,onValuesChange,值变化事件,筛选值变化时触发,Medium
+Guideline,Guideline Field Order,字段顺序,顺序指南,常用筛选字段放在前面,High
+Guideline,Guideline Field Count,字段数量,数量指南,筛选字段不宜过多建议5-10个,High
+Guideline,Guideline Default Value,默认值,默认值指南,根据业务设置合理默认值,Medium
+Guideline,Guideline Placeholder,占位提示,占位符指南,使用占位符提示输入内容,Medium
+Guideline,Guideline Responsive,响应式,响应式指南,筛选区域应适配不同分辨率,High
+Guideline,Guideline Expand Logic,展开逻辑,展开指南,常用字段在收起状态可见,High
+Guideline,Guideline Button Position,按钮位置,按钮指南,查询重置按钮在右侧,High
+Guideline,Guideline Search Feedback,查询反馈,反馈指南,查询时显示加载状态,Medium
+Guideline,Guideline Reset Confirm,重置确认,重置指南,重置前可考虑二次确认,Low
+Guideline,Guideline Remember Filter,记住筛选,记忆指南,可考虑记住用户筛选条件,Low
+Extra,Extra Slot Before,before,前置插槽,筛选区域前置内容插槽,Low
+Extra,Extra Slot After,after,后置插槽,筛选区域后置内容插槽,Low
+Extra,Extra Slot Button,button,按钮插槽,自定义按钮插槽,Low
+Extra,Extra Slot Expand,expand,展开插槽,自定义展开内容插槽,Low
+Animation,Animation Expand,slideDown,展开动画,展开时下滑动画,Medium
+Animation,Animation Collapse,slideUp,收起动画,收起时上滑动画,Medium
+Animation,Animation Duration,200ms,动画时长,动画持续200毫秒,Low
+Animation,Animation Timing,ease-out,动画缓动,动画缓出效果,Low
+Theme,Theme Background,#FFFFFF,主题背景,筛选区域背景色,High
+Theme,Theme Border Color,#E5E6EB,主题边框色,筛选控件边框色,High
+Theme,Theme Primary Color,#165DFF,主题主色,查询按钮主色,High
+Theme,Theme Text Color,#1D2129,主题文字色,筛选文字颜色,High
+Theme,Theme Placeholder Color,#C9CDD4,主题占位符色,占位符文字颜色,High
+Theme,Theme Label Color,#1D2129,主题标签色,标签文字颜色,High

@@ -1,0 +1,209 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Popconfirm Min Width,200px,气泡确认框最小宽度,气泡确认框最小宽度200px,High
+Size,Popconfirm Max Width,350px,气泡确认框最大宽度,气泡确认框最大宽度350px,High
+Size,Popconfirm Padding,16px,气泡确认框内边距,气泡确认框内边距16px,High
+Size,Popconfirm Content Padding,0 0 12px 0,内容区内边距,内容区内边距下12px,Medium
+Size,Popconfirm Footer Padding,12px 0 0 0,底部内边距,底部内边距上12px,Medium
+Size,Popconfirm Border Radius,4px,气泡确认框圆角,气泡确认框圆角4px,High
+Size,Popconfirm Arrow Size,8px,气泡确认框箭头大小,气泡确认框箭头大小8px,High
+Size,Popconfirm Icon Size,16px,图标大小,确认框图标大小16px,High
+Size,Popconfirm Icon Gap,8px,图标间距,图标与文字间距8px,Medium
+Size,Popconfirm Title Font Size,14px,标题字号,确认框标题文字14px,High
+Size,Popconfirm Content Font Size,14px,内容字号,确认框内容文字14px,High
+Size,Popconfirm Button Height,28px,按钮高度,确认框按钮高度28px,High
+Size,Popconfirm Button Padding,0 12px,按钮内边距,确认框按钮左右内边距12px,Medium
+Size,Popconfirm Button Font Size,14px,按钮字号,确认框按钮文字14px,Medium
+Size,Popconfirm Button Gap,8px,按钮间距,确认框按钮间距8px,High
+Color,Popconfirm Background,#FFFFFF,气泡确认框背景,气泡确认框白色背景,High
+Color,Popconfirm Border Color,#E5E6EB,气泡确认框边框颜色,气泡确认框灰色边框#E5E6EB,High
+Color,Popconfirm Title Color,#1D2129,标题颜色,确认框标题深色文字#1D2129,High
+Color,Popconfirm Content Color,#4E5969,内容颜色,确认框内容灰色文字#4E5969,High
+Color,Popconfirm Arrow Background,#FFFFFF,箭头背景,气泡确认框箭头白色背景,High
+Color,Popconfirm Arrow Border,#E5E6EB,箭头边框,气泡确认框箭头灰色边框#E5E6EB,Medium
+Color,Popconfirm Icon Warning Color,#FF7D00,警告图标颜色,警告图标橙色#FF7D00,High
+Color,Popconfirm Icon Success Color,#00B42A,成功图标颜色,成功图标绿色#00B42A,Medium
+Color,Popconfirm Icon Info Color,#165DFF,信息图标颜色,信息图标蓝色#165DFF,Medium
+Color,Popconfirm Icon Error Color,#F53F3F,错误图标颜色,错误图标红色#F53F3F,Medium
+Shadow,Popconfirm Shadow,0 4px 10px rgba(0 0 0 0.1),气泡确认框阴影,气泡确认框阴影效果,High
+Shadow,Popconfirm Shadow Large,0 6px 16px rgba(0 0 0 0.12),气泡确认框大阴影,气泡确认框大阴影效果,Medium
+Border,Popconfirm Border Width,1px,气泡确认框边框宽度,气泡确认框边框宽度1px,Medium
+Border,Popconfirm Border Style,solid,气泡确认框边框样式,气泡确认框实线边框,High
+Position,Position Top,top,顶部位置,气泡确认框在触发元素顶部,High
+Position,Position Top Start,top-start,顶部左侧,气泡确认框在触发元素顶部左侧,Medium
+Position,Position Top End,top-end,顶部右侧,气泡确认框在触发元素顶部右侧,Medium
+Position,Position Bottom,bottom,底部位置,气泡确认框在触发元素底部,High
+Position,Position Bottom Start,bottom-start,底部左侧,气泡确认框在触发元素底部左侧,Medium
+Position,Position Bottom End,bottom-end,底部右侧,气泡确认框在触发元素底部右侧,Medium
+Position,Position Left,left,左侧位置,气泡确认框在触发元素左侧,Medium
+Position,Position Left Start,left-start,左侧顶部,气泡确认框在触发元素左侧顶部,Low
+Position,Position Left End,left-end,左侧底部,气泡确认框在触发元素左侧底部,Low
+Position,Position Right,right,右侧位置,气泡确认框在触发元素右侧,Medium
+Position,Position Right Start,right-start,右侧顶部,气泡确认框在触发元素右侧顶部,Low
+Position,Position Right End,right-end,右侧底部,气泡确认框在触发元素右侧底部,Low
+Arrow,Arrow Enabled,true,显示箭头,显示气泡确认框箭头,High
+Arrow,Arrow Disabled,false,隐藏箭头,隐藏气泡确认框箭头,Medium
+Arrow,Arrow Offset,12px,箭头偏移,箭头距离边缘偏移12px,Medium
+Arrow,Arrow Border Width,1px,箭头边框宽度,箭头边框宽度1px,Low
+Trigger,Trigger Click,click,点击触发,鼠标点击触发气泡确认框,High
+Trigger,Trigger Hover,hover,悬停触发,鼠标悬停触发气泡确认框,Low
+Trigger,Trigger Focus,focus,聚焦触发,元素聚焦触发气泡确认框,Low
+Trigger,Trigger Manual,manual,手动触发,手动控制气泡确认框显示,Medium
+Icon,Icon Type Warning,warning,警告类型,警告类型确认框,High
+Icon,Icon Type Success,success,成功类型,成功类型确认框,Medium
+Icon,Icon Type Info,info,信息类型,信息类型确认框,Medium
+Icon,Icon Type Error,error,错误类型,错误类型确认框,Medium
+Icon,Icon Warning,ExclamationCircleFilled,警告图标,警告类型使用ExclamationCircleFilled图标,High
+Icon,Icon Success,CheckCircleFilled,成功图标,成功类型使用CheckCircleFilled图标,Medium
+Icon,Icon Info,InfoCircleFilled,信息图标,信息类型使用InfoCircleFilled图标,Medium
+Icon,Icon Error,CloseCircleFilled,错误图标,错误类型使用CloseCircleFilled图标,Medium
+Icon,Icon Position,left,图标位置,图标在文字左侧,High
+Icon,Show Icon,true,显示图标,显示类型图标,High
+Icon,Hide Icon,false,隐藏图标,隐藏类型图标,Low
+Title,Title Font Weight,500,标题字重,确认框标题字重500,High
+Title,Title Line Height,22px,标题行高,确认框标题行高22px,Medium
+Title,Title Max Lines,2,标题最大行数,标题最多2行,Medium
+Title,Title Overflow,ellipsis,标题溢出,标题溢出显示省略号,Low
+Content,Content Font Weight,400,内容字重,确认框内容字重400,High
+Content,Content Line Height,22px,内容行高,确认框内容行高22px,Medium
+Content,Content Max Lines,none,内容最大行数,内容无最大行数限制,Low
+Content,Content Word Break,break-word,内容换行,内容过长自动换行,Medium
+Button,OK Button Text,确定,确定按钮文字,确定按钮默认文字,High
+Button,Cancel Button Text,取消,取消按钮文字,取消按钮默认文字,High
+Button,OK Button Type,primary,确定按钮类型,确定按钮主按钮样式,High
+Button,Cancel Button Type,secondary,取消按钮类型,取消按钮次按钮样式,High
+Button,OK Button Loading,false,确定按钮加载,确定按钮不在加载状态,Medium
+Button,Cancel Button Loading,false,取消按钮加载,取消按钮不在加载状态,Low
+Button,Button Order,cancel-ok,按钮顺序,取消按钮在左确定按钮在右,High
+Button,Button Align,right,按钮对齐,按钮右对齐,High
+Button,Button Full Width,false,按钮全宽,按钮不全宽显示,Low
+Footer,Footer Border Top,none,底部顶部边框,底部无顶部边框,Low
+Footer,Footer Align,right,底部对齐,底部右对齐,High
+Footer,Footer Justify,flex-end,底部排列,底部右对齐排列,Medium
+Animation,Fade In Duration,0.2s,淡入时长,气泡确认框淡入动画时长0.2s,Medium
+Animation,Fade Out Duration,0.2s,淡出时长,气泡确认框淡出动画时长0.2s,Medium
+Animation,Transition Timing,ease-in-out,过渡曲线,气泡确认框过渡曲线ease-in-out,Low
+Animation,Scale From,0.95,缩放起始,气泡确认框缩放起始值0.95,Low
+Animation,Scale To,1,缩放结束,气泡确认框缩放结束值1,Low
+Animation,Opacity From,0,透明度起始,气泡确认框透明度起始值0,Low
+Animation,Opacity To,1,透明度结束,气泡确认框透明度结束值1,Low
+Offset,Offset Distance,8px,偏移距离,气泡确认框距离触发元素8px,High
+Offset,Offset Skidding,0,横向偏移,气泡确认框横向偏移0,Low
+Offset,Viewport Padding,8px,视口内边距,气泡确认框距离视口边缘8px,Medium
+ZIndex,Z Index,1060,层级,气泡确认框层级1060,High
+ZIndex,Z Index Overlay,1050,遮罩层级,遮罩层级1050,Medium
+Overlay,Overlay Enabled,false,显示遮罩,不显示背景遮罩,High
+Overlay,Overlay Disabled,true,隐藏遮罩,隐藏背景遮罩,High
+Overlay,Overlay Background,rgba(0 0 0 0.45),遮罩背景,遮罩半透明黑色背景,Low
+Overlay,Overlay Click Close,true,点击遮罩关闭,点击遮罩关闭气泡确认框,Medium
+State,State Visible,visible,显示状态,气泡确认框显示状态,High
+State,State Hidden,hidden,隐藏状态,气泡确认框隐藏状态,High
+State,State Loading,loading,加载状态,气泡确认框加载状态,Medium
+Interaction,Click Outside Close,true,点击外部关闭,点击气泡确认框外部关闭,High
+Interaction,ESC Close,true,ESC关闭,按ESC键关闭气泡确认框,High
+Interaction,Focus Stay Open,true,聚焦保持打开,焦点在气泡确认框内保持打开,Medium
+Interaction,Auto Focus OK Button,true,自动聚焦确定按钮,打开时自动聚焦确定按钮,High
+Boundary,Boundary Element,viewport,边界元素,气泡确认框边界为视口,High
+Boundary,Boundary Padding,8px,边界内边距,气泡确认框距离边界8px,Medium
+Boundary,Flip Enabled,true,翻转启用,空间不足时自动翻转,High
+Boundary,Flip Fallback,true,翻转回退,翻转失败时使用回退位置,Medium
+Responsive,Mobile Max Width,280px,移动端最大宽度,移动端气泡确认框最大宽度280px,Medium
+Responsive,Mobile Padding,12px,移动端内边距,移动端气泡确认框内边距12px,Medium
+Responsive,Mobile Font Size,14px,移动端字号,移动端气泡确认框文字14px,Medium
+Responsive,Mobile Button Height,32px,移动端按钮高度,移动端按钮高度32px,Medium
+Responsive,Mobile Button Full Width,true,移动端按钮全宽,移动端按钮全宽显示,Medium
+Usage,Delete Usage,删除确认,删除确认场景,用于删除操作确认,High
+Usage,Dangerous Usage,危险操作确认,危险操作场景,用于危险操作确认,High
+Usage,Submit Usage,提交确认,提交确认场景,用于提交操作确认,Medium
+Usage,Cancel Usage,取消确认,取消确认场景,用于取消操作确认,Medium
+Usage,Warning Usage,警告确认,警告确认场景,用于警告提示确认,High
+Usage,Info Usage,信息确认,信息确认场景,用于信息提示确认,Low
+Guideline,Title Length,1-2行,标题长度,标题建议1-2行内,High
+Guideline,Content Length,适中,内容长度,内容不宜过长,High
+Guideline,Icon Visible,true,图标可见,建议显示类型图标,High
+Guideline,Button Text Clear,true,按钮文字明确,按钮文字明确表达操作,High
+Guideline,Dangerous Confirm,true,危险操作确认,危险操作必须确认,High
+Guideline,Auto Focus,true,自动聚焦,建议自动聚焦确定按钮,High
+Guideline,ESC Close,true,ESC关闭,建议支持ESC关闭,High
+Guideline,Click Outside Close,true,点击外部关闭,建议点击外部关闭,Medium
+Guideline,Position Auto,true,自动定位,优先使用自动定位,High
+Guideline,Arrow Visible,true,箭头可见,建议显示箭头指向,High
+Accessibility,Keyboard Navigation,supported,键盘导航,支持键盘导航,High
+Accessibility,Tab Navigation,supported,Tab导航,支持Tab键导航,High
+Accessibility,Enter Confirm,supported,回车确认,支持回车键确认,High
+Accessibility,ESC Cancel,supported,ESC取消,支持ESC键取消,High
+Accessibility,Focus Trap,true,焦点捕获,气泡确认框内焦点循环,High
+Accessibility,Focus Visible,true,焦点可见,按钮焦点状态可见,High
+Accessibility,ARIA Role,alertdialog,ARIA角色,使用alertdialog角色,High
+Accessibility,ARIA Modal,true,ARIA模态,使用aria-modal属性,High
+Accessibility,ARIA Describedby,true,ARIA描述,使用aria-describedby属性,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Performance,Lazy Render,true,延迟渲染,延迟渲染气泡确认框内容,Medium
+Performance,Destroy On Hide,false,隐藏时销毁,隐藏时不销毁DOM,Medium
+Performance,Cache Content,true,缓存内容,缓存气泡确认框内容,Low
+Performance,Debounce Delay,50ms,防抖延迟,触发防抖延迟50ms,Low
+Event,On Confirm,supported,确认事件,支持确认事件,High
+Event,On Cancel,supported,取消事件,支持取消事件,High
+Event,On Visible Change,supported,显示变化事件,支持显示变化事件,Medium
+Event,Before Confirm,supported,确认前事件,支持确认前事件,Medium
+Event,After Confirm,supported,确认后事件,支持确认后事件,Low
+Event,Before Cancel,supported,取消前事件,支持取消前事件,Low
+Event,After Cancel,supported,取消后事件,支持取消后事件,Low
+Method,Show,supported,显示方法,支持显示气泡确认框,High
+Method,Hide,supported,隐藏方法,支持隐藏气泡确认框,High
+Method,Confirm,supported,确认方法,支持触发确认,Medium
+Method,Cancel,supported,取消方法,支持触发取消,Medium
+Props,Title,supported,标题属性,支持设置标题,High
+Props,Content,supported,内容属性,支持设置内容,High
+Props,Icon,supported,图标属性,支持设置图标,Medium
+Props,Icon Type,supported,图标类型属性,支持设置图标类型,Medium
+Props,OK Text,supported,确定文字属性,支持设置确定按钮文字,High
+Props,Cancel Text,supported,取消文字属性,支持设置取消按钮文字,High
+Props,OK Button Props,supported,确定按钮属性,支持设置确定按钮属性,Medium
+Props,Cancel Button Props,supported,取消按钮属性,支持设置取消按钮属性,Medium
+Props,Placement,supported,位置属性,支持设置位置,High
+Props,Trigger,supported,触发方式属性,支持设置触发方式,High
+Props,Visible,supported,可见属性,支持控制显示隐藏,High
+Props,Disabled,supported,禁用属性,支持禁用触发,Medium
+Slot,Default Slot,supported,默认插槽,支持默认内容插槽,High
+Slot,Title Slot,supported,标题插槽,支持标题插槽,Medium
+Slot,Icon Slot,supported,图标插槽,支持图标插槽,Medium
+Slot,Footer Slot,supported,底部插槽,支持底部插槽,Low
+Custom,Custom Icon,supported,自定义图标,支持自定义类型图标,Medium
+Custom,Custom Buttons,supported,自定义按钮,支持自定义按钮,Medium
+Custom,Custom Footer,supported,自定义底部,支持自定义底部内容,Low
+Custom,Custom Width,supported,自定义宽度,支持自定义宽度,Medium
+Confirm,Confirm Loading,supported,确认加载,支持确认按钮加载状态,High
+Confirm,Confirm Disabled,supported,确认禁用,支持确认按钮禁用,Medium
+Confirm,Confirm Async,supported,异步确认,支持异步确认操作,High
+Confirm,Confirm Promise,supported,Promise确认,支持Promise确认,High
+Confirm,Confirm Callback,supported,回调确认,支持回调函数确认,Medium
+Cancel,Cancel Loading,supported,取消加载,支持取消按钮加载状态,Low
+Cancel,Cancel Disabled,supported,取消禁用,支持取消按钮禁用,Low
+Cancel,Cancel Async,supported,异步取消,支持异步取消操作,Low
+Condition,Condition Show,supported,条件显示,支持条件控制显示,Medium
+Condition,Condition Disabled,supported,条件禁用,支持条件控制禁用,Medium
+Condition,Condition Loading,supported,条件加载,支持条件控制加载,Low
+Validation,Validation Before Confirm,supported,确认前验证,支持确认前验证,High
+Validation,Validation Error Message,supported,验证错误消息,支持显示验证错误消息,Medium
+Validation,Validation Async,supported,异步验证,支持异步验证,Medium
+Loading,Loading Icon Size,14px,加载图标大小,加载图标大小14px,Low
+Loading,Loading Icon Color,#165DFF,加载图标颜色,加载图标蓝色#165DFF,Low
+Loading,Loading Text,处理中...,加载文字,加载状态显示文字,Low
+Disabled,Disabled Cursor,not-allowed,禁用光标,禁用状态禁止光标,Medium
+Disabled,Disabled Opacity,0.6,禁用透明度,禁用状态透明度0.6,Low
+Disabled,Disabled Tooltip,true,禁用提示,禁用时显示提示,Medium
+Type Variant,Variant Default,default,默认变体,默认气泡确认框样式,High
+Type Variant,Variant Danger,danger,危险变体,危险操作气泡确认框样式,High
+Type Variant,Variant Warning,warning,警告变体,警告气泡确认框样式,Medium
+Type Variant,Variant Info,info,信息变体,信息气泡确认框样式,Low
+Danger,Danger OK Button Type,danger,危险确定按钮,危险操作确定按钮危险样式,High
+Danger,Danger OK Button Color,#F53F3F,危险确定按钮颜色,危险确定按钮红色#F53F3F,High
+Danger,Danger Icon Color,#F53F3F,危险图标颜色,危险图标红色#F53F3F,High
+Danger,Danger Title Color,#F53F3F,危险标题颜色,危险标题红色#F53F3F,Medium
+Transition,Transition Name,zoom,过渡名称,缩放过渡效果,Medium
+Transition,Transition Duration,0.2s,过渡时长,过渡时长0.2s,Medium
+Transition,Transition Timing,ease-in-out,过渡曲线,过渡曲线ease-in-out,Low
+Popup,Popup Container,body,弹出容器,气泡确认框挂载到body,High
+Popup,Popup Get Container,supported,获取容器,支持自定义挂载容器,Medium
+Popup,Popup Append To Body,true,追加到body,追加到body元素,High
+Popup,Popup Z Index Auto,true,自动层级,自动计算层级,Medium

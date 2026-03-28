@@ -1,11 +1,12 @@
 <template>
   <div class="welcome-wrap">
-    <p class="welcome-text">欢迎使用本应用（根路径 <code>/</code>）。请在此页面扩展你的界面与业务逻辑。</p>
+    <p class="welcome-text">
+      欢迎使用本应用（根路径 <code>/</code>）。请在此页面扩展你的界面与业务逻辑。
+    </p>
   </div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <style lang="scss" scoped>
 .welcome-wrap {

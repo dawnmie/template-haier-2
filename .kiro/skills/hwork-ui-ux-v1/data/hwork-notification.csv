@@ -1,0 +1,214 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Notification Width,384px,通知提醒框宽度,通知提醒框宽度384px,High
+Size,Notification Min Height,80px,通知提醒框最小高度,通知提醒框最小高度80px,Medium
+Size,Notification Max Height,none,通知提醒框最大高度,通知提醒框无最大高度限制,Low
+Size,Notification Padding,16px 24px,通知提醒框内边距,通知提醒框内边距上下16px左右24px,High
+Size,Notification Padding With Icon,16px 24px 16px 48px,带图标内边距,带图标通知提醒框左侧内边距48px,High
+Size,Notification Padding With Close,16px 48px 16px 24px,带关闭内边距,带关闭按钮右侧内边距48px,Medium
+Size,Notification Border Radius,4px,通知提醒框圆角,通知提醒框圆角4px,High
+Size,Notification Icon Size,20px,通知提醒框图标大小,通知提醒框图标大小20px,High
+Size,Notification Icon Gap,12px,通知提醒框图标间距,图标与文字间距12px,Medium
+Size,Notification Close Icon Size,14px,关闭图标大小,关闭图标大小14px,Medium
+Size,Notification Title Font Size,16px,通知提醒框标题字号,通知提醒框标题文字16px,High
+Size,Notification Content Font Size,14px,通知提醒框内容字号,通知提醒框内容文字14px,High
+Size,Notification Title Line Height,24px,通知提醒框标题行高,通知提醒框标题行高24px,Medium
+Size,Notification Content Line Height,22px,通知提醒框内容行高,通知提醒框内容行高22px,Medium
+Size,Notification Title Margin Bottom,4px,标题下边距,标题下边距4px,Low
+Color,Notification Background,#FFFFFF,通知提醒框背景,通知提醒框白色背景,High
+Color,Notification Border Color,#E5E6EB,通知提醒框边框颜色,通知提醒框灰色边框#E5E6EB,Medium
+Color,Notification Title Color,#1D2129,标题颜色,通知提醒框标题深色文字#1D2129,High
+Color,Notification Content Color,#4E5969,内容颜色,通知提醒框内容灰色文字#4E5969,High
+Color,Notification Close Icon Color,#86909C,关闭图标颜色,关闭图标灰色#86909C,Medium
+Color,Notification Close Icon Hover Color,#4E5969,关闭图标悬停颜色,关闭图标悬停深灰#4E5969,Medium
+Color,Notification Icon Info Color,#165DFF,信息图标颜色,信息图标蓝色#165DFF,High
+Color,Notification Icon Success Color,#00B42A,成功图标颜色,成功图标绿色#00B42A,High
+Color,Notification Icon Warning Color,#FF7D00,警告图标颜色,警告图标橙色#FF7D00,High
+Color,Notification Icon Error Color,#F53F3F,错误图标颜色,错误图标红色#F53F3F,High
+Shadow,Notification Shadow,0 4px 10px rgba(0 0 0 0.1),通知提醒框阴影,通知提醒框阴影效果,High
+Shadow,Notification Shadow Large,0 6px 16px rgba(0 0 0 0.12),通知提醒框大阴影,通知提醒框大阴影效果,Medium
+Border,Notification Border Width,1px,通知提醒框边框宽度,通知提醒框边框宽度1px,Medium
+Border,Notification Border Style,solid,通知提醒框边框样式,通知提醒框实线边框,High
+Position,Position Top Right,top-right,右上角位置,通知提醒框在右上角,High
+Position,Position Top Left,top-left,左上角位置,通知提醒框在左上角,Medium
+Position,Position Bottom Right,bottom-right,右下角位置,通知提醒框在右下角,Medium
+Position,Position Bottom Left,bottom-left,左下角位置,通知提醒框在左下角,Low
+Position,Position Top,top,顶部中心位置,通知提醒框在顶部中心,Low
+Position,Position Bottom,bottom,底部中心位置,通知提醒框在底部中心,Low
+Offset,Offset Top,24px,顶部偏移,通知提醒框距离顶部24px,High
+Offset,Offset Right,24px,右侧偏移,通知提醒框距离右侧24px,High
+Offset,Offset Bottom,24px,底部偏移,通知提醒框距离底部24px,Medium
+Offset,Offset Left,24px,左侧偏移,通知提醒框距离左侧24px,Medium
+Gap,Notification Gap,16px,通知提醒框间距,多个通知提醒框间距16px,High
+Type,Type Info,info,信息类型,信息通知提醒框,High
+Type,Type Success,success,成功类型,成功通知提醒框,High
+Type,Type Warning,warning,警告类型,警告通知提醒框,High
+Type,Type Error,error,错误类型,错误通知提醒框,High
+Type,Type Normal,normal,普通类型,普通通知提醒框,Medium
+Icon,Icon Info,InfoCircleFilled,信息图标,信息类型使用InfoCircleFilled图标,High
+Icon,Icon Success,CheckCircleFilled,成功图标,成功类型使用CheckCircleFilled图标,High
+Icon,Icon Warning,ExclamationCircleFilled,警告图标,警告类型使用ExclamationCircleFilled图标,High
+Icon,Icon Error,CloseCircleFilled,错误图标,错误类型使用CloseCircleFilled图标,High
+Icon,Icon Position,left,图标位置,图标在左侧,High
+Icon,Show Icon,true,显示图标,显示类型图标,High
+Icon,Hide Icon,false,隐藏图标,隐藏类型图标,Low
+Close,Closable,true,可关闭,通知提醒框可关闭,High
+Close,Closable Disabled,false,不可关闭,通知提醒框不可关闭,Low
+Close,Close Icon,CloseOutlined,关闭图标,使用CloseOutlined图标,High
+Close,Close Icon Position,top-right,关闭图标位置,关闭图标在右上角,High
+Close,Close Button Size,24px,关闭按钮大小,关闭按钮大小24px,Medium
+Close,Close Button Padding,4px,关闭按钮内边距,关闭按钮内边距4px,Low
+Title,Title Font Weight,500,标题字重,通知提醒框标题字重500,High
+Title,Title Color,#1D2129,标题颜色,通知提醒框标题深色#1D2129,High
+Title,Title Max Lines,2,标题最大行数,标题最多2行,Medium
+Title,Title Overflow,ellipsis,标题溢出,标题溢出显示省略号,Low
+Content,Content Font Weight,400,内容字重,通知提醒框内容字重400,High
+Content,Content Color,#4E5969,内容颜色,通知提醒框内容灰色#4E5969,High
+Content,Content Max Lines,none,内容最大行数,内容无最大行数限制,Low
+Content,Content Word Break,break-word,内容换行,内容过长自动换行,Medium
+Duration,Duration Default,4500ms,默认持续时间,通知提醒框默认显示4500ms,High
+Duration,Duration Short,3000ms,短持续时间,通知提醒框短时间显示3000ms,Medium
+Duration,Duration Long,6000ms,长持续时间,通知提醒框长时间显示6000ms,Medium
+Duration,Duration Infinite,0,无限持续时间,通知提醒框持续显示不自动关闭,Low
+Animation,Animation Enter Duration,0.3s,进入动画时长,通知提醒框进入动画时长0.3s,Medium
+Animation,Animation Leave Duration,0.3s,离开动画时长,通知提醒框离开动画时长0.3s,Medium
+Animation,Animation Timing,ease-in-out,动画曲线,通知提醒框动画曲线ease-in-out,Low
+Animation,Slide In From,right,滑入方向,通知提醒框从右侧滑入,High
+Animation,Slide Out To,right,滑出方向,通知提醒框向右侧滑出,Medium
+Animation,Fade In Opacity From,0,淡入起始透明度,淡入起始透明度0,Low
+Animation,Fade In Opacity To,1,淡入结束透明度,淡入结束透明度1,Low
+ZIndex,Z Index,1010,层级,通知提醒框层级1010,High
+ZIndex,Z Index Increment,1,层级增量,多个通知提醒框层级递增1,Low
+Max Count,Max Count,3,最大数量,最多同时显示3个通知提醒框,High
+Max Count,Max Count Unlimited,0,无限数量,不限制通知提醒框数量,Low
+Max Count,Queue Mode,true,队列模式,超过最大数量时排队显示,Medium
+Max Count,Replace Mode,false,替换模式,超过最大数量时替换旧的,Low
+Action,Action Visible,false,显示操作,不显示操作按钮,Medium
+Action,Action Enabled,true,启用操作,启用操作按钮,Medium
+Action,Action Position,bottom,操作位置,操作按钮在底部,Medium
+Action,Action Gap,8px,操作间距,操作按钮间距8px,Low
+Action,Action Button Type,text,操作按钮类型,操作按钮文字类型,Medium
+Action,Action Button Size,small,操作按钮大小,操作按钮小尺寸,Low
+Action,Action Margin Top,8px,操作上边距,操作按钮上边距8px,Low
+Progress,Progress Visible,false,显示进度条,不显示进度条,Low
+Progress,Progress Enabled,true,启用进度条,启用进度条,Low
+Progress,Progress Height,2px,进度条高度,进度条高度2px,Low
+Progress,Progress Color,#165DFF,进度条颜色,进度条蓝色#165DFF,Low
+Progress,Progress Background,#E5E6EB,进度条背景,进度条背景灰色#E5E6EB,Low
+Progress,Progress Position,bottom,进度条位置,进度条在底部,Low
+State,State Visible,visible,显示状态,通知提醒框显示状态,High
+State,State Hidden,hidden,隐藏状态,通知提醒框隐藏状态,High
+State,State Entering,entering,进入中状态,通知提醒框进入中状态,Medium
+State,State Leaving,leaving,离开中状态,通知提醒框离开中状态,Medium
+Hover,Hover Pause,true,悬停暂停,悬停时暂停自动关闭,High
+Hover,Hover No Pause,false,悬停不暂停,悬停时不暂停自动关闭,Low
+Hover,Hover Cursor,default,悬停光标,悬停显示默认光标,Medium
+Hover,Hover Background,#FFFFFF,悬停背景,悬停背景不变,Low
+Container,Container Position,fixed,容器定位,通知提醒框容器固定定位,High
+Container,Container Z Index,1010,容器层级,通知提醒框容器层级1010,High
+Container,Container Pointer Events,none,容器指针事件,容器不响应指针事件,Medium
+Container,Notification Pointer Events,auto,通知指针事件,通知提醒框响应指针事件,High
+Responsive,Mobile Width,calc(100vw - 32px),移动端宽度,移动端通知提醒框宽度,High
+Responsive,Mobile Padding,12px 16px,移动端内边距,移动端通知提醒框内边距,Medium
+Responsive,Mobile Font Size,14px,移动端字号,移动端通知提醒框文字14px,Medium
+Responsive,Mobile Icon Size,18px,移动端图标大小,移动端图标18px,Low
+Responsive,Mobile Offset,16px,移动端偏移,移动端距离边缘16px,Medium
+Responsive,Mobile Position,top,移动端位置,移动端在顶部,High
+Responsive,Tablet Width,384px,平板端宽度,平板端通知提醒框宽度384px,Low
+Usage,Info Usage,信息通知,信息通知场景,用于展示一般信息通知,High
+Usage,Success Usage,成功通知,成功通知场景,用于展示成功操作通知,High
+Usage,Warning Usage,警告通知,警告通知场景,用于展示警告信息通知,High
+Usage,Error Usage,错误通知,错误通知场景,用于展示错误信息通知,High
+Usage,Action Usage,带操作通知,带操作场景,用于需要用户操作的通知,Medium
+Usage,Progress Usage,带进度通知,带进度场景,用于显示进度的通知,Low
+Guideline,Title Length,1-2行,标题长度,标题建议1-2行内,High
+Guideline,Content Length,适中,内容长度,内容不宜过长,High
+Guideline,Icon Visible,true,图标可见,建议显示类型图标,High
+Guideline,Position Right,true,位置右侧,建议放置在右上角,High
+Guideline,Duration Appropriate,4500ms,持续时间适当,建议持续时间4500ms,High
+Guideline,Max Count Limit,3,最大数量限制,建议最多同时显示3个,High
+Guideline,Closable Enabled,true,可关闭启用,建议启用关闭功能,High
+Guideline,Hover Pause,true,悬停暂停,建议悬停时暂停自动关闭,High
+Guideline,Action Clear,true,操作明确,操作按钮文字明确,Medium
+Accessibility,Keyboard Close,supported,键盘关闭,支持键盘关闭,Medium
+Accessibility,Focus Visible,true,焦点可见,关闭按钮焦点可见,High
+Accessibility,ARIA Role,alert,ARIA角色,使用alert角色,High
+Accessibility,ARIA Live,polite,ARIA实时,使用aria-live属性,High
+Accessibility,ARIA Atomic,true,ARIA原子,使用aria-atomic属性,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,Announce,true,语音播报,支持语音播报通知内容,Medium
+Performance,Lazy Render,false,延迟渲染,不延迟渲染,Low
+Performance,Destroy On Close,true,关闭时销毁,关闭时销毁DOM,High
+Performance,Transition,true,过渡效果,启用过渡效果,Medium
+Performance,GPU Acceleration,true,GPU加速,启用GPU加速,Medium
+Performance,Will Change,transform,Will Change属性,使用will-change优化,Low
+Event,On Close,supported,关闭事件,支持关闭事件,High
+Event,On Click,supported,点击事件,支持点击事件,Medium
+Event,On Action,supported,操作事件,支持操作按钮事件,Medium
+Event,Before Close,supported,关闭前事件,支持关闭前事件,Low
+Event,After Close,supported,关闭后事件,支持关闭后事件,Low
+Event,On Duration End,supported,持续时间结束事件,支持持续时间结束事件,Low
+Method,Open,supported,打开方法,支持打开通知提醒框,High
+Method,Close,supported,关闭方法,支持关闭通知提醒框,High
+Method,Close All,supported,关闭全部方法,支持关闭所有通知提醒框,Medium
+Method,Update,supported,更新方法,支持更新通知提醒框内容,Medium
+Method,Destroy,supported,销毁方法,支持销毁通知提醒框,Low
+Props,Title,supported,标题属性,支持设置标题,High
+Props,Content,supported,内容属性,支持设置内容,High
+Props,Type,supported,类型属性,支持设置类型,High
+Props,Icon,supported,图标属性,支持设置图标,Medium
+Props,Closable,supported,可关闭属性,支持控制可关闭,High
+Props,Duration,supported,持续时间属性,支持设置持续时间,High
+Props,Position,supported,位置属性,支持设置位置,High
+Props,Show Icon,supported,显示图标属性,支持控制图标显示,High
+Props,On Close,supported,关闭回调属性,支持设置关闭回调,High
+Props,On Click,supported,点击回调属性,支持设置点击回调,Medium
+Slot,Default Slot,supported,默认插槽,支持默认内容插槽,High
+Slot,Title Slot,supported,标题插槽,支持标题插槽,Medium
+Slot,Icon Slot,supported,图标插槽,支持图标插槽,Medium
+Slot,Action Slot,supported,操作插槽,支持操作插槽,Medium
+Slot,Close Slot,supported,关闭插槽,支持关闭按钮插槽,Low
+Custom,Custom Icon,supported,自定义图标,支持自定义类型图标,Medium
+Custom,Custom Close Icon,supported,自定义关闭图标,支持自定义关闭图标,Low
+Custom,Custom Action,supported,自定义操作,支持自定义操作内容,Medium
+Custom,Custom Width,supported,自定义宽度,支持自定义宽度,Medium
+Custom,Custom Position,supported,自定义位置,支持自定义位置,Medium
+API,Notification.info,supported,信息通知API,支持信息通知API,High
+API,Notification.success,supported,成功通知API,支持成功通知API,High
+API,Notification.warning,supported,警告通知API,支持警告通知API,High
+API,Notification.error,supported,错误通知API,支持错误通知API,High
+API,Notification.open,supported,打开通知API,支持打开通知API,High
+API,Notification.close,supported,关闭通知API,支持关闭通知API,High
+API,Notification.destroy,supported,销毁通知API,支持销毁所有通知API,Medium
+API,Notification.config,supported,配置通知API,支持全局配置通知API,Medium
+Config,Config Top,supported,配置顶部偏移,支持配置顶部偏移,Medium
+Config,Config Bottom,supported,配置底部偏移,支持配置底部偏移,Low
+Config,Config Duration,supported,配置持续时间,支持配置默认持续时间,High
+Config,Config Placement,supported,配置位置,支持配置默认位置,Medium
+Config,Config Max Count,supported,配置最大数量,支持配置最大数量,High
+Config,Config RTL,supported,配置RTL,支持配置从右到左,Low
+Queue,Queue Enabled,true,启用队列,启用通知队列,High
+Queue,Queue Max Length,10,队列最大长度,队列最大长度10,Medium
+Queue,Queue Strategy FIFO,fifo,先进先出策略,先进先出队列策略,High
+Queue,Queue Strategy LIFO,lifo,后进先出策略,后进先出队列策略,Low
+Group,Group By Type,false,按类型分组,不按类型分组,Low
+Group,Group By Key,false,按键分组,不按键分组,Low
+Group,Group Max Count,1,分组最大数量,每组最多1个,Low
+Update,Update By Key,supported,按键更新,支持按键更新通知,Medium
+Update,Update Title,supported,更新标题,支持更新标题,Medium
+Update,Update Content,supported,更新内容,支持更新内容,Medium
+Update,Update Duration,supported,更新持续时间,支持更新持续时间,Low
+Transition,Transition Name,slide-fade,过渡名称,滑动淡入淡出过渡效果,Medium
+Transition,Transition Duration,0.3s,过渡时长,过渡时长0.3s,Medium
+Transition,Transition Timing,ease-in-out,过渡曲线,过渡曲线ease-in-out,Low
+Transition,Enter From Right,translateX(100%),从右进入,从右侧滑入,High
+Transition,Leave To Right,translateX(100%),向右离开,向右侧滑出,Medium
+Theme,Theme Light,light,浅色主题,浅色主题通知提醒框,High
+Theme,Theme Dark,dark,深色主题,深色主题通知提醒框,Low
+Dark,Dark Background,#1D2129,深色背景,深色主题背景#1D2129,Low
+Dark,Dark Title Color,#FFFFFF,深色标题颜色,深色主题标题白色,Low
+Dark,Dark Content Color,rgba(255 255 255 0.8),深色内容颜色,深色主题内容半透明白色,Low
+Dark,Dark Border Color,#4E5969,深色边框颜色,深色主题边框灰色#4E5969,Low
+RTL,RTL Enabled,false,启用RTL,不启用从右到左,Low
+RTL,RTL Direction,rtl,RTL方向,从右到左方向,Low
+RTL,RTL Position,left,RTL位置,RTL模式位置在左侧,Low
+RTL,RTL Slide From,left,RTL滑入方向,RTL模式从左侧滑入,Low

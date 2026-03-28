@@ -1,0 +1,268 @@
+Category,Name,Value,Usage,Description,Severity
+Common,Chart Container Background,#FFFFFF,图表容器背景,图表容器白色背景,High
+Common,Chart Container Padding,24px,图表容器内边距,图表容器内边距24px,High
+Common,Chart Container Border Radius,4px,图表容器圆角,图表容器圆角4px,Medium
+Common,Chart Container Shadow,0 2px 8px rgba(0 0 0 0.08),图表容器阴影,图表容器阴影效果,Medium
+Common,Chart Title Font Size,16px,图表标题字号,图表标题文字16px,High
+Common,Chart Title Font Weight,500,图表标题字重,图表标题字重500,High
+Common,Chart Title Color,#1D2129,图表标题颜色,图表标题深色文字#1D2129,High
+Common,Chart Title Margin Bottom,16px,图表标题下边距,图表标题下边距16px,Medium
+Common,Chart Subtitle Font Size,14px,图表副标题字号,图表副标题文字14px,Medium
+Common,Chart Subtitle Color,#4E5969,图表副标题颜色,图表副标题灰色文字#4E5969,Medium
+Common,Chart Min Height,300px,图表最小高度,图表最小高度300px,High
+Common,Chart Max Height,600px,图表最大高度,图表最大高度600px,Medium
+Common,Chart Aspect Ratio,16:9,图表宽高比,图表默认宽高比16:9,Medium
+Color,Primary Color,#165DFF,主色,图表主色蓝色#165DFF,High
+Color,Secondary Color,#14C9C9,次色,图表次色青色#14C9C9,High
+Color,Success Color,#00B42A,成功色,图表成功色绿色#00B42A,High
+Color,Warning Color,#FF7D00,警告色,图表警告色橙色#FF7D00,High
+Color,Danger Color,#F53F3F,危险色,图表危险色红色#F53F3F,High
+Color,Purple Color,#722ED1,紫色,图表紫色#722ED1,Medium
+Color,Magenta Color,#F5319D,品红色,图表品红色#F5319D,Medium
+Color,Orange Color,#FF7D00,橙色,图表橙色#FF7D00,Medium
+Color,Yellow Color,#F7BA1E,黄色,图表黄色#F7BA1E,Medium
+Color,Lime Color,#9FDB1D,青柠色,图表青柠色#9FDB1D,Low
+Color,Cyan Color,#14C9C9,青色,图表青色#14C9C9,Medium
+Color,Blue Color,#165DFF,蓝色,图表蓝色#165DFF,High
+Color,Geek Blue Color,#3491FA,极客蓝,图表极客蓝#3491FA,Medium
+Color,Gray Color,#86909C,灰色,图表灰色#86909C,Medium
+Color Palette,Color Palette 1,#165DFF,色板1,图表色板颜色1蓝色,High
+Color Palette,Color Palette 2,#14C9C9,色板2,图表色板颜色2青色,High
+Color Palette,Color Palette 3,#00B42A,色板3,图表色板颜色3绿色,High
+Color Palette,Color Palette 4,#FF7D00,色板4,图表色板颜色4橙色,High
+Color Palette,Color Palette 5,#F53F3F,色板5,图表色板颜色5红色,High
+Color Palette,Color Palette 6,#722ED1,色板6,图表色板颜色6紫色,Medium
+Color Palette,Color Palette 7,#F5319D,色板7,图表色板颜色7品红,Medium
+Color Palette,Color Palette 8,#F7BA1E,色板8,图表色板颜色8黄色,Medium
+Color Palette,Color Palette 9,#3491FA,色板9,图表色板颜色9浅蓝,Medium
+Color Palette,Color Palette 10,#9FDB1D,色板10,图表色板颜色10青柠,Low
+Axis,Axis Line Color,#E5E6EB,坐标轴线颜色,坐标轴线灰色#E5E6EB,High
+Axis,Axis Line Width,1px,坐标轴线宽度,坐标轴线宽度1px,High
+Axis,Axis Label Font Size,12px,坐标轴标签字号,坐标轴标签文字12px,High
+Axis,Axis Label Color,#86909C,坐标轴标签颜色,坐标轴标签灰色#86909C,High
+Axis,Axis Label Margin,8px,坐标轴标签边距,坐标轴标签边距8px,Medium
+Axis,Axis Title Font Size,14px,坐标轴标题字号,坐标轴标题文字14px,Medium
+Axis,Axis Title Color,#4E5969,坐标轴标题颜色,坐标轴标题灰色#4E5969,Medium
+Axis,Axis Title Font Weight,500,坐标轴标题字重,坐标轴标题字重500,Medium
+Axis,Axis Tick Length,4px,坐标轴刻度长度,坐标轴刻度长度4px,Low
+Axis,Axis Tick Color,#E5E6EB,坐标轴刻度颜色,坐标轴刻度灰色#E5E6EB,Low
+Grid,Grid Line Color,#F2F3F5,网格线颜色,网格线浅灰色#F2F3F5,Medium
+Grid,Grid Line Width,1px,网格线宽度,网格线宽度1px,Medium
+Grid,Grid Line Style,solid,网格线样式,网格线实线样式,Medium
+Grid,Grid Line Dash,none,网格线虚线,网格线无虚线,Low
+Grid,Grid Background,transparent,网格背景,网格透明背景,Low
+Legend,Legend Position Top,top,图例顶部位置,图例在顶部,Medium
+Legend,Legend Position Bottom,bottom,图例底部位置,图例在底部,High
+Legend,Legend Position Left,left,图例左侧位置,图例在左侧,Medium
+Legend,Legend Position Right,right,图例右侧位置,图例在右侧,Medium
+Legend,Legend Font Size,12px,图例字号,图例文字12px,High
+Legend,Legend Color,#4E5969,图例颜色,图例灰色文字#4E5969,High
+Legend,Legend Icon Size,8px,图例图标大小,图例图标大小8px,Medium
+Legend,Legend Icon Gap,8px,图例图标间距,图例图标与文字间距8px,Medium
+Legend,Legend Item Gap,16px,图例项间距,图例项之间间距16px,Medium
+Legend,Legend Margin,16px 0,图例边距,图例上下边距16px,Medium
+Legend,Legend Hover Color,#165DFF,图例悬停颜色,图例悬停蓝色#165DFF,Medium
+Legend,Legend Selected Opacity,1,图例选中透明度,图例选中透明度1,Low
+Legend,Legend Unselected Opacity,0.3,图例未选中透明度,图例未选中透明度0.3,Low
+Tooltip,Tooltip Background,rgba(0 0 0 0.75),提示框背景,提示框半透明黑色背景,High
+Tooltip,Tooltip Color,#FFFFFF,提示框文字,提示框白色文字,High
+Tooltip,Tooltip Font Size,12px,提示框字号,提示框文字12px,High
+Tooltip,Tooltip Padding,8px 12px,提示框内边距,提示框内边距上下8px左右12px,Medium
+Tooltip,Tooltip Border Radius,4px,提示框圆角,提示框圆角4px,Medium
+Tooltip,Tooltip Shadow,0 2px 8px rgba(0 0 0 0.15),提示框阴影,提示框阴影效果,Medium
+Tooltip,Tooltip Arrow Size,4px,提示框箭头大小,提示框箭头大小4px,Low
+Tooltip,Tooltip Line Height,20px,提示框行高,提示框行高20px,Medium
+Tooltip,Tooltip Max Width,300px,提示框最大宽度,提示框最大宽度300px,Medium
+Tooltip,Tooltip Title Font Weight,500,提示框标题字重,提示框标题字重500,Medium
+Tooltip,Tooltip Title Margin Bottom,4px,提示框标题下边距,提示框标题下边距4px,Low
+Statistic,Statistic Value Font Size,32px,统计数值字号,统计数值文字32px,High
+Statistic,Statistic Value Font Weight,600,统计数值字重,统计数值字重600,High
+Statistic,Statistic Value Color,#1D2129,统计数值颜色,统计数值深色#1D2129,High
+Statistic,Statistic Label Font Size,14px,统计标签字号,统计标签文字14px,High
+Statistic,Statistic Label Color,#86909C,统计标签颜色,统计标签灰色#86909C,High
+Statistic,Statistic Prefix Font Size,20px,统计前缀字号,统计前缀文字20px,Medium
+Statistic,Statistic Suffix Font Size,20px,统计后缀字号,统计后缀文字20px,Medium
+Statistic,Statistic Trend Up Color,#00B42A,统计上升颜色,统计上升绿色#00B42A,High
+Statistic,Statistic Trend Down Color,#F53F3F,统计下降颜色,统计下降红色#F53F3F,High
+Statistic,Statistic Trend Icon Size,16px,统计趋势图标大小,统计趋势图标16px,Medium
+Statistic,Statistic Card Background,#FFFFFF,统计卡片背景,统计卡片白色背景,High
+Statistic,Statistic Card Padding,24px,统计卡片内边距,统计卡片内边距24px,High
+Statistic,Statistic Card Border Radius,4px,统计卡片圆角,统计卡片圆角4px,Medium
+Statistic,Statistic Card Shadow,0 2px 8px rgba(0 0 0 0.08),统计卡片阴影,统计卡片阴影效果,Medium
+Statistic,Statistic Card Hover Shadow,0 4px 12px rgba(0 0 0 0.12),统计卡片悬停阴影,统计卡片悬停阴影效果,Low
+Statistic,Statistic Mini Chart Height,48px,统计迷你图表高度,统计迷你图表高度48px,Medium
+Pie,Pie Inner Radius,0%,饼图内半径,饼图内半径0%,High
+Pie,Pie Outer Radius,80%,饼图外半径,饼图外半径80%,High
+Pie,Pie Label Font Size,12px,饼图标签字号,饼图标签文字12px,Medium
+Pie,Pie Label Color,#1D2129,饼图标签颜色,饼图标签深色#1D2129,Medium
+Pie,Pie Label Line Color,#E5E6EB,饼图标签线颜色,饼图标签线灰色#E5E6EB,Low
+Pie,Pie Label Line Width,1px,饼图标签线宽度,饼图标签线宽度1px,Low
+Pie,Pie Hover Offset,10px,饼图悬停偏移,饼图悬停偏移10px,Medium
+Pie,Pie Border Width,0,饼图边框宽度,饼图边框宽度0,Low
+Pie,Pie Border Color,#FFFFFF,饼图边框颜色,饼图边框白色,Low
+Pie,Pie Center Text Font Size,24px,饼图中心文字字号,饼图中心文字24px,Medium
+Pie,Pie Center Text Color,#1D2129,饼图中心文字颜色,饼图中心文字深色#1D2129,Medium
+Pie,Pie Center Text Font Weight,600,饼图中心文字字重,饼图中心文字字重600,Medium
+Donut,Donut Inner Radius,50%,环图内半径,环图内半径50%,High
+Donut,Donut Outer Radius,80%,环图外半径,环图外半径80%,High
+Donut,Donut Thickness,30%,环图厚度,环图厚度30%,High
+Donut,Donut Center Text Font Size,32px,环图中心文字字号,环图中心文字32px,High
+Donut,Donut Center Text Color,#1D2129,环图中心文字颜色,环图中心文字深色#1D2129,High
+Donut,Donut Center Label Font Size,14px,环图中心标签字号,环图中心标签14px,Medium
+Donut,Donut Center Label Color,#86909C,环图中心标签颜色,环图中心标签灰色#86909C,Medium
+Line,Line Width,2px,折线宽度,折线图线条宽度2px,High
+Line,Line Smooth,true,折线平滑,折线图平滑曲线,Medium
+Line,Line Point Size,4px,折线点大小,折线图数据点大小4px,Medium
+Line,Line Point Hover Size,6px,折线点悬停大小,折线图数据点悬停大小6px,Medium
+Line,Line Point Border Width,2px,折线点边框宽度,折线图数据点边框宽度2px,Low
+Line,Line Point Border Color,#FFFFFF,折线点边框颜色,折线图数据点边框白色,Low
+Line,Line Area Opacity,0.2,折线区域透明度,折线图填充区域透明度0.2,Medium
+Line,Line Area Gradient,true,折线区域渐变,折线图填充区域渐变,Medium
+Line,Line Dash Array,none,折线虚线,折线图实线,Low
+Line,Line Dash Array Dashed,5 5,折线虚线样式,折线图虚线样式5 5,Low
+Bar,Bar Width,auto,柱形宽度,柱形图柱子宽度自动,High
+Bar,Bar Max Width,40px,柱形最大宽度,柱形图柱子最大宽度40px,High
+Bar,Bar Min Width,8px,柱形最小宽度,柱形图柱子最小宽度8px,Medium
+Bar,Bar Gap,20%,柱形间距,柱形图柱子间距20%,High
+Bar,Bar Category Gap,20%,柱形分类间距,柱形图分类间距20%,Medium
+Bar,Bar Border Radius,2px 2px 0 0,柱形圆角,柱形图柱子顶部圆角2px,Medium
+Bar,Bar Border Width,0,柱形边框宽度,柱形图柱子边框宽度0,Low
+Bar,Bar Border Color,transparent,柱形边框颜色,柱形图柱子边框透明,Low
+Bar,Bar Label Position,top,柱形标签位置,柱形图标签在顶部,Medium
+Bar,Bar Label Font Size,12px,柱形标签字号,柱形图标签文字12px,Medium
+Bar,Bar Label Color,#4E5969,柱形标签颜色,柱形图标签灰色#4E5969,Medium
+Bar,Bar Stack Enabled,false,柱形堆叠,柱形图不堆叠,Medium
+Bar,Bar Horizontal,false,水平柱形,柱形图垂直显示,Medium
+Area,Area Opacity,0.3,面积图透明度,面积图填充透明度0.3,High
+Area,Area Gradient Start,0.5,面积图渐变起始,面积图渐变起始透明度0.5,Medium
+Area,Area Gradient End,0.1,面积图渐变结束,面积图渐变结束透明度0.1,Medium
+Area,Area Line Width,2px,面积图线宽,面积图线条宽度2px,High
+Area,Area Smooth,true,面积图平滑,面积图平滑曲线,Medium
+Area,Area Stack Enabled,false,面积图堆叠,面积图不堆叠,Medium
+Radar,Radar Shape,polygon,雷达图形状,雷达图多边形形状,High
+Radar,Radar Shape Circle,circle,雷达图圆形,雷达图圆形形状,Medium
+Radar,Radar Split Number,5,雷达图分割数,雷达图分割数5,Medium
+Radar,Radar Split Line Color,#E5E6EB,雷达图分割线颜色,雷达图分割线灰色#E5E6EB,Medium
+Radar,Radar Split Line Width,1px,雷达图分割线宽度,雷达图分割线宽度1px,Low
+Radar,Radar Split Area Color 1,rgba(242 243 245 0.3),雷达图分割区域色1,雷达图分割区域浅灰,Low
+Radar,Radar Split Area Color 2,transparent,雷达图分割区域色2,雷达图分割区域透明,Low
+Radar,Radar Axis Line Color,#E5E6EB,雷达图轴线颜色,雷达图轴线灰色#E5E6EB,Medium
+Radar,Radar Axis Label Font Size,12px,雷达图轴标签字号,雷达图轴标签12px,Medium
+Radar,Radar Axis Label Color,#86909C,雷达图轴标签颜色,雷达图轴标签灰色#86909C,Medium
+Radar,Radar Area Opacity,0.3,雷达图区域透明度,雷达图填充透明度0.3,Medium
+Radar,Radar Line Width,2px,雷达图线宽,雷达图线条宽度2px,Medium
+Radar,Radar Point Size,4px,雷达图点大小,雷达图数据点大小4px,Low
+Funnel,Funnel Gap,0,漏斗图间距,漏斗图层级间距0,Medium
+Funnel,Funnel Sort,descending,漏斗图排序,漏斗图降序排列,High
+Funnel,Funnel Sort Ascending,ascending,漏斗图升序,漏斗图升序排列,Medium
+Funnel,Funnel Min Size,0%,漏斗图最小尺寸,漏斗图最小尺寸0%,Low
+Funnel,Funnel Max Size,100%,漏斗图最大尺寸,漏斗图最大尺寸100%,Low
+Funnel,Funnel Label Position,inside,漏斗图标签位置,漏斗图标签在内部,High
+Funnel,Funnel Label Font Size,14px,漏斗图标签字号,漏斗图标签14px,Medium
+Funnel,Funnel Label Color,#FFFFFF,漏斗图标签颜色,漏斗图标签白色,Medium
+Funnel,Funnel Border Width,0,漏斗图边框宽度,漏斗图边框宽度0,Low
+Funnel,Funnel Border Color,#FFFFFF,漏斗图边框颜色,漏斗图边框白色,Low
+Heatmap,Heatmap Cell Border Width,1px,热力图单元格边框宽度,热力图单元格边框1px,Medium
+Heatmap,Heatmap Cell Border Color,#FFFFFF,热力图单元格边框颜色,热力图单元格边框白色,Medium
+Heatmap,Heatmap Cell Border Radius,0,热力图单元格圆角,热力图单元格圆角0,Low
+Heatmap,Heatmap Label Font Size,12px,热力图标签字号,热力图标签12px,Medium
+Heatmap,Heatmap Label Color,#1D2129,热力图标签颜色,热力图标签深色#1D2129,Medium
+Heatmap,Heatmap Min Color,#E8F3FF,热力图最小值颜色,热力图最小值浅蓝#E8F3FF,High
+Heatmap,Heatmap Max Color,#165DFF,热力图最大值颜色,热力图最大值蓝色#165DFF,High
+Heatmap,Heatmap Color Steps,5,热力图颜色阶数,热力图颜色阶数5,Medium
+Sankey,Sankey Node Width,20px,桑基图节点宽度,桑基图节点宽度20px,High
+Sankey,Sankey Node Gap,8px,桑基图节点间距,桑基图节点间距8px,Medium
+Sankey,Sankey Node Align,justify,桑基图节点对齐,桑基图节点两端对齐,Medium
+Sankey,Sankey Link Opacity,0.3,桑基图连接透明度,桑基图连接透明度0.3,Medium
+Sankey,Sankey Link Hover Opacity,0.6,桑基图连接悬停透明度,桑基图连接悬停透明度0.6,Medium
+Sankey,Sankey Link Curveness,0.5,桑基图连接曲度,桑基图连接曲度0.5,Low
+Sankey,Sankey Label Font Size,12px,桑基图标签字号,桑基图标签12px,Medium
+Sankey,Sankey Label Color,#1D2129,桑基图标签颜色,桑基图标签深色#1D2129,Medium
+Animation,Animation Duration,1000ms,动画时长,图表动画时长1000ms,Medium
+Animation,Animation Easing,cubicOut,动画曲线,图表动画曲线cubicOut,Medium
+Animation,Animation Delay,0ms,动画延迟,图表动画延迟0ms,Low
+Animation,Animation Duration Update,300ms,更新动画时长,图表更新动画时长300ms,Medium
+Animation,Animation Easing Update,cubicOut,更新动画曲线,图表更新动画曲线cubicOut,Low
+Interaction,Hover Enabled,true,启用悬停,启用图表悬停效果,High
+Interaction,Click Enabled,true,启用点击,启用图表点击事件,High
+Interaction,Zoom Enabled,false,启用缩放,启用图表缩放功能,Medium
+Interaction,Brush Enabled,false,启用框选,启用图表框选功能,Low
+Interaction,Data Zoom Enabled,false,启用数据缩放,启用数据缩放功能,Medium
+Interaction,Highlight Opacity,1,高亮透明度,高亮元素透明度1,Medium
+Interaction,Downplay Opacity,0.3,弱化透明度,弱化元素透明度0.3,Medium
+Loading,Loading Background,rgba(255 255 255 0.8),加载背景,加载状态半透明白色背景,Medium
+Loading,Loading Color,#165DFF,加载颜色,加载状态蓝色#165DFF,High
+Loading,Loading Text,加载中...,加载文字,加载状态显示文字,Medium
+Loading,Loading Text Font Size,14px,加载文字字号,加载文字14px,Medium
+Loading,Loading Text Color,#4E5969,加载文字颜色,加载文字灰色#4E5969,Medium
+Loading,Loading Spinner Size,32px,加载图标大小,加载图标大小32px,Medium
+Empty,Empty Text,暂无数据,空状态文字,无数据时显示文字,High
+Empty,Empty Text Font Size,14px,空状态文字字号,空状态文字14px,Medium
+Empty,Empty Text Color,#86909C,空状态文字颜色,空状态文字灰色#86909C,Medium
+Empty,Empty Icon Size,64px,空状态图标大小,空状态图标大小64px,Medium
+Empty,Empty Icon Color,#C9CDD4,空状态图标颜色,空状态图标灰色#C9CDD4,Low
+Empty,Empty Padding,48px 0,空状态内边距,空状态上下内边距48px,Medium
+DataZoom,Data Zoom Height,30px,数据缩放高度,数据缩放组件高度30px,Medium
+DataZoom,Data Zoom Background,#F7F8FA,数据缩放背景,数据缩放背景浅灰#F7F8FA,Medium
+DataZoom,Data Zoom Border Color,#E5E6EB,数据缩放边框,数据缩放边框灰色#E5E6EB,Low
+DataZoom,Data Zoom Handle Size,10px,数据缩放手柄大小,数据缩放手柄大小10px,Medium
+DataZoom,Data Zoom Handle Color,#165DFF,数据缩放手柄颜色,数据缩放手柄蓝色#165DFF,Medium
+DataZoom,Data Zoom Selected Background,rgba(22 93 255 0.2),数据缩放选中背景,数据缩放选中区域浅蓝,Medium
+Brush,Brush Border Color,#165DFF,框选边框颜色,框选边框蓝色#165DFF,Medium
+Brush,Brush Border Width,1px,框选边框宽度,框选边框宽度1px,Low
+Brush,Brush Fill Color,rgba(22 93 255 0.1),框选填充颜色,框选填充浅蓝,Medium
+Brush,Brush Handle Size,8px,框选手柄大小,框选手柄大小8px,Low
+MarkLine,Mark Line Color,#F53F3F,标记线颜色,标记线红色#F53F3F,Medium
+MarkLine,Mark Line Width,2px,标记线宽度,标记线宽度2px,Medium
+MarkLine,Mark Line Style,dashed,标记线样式,标记线虚线样式,Medium
+MarkLine,Mark Line Label Font Size,12px,标记线标签字号,标记线标签12px,Medium
+MarkLine,Mark Line Label Color,#F53F3F,标记线标签颜色,标记线标签红色#F53F3F,Medium
+MarkPoint,Mark Point Size,40px,标记点大小,标记点大小40px,Medium
+MarkPoint,Mark Point Color,#F53F3F,标记点颜色,标记点红色#F53F3F,Medium
+MarkPoint,Mark Point Symbol,pin,标记点符号,标记点使用pin符号,Medium
+MarkPoint,Mark Point Label Font Size,12px,标记点标签字号,标记点标签12px,Medium
+MarkPoint,Mark Point Label Color,#FFFFFF,标记点标签颜色,标记点标签白色,Medium
+MarkArea,Mark Area Color,rgba(22 93 255 0.1),标记区域颜色,标记区域浅蓝,Medium
+MarkArea,Mark Area Border Color,#165DFF,标记区域边框,标记区域边框蓝色#165DFF,Low
+MarkArea,Mark Area Border Width,1px,标记区域边框宽度,标记区域边框宽度1px,Low
+MarkArea,Mark Area Label Font Size,12px,标记区域标签字号,标记区域标签12px,Low
+Responsive,Mobile Font Size Scale,0.9,移动端字号缩放,移动端字号缩放0.9,Medium
+Responsive,Mobile Padding Scale,0.8,移动端内边距缩放,移动端内边距缩放0.8,Medium
+Responsive,Mobile Legend Position,bottom,移动端图例位置,移动端图例在底部,High
+Responsive,Mobile Tooltip Trigger,click,移动端提示触发,移动端点击触发提示,High
+Responsive,Tablet Breakpoint,768px,平板断点,平板响应式断点768px,Medium
+Responsive,Mobile Breakpoint,480px,移动端断点,移动端响应式断点480px,Medium
+Usage,Line Chart Usage,趋势分析,折线图使用场景,用于展示数据趋势变化,High
+Usage,Bar Chart Usage,对比分析,柱形图使用场景,用于展示数据对比,High
+Usage,Pie Chart Usage,占比分析,饼图使用场景,用于展示数据占比,High
+Usage,Area Chart Usage,趋势面积,面积图使用场景,用于展示趋势和累积,Medium
+Usage,Radar Chart Usage,多维对比,雷达图使用场景,用于展示多维度数据对比,Medium
+Usage,Funnel Chart Usage,转化分析,漏斗图使用场景,用于展示业务流程转化,Medium
+Usage,Heatmap Usage,密度分析,热力图使用场景,用于展示数据密度分布,Medium
+Usage,Sankey Usage,流向分析,桑基图使用场景,用于展示数据流向关系,Low
+Guideline,Max Series Count,5,最大系列数,建议最多5个数据系列,High
+Guideline,Max Data Points,100,最大数据点数,建议最多100个数据点,Medium
+Guideline,Color Consistency,consistent,颜色一致性,同类图表颜色保持一致,High
+Guideline,Label Visibility,auto,标签可见性,标签自动显示隐藏,High
+Guideline,Legend Position,bottom,图例位置建议,建议图例在底部,Medium
+Guideline,Tooltip Always Show,false,提示框常显,提示框不建议常显,Medium
+Guideline,Animation Enabled,true,启用动画,建议启用图表动画,High
+Guideline,Responsive Design,true,响应式设计,建议使用响应式设计,High
+Accessibility,Keyboard Navigation,supported,键盘导航,支持键盘导航,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,ARIA Labels,true,ARIA标签,使用ARIA标签,Medium
+Accessibility,Color Blind Friendly,true,色盲友好,使用色盲友好色板,High
+Accessibility,High Contrast Mode,supported,高对比度模式,支持高对比度模式,Medium
+Performance,Canvas Renderer,canvas,Canvas渲染,使用Canvas渲染器,High
+Performance,SVG Renderer,svg,SVG渲染,使用SVG渲染器,Medium
+Performance,Lazy Load,true,延迟加载,启用延迟加载,Medium
+Performance,Progressive Render,true,渐进渲染,启用渐进渲染,Medium
+Performance,Data Sampling,auto,数据采样,自动数据采样,Medium
+Performance,Use Dirty Rect,true,脏矩形优化,使用脏矩形优化,Low
+Export,Export PNG,supported,导出PNG,支持导出PNG图片,High
+Export,Export JPG,supported,导出JPG,支持导出JPG图片,Medium
+Export,Export SVG,supported,导出SVG,支持导出SVG图片,Medium
+Export,Export PDF,supported,导出PDF,支持导出PDF文档,Low
+Export,Export Excel,supported,导出Excel,支持导出Excel数据,Medium
+Export,Export Image Quality,1,导出图片质量,导出图片质量1,Medium
+Export,Export Background Color,#FFFFFF,导出背景颜色,导出图片白色背景,Medium

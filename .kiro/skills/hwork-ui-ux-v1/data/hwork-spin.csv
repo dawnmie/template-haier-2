@@ -1,0 +1,179 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Spin Size Small,16px,小加载图标尺寸,小尺寸加载图标16px,Medium
+Size,Spin Size Default,24px,默认加载图标尺寸,默认加载图标24px,High
+Size,Spin Size Large,32px,大加载图标尺寸,大尺寸加载图标32px,Medium
+Size,Spin Size XLarge,48px,超大加载图标尺寸,超大加载图标48px,Low
+Size,Spin Dot Size Small,8px,小点尺寸,小点加载图标点尺寸8px,Medium
+Size,Spin Dot Size Default,12px,默认点尺寸,默认点加载图标点尺寸12px,High
+Size,Spin Dot Size Large,16px,大点尺寸,大点加载图标点尺寸16px,Medium
+Size,Spin Stroke Width,3px,加载图标线宽,加载图标线宽3px,High
+Size,Spin Stroke Width Small,2px,小加载图标线宽,小加载图标线宽2px,Medium
+Size,Spin Stroke Width Large,4px,大加载图标线宽,大加载图标线宽4px,Low
+Size,Spin Tip Font Size,14px,提示文字字号,提示文字字号14px,High
+Size,Spin Tip Line Height,22px,提示文字行高,提示文字行高22px,Medium
+Size,Spin Tip Margin Top,8px,提示文字顶部间距,提示文字顶部间距8px,Medium
+Size,Spin Container Padding,24px,容器内边距,加载容器内边距24px,Medium
+Size,Spin Container Min Height,100px,容器最小高度,加载容器最小高度100px,Medium
+Color,Spin Color Primary,#165DFF,主色加载颜色,主色加载蓝色#165DFF,High
+Color,Spin Color Success,#00B42A,成功加载颜色,成功加载绿色#00B42A,Medium
+Color,Spin Color Warning,#FF7D00,警告加载颜色,警告加载橙色#FF7D00,Medium
+Color,Spin Color Error,#F53F3F,错误加载颜色,错误加载红色#F53F3F,Medium
+Color,Spin Color Gray,#86909C,灰色加载颜色,灰色加载#86909C,Low
+Color,Spin Color White,#FFFFFF,白色加载颜色,白色加载#FFFFFF,Low
+Color,Spin Tip Color,#4E5969,提示文字颜色,提示文字灰色#4E5969,High
+Color,Spin Background,rgba(255 255 255 0.9),加载背景,加载半透明白色背景,High
+Color,Spin Background Dark,rgba(0 0 0 0.45),深色加载背景,深色半透明黑色背景,Low
+Color,Spin Dot Color,#165DFF,点颜色,加载点蓝色#165DFF,High
+Type,Type Circular,circular,圆形类型,圆形加载图标,High
+Type,Type Dot,dot,点类型,点加载图标,High
+Type,Type Line,line,线条类型,线条加载图标,Medium
+Type,Type Custom,custom,自定义类型,自定义加载图标,Low
+Animation,Animation Duration,1s,动画时长,加载动画时长1s,High
+Animation,Animation Duration Fast,0.8s,快速动画时长,快速加载动画时长0.8s,Medium
+Animation,Animation Duration Slow,1.5s,慢速动画时长,慢速加载动画时长1.5s,Low
+Animation,Animation Timing,linear,动画曲线,加载动画线性曲线,High
+Animation,Animation Iteration,infinite,动画循环,加载动画无限循环,High
+Animation,Animation Name Rotate,spin-rotate,旋转动画名称,旋转动画关键帧名称,Medium
+Animation,Animation Name Dot,spin-dot,点动画名称,点动画关键帧名称,Medium
+Circular,Circular Stroke Dasharray,90 150,圆形虚线数组,圆形加载虚线数组,High
+Circular,Circular Stroke Dashoffset,0,圆形虚线偏移,圆形加载虚线偏移0,Medium
+Circular,Circular Stroke Linecap,round,圆形线帽,圆形加载圆形线帽,High
+Circular,Circular Transform Origin,center,圆形变换原点,圆形加载变换原点中心,Medium
+Circular,Circular Radius,10,圆形半径,圆形加载半径10,High
+Circular,Circular Center X,12,圆形中心X,圆形加载中心X坐标12,Medium
+Circular,Circular Center Y,12,圆形中心Y,圆形加载中心Y坐标12,Medium
+Dot,Dot Count,3,点数量,点加载图标点数量3,High
+Dot,Dot Gap,4px,点间距,点加载图标点间距4px,Medium
+Dot,Dot Animation Delay,0.16s,点动画延迟,点动画延迟0.16s,Medium
+Dot,Dot Animation Delay Second,0.32s,第二点动画延迟,第二点动画延迟0.32s,Medium
+Dot,Dot Animation Delay Third,0.48s,第三点动画延迟,第三点动画延迟0.48s,Medium
+Dot,Dot Scale From,0.75,点缩放起始,点缩放起始值0.75,Low
+Dot,Dot Scale To,1,点缩放结束,点缩放结束值1,Low
+Dot,Dot Opacity From,0.3,点透明度起始,点透明度起始值0.3,Low
+Dot,Dot Opacity To,1,点透明度结束,点透明度结束值1,Low
+Tip,Tip Visible,true,显示提示,显示提示文字,High
+Tip,Tip Hidden,false,隐藏提示,隐藏提示文字,Low
+Tip,Tip Text,加载中...,提示文字,默认提示文字,High
+Tip,Tip Font Size,14px,提示字号,提示文字字号14px,High
+Tip,Tip Font Weight,400,提示字重,提示文字字重400,Medium
+Tip,Tip Line Height,22px,提示行高,提示文字行高22px,Medium
+Tip,Tip Color,#4E5969,提示颜色,提示文字灰色#4E5969,High
+Tip,Tip Margin Top,8px,提示顶部间距,提示文字顶部间距8px,Medium
+Tip,Tip Text Align,center,提示对齐,提示文字居中对齐,High
+Container,Container Position,relative,容器定位,容器相对定位,High
+Container,Container Display,inline-block,容器显示,容器行内块显示,High
+Container,Container Min Height,100px,容器最小高度,容器最小高度100px,Medium
+Container,Container Padding,24px,容器内边距,容器内边距24px,Medium
+Spinning,Spinning State,true,加载状态,加载中状态,High
+Spinning,Spinning Finished,false,加载完成,加载完成状态,High
+Spinning,Spinning Delay,0ms,加载延迟,加载延迟0ms,Medium
+Spinning,Spinning Delay Custom,300ms,自定义加载延迟,自定义加载延迟300ms,Low
+Overlay,Overlay Visible,true,显示遮罩,显示加载遮罩,High
+Overlay,Overlay Hidden,false,隐藏遮罩,隐藏加载遮罩,Low
+Overlay,Overlay Background,rgba(255 255 255 0.9),遮罩背景,遮罩半透明白色背景,High
+Overlay,Overlay Background Dark,rgba(0 0 0 0.45),深色遮罩背景,深色半透明黑色背景,Low
+Overlay,Overlay Position,absolute,遮罩定位,遮罩绝对定位,High
+Overlay,Overlay Z Index,1000,遮罩层级,遮罩层级1000,Medium
+Overlay,Overlay Display,flex,遮罩显示,遮罩弹性盒显示,High
+Overlay,Overlay Align Items,center,遮罩垂直对齐,遮罩垂直居中,High
+Overlay,Overlay Justify Content,center,遮罩水平对齐,遮罩水平居中,High
+Fullscreen,Fullscreen Enabled,false,启用全屏,不启用全屏加载,Low
+Fullscreen,Fullscreen Position,fixed,全屏定位,全屏固定定位,Low
+Fullscreen,Fullscreen Z Index,9999,全屏层级,全屏层级9999,Low
+Fullscreen,Fullscreen Background,rgba(255 255 255 0.9),全屏背景,全屏半透明白色背景,Low
+Fullscreen,Fullscreen Width,100vw,全屏宽度,全屏宽度100vw,Low
+Fullscreen,Fullscreen Height,100vh,全屏高度,全屏高度100vh,Low
+Wrapper,Wrapper Position,relative,包裹器定位,包裹器相对定位,High
+Wrapper,Wrapper Display,block,包裹器显示,包裹器块显示,High
+Wrapper,Wrapper Min Height,0,包裹器最小高度,包裹器最小高度0,Low
+Icon,Icon Size,24px,图标尺寸,加载图标尺寸24px,High
+Icon,Icon Color,#165DFF,图标颜色,加载图标蓝色#165DFF,High
+Icon,Icon Custom,supported,自定义图标,支持自定义图标,Medium
+ZIndex,Z Index,1000,层级,加载层级1000,Medium
+ZIndex,Z Index High,9999,高层级,全屏加载层级9999,Low
+Position,Position Center,center,居中位置,加载图标居中,High
+Position,Position Absolute,absolute,绝对定位,加载图标绝对定位,High
+Position,Position Fixed,fixed,固定定位,全屏加载固定定位,Low
+Display,Display Flex,flex,弹性显示,加载容器弹性盒显示,High
+Display,Display Inline Flex,inline-flex,行内弹性显示,加载容器行内弹性盒显示,Medium
+Display,Display Block,block,块显示,加载容器块显示,Medium
+Align,Align Items Center,center,垂直居中,加载内容垂直居中,High
+Align,Justify Content Center,center,水平居中,加载内容水平居中,High
+Align,Flex Direction Column,column,垂直排列,加载内容垂直排列,High
+Responsive,Mobile Size,20px,移动端尺寸,移动端加载图标20px,Medium
+Responsive,Mobile Tip Font Size,12px,移动端提示字号,移动端提示字号12px,Medium
+Responsive,Mobile Container Padding,16px,移动端容器内边距,移动端容器内边距16px,Medium
+Responsive,Tablet Size,24px,平板端尺寸,平板端加载图标24px,Low
+Responsive,Tablet Tip Font Size,14px,平板端提示字号,平板端提示字号14px,Low
+Usage,Page Loading Usage,页面加载,页面加载场景,用于页面加载状态,High
+Usage,Component Loading Usage,组件加载,组件加载场景,用于组件加载状态,High
+Usage,Data Loading Usage,数据加载,数据加载场景,用于数据加载状态,High
+Usage,Button Loading Usage,按钮加载,按钮加载场景,用于按钮加载状态,High
+Usage,Table Loading Usage,表格加载,表格加载场景,用于表格加载状态,High
+Usage,Card Loading Usage,卡片加载,卡片加载场景,用于卡片加载状态,Medium
+Usage,Fullscreen Loading Usage,全屏加载,全屏加载场景,用于全屏加载状态,Medium
+Guideline,Show Tip,true,显示提示,建议显示提示文字,High
+Guideline,Center Position,true,居中位置,建议加载图标居中,High
+Guideline,Overlay Background,true,遮罩背景,建议使用遮罩背景,High
+Guideline,Animation Smooth,true,平滑动画,建议使用平滑动画,High
+Guideline,Delay For Quick,true,快速操作延迟,建议快速操作使用延迟,Medium
+Guideline,Size Appropriate,true,尺寸适当,建议使用适当尺寸,High
+Guideline,Color Consistent,true,颜色一致,建议颜色与主题一致,High
+Guideline,Tip Clear,true,提示清晰,建议提示文字清晰,High
+Accessibility,ARIA Busy,true,ARIA忙碌状态,使用aria-busy属性,High
+Accessibility,ARIA Live,polite,ARIA实时区域,使用aria-live属性,Medium
+Accessibility,ARIA Label,正在加载,ARIA标签,使用aria-label描述加载状态,High
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,Loading Text,加载中...,加载文字,提供加载状态文字,High
+Performance,GPU Acceleration,true,GPU加速,启用GPU加速,High
+Performance,Will Change,transform,Will Change属性,使用will-change优化,Medium
+Performance,Render Optimization,true,渲染优化,启用渲染优化,Medium
+Performance,Throttle,false,节流,不使用节流,Low
+Event,On Spinning Change,supported,加载状态变化事件,支持加载状态变化事件,Medium
+Method,Show,supported,显示方法,支持显示加载,High
+Method,Hide,supported,隐藏方法,支持隐藏加载,High
+Method,Toggle,supported,切换方法,支持切换加载状态,Medium
+Props,Spinning,supported,加载属性,支持设置加载状态,High
+Props,Size,supported,尺寸属性,支持设置尺寸,High
+Props,Tip,supported,提示属性,支持设置提示文字,High
+Props,Delay,supported,延迟属性,支持设置延迟时间,Medium
+Props,Indicator,supported,指示器属性,支持自定义指示器,Medium
+Props,Wrapper Class Name,supported,包裹器类名属性,支持设置包裹器类名,Low
+Slot,Default Slot,supported,默认插槽,支持默认内容插槽,High
+Slot,Tip Slot,supported,提示插槽,支持提示插槽,Medium
+Slot,Indicator Slot,supported,指示器插槽,支持指示器插槽,Medium
+Custom,Custom Size,supported,自定义尺寸,支持自定义尺寸,High
+Custom,Custom Color,supported,自定义颜色,支持自定义颜色,High
+Custom,Custom Tip,supported,自定义提示,支持自定义提示文字,High
+Custom,Custom Indicator,supported,自定义指示器,支持自定义指示器,Medium
+Custom,Custom Delay,supported,自定义延迟,支持自定义延迟时间,Medium
+Theme,Theme Light,light,浅色主题,浅色主题样式,High
+Theme,Theme Dark,dark,深色主题,深色主题样式,Low
+Theme,Dark Spin Color,#4E5969,深色加载颜色,深色主题加载颜色#4E5969,Low
+Theme,Dark Tip Color,#C9CDD4,深色提示颜色,深色主题提示颜色#C9CDD4,Low
+Theme,Dark Overlay Background,rgba(0 0 0 0.45),深色遮罩背景,深色主题遮罩背景,Low
+Transition,Transition Property,opacity,过渡属性,过渡透明度属性,Medium
+Transition,Transition Duration,0.3s,过渡时长,过渡时长0.3s,Medium
+Transition,Transition Timing,ease,过渡曲线,过渡曲线ease,Medium
+Transition,Fade In Duration,0.3s,淡入时长,淡入动画时长0.3s,Low
+Transition,Fade Out Duration,0.3s,淡出时长,淡出动画时长0.3s,Low
+Transform,Transform Rotate From,0deg,旋转起始角度,旋转起始角度0度,Medium
+Transform,Transform Rotate To,360deg,旋转结束角度,旋转结束角度360度,Medium
+Transform,Transform Origin,center,变换原点,变换原点中心,Medium
+Keyframes,Keyframes Rotate,spin-rotate,旋转关键帧,旋转动画关键帧,Medium
+Keyframes,Keyframes Dot,spin-dot,点关键帧,点动画关键帧,Medium
+Keyframes,Keyframes Fade,spin-fade,淡入淡出关键帧,淡入淡出动画关键帧,Low
+Nested,Nested Enabled,true,启用嵌套,启用嵌套加载,Medium
+Nested,Nested Z Index,1001,嵌套层级,嵌套加载层级1001,Low
+Nested,Nested Background,rgba(255 255 255 0.9),嵌套背景,嵌套加载背景,Medium
+Inline,Inline Enabled,false,启用行内,不启用行内加载,Low
+Inline,Inline Display,inline-flex,行内显示,行内加载显示方式,Low
+Inline,Inline Vertical Align,middle,行内垂直对齐,行内加载垂直居中,Low
+Block,Block Enabled,true,启用块级,启用块级加载,High
+Block,Block Display,flex,块级显示,块级加载显示方式,High
+Block,Block Width,100%,块级宽度,块级加载宽度100%,High
+Wording,Wording Loading,加载中...,加载中文字,加载中提示文字,High
+Wording,Wording Please Wait,请稍候...,请稍候文字,请稍候提示文字,Medium
+Wording,Wording Processing,处理中...,处理中文字,处理中提示文字,Medium
+Wording,Wording Submitting,提交中...,提交中文字,提交中提示文字,Medium
+Wording,Wording Saving,保存中...,保存中文字,保存中提示文字,Medium

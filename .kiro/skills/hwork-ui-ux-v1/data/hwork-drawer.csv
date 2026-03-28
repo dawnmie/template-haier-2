@@ -1,0 +1,216 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Drawer Width Small,320px,小抽屉宽度,小尺寸抽屉宽度320px,Medium
+Size,Drawer Width Default,480px,默认抽屉宽度,默认抽屉宽度480px,High
+Size,Drawer Width Large,640px,大抽屉宽度,大尺寸抽屉宽度640px,Medium
+Size,Drawer Height Small,320px,小抽屉高度,小尺寸抽屉高度320px,Medium
+Size,Drawer Height Default,480px,默认抽屉高度,默认抽屉高度480px,Medium
+Size,Drawer Height Large,640px,大抽屉高度,大尺寸抽屉高度640px,Low
+Size,Drawer Header Height,56px,抽屉头部高度,抽屉头部高度56px,High
+Size,Drawer Footer Height,64px,抽屉底部高度,抽屉底部高度64px,High
+Size,Drawer Header Padding,16px 24px,抽屉头部内边距,抽屉头部内边距上下16px左右24px,High
+Size,Drawer Body Padding,24px,抽屉主体内边距,抽屉主体内边距24px,High
+Size,Drawer Footer Padding,16px 24px,抽屉底部内边距,抽屉底部内边距上下16px左右24px,High
+Size,Drawer Title Font Size,16px,抽屉标题字号,抽屉标题文字16px,High
+Size,Drawer Close Icon Size,16px,关闭图标大小,关闭图标大小16px,Medium
+Color,Drawer Background,#FFFFFF,抽屉背景,抽屉白色背景,High
+Color,Drawer Header Background,#FFFFFF,抽屉头部背景,抽屉头部白色背景,High
+Color,Drawer Body Background,#FFFFFF,抽屉主体背景,抽屉主体白色背景,High
+Color,Drawer Footer Background,#FFFFFF,抽屉底部背景,抽屉底部白色背景,High
+Color,Drawer Title Color,#1D2129,抽屉标题颜色,抽屉标题深色文字#1D2129,High
+Color,Drawer Close Icon Color,#86909C,关闭图标颜色,关闭图标灰色#86909C,Medium
+Color,Drawer Close Icon Hover Color,#4E5969,关闭图标悬停颜色,关闭图标悬停深灰#4E5969,Medium
+Color,Drawer Border Color,#E5E6EB,抽屉边框颜色,抽屉边框灰色#E5E6EB,Medium
+Color,Drawer Mask Background,rgba(0 0 0 0.45),抽屉遮罩背景,抽屉遮罩半透明黑色背景,High
+Shadow,Drawer Shadow,-2px 0 8px rgba(0 0 0 0.15),抽屉阴影,抽屉阴影效果,High
+Shadow,Drawer Shadow Right,2px 0 8px rgba(0 0 0 0.15),抽屉右侧阴影,抽屉右侧阴影效果,Medium
+Shadow,Drawer Shadow Top,0 2px 8px rgba(0 0 0 0.15),抽屉顶部阴影,抽屉顶部阴影效果,Medium
+Shadow,Drawer Shadow Bottom,0 -2px 8px rgba(0 0 0 0.15),抽屉底部阴影,抽屉底部阴影效果,Medium
+Position,Position Right,right,右侧位置,抽屉从右侧滑出,High
+Position,Position Left,left,左侧位置,抽屉从左侧滑出,Medium
+Position,Position Top,top,顶部位置,抽屉从顶部滑出,Low
+Position,Position Bottom,bottom,底部位置,抽屉从底部滑出,Low
+Header,Header Visible,true,显示头部,显示抽屉头部,High
+Header,Header Hidden,false,隐藏头部,隐藏抽屉头部,Low
+Header,Header Border Bottom,1px solid #E5E6EB,头部底部边框,头部底部灰色边框,Medium
+Header,Header Title Font Weight,500,头部标题字重,头部标题字重500,High
+Header,Header Title Line Height,24px,头部标题行高,头部标题行高24px,Medium
+Header,Header Close Button Position,right,关闭按钮位置,关闭按钮在右侧,High
+Header,Header Close Button Size,32px,关闭按钮大小,关闭按钮大小32px,Medium
+Footer,Footer Visible,true,显示底部,显示抽屉底部,High
+Footer,Footer Hidden,false,隐藏底部,隐藏抽屉底部,Medium
+Footer,Footer Border Top,1px solid #E5E6EB,底部顶部边框,底部顶部灰色边框,Medium
+Footer,Footer Button Gap,8px,底部按钮间距,底部按钮间距8px,High
+Footer,Footer Button Align,right,底部按钮对齐,底部按钮右对齐,High
+Footer,Footer Button Order,cancel-ok,底部按钮顺序,取消按钮在左确定按钮在右,High
+Body,Body Overflow,auto,主体溢出,主体内容溢出自动滚动,High
+Body,Body Scrollbar,custom,主体滚动条,主体使用自定义滚动条,Medium
+Body,Body Min Height,200px,主体最小高度,主体最小高度200px,Low
+Body,Body Max Height,calc(100vh - 120px),主体最大高度,主体最大高度视口高度减120px,Medium
+Mask,Mask Visible,true,显示遮罩,显示背景遮罩,High
+Mask,Mask Hidden,false,隐藏遮罩,隐藏背景遮罩,Low
+Mask,Mask Closable,true,点击遮罩关闭,点击遮罩关闭抽屉,High
+Mask,Mask Not Closable,false,点击遮罩不关闭,点击遮罩不关闭抽屉,Medium
+Mask,Mask Animation Duration,0.3s,遮罩动画时长,遮罩动画时长0.3s,Low
+Close,Close Button Visible,true,显示关闭按钮,显示关闭按钮,High
+Close,Close Button Hidden,false,隐藏关闭按钮,隐藏关闭按钮,Low
+Close,Close Icon,CloseOutlined,关闭图标,使用CloseOutlined图标,High
+Close,Close On ESC,true,ESC关闭,按ESC键关闭抽屉,High
+Close,Close On Click Outside,true,点击外部关闭,点击外部关闭抽屉,High
+Close,Close Confirm,false,关闭确认,关闭时不需要确认,Medium
+Animation,Animation Duration,0.3s,动画时长,抽屉动画时长0.3s,High
+Animation,Animation Timing,cubic-bezier(0.23 1 0.32 1),动画曲线,抽屉动画曲线,Medium
+Animation,Slide In Duration,0.3s,滑入时长,抽屉滑入动画时长0.3s,Medium
+Animation,Slide Out Duration,0.3s,滑出时长,抽屉滑出动画时长0.3s,Medium
+Animation,Mask Fade In Duration,0.3s,遮罩淡入时长,遮罩淡入动画时长0.3s,Low
+Animation,Mask Fade Out Duration,0.3s,遮罩淡出时长,遮罩淡出动画时长0.3s,Low
+ZIndex,Z Index,1000,层级,抽屉层级1000,High
+ZIndex,Z Index Mask,999,遮罩层级,遮罩层级999,Medium
+ZIndex,Z Index Nested,1001,嵌套层级,嵌套抽屉层级1001,Low
+Nested,Nested Enabled,true,启用嵌套,启用嵌套抽屉,Medium
+Nested,Nested Max Level,3,最大嵌套层级,最大嵌套3层,Medium
+Nested,Nested Offset,16px,嵌套偏移,嵌套抽屉偏移16px,Low
+Nested,Nested Z Index Increment,1,嵌套层级增量,嵌套抽屉层级递增1,Low
+Resize,Resizable,false,可调整大小,抽屉不可调整大小,Low
+Resize,Resize Handle Width,4px,调整手柄宽度,调整手柄宽度4px,Low
+Resize,Resize Handle Color,#E5E6EB,调整手柄颜色,调整手柄灰色#E5E6EB,Low
+Resize,Resize Handle Hover Color,#165DFF,调整手柄悬停颜色,调整手柄悬停蓝色#165DFF,Low
+Resize,Resize Min Width,320px,最小调整宽度,抽屉最小宽度320px,Low
+Resize,Resize Max Width,80vw,最大调整宽度,抽屉最大宽度80vw,Low
+State,State Open,open,打开状态,抽屉打开状态,High
+State,State Closed,closed,关闭状态,抽屉关闭状态,High
+State,State Opening,opening,打开中状态,抽屉打开中状态,Medium
+State,State Closing,closing,关闭中状态,抽屉关闭中状态,Medium
+Loading,Loading State,false,加载状态,抽屉不在加载状态,Medium
+Loading,Loading Icon Size,32px,加载图标大小,加载图标大小32px,Low
+Loading,Loading Icon Color,#165DFF,加载图标颜色,加载图标蓝色#165DFF,Low
+Loading,Loading Text,加载中...,加载文字,加载状态显示文字,Low
+Loading,Loading Mask,true,加载遮罩,加载时显示遮罩,Low
+Scrollbar,Scrollbar Width,6px,滚动条宽度,抽屉滚动条宽度6px,Medium
+Scrollbar,Scrollbar Color,#C9CDD4,滚动条颜色,抽屉滚动条灰色#C9CDD4,Low
+Scrollbar,Scrollbar Hover Color,#86909C,滚动条悬停颜色,抽屉滚动条悬停深灰#86909C,Low
+Scrollbar,Scrollbar Track Color,transparent,滚动条轨道颜色,抽屉滚动条轨道透明,Low
+Focus,Focus Trap,true,焦点捕获,抽屉内焦点循环,High
+Focus,Focus First Element,true,聚焦首个元素,打开时聚焦首个可聚焦元素,High
+Focus,Focus Restore,true,焦点恢复,关闭时恢复焦点到触发元素,Medium
+Focus,Focus Visible,true,焦点可见,焦点状态可见,High
+Backdrop,Backdrop Blur,0,背景模糊,背景不模糊,Low
+Backdrop,Backdrop Blur Enabled,4px,背景模糊启用,背景模糊4px,Low
+Backdrop,Backdrop Filter,none,背景滤镜,背景无滤镜,Low
+Title,Title Truncate,false,标题截断,标题不截断,Medium
+Title,Title Max Width,none,标题最大宽度,标题无最大宽度限制,Low
+Title,Title Tooltip,false,标题提示,标题不显示提示,Low
+Extra,Extra Enabled,false,启用额外内容,不启用头部额外内容,Low
+Extra,Extra Position,right,额外内容位置,额外内容在右侧,Low
+Extra,Extra Gap,8px,额外内容间距,额外内容与标题间距8px,Low
+Divider,Header Divider,true,头部分隔线,显示头部分隔线,Medium
+Divider,Footer Divider,true,底部分隔线,显示底部分隔线,Medium
+Divider,Divider Color,#E5E6EB,分隔线颜色,分隔线灰色#E5E6EB,Low
+Divider,Divider Width,1px,分隔线宽度,分隔线宽度1px,Low
+Responsive,Mobile Width,100vw,移动端宽度,移动端抽屉全屏宽度,High
+Responsive,Mobile Height,80vh,移动端高度,移动端抽屉高度80vh,Medium
+Responsive,Mobile Position,bottom,移动端位置,移动端抽屉从底部滑出,High
+Responsive,Mobile Header Height,48px,移动端头部高度,移动端头部高度48px,Medium
+Responsive,Mobile Body Padding,16px,移动端主体内边距,移动端主体内边距16px,Medium
+Responsive,Mobile Footer Height,56px,移动端底部高度,移动端底部高度56px,Medium
+Responsive,Tablet Width,640px,平板端宽度,平板端抽屉宽度640px,Medium
+Responsive,Tablet Height,600px,平板端高度,平板端抽屉高度600px,Low
+Usage,Basic Usage,基础抽屉,基础使用场景,用于展示基础抽屉,High
+Usage,Form Usage,表单抽屉,表单场景,用于表单编辑提交,High
+Usage,Detail Usage,详情抽屉,详情场景,用于展示详细信息,High
+Usage,Nested Usage,嵌套抽屉,嵌套场景,用于多层级抽屉,Medium
+Usage,Confirm Usage,确认抽屉,确认场景,用于需要确认的操作,Medium
+Usage,Multi Step Usage,多步骤抽屉,多步骤场景,用于多步骤流程,Medium
+Guideline,Max Width,80vw,最大宽度,抽屉最大宽度80vw,High
+Guideline,Max Height,90vh,最大高度,抽屉最大高度90vh,Medium
+Guideline,Default Position,right,默认位置,建议默认从右侧滑出,High
+Guideline,Show Mask,true,显示遮罩,建议显示背景遮罩,High
+Guideline,Mask Closable,true,遮罩可关闭,建议点击遮罩可关闭,High
+Guideline,ESC Closable,true,ESC可关闭,建议支持ESC关闭,High
+Guideline,Focus Trap,true,焦点捕获,建议启用焦点捕获,High
+Guideline,Header Visible,true,头部可见,建议显示头部,High
+Guideline,Footer Visible,true,底部可见,建议显示底部,High
+Guideline,Close Button Visible,true,关闭按钮可见,建议显示关闭按钮,High
+Guideline,Animation Enabled,true,启用动画,建议启用动画效果,High
+Guideline,Nested Max Level,3,最大嵌套层级,建议最多嵌套3层,Medium
+Guideline,Content Length,适中,内容长度,抽屉内容不宜过长,Medium
+Guideline,Title Length,1行,标题长度,标题建议1行内,High
+Accessibility,Keyboard Navigation,supported,键盘导航,支持键盘导航,High
+Accessibility,ESC Close,supported,ESC关闭,支持ESC键关闭,High
+Accessibility,Tab Navigation,supported,Tab导航,支持Tab键导航,High
+Accessibility,Focus Trap,supported,焦点捕获,支持焦点捕获,High
+Accessibility,Focus Restore,supported,焦点恢复,支持焦点恢复,Medium
+Accessibility,ARIA Role,dialog,ARIA角色,使用dialog角色,High
+Accessibility,ARIA Modal,true,ARIA模态,使用aria-modal属性,High
+Accessibility,ARIA Label,true,ARIA标签,使用aria-label属性,High
+Accessibility,ARIA Labelledby,true,ARIA标签引用,使用aria-labelledby属性,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Performance,Lazy Render,true,延迟渲染,延迟渲染抽屉内容,Medium
+Performance,Destroy On Close,false,关闭时销毁,关闭时不销毁DOM,Medium
+Performance,Cache Content,true,缓存内容,缓存抽屉内容,Low
+Performance,GPU Acceleration,true,GPU加速,启用GPU加速,Medium
+Performance,Will Change,transform,Will Change属性,使用will-change优化,Low
+Event,On Open,supported,打开事件,支持抽屉打开事件,High
+Event,On Close,supported,关闭事件,支持抽屉关闭事件,High
+Event,On Cancel,supported,取消事件,支持取消事件,High
+Event,On OK,supported,确定事件,支持确定事件,High
+Event,Before Close,supported,关闭前事件,支持关闭前事件,Medium
+Event,After Open,supported,打开后事件,支持打开后事件,Medium
+Event,After Close,supported,关闭后事件,支持关闭后事件,Medium
+Method,Open,supported,打开方法,支持打开抽屉,High
+Method,Close,supported,关闭方法,支持关闭抽屉,High
+Method,Update,supported,更新方法,支持更新抽屉内容,Medium
+Method,Destroy,supported,销毁方法,支持销毁抽屉,Low
+Props,Title,supported,标题属性,支持设置标题,High
+Props,Width,supported,宽度属性,支持设置宽度,High
+Props,Height,supported,高度属性,支持设置高度,Medium
+Props,Placement,supported,位置属性,支持设置位置,High
+Props,Visible,supported,可见属性,支持控制显示隐藏,High
+Props,Mask,supported,遮罩属性,支持控制遮罩,High
+Props,Mask Closable,supported,遮罩可关闭属性,支持控制遮罩关闭,High
+Props,Closable,supported,可关闭属性,支持控制关闭按钮,High
+Props,Destroy On Close,supported,关闭销毁属性,支持控制关闭销毁,Medium
+Props,Footer,supported,底部属性,支持自定义底部,High
+Props,Header,supported,头部属性,支持自定义头部,Medium
+Slot,Default Slot,supported,默认插槽,支持默认内容插槽,High
+Slot,Title Slot,supported,标题插槽,支持标题插槽,Medium
+Slot,Header Slot,supported,头部插槽,支持头部插槽,Medium
+Slot,Footer Slot,supported,底部插槽,支持底部插槽,High
+Slot,Extra Slot,supported,额外内容插槽,支持额外内容插槽,Low
+Type,Type Default,default,默认类型,默认抽屉类型,High
+Type,Type Form,form,表单类型,表单抽屉类型,High
+Type,Type Detail,detail,详情类型,详情抽屉类型,Medium
+Type,Type Confirm,confirm,确认类型,确认抽屉类型,Medium
+Confirm,Confirm Title,确认,确认标题,确认抽屉标题,Medium
+Confirm,Confirm Content,确定要关闭吗?,确认内容,确认抽屉内容,Medium
+Confirm,Confirm OK Text,确定,确定按钮文字,确定按钮文字,High
+Confirm,Confirm Cancel Text,取消,取消按钮文字,取消按钮文字,High
+Confirm,Confirm Icon,ExclamationCircleOutlined,确认图标,确认图标,Low
+Confirm,Confirm Icon Color,#FF7D00,确认图标颜色,确认图标橙色#FF7D00,Low
+Button,OK Button Text,确定,确定按钮文字,确定按钮默认文字,High
+Button,Cancel Button Text,取消,取消按钮文字,取消按钮默认文字,High
+Button,OK Button Type,primary,确定按钮类型,确定按钮主按钮样式,High
+Button,Cancel Button Type,secondary,取消按钮类型,取消按钮次按钮样式,High
+Button,OK Button Loading,false,确定按钮加载,确定按钮不在加载状态,Medium
+Button,Cancel Button Loading,false,取消按钮加载,取消按钮不在加载状态,Low
+Button,Button Size,default,按钮大小,按钮默认大小,Medium
+Button,Button Gap,8px,按钮间距,按钮间距8px,High
+Custom,Custom Header,supported,自定义头部,支持自定义头部内容,Medium
+Custom,Custom Footer,supported,自定义底部,支持自定义底部内容,High
+Custom,Custom Close Icon,supported,自定义关闭图标,支持自定义关闭图标,Low
+Custom,Custom Width,supported,自定义宽度,支持自定义宽度,High
+Custom,Custom Height,supported,自定义高度,支持自定义高度,Medium
+Transition,Transition Name,slide,过渡名称,滑动过渡效果,Medium
+Transition,Transition Duration,0.3s,过渡时长,过渡时长0.3s,Medium
+Transition,Transition Timing,cubic-bezier(0.23 1 0.32 1),过渡曲线,过渡曲线,Low
+Transition,Mask Transition,fade,遮罩过渡,遮罩淡入淡出效果,Low
+Body Lock,Body Scroll Lock,true,锁定页面滚动,打开时锁定页面滚动,High
+Body Lock,Body Scroll Lock Delay,0ms,锁定延迟,锁定页面滚动延迟0ms,Low
+Body Lock,Body Scroll Restore,true,恢复页面滚动,关闭时恢复页面滚动,High
+Overflow,Overflow Behavior,scroll,溢出行为,内容溢出滚动,High
+Overflow,Overflow X,hidden,水平溢出,水平溢出隐藏,Medium
+Overflow,Overflow Y,auto,垂直溢出,垂直溢出自动滚动,High
+Safe Area,Safe Area Inset,true,安全区域,支持安全区域适配,Medium
+Safe Area,Safe Area Inset Top,env(safe-area-inset-top),顶部安全区域,顶部安全区域,Low
+Safe Area,Safe Area Inset Bottom,env(safe-area-inset-bottom),底部安全区域,底部安全区域,Low
+Safe Area,Safe Area Inset Left,env(safe-area-inset-left),左侧安全区域,左侧安全区域,Low
+Safe Area,Safe Area Inset Right,env(safe-area-inset-right),右侧安全区域,右侧安全区域,Low

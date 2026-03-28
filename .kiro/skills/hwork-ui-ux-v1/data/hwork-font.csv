@@ -1,0 +1,75 @@
+Category,Name,FontFamily,FontWeight,FontSize,LineHeight,Usage,Description,Severity
+FontFamily,Chinese Primary,PingFang SC,400,14px,22px,中文主字体,苹方-简 常规体,High
+FontFamily,Chinese Fallback,Microsoft YaHei,400,14px,22px,中文备用字体,微软雅黑,Medium
+FontFamily,Chinese System,Hiragino Sans GB,400,14px,22px,中文系统字体,冬青黑体,Low
+FontFamily,English Primary,Roboto,400,14px,22px,英文主字体,Roboto 常规体,High
+FontFamily,English Fallback,Helvetica Neue,400,14px,22px,英文备用字体,Helvetica Neue,Medium
+FontFamily,Number Primary,DIN Alternate,400,14px,22px,数字主字体,DIN 数字字体,High
+FontFamily,Monospace,Monaco,400,14px,22px,等宽字体,代码展示用,Medium
+FontWeight,Light,PingFang SC,300,14px,22px,精简场景,细体-用于辅助信息,Low
+FontWeight,Regular,PingFang SC,400,14px,22px,正文描述文字,常规体-用于正文内容,High
+FontWeight,Medium,PingFang SC,500,14px,22px,标题文字,中等体-用于小标题,High
+FontWeight,Bold,PingFang SC,600,14px,22px,展示数据,粗体-用于强调数据,High
+Chinese,Display XL,PingFang SC,600,30px,38px,超大标题,中文超大展示标题,Low
+Chinese,Display L,PingFang SC,600,24px,32px,大标题,中文大展示标题,Low
+Chinese,H1,PingFang SC,600,20px,28px,一级标题,中文页面主标题,High
+Chinese,H2,PingFang SC,600,18px,26px,二级标题,中文区块标题,High
+Chinese,H3,PingFang SC,500,16px,24px,三级标题,中文卡片标题,High
+Chinese,H4,PingFang SC,500,14px,22px,四级标题,中文列表标题,Medium
+Chinese,H5,PingFang SC,500,12px,20px,五级标题,中文辅助标题,Medium
+Chinese,Body Large,PingFang SC,400,16px,24px,大号正文,中文大段落文字,Medium
+Chinese,Body Regular,PingFang SC,400,14px,22px,常规正文,中文默认正文,High
+Chinese,Body Small,PingFang SC,400,12px,20px,小号正文,中文辅助说明,Medium
+Chinese,Caption,PingFang SC,400,12px,20px,注释文字,中文图注说明,Low
+Chinese,Overline,PingFang SC,400,12px,20px,上标文字,中文标签文字,Low
+English,Display XL,Roboto,600,30px,38px,超大标题,英文超大展示标题,Low
+English,Display L,Roboto,600,24px,32px,大标题,英文大展示标题,Low
+English,H1,Roboto,600,20px,28px,一级标题,英文页面主标题,High
+English,H2,Roboto,600,18px,26px,二级标题,英文区块标题,High
+English,H3,Roboto,500,16px,24px,三级标题,英文卡片标题,High
+English,H4,Roboto,500,14px,22px,四级标题,英文列表标题,Medium
+English,H5,Roboto,500,12px,20px,五级标题,英文辅助标题,Medium
+English,Body Large,Roboto,400,16px,24px,大号正文,英文大段落文字,Medium
+English,Body Regular,Roboto,400,14px,22px,常规正文,英文默认正文,High
+English,Body Small,Roboto,400,12px,20px,小号正文,英文辅助说明,Medium
+English,Caption,Roboto,400,12px,20px,注释文字,英文图注说明,Low
+Size,Size 12,PingFang SC,400,12px,20px,最小字号,辅助文字/标签,Medium
+Size,Size 13,PingFang SC,400,13px,20px,次小字号,表格内容,Medium
+Size,Size 14,PingFang SC,400,14px,22px,默认字号,正文/按钮/输入框,High
+Size,Size 16,PingFang SC,500,16px,24px,中等字号,小标题/强调文字,High
+Size,Size 18,PingFang SC,500,18px,26px,较大字号,区块标题,Medium
+Size,Size 20,PingFang SC,600,20px,28px,大字号,页面标题,High
+Size,Size 24,PingFang SC,600,24px,32px,超大字号,展示标题,Low
+Size,Size 30,PingFang SC,600,30px,38px,特大字号,数据展示,Low
+Size,Size 36,PingFang SC,600,36px,44px,巨大字号,大屏数据,Low
+
+LineHeight,Compact,PingFang SC,400,14px,1.2,紧凑行高,单行文字/按钮,Medium
+LineHeight,Normal,PingFang SC,400,14px,1.5,标准行高,正文段落,High
+LineHeight,Relaxed,PingFang SC,400,14px,1.75,宽松行高,长文阅读,Low
+LineHeight,Loose,PingFang SC,400,14px,2,超宽行高,特殊展示,Low
+Component,Button Large,PingFang SC,400,16px,24px,大按钮,大号按钮文字,Medium
+Component,Button Default,PingFang SC,400,14px,22px,默认按钮,常规按钮文字,High
+Component,Button Small,PingFang SC,400,12px,20px,小按钮,小号按钮文字,Medium
+Component,Input,PingFang SC,400,14px,22px,输入框,输入框文字,High
+Component,Input Placeholder,PingFang SC,400,14px,22px,占位符,输入框提示文字,Medium
+Component,Select,PingFang SC,400,14px,22px,下拉框,下拉选择文字,High
+Component,Table Header,PingFang SC,500,14px,22px,表头,表格头部文字,High
+Component,Table Cell,PingFang SC,400,14px,22px,表格单元格,表格内容文字,High
+Component,Tag,PingFang SC,400,12px,20px,标签,状态标签文字,Medium
+Component,Tooltip,PingFang SC,400,12px,20px,提示框,悬浮提示文字,Low
+Component,Menu,PingFang SC,400,14px,22px,菜单,导航菜单文字,High
+Component,Tab,PingFang SC,400,14px,22px,标签页,Tab标签文字,Medium
+Component,Breadcrumb,PingFang SC,400,14px,22px,面包屑,面包屑导航文字,Medium
+Component,Pagination,PingFang SC,400,14px,22px,分页,分页器文字,Medium
+Component,Modal Title,PingFang SC,500,16px,24px,弹窗标题,模态框标题,High
+Component,Modal Body,PingFang SC,400,14px,22px,弹窗内容,模态框正文,Medium
+Component,Form Label,PingFang SC,400,14px,22px,表单标签,表单字段标签,High
+Component,Form Error,PingFang SC,400,12px,20px,表单错误,表单验证错误,Medium
+Number,Data Display XL,DIN Alternate,600,36px,44px,超大数据,大屏数据展示,Low
+Number,Data Display L,DIN Alternate,600,30px,38px,大数据,卡片数据展示,Low
+Number,Data Display M,DIN Alternate,600,24px,32px,中数据,统计数据展示,Medium
+Number,Data Display S,DIN Alternate,500,20px,28px,小数据,列表数据展示,Medium
+Number,Data Regular,DIN Alternate,400,14px,22px,常规数据,表格数据,High
+Number,Data Small,DIN Alternate,400,12px,20px,小号数据,辅助数据,Medium
+Number,Currency,DIN Alternate,500,16px,24px,货币金额,金额展示,High
+Number,Percentage,DIN Alternate,400,14px,22px,百分比,比例展示,Medium

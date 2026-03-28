@@ -1,0 +1,88 @@
+Category,Name,Value,Usage,Description,Severity
+Grid,Grid Columns,24,栅格列数,24列栅格系统,High
+Grid,Grid Gutter,16px,栅格间距,列间距16px,High
+Grid,Grid Gutter Large,24px,大栅格间距,大屏列间距24px,Medium
+Grid,Container Max Width,1200px,容器最大宽度,内容区最大宽度1200px,High
+Grid,Container Padding,24px,容器内边距,内容区左右内边距24px,High
+Spacing,Spacing XS,4px,超小间距,紧凑元素间距,Medium
+Spacing,Spacing SM,8px,小间距,相关元素间距,High
+Spacing,Spacing MD,12px,中间距,组件内部间距,High
+Spacing,Spacing LG,16px,大间距,区块间距,High
+Spacing,Spacing XL,24px,超大间距,模块间距,High
+Spacing,Spacing XXL,32px,特大间距,页面区域间距,Medium
+Spacing,Spacing XXXL,48px,巨大间距,大区块间距,Low
+Header,Header Height,48px,顶部导航高度,固定顶部导航栏高度48px,High
+Header,Header Background,#165DFF,顶部导航背景,蓝色背景#165DFF,High
+Header,Header Text Color,#FFFFFF,顶部导航文字,白色文字,High
+Header,Header Padding,0 24px,顶部导航内边距,左右内边距24px,Medium
+Header,Header Logo Width,120px,Logo宽度,Logo区域宽度120px,Medium
+Header,Header Menu Gap,24px,菜单间距,顶部菜单项间距24px,Medium
+Sider,Sider Width,208px,侧边栏宽度,展开状态侧边栏宽度208px,High
+Sider,Sider Width Collapsed,48px,侧边栏收起宽度,收起状态侧边栏宽度48px,High
+Sider,Sider Background,#165DFF,侧边栏背景,蓝色背景#165DFF,High
+Sider,Sider Text Color,rgba(255 255 255 0.65),侧边栏文字,半透明白色文字,High
+Sider,Sider Text Hover,#FFFFFF,侧边栏文字悬停,白色文字,High
+Sider,Sider Item Height,40px,菜单项高度,侧边栏菜单项高度40px,High
+Sider,Sider Item Padding,0 16px,菜单项内边距,菜单项左右内边距16px,Medium
+Sider,Sider Submenu Indent,24px,子菜单缩进,子菜单缩进24px,Medium
+Content,Content Padding,24px,内容区内边距,内容区四周内边距24px,High
+Content,Content Background,#F2F3F5,内容区背景,浅灰色背景#F2F3F5,High
+Content,Content Min Height,calc(100vh - 48px),内容区最小高度,减去顶部导航高度,Medium
+Footer,Footer Height,48px,底部高度,页脚高度48px,Low
+Footer,Footer Background,#FFFFFF,底部背景,白色背景,Low
+Footer,Footer Padding,0 24px,底部内边距,左右内边距24px,Low
+Card,Card Padding,16px,卡片内边距,卡片内边距16px,High
+Card,Card Padding Large,24px,大卡片内边距,大卡片内边距24px,Medium
+Card,Card Gap,16px,卡片间距,卡片之间间距16px,High
+Card,Card Header Height,48px,卡片头部高度,卡片标题区高度48px,Medium
+Card,Card Header Padding,0 16px,卡片头部内边距,卡片标题区内边距,Medium
+
+Table,Table Filter Height,auto,筛选区高度,筛选区自适应高度,Medium
+Table,Table Filter Padding,16px,筛选区内边距,筛选区内边距16px,High
+Table,Table Filter Gap,16px,筛选项间距,筛选项之间间距16px,High
+Table,Table Filter Label Width,80px,筛选标签宽度,筛选标签固定宽度80px,Medium
+Table,Table Filter Input Width,180px,筛选输入框宽度,筛选输入框宽度180px,Medium
+Table,Table Toolbar Height,48px,工具栏高度,表格工具栏高度48px,Medium
+Table,Table Toolbar Padding,0 16px,工具栏内边距,工具栏左右内边距16px,Medium
+Table,Table Header Height,44px,表头高度,表格头部行高44px,High
+Table,Table Row Height,48px,表格行高,表格内容行高48px,High
+Table,Table Row Height Compact,36px,紧凑行高,紧凑模式行高36px,Medium
+Table,Table Row Height Large,56px,宽松行高,宽松模式行高56px,Low
+Table,Table Cell Padding,12px 16px,单元格内边距,单元格内边距,High
+Table,Table Pagination Height,48px,分页高度,分页区域高度48px,Medium
+Table,Table Pagination Padding,16px,分页内边距,分页区域内边距16px,Medium
+Form,Form Label Width,100px,表单标签宽度,表单标签固定宽度100px,High
+Form,Form Label Align,right,表单标签对齐,表单标签右对齐,High
+Form,Form Item Gap,24px,表单项间距,表单项垂直间距24px,High
+Form,Form Item Gap Horizontal,16px,表单项水平间距,表单项水平间距16px,Medium
+Form,Form Input Height,32px,表单输入框高度,输入框高度32px,High
+Form,Form Input Height Large,40px,大输入框高度,大号输入框高度40px,Medium
+Form,Form Input Height Small,24px,小输入框高度,小号输入框高度24px,Medium
+Form,Form Textarea Min Height,80px,文本域最小高度,文本域最小高度80px,Medium
+Form,Form Error Margin,4px 0 0,错误提示间距,错误提示上边距4px,Medium
+Modal,Modal Width Small,400px,小弹窗宽度,小型弹窗宽度400px,Medium
+Modal,Modal Width Default,520px,默认弹窗宽度,默认弹窗宽度520px,High
+Modal,Modal Width Large,720px,大弹窗宽度,大型弹窗宽度720px,Medium
+Modal,Modal Width XLarge,960px,超大弹窗宽度,超大弹窗宽度960px,Low
+Modal,Modal Padding,24px,弹窗内边距,弹窗内容区内边距24px,High
+Modal,Modal Header Height,48px,弹窗头部高度,弹窗标题区高度48px,Medium
+Modal,Modal Footer Height,52px,弹窗底部高度,弹窗按钮区高度52px,Medium
+Modal,Modal Footer Padding,10px 16px,弹窗底部内边距,弹窗按钮区内边距,Medium
+Drawer,Drawer Width Small,320px,小抽屉宽度,小型抽屉宽度320px,Medium
+Drawer,Drawer Width Default,400px,默认抽屉宽度,默认抽屉宽度400px,High
+Drawer,Drawer Width Large,560px,大抽屉宽度,大型抽屉宽度560px,Medium
+Drawer,Drawer Header Height,48px,抽屉头部高度,抽屉标题区高度48px,Medium
+Drawer,Drawer Padding,24px,抽屉内边距,抽屉内容区内边距24px,High
+PageType,List Page,Header+Sider+Filter+Table,列表页布局,标准列表页布局结构,High
+PageType,Detail Page,Header+Sider+Breadcrumb+Content,详情页布局,标准详情页布局结构,High
+PageType,Form Page,Header+Sider+Breadcrumb+Form,表单页布局,标准表单页布局结构,High
+PageType,Dashboard Page,Header+Sider+Cards+Charts,仪表盘布局,数据看板布局结构,Medium
+PageType,Login Page,Centered Form,登录页布局,居中表单布局,Medium
+Responsive,Breakpoint XS,<576px,超小屏断点,手机竖屏,Medium
+Responsive,Breakpoint SM,≥576px,小屏断点,手机横屏,Medium
+Responsive,Breakpoint MD,≥768px,中屏断点,平板竖屏,High
+Responsive,Breakpoint LG,≥992px,大屏断点,平板横屏/小桌面,High
+Responsive,Breakpoint XL,≥1200px,超大屏断点,桌面显示器,High
+Responsive,Breakpoint XXL,≥1600px,巨大屏断点,大桌面显示器,Medium
+Responsive,Sider Collapse,<992px,侧边栏收起断点,小于992px自动收起侧边栏,High
+Responsive,Table Scroll,<768px,表格滚动断点,小于768px表格横向滚动,Medium

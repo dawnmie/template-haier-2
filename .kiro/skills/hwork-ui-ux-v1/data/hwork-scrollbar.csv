@@ -1,0 +1,166 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Scrollbar Width Large,8px,大滚动条宽度,大尺寸滚动条宽度8px,Medium
+Size,Scrollbar Width Default,6px,默认滚动条宽度,默认滚动条宽度6px,High
+Size,Scrollbar Width Small,4px,小滚动条宽度,小尺寸滚动条宽度4px,Medium
+Size,Scrollbar Height Large,8px,大滚动条高度,大尺寸滚动条高度8px,Medium
+Size,Scrollbar Height Default,6px,默认滚动条高度,默认滚动条高度6px,High
+Size,Scrollbar Height Small,4px,小滚动条高度,小尺寸滚动条高度4px,Medium
+Size,Scrollbar Thumb Min Length,30px,滑块最小长度,滚动条滑块最小长度30px,High
+Size,Scrollbar Thumb Border Radius,3px,滑块圆角,滚动条滑块圆角3px,High
+Size,Scrollbar Track Border Radius,3px,轨道圆角,滚动条轨道圆角3px,Medium
+Size,Scrollbar Padding,2px,滚动条内边距,滚动条内边距2px,Low
+Color,Scrollbar Track Background,transparent,轨道背景,滚动条轨道透明背景,High
+Color,Scrollbar Track Background Visible,#F7F8FA,轨道背景可见,滚动条轨道浅灰背景#F7F8FA,Medium
+Color,Scrollbar Thumb Background,#C9CDD4,滑块背景,滚动条滑块灰色背景#C9CDD4,High
+Color,Scrollbar Thumb Hover Background,#86909C,滑块悬停背景,滚动条滑块悬停深灰背景#86909C,High
+Color,Scrollbar Thumb Active Background,#4E5969,滑块激活背景,滚动条滑块激活更深灰背景#4E5969,Medium
+Color,Scrollbar Thumb Disabled Background,#E5E6EB,滑块禁用背景,滚动条滑块禁用浅灰背景#E5E6EB,Low
+Color,Scrollbar Border Color,transparent,边框颜色,滚动条边框透明,Low
+Direction,Direction Horizontal,horizontal,水平方向,水平滚动条,High
+Direction,Direction Vertical,vertical,垂直方向,垂直滚动条,High
+Direction,Direction Both,both,双向滚动,水平和垂直滚动条,Medium
+Position,Position Right,right,右侧位置,垂直滚动条在右侧,High
+Position,Position Left,left,左侧位置,垂直滚动条在左侧,Low
+Position,Position Bottom,bottom,底部位置,水平滚动条在底部,High
+Position,Position Top,top,顶部位置,水平滚动条在顶部,Low
+Type,Type Always,always,始终显示,滚动条始终显示,Medium
+Type,Type Hover,hover,悬停显示,滚动条悬停时显示,High
+Type,Type Auto,auto,自动显示,滚动条自动显示隐藏,High
+Type,Type Hidden,hidden,隐藏滚动条,滚动条隐藏,Low
+Behavior,Behavior Smooth,smooth,平滑滚动,滚动行为平滑,High
+Behavior,Behavior Auto,auto,自动滚动,滚动行为自动,Medium
+Behavior,Behavior Instant,instant,瞬间滚动,滚动行为瞬间,Low
+Animation,Fade In Duration,0.2s,淡入时长,滚动条淡入动画时长0.2s,Medium
+Animation,Fade Out Duration,0.2s,淡出时长,滚动条淡出动画时长0.2s,Medium
+Animation,Fade Out Delay,1s,淡出延迟,滚动条淡出延迟1s,Medium
+Animation,Transition Timing,ease,过渡曲线,滚动条过渡曲线ease,Low
+Animation,Hover Transition,all 0.2s,悬停过渡,滚动条悬停过渡动画0.2s,Medium
+Thumb,Thumb Opacity Default,0.6,滑块默认透明度,滑块默认透明度0.6,Medium
+Thumb,Thumb Opacity Hover,0.8,滑块悬停透明度,滑块悬停透明度0.8,Medium
+Thumb,Thumb Opacity Active,1,滑块激活透明度,滑块激活透明度1,Medium
+Thumb,Thumb Cursor,pointer,滑块光标,滑块显示手型光标,High
+Thumb,Thumb Transition,all 0.2s,滑块过渡,滑块过渡动画0.2s,Medium
+Track,Track Visible,true,轨道可见,滚动条轨道可见,Medium
+Track,Track Hidden,false,轨道隐藏,滚动条轨道隐藏,High
+Track,Track Hover Background,#F2F3F5,轨道悬停背景,轨道悬停浅灰背景#F2F3F5,Low
+Track,Track Padding,0,轨道内边距,轨道内边距0,Low
+Track,Track Margin,0,轨道外边距,轨道外边距0,Low
+State,State Default,default,默认状态,滚动条默认状态,High
+State,State Hover,hover,悬停状态,滚动条悬停状态,High
+State,State Active,active,激活状态,滚动条激活状态,Medium
+State,State Disabled,disabled,禁用状态,滚动条禁用状态,Medium
+State,State Hidden,hidden,隐藏状态,滚动条隐藏状态,Medium
+Disabled,Disabled Cursor,not-allowed,禁用光标,禁用滚动条禁止光标,Medium
+Disabled,Disabled Opacity,0.4,禁用透明度,禁用滚动条透明度0.4,Low
+Disabled,Disabled Pointer Events,none,禁用指针事件,禁用滚动条无指针事件,Medium
+ZIndex,Z Index,1,层级,滚动条层级1,Medium
+ZIndex,Z Index Overlay,10,覆盖层级,滚动条覆盖层级10,Low
+Overlay,Overlay Mode,true,覆盖模式,滚动条覆盖在内容上,High
+Overlay,Overlay Mode Disabled,false,非覆盖模式,滚动条占据空间,Medium
+Overlay,Overlay Offset,0,覆盖偏移,滚动条覆盖偏移0,Low
+Native,Native Scrollbar,native,原生滚动条,使用原生滚动条,Medium
+Native,Custom Scrollbar,custom,自定义滚动条,使用自定义滚动条,High
+Native,Native Hide,true,隐藏原生滚动条,隐藏原生滚动条样式,High
+Native,Native Show,false,显示原生滚动条,显示原生滚动条样式,Low
+Webkit,Webkit Scrollbar Width,6px,Webkit滚动条宽度,Webkit浏览器滚动条宽度6px,High
+Webkit,Webkit Scrollbar Height,6px,Webkit滚动条高度,Webkit浏览器滚动条高度6px,High
+Webkit,Webkit Track Background,transparent,Webkit轨道背景,Webkit轨道透明背景,Medium
+Webkit,Webkit Thumb Background,#C9CDD4,Webkit滑块背景,Webkit滑块灰色背景#C9CDD4,High
+Webkit,Webkit Thumb Hover,#86909C,Webkit滑块悬停,Webkit滑块悬停深灰#86909C,High
+Webkit,Webkit Thumb Radius,3px,Webkit滑块圆角,Webkit滑块圆角3px,Medium
+Firefox,Firefox Scrollbar Width,thin,Firefox滚动条宽度,Firefox滚动条细宽度,High
+Firefox,Firefox Scrollbar Color,#C9CDD4 transparent,Firefox滚动条颜色,Firefox滚动条颜色设置,High
+Firefox,Firefox Scrollbar Width Auto,auto,Firefox滚动条自动宽度,Firefox滚动条自动宽度,Medium
+Firefox,Firefox Scrollbar Width None,none,Firefox滚动条无宽度,Firefox滚动条隐藏,Low
+Container,Container Overflow,auto,容器溢出,容器溢出自动滚动,High
+Container,Container Overflow X,auto,容器水平溢出,容器水平溢出自动滚动,Medium
+Container,Container Overflow Y,auto,容器垂直溢出,容器垂直溢出自动滚动,High
+Container,Container Overflow Hidden,hidden,容器溢出隐藏,容器溢出隐藏,Medium
+Container,Container Overflow Scroll,scroll,容器溢出滚动,容器溢出强制滚动,Low
+Container,Container Overflow Visible,visible,容器溢出可见,容器溢出内容可见,Low
+Height,Max Height,100%,最大高度,滚动容器最大高度100%,Medium
+Height,Min Height,0,最小高度,滚动容器最小高度0,Low
+Height,Height Auto,auto,自动高度,滚动容器自动高度,High
+Height,Height Fixed,fixed,固定高度,滚动容器固定高度,Medium
+Width,Max Width,100%,最大宽度,滚动容器最大宽度100%,Medium
+Width,Min Width,0,最小宽度,滚动容器最小宽度0,Low
+Width,Width Auto,auto,自动宽度,滚动容器自动宽度,High
+Width,Width Fixed,fixed,固定宽度,滚动容器固定宽度,Medium
+Shadow,Shadow Top,0 2px 4px rgba(0 0 0 0.08),顶部阴影,滚动时顶部阴影,Medium
+Shadow,Shadow Bottom,0 -2px 4px rgba(0 0 0 0.08),底部阴影,滚动时底部阴影,Medium
+Shadow,Shadow Left,2px 0 4px rgba(0 0 0 0.08),左侧阴影,滚动时左侧阴影,Low
+Shadow,Shadow Right,-2px 0 4px rgba(0 0 0 0.08),右侧阴影,滚动时右侧阴影,Low
+Shadow,Shadow Enabled,true,启用阴影,启用滚动阴影,Medium
+Shadow,Shadow Disabled,false,禁用阴影,禁用滚动阴影,High
+Indicator,Indicator Enabled,true,启用指示器,启用滚动位置指示器,Low
+Indicator,Indicator Disabled,false,禁用指示器,禁用滚动位置指示器,High
+Indicator,Indicator Color,#165DFF,指示器颜色,滚动指示器蓝色#165DFF,Low
+Indicator,Indicator Size,2px,指示器大小,滚动指示器大小2px,Low
+Snap,Snap Enabled,true,启用吸附,启用滚动吸附,Low
+Snap,Snap Disabled,false,禁用吸附,禁用滚动吸附,High
+Snap,Snap Type Mandatory,mandatory,强制吸附,滚动强制吸附,Low
+Snap,Snap Type Proximity,proximity,接近吸附,滚动接近吸附,Low
+Snap,Snap Align Start,start,吸附起始,滚动吸附到起始位置,Low
+Snap,Snap Align Center,center,吸附居中,滚动吸附到居中位置,Low
+Snap,Snap Align End,end,吸附结束,滚动吸附到结束位置,Low
+Virtual,Virtual Scroll Enabled,true,启用虚拟滚动,启用虚拟滚动优化,Medium
+Virtual,Virtual Scroll Disabled,false,禁用虚拟滚动,禁用虚拟滚动,High
+Virtual,Virtual Item Height,40px,虚拟项高度,虚拟滚动项高度40px,Medium
+Virtual,Virtual Buffer Size,5,虚拟缓冲大小,虚拟滚动缓冲项数5,Low
+Momentum,Momentum Enabled,true,启用惯性,启用滚动惯性,Medium
+Momentum,Momentum Disabled,false,禁用惯性,禁用滚动惯性,Low
+Momentum,Momentum Friction,0.92,惯性摩擦力,滚动惯性摩擦力0.92,Low
+Momentum,Momentum Duration,300ms,惯性时长,滚动惯性时长300ms,Low
+Bounce,Bounce Enabled,true,启用回弹,启用滚动回弹,Low
+Bounce,Bounce Disabled,false,禁用回弹,禁用滚动回弹,Medium
+Bounce,Bounce Distance,50px,回弹距离,滚动回弹距离50px,Low
+Bounce,Bounce Duration,300ms,回弹时长,滚动回弹时长300ms,Low
+Pull,Pull Refresh Enabled,true,启用下拉刷新,启用下拉刷新功能,Low
+Pull,Pull Refresh Disabled,false,禁用下拉刷新,禁用下拉刷新功能,High
+Pull,Pull Refresh Distance,60px,下拉刷新距离,下拉刷新触发距离60px,Low
+Pull,Pull Refresh Duration,300ms,下拉刷新时长,下拉刷新动画时长300ms,Low
+Infinite,Infinite Scroll Enabled,true,启用无限滚动,启用无限滚动加载,Low
+Infinite,Infinite Scroll Disabled,false,禁用无限滚动,禁用无限滚动加载,High
+Infinite,Infinite Scroll Distance,50px,无限滚动距离,无限滚动触发距离50px,Low
+Infinite,Infinite Scroll Delay,200ms,无限滚动延迟,无限滚动触发延迟200ms,Low
+Usage,Basic Usage,基础滚动条,基础使用场景,用于基础内容滚动,High
+Usage,Horizontal Usage,水平滚动条,水平滚动场景,用于水平内容滚动,Medium
+Usage,Vertical Usage,垂直滚动条,垂直滚动场景,用于垂直内容滚动,High
+Usage,Custom Style Usage,自定义样式,自定义样式场景,用于自定义滚动条样式,Medium
+Usage,Virtual Scroll Usage,虚拟滚动,虚拟滚动场景,用于大数据量滚动优化,Medium
+Usage,Overlay Usage,覆盖模式,覆盖模式场景,用于滚动条覆盖在内容上,High
+Guideline,Always Visible,false,始终可见,滚动条不建议始终可见,Medium
+Guideline,Hover Show,true,悬停显示,建议悬停时显示滚动条,High
+Guideline,Smooth Scroll,true,平滑滚动,建议使用平滑滚动,High
+Guideline,Min Thumb Size,30px,最小滑块大小,滑块最小大小30px,High
+Guideline,Track Visible,false,轨道可见,轨道不建议始终可见,Medium
+Guideline,Overlay Mode,true,覆盖模式,建议使用覆盖模式,High
+Guideline,Custom Style,true,自定义样式,建议自定义滚动条样式,High
+Guideline,Cross Browser,true,跨浏览器,确保跨浏览器兼容性,High
+Accessibility,Keyboard Scroll,supported,键盘滚动,支持键盘滚动操作,High
+Accessibility,Arrow Keys,supported,方向键,支持方向键滚动,High
+Accessibility,Page Keys,supported,翻页键,支持PageUp/PageDown滚动,High
+Accessibility,Home End Keys,supported,首尾键,支持Home/End键滚动,Medium
+Accessibility,Space Key,supported,空格键,支持空格键翻页,Medium
+Accessibility,Tab Navigation,supported,Tab导航,支持Tab键导航,High
+Accessibility,Focus Visible,true,焦点可见,滚动容器焦点可见,Medium
+Accessibility,ARIA Scrollable,true,ARIA可滚动,使用ARIA可滚动属性,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Performance,Hardware Acceleration,true,硬件加速,启用硬件加速,High
+Performance,Will Change,transform,Will Change属性,使用will-change优化,Medium
+Performance,Debounce Scroll,50ms,滚动防抖,滚动事件防抖50ms,Medium
+Performance,Throttle Scroll,16ms,滚动节流,滚动事件节流16ms,High
+Performance,Passive Listener,true,被动监听,使用被动事件监听,High
+Performance,Lazy Render,true,延迟渲染,延迟渲染滚动内容,Medium
+Mobile,Touch Scroll,supported,触摸滚动,支持触摸滚动,High
+Mobile,Swipe Gesture,supported,滑动手势,支持滑动手势,High
+Mobile,Momentum Scroll,supported,惯性滚动,支持惯性滚动,High
+Mobile,Bounce Effect,supported,回弹效果,支持回弹效果,Medium
+Mobile,Pull Refresh,supported,下拉刷新,支持下拉刷新,Low
+Mobile,Scrollbar Width,4px,移动端滚动条宽度,移动端滚动条宽度4px,Medium
+Mobile,Scrollbar Auto Hide,true,移动端自动隐藏,移动端滚动条自动隐藏,High
+Responsive,Desktop Width,6px,桌面端宽度,桌面端滚动条宽度6px,High
+Responsive,Tablet Width,5px,平板端宽度,平板端滚动条宽度5px,Medium
+Responsive,Mobile Width,4px,移动端宽度,移动端滚动条宽度4px,Medium
+Responsive,Auto Hide Mobile,true,移动端自动隐藏,移动端自动隐藏滚动条,High
+Responsive,Auto Hide Desktop,false,桌面端自动隐藏,桌面端不自动隐藏滚动条,Medium

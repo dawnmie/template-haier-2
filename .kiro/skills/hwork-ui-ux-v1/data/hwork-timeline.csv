@@ -1,0 +1,200 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Timeline Item Gap,16px,时间轴项间距,时间轴项间距16px,High
+Size,Timeline Item Gap Large,24px,时间轴项大间距,时间轴项大间距24px,Medium
+Size,Timeline Item Gap Small,12px,时间轴项小间距,时间轴项小间距12px,Low
+Size,Timeline Dot Size Small,16px,小时间点尺寸,小时间点直径16px,Medium
+Size,Timeline Dot Size Default,24px,默认时间点尺寸,默认时间点直径24px,High
+Size,Timeline Dot Size Large,32px,大时间点尺寸,大时间点直径32px,Medium
+Size,Timeline Dot Size XLarge,40px,超大时间点尺寸,超大时间点直径40px,Low
+Size,Timeline Dot Inner Size,8px,时间点内圆尺寸,时间点内圆直径8px,High
+Size,Timeline Line Width,2px,时间轴线宽度,时间轴线宽度2px,High
+Size,Timeline Line Offset,12px,时间轴线偏移,时间轴线距离左侧12px,High
+Size,Timeline Content Padding Left,24px,内容左内边距,内容距离时间点左内边距24px,High
+Size,Timeline Content Padding Left Large,32px,内容左内边距大,内容距离时间点左内边距32px,Medium
+Size,Timeline Content Padding Bottom,16px,内容底部内边距,内容底部内边距16px,Medium
+Size,Timeline Title Font Size,14px,标题字号,时间轴标题字号14px,High
+Size,Timeline Title Line Height,22px,标题行高,时间轴标题行高22px,Medium
+Size,Timeline Description Font Size,14px,描述字号,时间轴描述字号14px,High
+Size,Timeline Description Line Height,22px,描述行高,时间轴描述行高22px,Medium
+Size,Timeline Time Font Size,12px,时间字号,时间轴时间字号12px,High
+Size,Timeline Time Line Height,20px,时间行高,时间轴时间行高20px,Medium
+Size,Timeline Icon Size,16px,图标尺寸,时间点图标尺寸16px,Medium
+Color,Timeline Line Color,#E5E6EB,时间轴线颜色,时间轴线灰色#E5E6EB,High
+Color,Timeline Dot Border Color,#E5E6EB,时间点边框颜色,时间点边框灰色#E5E6EB,High
+Color,Timeline Dot Background,#FFFFFF,时间点背景,时间点白色背景#FFFFFF,High
+Color,Timeline Dot Inner Color Default,#165DFF,默认时间点内圆颜色,默认时间点内圆蓝色#165DFF,High
+Color,Timeline Dot Inner Color Success,#00B42A,成功时间点内圆颜色,成功时间点内圆绿色#00B42A,High
+Color,Timeline Dot Inner Color Warning,#FF7D00,警告时间点内圆颜色,警告时间点内圆橙色#FF7D00,High
+Color,Timeline Dot Inner Color Error,#F53F3F,错误时间点内圆颜色,错误时间点内圆红色#F53F3F,High
+Color,Timeline Dot Inner Color Gray,#86909C,灰色时间点内圆颜色,灰色时间点内圆#86909C,Medium
+Color,Timeline Title Color,#1D2129,标题颜色,时间轴标题深色#1D2129,High
+Color,Timeline Description Color,#4E5969,描述颜色,时间轴描述灰色#4E5969,High
+Color,Timeline Time Color,#86909C,时间颜色,时间轴时间灰色#86909C,High
+Color,Timeline Icon Color,#FFFFFF,图标颜色,时间点图标白色#FFFFFF,Medium
+Type,Type Default,default,默认类型,默认时间轴样式,High
+Type,Type Alternate,alternate,交替类型,交替时间轴样式,Medium
+Type,Type Left,left,左侧类型,左侧时间轴样式,High
+Type,Type Right,right,右侧类型,右侧时间轴样式,Low
+Mode,Mode Vertical,vertical,垂直模式,垂直时间轴,High
+Mode,Mode Horizontal,horizontal,水平模式,水平时间轴,Medium
+Direction,Direction Forward,forward,正向方向,时间轴正向排列,High
+Direction,Direction Reverse,reverse,反向方向,时间轴反向排列,Low
+Status,Status Default,default,默认状态,默认时间轴状态,High
+Status,Status Success,success,成功状态,成功时间轴状态,High
+Status,Status Warning,warning,警告状态,警告时间轴状态,Medium
+Status,Status Error,error,错误状态,错误时间轴状态,High
+Status,Status Processing,processing,处理中状态,处理中时间轴状态,Medium
+Status,Status Gray,gray,灰色状态,灰色时间轴状态,Low
+Dot,Dot Type Solid,solid,实心点,实心时间点,High
+Dot,Dot Type Hollow,hollow,空心点,空心时间点,Medium
+Dot,Dot Type Icon,icon,图标点,图标时间点,Medium
+Dot,Dot Type Custom,custom,自定义点,自定义时间点,Low
+Dot,Dot Border Width,2px,时间点边框宽度,时间点边框宽度2px,High
+Dot,Dot Border Radius,50%,时间点圆角,时间点圆形50%,High
+Dot,Dot Position,left,时间点位置,时间点在左侧,High
+Dot,Dot Position Center,center,时间点居中,时间点居中,Low
+Line,Line Style Solid,solid,实线样式,时间轴实线,High
+Line,Line Style Dashed,dashed,虚线样式,时间轴虚线,Low
+Line,Line Style Dotted,dotted,点线样式,时间轴点线,Low
+Line,Line Color,#E5E6EB,线条颜色,时间轴线灰色#E5E6EB,High
+Line,Line Width,2px,线条宽度,时间轴线宽度2px,High
+Line,Line Position,left,线条位置,时间轴线在左侧,High
+Content,Content Padding Left,24px,内容左内边距,内容左内边距24px,High
+Content,Content Padding Right,0,内容右内边距,内容右内边距0,Low
+Content,Content Padding Top,0,内容顶部内边距,内容顶部内边距0,Low
+Content,Content Padding Bottom,16px,内容底部内边距,内容底部内边距16px,Medium
+Content,Content Min Height,32px,内容最小高度,内容最小高度32px,Medium
+Content,Content Position,relative,内容定位,内容相对定位,Medium
+Title,Title Visible,true,显示标题,显示时间轴标题,High
+Title,Title Hidden,false,隐藏标题,隐藏时间轴标题,Low
+Title,Title Font Size,14px,标题字号,标题字号14px,High
+Title,Title Font Weight,500,标题字重,标题字重500,High
+Title,Title Line Height,22px,标题行高,标题行高22px,Medium
+Title,Title Color,#1D2129,标题颜色,标题深色#1D2129,High
+Title,Title Margin Bottom,4px,标题底部间距,标题底部间距4px,Medium
+Description,Description Visible,true,显示描述,显示时间轴描述,High
+Description,Description Hidden,false,隐藏描述,隐藏时间轴描述,Low
+Description,Description Font Size,14px,描述字号,描述字号14px,High
+Description,Description Font Weight,400,描述字重,描述字重400,Medium
+Description,Description Line Height,22px,描述行高,描述行高22px,Medium
+Description,Description Color,#4E5969,描述颜色,描述灰色#4E5969,High
+Description,Description Margin Top,4px,描述顶部间距,描述顶部间距4px,Low
+Time,Time Visible,true,显示时间,显示时间信息,High
+Time,Time Hidden,false,隐藏时间,隐藏时间信息,Low
+Time,Time Font Size,12px,时间字号,时间字号12px,High
+Time,Time Font Weight,400,时间字重,时间字重400,Medium
+Time,Time Line Height,20px,时间行高,时间行高20px,Medium
+Time,Time Color,#86909C,时间颜色,时间灰色#86909C,High
+Time,Time Position Top,top,时间顶部位置,时间在顶部,High
+Time,Time Position Bottom,bottom,时间底部位置,时间在底部,Medium
+Time,Time Margin Bottom,4px,时间底部间距,时间底部间距4px,Medium
+Icon,Icon Visible,false,显示图标,不显示图标,Low
+Icon,Icon Size,16px,图标尺寸,图标尺寸16px,Medium
+Icon,Icon Color,#FFFFFF,图标颜色,图标白色#FFFFFF,Medium
+Icon,Icon Background,#165DFF,图标背景,图标蓝色背景#165DFF,Medium
+Label,Label Visible,false,显示标签,不显示标签,Low
+Label,Label Font Size,12px,标签字号,标签字号12px,Low
+Label,Label Color,#86909C,标签颜色,标签灰色#86909C,Low
+Label,Label Position,left,标签位置,标签在左侧,Low
+Alternate,Alternate Enabled,false,启用交替,不启用交替布局,Low
+Alternate,Alternate Content Left,left,交替内容左侧,交替布局内容在左侧,Low
+Alternate,Alternate Content Right,right,交替内容右侧,交替布局内容在右侧,Low
+Alternate,Alternate Dot Center,true,交替点居中,交替布局时间点居中,Low
+Pending,Pending Enabled,false,启用待定,不启用待定状态,Low
+Pending,Pending Dot,true,待定点,显示待定时间点,Low
+Pending,Pending Text,加载中...,待定文字,待定状态文字,Low
+Pending,Pending Color,#86909C,待定颜色,待定状态灰色#86909C,Low
+Reverse,Reverse Enabled,false,启用反向,不启用反向排列,Low
+Reverse,Reverse Order,reverse,反向顺序,反向排列顺序,Low
+Layout,Layout Vertical,vertical,垂直布局,垂直时间轴布局,High
+Layout,Layout Horizontal,horizontal,水平布局,水平时间轴布局,Medium
+Layout,Layout Gap,16px,布局间距,时间轴项间距16px,High
+Layout,Layout Padding,0,布局内边距,时间轴布局内边距0,Low
+Item,Item Min Height,32px,项最小高度,时间轴项最小高度32px,Medium
+Item,Item Padding Bottom,16px,项底部内边距,时间轴项底部内边距16px,Medium
+Item,Item Last Padding Bottom,0,最后项底部内边距,最后项底部内边距0,Medium
+Item,Item Position,relative,项定位,时间轴项相对定位,Medium
+Tail,Tail Visible,true,显示尾线,显示时间轴尾线,High
+Tail,Tail Hidden,false,隐藏尾线,隐藏时间轴尾线,Low
+Tail,Tail Width,2px,尾线宽度,时间轴尾线宽度2px,High
+Tail,Tail Color,#E5E6EB,尾线颜色,时间轴尾线灰色#E5E6EB,High
+Tail,Tail Style,solid,尾线样式,时间轴尾线实线,High
+Tail,Tail Position,left,尾线位置,时间轴尾线在左侧,High
+Tail,Tail Top,0,尾线顶部位置,尾线顶部位置0,Medium
+Tail,Tail Height,100%,尾线高度,尾线高度100%,High
+Head,Head Visible,true,显示头部,显示时间轴头部,High
+Head,Head Hidden,false,隐藏头部,隐藏时间轴头部,Low
+Head,Head Size,24px,头部尺寸,时间轴头部尺寸24px,High
+Head,Head Position,left,头部位置,时间轴头部在左侧,High
+Head,Head Background,#FFFFFF,头部背景,时间轴头部白色背景#FFFFFF,High
+Responsive,Mobile Dot Size,20px,移动端时间点尺寸,移动端时间点尺寸20px,Medium
+Responsive,Mobile Content Padding,16px,移动端内容内边距,移动端内容内边距16px,Medium
+Responsive,Mobile Item Gap,12px,移动端项间距,移动端项间距12px,Medium
+Responsive,Mobile Font Size,12px,移动端字号,移动端字号12px,Medium
+Responsive,Tablet Dot Size,24px,平板端时间点尺寸,平板端时间点尺寸24px,Low
+Responsive,Tablet Content Padding,20px,平板端内容内边距,平板端内容内边距20px,Low
+Usage,Process Usage,流程展示,流程展示场景,用于展示流程步骤,High
+Usage,History Usage,历史记录,历史记录场景,用于展示历史记录,High
+Usage,Log Usage,日志展示,日志展示场景,用于展示日志信息,High
+Usage,Activity Usage,活动流,活动流场景,用于展示活动流信息,Medium
+Usage,Order Usage,订单状态,订单状态场景,用于展示订单状态,High
+Usage,Timeline Usage,时间线,时间线场景,用于展示时间线信息,High
+Guideline,Show Time,true,显示时间,建议显示时间信息,High
+Guideline,Dot Color Status,true,点颜色表示状态,建议点颜色表示状态,High
+Guideline,Title Required,true,标题必需,建议必须有标题,High
+Guideline,Description Optional,true,描述可选,描述信息可选,Medium
+Guideline,Vertical Layout,true,垂直布局,建议使用垂直布局,High
+Guideline,Left Alignment,true,左对齐,建议左对齐排列,High
+Guideline,Line Connection,true,线条连接,建议使用线条连接,High
+Guideline,Last Item No Line,true,最后项无线,建议最后项不显示线条,High
+Guideline,Consistent Spacing,true,间距一致,建议保持间距一致,High
+Accessibility,ARIA Role,list,ARIA角色,使用list角色,High
+Accessibility,ARIA Item Role,listitem,ARIA项角色,使用listitem角色,High
+Accessibility,ARIA Label,supported,ARIA标签,支持aria-label属性,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,Semantic HTML,supported,语义化HTML,使用语义化HTML,Medium
+Performance,GPU Acceleration,false,GPU加速,不启用GPU加速,Low
+Performance,Will Change,auto,Will Change属性,不使用will-change,Low
+Performance,Render Optimization,true,渲染优化,启用渲染优化,Medium
+Performance,Virtual List,false,虚拟列表,不使用虚拟列表,Low
+Event,On Click,supported,点击事件,支持点击事件,Medium
+Event,On Item Click,supported,项点击事件,支持项点击事件,Medium
+Method,Add Item,supported,添加项方法,支持添加时间轴项,Medium
+Method,Remove Item,supported,移除项方法,支持移除时间轴项,Low
+Method,Update Item,supported,更新项方法,支持更新时间轴项,Medium
+Props,Items,supported,项属性,支持设置时间轴项,High
+Props,Mode,supported,模式属性,支持设置模式,High
+Props,Pending,supported,待定属性,支持设置待定状态,Low
+Props,Reverse,supported,反向属性,支持设置反向排列,Low
+Props,Alternate,supported,交替属性,支持设置交替布局,Low
+Slot,Default Slot,supported,默认插槽,支持默认内容插槽,High
+Slot,Dot Slot,supported,时间点插槽,支持时间点插槽,Medium
+Slot,Title Slot,supported,标题插槽,支持标题插槽,Medium
+Slot,Description Slot,supported,描述插槽,支持描述插槽,Medium
+Custom,Custom Dot,supported,自定义时间点,支持自定义时间点,High
+Custom,Custom Color,supported,自定义颜色,支持自定义颜色,High
+Custom,Custom Icon,supported,自定义图标,支持自定义图标,Medium
+Custom,Custom Content,supported,自定义内容,支持自定义内容,High
+Theme,Theme Light,light,浅色主题,浅色主题样式,High
+Theme,Theme Dark,dark,深色主题,深色主题样式,Low
+Theme,Dark Line Color,#3E3E42,深色线条颜色,深色主题线条颜色#3E3E42,Low
+Theme,Dark Dot Border Color,#3E3E42,深色点边框颜色,深色主题点边框颜色#3E3E42,Low
+Theme,Dark Dot Background,#1D2129,深色点背景,深色主题点背景#1D2129,Low
+Theme,Dark Title Color,#FFFFFF,深色标题颜色,深色主题标题白色#FFFFFF,Low
+Theme,Dark Description Color,#C9CDD4,深色描述颜色,深色主题描述灰色#C9CDD4,Low
+Theme,Dark Time Color,#86909C,深色时间颜色,深色主题时间灰色#86909C,Low
+Transition,Transition Property,all,过渡属性,过渡所有属性,Low
+Transition,Transition Duration,0.3s,过渡时长,过渡时长0.3s,Low
+Transition,Transition Timing,ease,过渡曲线,过渡曲线ease,Low
+Animation,Animation Enabled,false,启用动画,不启用动画,Low
+Animation,Animation Type,none,动画类型,无动画效果,Low
+Animation,Animation Duration,0.3s,动画时长,动画时长0.3s,Low
+Animation,Animation Timing,ease,动画曲线,动画曲线ease,Low
+Processing,Processing Animation,true,处理中动画,处理中状态显示动画,Low
+Processing,Processing Duration,1.5s,处理中动画时长,处理中动画时长1.5s,Low
+Processing,Processing Color,#165DFF,处理中颜色,处理中蓝色#165DFF,Low
+Horizontal,Horizontal Item Width,120px,水平项宽度,水平时间轴项宽度120px,Low
+Horizontal,Horizontal Item Gap,40px,水平项间距,水平时间轴项间距40px,Low
+Horizontal,Horizontal Dot Position,top,水平点位置,水平时间轴点在顶部,Low
+Horizontal,Horizontal Line Position,top,水平线位置,水平时间轴线在顶部,Low
+Horizontal,Horizontal Content Position,bottom,水平内容位置,水平时间轴内容在底部,Low

@@ -1,0 +1,100 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Anchor Purpose,页面分区跳转,锚点用途,在各个页面分区之间跳转导航,High
+Purpose,Anchor Scenario,内容过长时使用,使用场景,当平铺呈现的内容过长时使用锚点导航,High
+Purpose,Anchor Behavior,点击跳转到指定位置,锚点行为,点击锚点项跳转到页面指定位置,High
+Structure,Anchor Width,auto,锚点宽度,锚点导航宽度自适应内容,Medium
+Structure,Anchor Min Width,120px,锚点最小宽度,锚点导航最小宽度120px,Low
+Structure,Anchor Max Width,200px,锚点最大宽度,锚点导航最大宽度200px,Low
+Structure,Anchor Position,fixed/absolute,锚点定位,锚点导航固定或绝对定位,High
+Structure,Anchor Top,auto,锚点顶部距离,锚点距离顶部距离自适应,Medium
+Structure,Anchor Right,24px,锚点右侧距离,锚点距离右侧24px,Medium
+Structure,Anchor Background,transparent,锚点背景,锚点导航透明背景,Low
+Structure,Anchor Padding,0,锚点内边距,锚点导航无内边距,Low
+Indicator,Indicator Show,true,显示指示器,显示左侧竖线指示器,High
+Indicator,Indicator Width,2px,指示器宽度,左侧指示器宽度2px,High
+Indicator,Indicator Color,#165DFF,指示器颜色,指示器蓝色#165DFF,High
+Indicator,Indicator Height,auto,指示器高度,指示器高度与当前项等高,Medium
+Indicator,Indicator Position,left,指示器位置,指示器在锚点项左侧,High
+Indicator,Indicator Transition,0.2s,指示器过渡,指示器滑动动画0.2s,Medium
+Indicator,Indicator Border Radius,1px,指示器圆角,指示器圆角1px,Low
+Rail,Rail Show,true,显示轨道线,显示左侧轨道线,Medium
+Rail,Rail Width,1px,轨道线宽度,轨道线宽度1px,Medium
+Rail,Rail Color,#E5E6EB,轨道线颜色,轨道线灰色#E5E6EB,Medium
+Rail,Rail Position,left,轨道线位置,轨道线在锚点项左侧,Medium
+Rail,Rail Offset,8px,轨道线偏移,轨道线距离左边缘8px,Low
+Item,Item Height,32px,锚点项高度,一级锚点项高度32px,High
+Item,Item Padding,0 0 0 12px,锚点项内边距,锚点项左内边距12px,High
+Item,Item Font Size,14px,锚点项字号,锚点项文字14px,High
+Item,Item Line Height,32px,锚点项行高,锚点项行高32px,Medium
+Item,Item Color,#4E5969,锚点项颜色,锚点项默认灰色文字,High
+Item,Item Hover Color,#165DFF,锚点项悬停颜色,锚点项悬停蓝色文字,Medium
+Item,Item Active Color,#165DFF,锚点项激活颜色,锚点项激活蓝色文字,High
+Item,Item Active Font Weight,500,锚点项激活字重,锚点项激活中等字重,Medium
+Item,Item Cursor,pointer,锚点项光标,锚点项可点击光标,Low
+Item,Item Transition,color 0.2s,锚点项过渡,锚点项颜色过渡0.2s,Low
+Item,Item Ellipsis,true,锚点项省略,锚点项文字过长显示省略号,Low
+Item,Item Max Width,180px,锚点项最大宽度,锚点项最大宽度180px,Low
+SubItem,SubItem Height,28px,二级锚点项高度,二级锚点项高度28px,Medium
+SubItem,SubItem Padding,0 0 0 24px,二级锚点项内边距,二级锚点项左内边距24px,High
+SubItem,SubItem Font Size,14px,二级锚点项字号,二级锚点项文字14px,Medium
+SubItem,SubItem Color,#86909C,二级锚点项颜色,二级锚点项浅灰色文字,Medium
+SubItem,SubItem Hover Color,#165DFF,二级锚点项悬停颜色,二级锚点项悬停蓝色,Medium
+SubItem,SubItem Active Color,#165DFF,二级锚点项激活颜色,二级锚点项激活蓝色,High
+SubItem,SubItem Indent,12px,二级锚点项缩进,二级锚点项相对一级缩进12px,Medium
+ThirdItem,ThirdItem Height,28px,三级锚点项高度,三级锚点项高度28px,Low
+ThirdItem,ThirdItem Padding,0 0 0 36px,三级锚点项内边距,三级锚点项左内边距36px,Low
+ThirdItem,ThirdItem Font Size,13px,三级锚点项字号,三级锚点项文字13px,Low
+ThirdItem,ThirdItem Color,#86909C,三级锚点项颜色,三级锚点项浅灰色文字,Low
+ThirdItem,ThirdItem Indent,12px,三级锚点项缩进,三级锚点项相对二级缩进12px,Low
+Scroll,Scroll Behavior,smooth,滚动行为,平滑滚动到目标位置,High
+Scroll,Scroll Offset,0,滚动偏移,滚动目标位置偏移量,Medium
+Scroll,Scroll Duration,300ms,滚动时长,滚动动画时长300ms,Medium
+Scroll,Scroll Container,window,滚动容器,默认监听window滚动,Medium
+Scroll,Scroll Threshold,5px,滚动阈值,滚动触发激活状态阈值5px,Low
+Affix,Affix Enable,true,启用固定,锚点导航支持固定定位,Medium
+Affix,Affix Top,100px,固定顶部距离,固定时距离顶部100px,Medium
+Affix,Affix Offset,0,固定偏移,固定定位偏移量,Low
+Affix,Affix Target,window,固定目标,固定定位参考目标,Low
+Affix,Affix ZIndex,10,固定层级,固定定位z-index 10,Low
+Bounds,Bounds Top,5px,边界顶部,锚点激活边界顶部5px,Low
+Bounds,Bounds Bottom,5px,边界底部,锚点激活边界底部5px,Low
+Bounds,Target Offset,0,目标偏移,目标元素偏移量,Low
+Ink,Ink Ball Show,false,显示墨点,是否显示圆形墨点指示器,Low
+Ink,Ink Ball Size,8px,墨点大小,墨点直径8px,Low
+Ink,Ink Ball Color,#165DFF,墨点颜色,墨点蓝色#165DFF,Low
+Ink,Ink Ball Border,2px solid #FFFFFF,墨点边框,墨点白色边框,Low
+Ink,Ink Ball Shadow,0 0 4px rgba(22 93 255 0.4),墨点阴影,墨点蓝色阴影,Low
+Direction,Direction Vertical,垂直方向,垂直锚点,锚点垂直排列默认方向,High
+Direction,Direction Horizontal,水平方向,水平锚点,锚点水平排列,Low
+Horizontal,Horizontal Item Padding,0 16px,水平锚点项内边距,水平锚点项左右内边距16px,Low
+Horizontal,Horizontal Item Gap,0,水平锚点项间距,水平锚点项之间无间距,Low
+Horizontal,Horizontal Indicator Position,bottom,水平指示器位置,水平锚点指示器在底部,Low
+Horizontal,Horizontal Indicator Height,2px,水平指示器高度,水平锚点指示器高度2px,Low
+Horizontal,Horizontal Border Bottom,1px solid #E5E6EB,水平锚点底边框,水平锚点底部分割线,Low
+Interaction,Click Scroll,true,点击滚动,点击锚点项滚动到目标,High
+Interaction,Scroll Highlight,true,滚动高亮,滚动时自动高亮对应锚点,High
+Interaction,Hash Change,false,哈希变化,是否更新URL哈希,Low
+Interaction,Replace History,false,替换历史,是否替换浏览器历史记录,Low
+Animation,Indicator Animation,0.2s ease,指示器动画,指示器移动动画,Medium
+Animation,Scroll Animation,0.3s ease-out,滚动动画,页面滚动动画,Medium
+Animation,Hover Animation,0.15s,悬停动画,悬停状态过渡动画,Low
+Responsive,Responsive Breakpoint,768px,响应式断点,小于768px切换移动端样式,Medium
+Responsive,Mobile Position,bottom,移动端位置,移动端锚点在底部,Low
+Responsive,Mobile Direction,horizontal,移动端方向,移动端锚点水平排列,Low
+Responsive,Mobile Height,48px,移动端高度,移动端锚点栏高度48px,Low
+Responsive,Mobile Scroll,true,移动端滚动,移动端锚点可横向滚动,Low
+Accessibility,Anchor Role,navigation,锚点角色,锚点导航ARIA角色navigation,High
+Accessibility,Item Role,link,锚点项角色,锚点项ARIA角色link,High
+Accessibility,Aria Current,true,当前状态,激活锚点aria-current=true,Medium
+Accessibility,Keyboard Navigation,true,键盘导航,支持键盘上下箭头导航,High
+Accessibility,Focus Ring,0 0 0 2px #165DFF40,焦点环,键盘焦点蓝色环,High
+Accessibility,Focus Visible,true,焦点可见,键盘焦点状态可见,Medium
+Accessibility,Skip Link,true,跳过链接,支持跳过锚点导航,Low
+ZIndex,Anchor ZIndex,10,锚点层级,锚点导航z-index 10,Low
+ZIndex,Affix ZIndex,100,固定层级,固定状态z-index 100,Medium
+Guideline,Primary Color,#165DFF,主色调,锚点主色调蓝色#165DFF,High
+Guideline,Text Primary,#1D2129,主要文字色,主要文字颜色#1D2129,High
+Guideline,Text Regular,#4E5969,常规文字色,常规文字颜色#4E5969,High
+Guideline,Text Secondary,#86909C,次要文字色,次要文字颜色#86909C,Medium
+Guideline,Border Color,#E5E6EB,边框色,边框颜色#E5E6EB,High
+Guideline,Background,transparent,背景色,锚点背景透明,Low

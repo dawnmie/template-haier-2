@@ -1,0 +1,205 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Badge Dot Size,8px,徽标点尺寸,徽标点直径8px,High
+Size,Badge Number Size Small,16px,小数字徽标尺寸,小数字徽标最小尺寸16px,Medium
+Size,Badge Number Size Default,18px,默认数字徽标尺寸,默认数字徽标尺寸18px,High
+Size,Badge Number Size Large,20px,大数字徽标尺寸,大数字徽标尺寸20px,Medium
+Size,Badge Number Height,16px,数字徽标高度,数字徽标高度16px,High
+Size,Badge Number Min Width,16px,数字徽标最小宽度,数字徽标最小宽度16px,High
+Size,Badge Number Padding Horizontal,4px,数字徽标水平内边距,数字徽标左右内边距4px,High
+Size,Badge Text Height,18px,文字徽标高度,文字徽标高度18px,High
+Size,Badge Text Min Width,18px,文字徽标最小宽度,文字徽标最小宽度18px,Medium
+Size,Badge Text Padding Horizontal,6px,文字徽标水平内边距,文字徽标左右内边距6px,High
+Size,Badge Font Size,12px,徽标字号,徽标文字12px,High
+Size,Badge Border Width,2px,徽标边框宽度,徽标边框宽度2px,High
+Size,Badge Border Radius Dot,50%,点徽标圆角,点徽标圆形50%,High
+Size,Badge Border Radius Number,8px,数字徽标圆角,数字徽标圆角8px,High
+Size,Badge Border Radius Text,9px,文字徽标圆角,文字徽标圆角9px,High
+Size,Badge Offset X,4px,徽标X轴偏移,徽标X轴偏移4px,High
+Size,Badge Offset Y,4px,徽标Y轴偏移,徽标Y轴偏移4px,High
+Size,Badge Offset X Top Right,8px,右上角X轴偏移,右上角徽标X轴偏移8px,High
+Size,Badge Offset Y Top Right,8px,右上角Y轴偏移,右上角徽标Y轴偏移8px,High
+Size,Badge Offset X Top Left,8px,左上角X轴偏移,左上角徽标X轴偏移8px,Medium
+Size,Badge Offset Y Top Left,8px,左上角Y轴偏移,左上角徽标Y轴偏移8px,Medium
+Size,Badge Offset X Bottom Right,8px,右下角X轴偏移,右下角徽标X轴偏移8px,Low
+Size,Badge Offset Y Bottom Right,8px,右下角Y轴偏移,右下角徽标Y轴偏移8px,Low
+Size,Badge Offset X Bottom Left,8px,左下角X轴偏移,左下角徽标X轴偏移8px,Low
+Size,Badge Offset Y Bottom Left,8px,左下角Y轴偏移,左下角徽标Y轴偏移8px,Low
+Color,Badge Background Red,#F53F3F,红色徽标背景,红色徽标背景#F53F3F,High
+Color,Badge Background Blue,#165DFF,蓝色徽标背景,蓝色徽标背景#165DFF,High
+Color,Badge Background Green,#00B42A,绿色徽标背景,绿色徽标背景#00B42A,Medium
+Color,Badge Background Orange,#FF7D00,橙色徽标背景,橙色徽标背景#FF7D00,Medium
+Color,Badge Background Yellow,#F7BA1E,黄色徽标背景,黄色徽标背景#F7BA1E,Low
+Color,Badge Background Purple,#722ED1,紫色徽标背景,紫色徽标背景#722ED1,Low
+Color,Badge Background Gray,#86909C,灰色徽标背景,灰色徽标背景#86909C,Low
+Color,Badge Text Color,#FFFFFF,徽标文字颜色,徽标白色文字#FFFFFF,High
+Color,Badge Border Color,#FFFFFF,徽标边框颜色,徽标白色边框#FFFFFF,High
+Color,Badge Dot Color Red,#F53F3F,红色点徽标,红色点徽标#F53F3F,High
+Color,Badge Dot Color Blue,#165DFF,蓝色点徽标,蓝色点徽标#165DFF,Medium
+Color,Badge Dot Color Green,#00B42A,绿色点徽标,绿色点徽标#00B42A,Medium
+Type,Type Dot,dot,点类型,点徽标类型,High
+Type,Type Number,number,数字类型,数字徽标类型,High
+Type,Type Text,text,文字类型,文字徽标类型,High
+Type,Type Status,status,状态类型,状态徽标类型,Medium
+Status,Status Default,default,默认状态,默认徽标状态,High
+Status,Status Success,success,成功状态,成功徽标状态,High
+Status,Status Error,error,错误状态,错误徽标状态,High
+Status,Status Warning,warning,警告状态,警告徽标状态,Medium
+Status,Status Processing,processing,处理中状态,处理中徽标状态,Medium
+Status,Status Info,info,信息状态,信息徽标状态,Medium
+Position,Position Top Right,top-right,右上角位置,徽标在右上角,High
+Position,Position Top Left,top-left,左上角位置,徽标在左上角,Medium
+Position,Position Bottom Right,bottom-right,右下角位置,徽标在右下角,Low
+Position,Position Bottom Left,bottom-left,左下角位置,徽标在左下角,Low
+Count,Count Max,99,最大计数,徽标最大显示数字99,High
+Count,Count Max Plus,99+,超出最大计数,超出99显示99+,High
+Count,Count Max Custom,999,自定义最大计数,自定义最大计数999,Medium
+Count,Count Zero Show,false,零值显示,数字0不显示徽标,High
+Count,Count Zero Hide,true,零值隐藏,数字0隐藏徽标,High
+Dot,Dot Visible,true,显示点徽标,显示点徽标,High
+Dot,Dot Hidden,false,隐藏点徽标,隐藏点徽标,Low
+Dot,Dot Size,8px,点徽标尺寸,点徽标直径8px,High
+Dot,Dot Color,#F53F3F,点徽标颜色,点徽标红色#F53F3F,High
+Dot,Dot Border Width,2px,点徽标边框宽度,点徽标边框宽度2px,High
+Dot,Dot Border Color,#FFFFFF,点徽标边框颜色,点徽标白色边框#FFFFFF,High
+Dot,Dot Position,top-right,点徽标位置,点徽标在右上角,High
+Number,Number Visible,true,显示数字徽标,显示数字徽标,High
+Number,Number Hidden,false,隐藏数字徽标,隐藏数字徽标,Low
+Number,Number Max,99,数字最大值,数字徽标最大值99,High
+Number,Number Overflow,99+,数字溢出显示,超出99显示99+,High
+Number,Number Font Size,12px,数字字号,数字徽标字号12px,High
+Number,Number Font Weight,400,数字字重,数字徽标字重400,Medium
+Number,Number Line Height,16px,数字行高,数字徽标行高16px,Medium
+Number,Number Color,#FFFFFF,数字颜色,数字徽标白色文字#FFFFFF,High
+Number,Number Background,#F53F3F,数字背景,数字徽标红色背景#F53F3F,High
+Number,Number Border Radius,8px,数字圆角,数字徽标圆角8px,High
+Number,Number Padding,0 4px,数字内边距,数字徽标左右内边距4px,High
+Number,Number Min Width,16px,数字最小宽度,数字徽标最小宽度16px,High
+Number,Number Height,16px,数字高度,数字徽标高度16px,High
+Text,Text Visible,true,显示文字徽标,显示文字徽标,High
+Text,Text Hidden,false,隐藏文字徽标,隐藏文字徽标,Low
+Text,Text Content New,新,新文字内容,文字徽标显示"新",High
+Text,Text Content Hot,热,热文字内容,文字徽标显示"热",Medium
+Text,Text Content Sale,售,售文字内容,文字徽标显示"售",Low
+Text,Text Font Size,12px,文字字号,文字徽标字号12px,High
+Text,Text Font Weight,400,文字字重,文字徽标字重400,Medium
+Text,Text Line Height,18px,文字行高,文字徽标行高18px,Medium
+Text,Text Color,#FFFFFF,文字颜色,文字徽标白色文字#FFFFFF,High
+Text,Text Background,#F53F3F,文字背景,文字徽标红色背景#F53F3F,High
+Text,Text Border Radius,9px,文字圆角,文字徽标圆角9px,High
+Text,Text Padding,0 6px,文字内边距,文字徽标左右内边距6px,High
+Text,Text Min Width,18px,文字最小宽度,文字徽标最小宽度18px,Medium
+Text,Text Height,18px,文字高度,文字徽标高度18px,High
+Text,Text Max Length,4,文字最大长度,文字徽标最大4个字符,Medium
+Ribbon,Ribbon Visible,false,显示缎带徽标,不显示缎带徽标,Low
+Ribbon,Ribbon Text,推荐,缎带文字,缎带徽标文字,Low
+Ribbon,Ribbon Position,top-right,缎带位置,缎带在右上角,Low
+Ribbon,Ribbon Color,#F53F3F,缎带颜色,缎带红色#F53F3F,Low
+Ribbon,Ribbon Text Color,#FFFFFF,缎带文字颜色,缎带白色文字#FFFFFF,Low
+Offset,Offset X,4px,X轴偏移,徽标X轴偏移4px,High
+Offset,Offset Y,4px,Y轴偏移,徽标Y轴偏移4px,High
+Offset,Offset Custom X,0px,自定义X轴偏移,自定义X轴偏移0px,Medium
+Offset,Offset Custom Y,0px,自定义Y轴偏移,自定义Y轴偏移0px,Medium
+Offset,Offset Top Right X,8px,右上角X偏移,右上角X轴偏移8px,High
+Offset,Offset Top Right Y,8px,右上角Y偏移,右上角Y轴偏移8px,High
+Offset,Offset Top Left X,8px,左上角X偏移,左上角X轴偏移8px,Medium
+Offset,Offset Top Left Y,8px,左上角Y偏移,左上角Y轴偏移8px,Medium
+Offset,Offset Bottom Right X,8px,右下角X偏移,右下角X轴偏移8px,Low
+Offset,Offset Bottom Right Y,8px,右下角Y偏移,右下角Y轴偏移8px,Low
+Offset,Offset Bottom Left X,8px,左下角X偏移,左下角X轴偏移8px,Low
+Offset,Offset Bottom Left Y,8px,左下角Y偏移,左下角Y轴偏移8px,Low
+Animation,Animation Enabled,false,启用动画,不启用动画,Low
+Animation,Animation Type,none,动画类型,无动画效果,Low
+Animation,Animation Pulse,pulse,脉冲动画,脉冲动画效果,Low
+Animation,Animation Bounce,bounce,弹跳动画,弹跳动画效果,Low
+Animation,Animation Duration,1s,动画时长,动画时长1s,Low
+Animation,Animation Timing,ease-in-out,动画曲线,动画曲线,Low
+Animation,Animation Iteration,infinite,动画循环,动画无限循环,Low
+Standalone,Standalone Mode,false,独立模式,非独立模式,Low
+Standalone,Standalone Visible,true,独立显示,独立模式显示徽标,Low
+Standalone,Standalone Inline,true,行内显示,独立模式行内显示,Low
+ZIndex,Z Index,10,层级,徽标层级10,Medium
+ZIndex,Z Index High,100,高层级,徽标高层级100,Low
+Container,Container Position,relative,容器定位,容器相对定位,High
+Container,Container Display,inline-block,容器显示,容器行内块显示,High
+Container,Container Vertical Align,middle,容器垂直对齐,容器垂直居中对齐,Medium
+Badge,Badge Position,absolute,徽标定位,徽标绝对定位,High
+Badge,Badge Display,flex,徽标显示,徽标弹性盒显示,High
+Badge,Badge Align Items,center,徽标垂直对齐,徽标垂直居中,High
+Badge,Badge Justify Content,center,徽标水平对齐,徽标水平居中,High
+Badge,Badge Box Sizing,border-box,徽标盒模型,徽标边框盒模型,Medium
+Badge,Badge White Space,nowrap,徽标空白处理,徽标不换行,High
+Badge,Badge Text Align,center,徽标文字对齐,徽标文字居中,High
+Avatar,Avatar With Badge,true,头像配徽标,头像配合徽标使用,High
+Avatar,Avatar Size Small,32px,小头像尺寸,小头像尺寸32px,Medium
+Avatar,Avatar Size Default,40px,默认头像尺寸,默认头像尺寸40px,High
+Avatar,Avatar Size Large,48px,大头像尺寸,大头像尺寸48px,Medium
+Avatar,Avatar Border Radius,50%,头像圆角,头像圆形50%,High
+Icon,Icon With Badge,true,图标配徽标,图标配合徽标使用,High
+Icon,Icon Size,20px,图标尺寸,图标尺寸20px,Medium
+Icon,Icon Color,#4E5969,图标颜色,图标灰色#4E5969,Medium
+Responsive,Mobile Badge Size,14px,移动端徽标尺寸,移动端徽标尺寸14px,Medium
+Responsive,Mobile Font Size,10px,移动端字号,移动端徽标字号10px,Medium
+Responsive,Mobile Dot Size,6px,移动端点尺寸,移动端点徽标6px,Medium
+Responsive,Mobile Offset,6px,移动端偏移,移动端徽标偏移6px,Medium
+Responsive,Tablet Badge Size,16px,平板端徽标尺寸,平板端徽标尺寸16px,Low
+Responsive,Tablet Font Size,12px,平板端字号,平板端徽标字号12px,Low
+Usage,Notification Usage,消息通知,消息通知场景,用于显示未读消息数量,High
+Usage,Number Usage,数量显示,数量显示场景,用于显示数量信息,High
+Usage,Status Usage,状态标识,状态标识场景,用于显示状态信息,High
+Usage,New Usage,新内容标识,新内容标识场景,用于标识新内容,Medium
+Usage,Hot Usage,热门标识,热门标识场景,用于标识热门内容,Medium
+Usage,Avatar Usage,头像徽标,头像徽标场景,用于头像上显示徽标,High
+Usage,Icon Usage,图标徽标,图标徽标场景,用于图标上显示徽标,Medium
+Guideline,Show Count,true,显示计数,建议显示计数信息,High
+Guideline,Max Count,99,最大计数建议,建议最大计数99,High
+Guideline,Position Top Right,true,右上角位置,建议徽标在右上角,High
+Guideline,Red Color,true,红色徽标,建议使用红色徽标,High
+Guideline,Dot For Status,true,点徽标表示状态,建议点徽标表示状态,High
+Guideline,Number For Count,true,数字徽标表示数量,建议数字徽标表示数量,High
+Guideline,Text For Label,true,文字徽标表示标签,建议文字徽标表示标签,Medium
+Guideline,Border For Contrast,true,边框增强对比,建议使用边框增强对比度,High
+Guideline,Hide Zero,true,隐藏零值,建议隐藏零值徽标,High
+Guideline,Offset Consistent,true,偏移一致,建议偏移量保持一致,High
+Accessibility,ARIA Label,supported,ARIA标签,支持aria-label属性,High
+Accessibility,ARIA Live,polite,ARIA实时区域,使用aria-live属性,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,Semantic HTML,supported,语义化HTML,使用语义化HTML,Medium
+Accessibility,Color Contrast,4.5:1,颜色对比度,颜色对比度4.5:1,High
+Performance,GPU Acceleration,false,GPU加速,不启用GPU加速,Low
+Performance,Will Change,auto,Will Change属性,不使用will-change,Low
+Performance,Render Optimization,true,渲染优化,启用渲染优化,Medium
+Event,On Click,supported,点击事件,支持点击事件,Medium
+Event,On Change,supported,变化事件,支持变化事件,Low
+Method,Show,supported,显示方法,支持显示徽标,High
+Method,Hide,supported,隐藏方法,支持隐藏徽标,High
+Method,Update Count,supported,更新计数方法,支持更新计数,High
+Props,Count,supported,计数属性,支持设置计数,High
+Props,Max Count,supported,最大计数属性,支持设置最大计数,High
+Props,Show Zero,supported,显示零值属性,支持控制零值显示,High
+Props,Dot,supported,点徽标属性,支持设置点徽标,High
+Props,Text,supported,文字属性,支持设置文字内容,High
+Props,Color,supported,颜色属性,支持设置颜色,High
+Props,Status,supported,状态属性,支持设置状态,Medium
+Props,Offset,supported,偏移属性,支持设置偏移量,Medium
+Props,Position,supported,位置属性,支持设置位置,Medium
+Slot,Default Slot,supported,默认插槽,支持默认内容插槽,High
+Slot,Count Slot,supported,计数插槽,支持计数插槽,Medium
+Custom,Custom Color,supported,自定义颜色,支持自定义颜色,High
+Custom,Custom Text,supported,自定义文字,支持自定义文字,High
+Custom,Custom Offset,supported,自定义偏移,支持自定义偏移量,Medium
+Custom,Custom Size,supported,自定义尺寸,支持自定义尺寸,Medium
+Theme,Theme Light,light,浅色主题,浅色主题样式,High
+Theme,Theme Dark,dark,深色主题,深色主题样式,Low
+Theme,Dark Background,#F53F3F,深色背景,深色主题背景#F53F3F,Low
+Theme,Dark Text Color,#FFFFFF,深色文字颜色,深色主题文字白色#FFFFFF,Low
+Theme,Dark Border Color,#1D2129,深色边框颜色,深色主题边框深色#1D2129,Low
+Transition,Transition Property,all,过渡属性,过渡所有属性,Low
+Transition,Transition Duration,0.3s,过渡时长,过渡时长0.3s,Low
+Transition,Transition Timing,ease,过渡曲线,过渡曲线ease,Low
+Transform,Transform Scale,1,缩放比例,徽标缩放比例1,Low
+Transform,Transform Origin,center,变换原点,徽标变换原点中心,Low
+Overflow,Overflow Text,ellipsis,文字溢出,文字溢出显示省略号,Medium
+Overflow,Overflow Hidden,true,溢出隐藏,溢出内容隐藏,High
+Processing,Processing Animation,true,处理中动画,处理中状态显示动画,Low
+Processing,Processing Duration,1.5s,处理中动画时长,处理中动画时长1.5s,Low
+Processing,Processing Color,#165DFF,处理中颜色,处理中蓝色#165DFF,Low

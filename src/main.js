@@ -2,7 +2,7 @@ import * as vue from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
 import routes from './router'
-import 'ant-design-vue/dist/reset.css'
+import '@hwork/ant-design-vue/dist/reset.css'
 import { renderWithQiankun } from 'vite-plugin-qiankun/dist/helper'
 
 const name = import.meta.env.VITE_SUB_APP_NAME
@@ -10,7 +10,6 @@ import * as _Tool from '@/tool/tool.js'
 import * as Const from '@/tool/const.js'
 import { setHworkJSApi } from '@/services/hwork-context.js'
 import pinia, { userStore } from '@/pinia'
-import WujieVue from 'wujie-vue3'
 // 引入国际化
 import { createI18nInstance } from '@/tool/i18n'
 
@@ -148,7 +147,7 @@ function createDefaultApp(props = {}) {
       next({ path: '/' })
     }
   })
-  app.use(router).use(pinia).use(WujieVue).use(i18n)
+  app.use(router).use(pinia).use(i18n)
 
   globals = app.config.globalProperties
 }

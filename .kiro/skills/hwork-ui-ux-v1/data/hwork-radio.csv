@@ -1,0 +1,107 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Radio Purpose,多选项单选,单选框用途,用于在多个备选项中选中单个状态,High
+Purpose,Radio Scenario,选项可见比较,使用场景,和Select的区别是Radio所有选项默认可见方便用户在比较中选择,High
+Purpose,Radio Limit,选项不宜过多,选项限制,因此选项不宜过多建议2-5个,Medium
+Purpose,Radio Behavior,单选互斥,单选行为,同一组内只能选中一个选项,High
+Type,Type Default,默认类型,默认单选框,圆形单选框默认样式,High
+Type,Type Button,按钮类型,按钮单选框,按钮样式的单选框,Medium
+Type,Type Card,卡片类型,卡片单选框,卡片样式的单选框,Low
+Size,Size Default,16px,默认大小,单选框默认大小16px,High
+Size,Size Small,14px,小尺寸,单选框小尺寸14px,Medium
+Size,Size Large,18px,大尺寸,单选框大尺寸18px,Low
+Radio,Radio Width,16px,单选框宽度,单选框宽度16px,High
+Radio,Radio Height,16px,单选框高度,单选框高度16px,High
+Radio,Radio Border Radius,50%,单选框圆角,单选框圆形,High
+Radio,Radio Border Width,1px,单选框边框宽度,单选框边框宽度1px,Medium
+Radio,Radio Transition,all 0.2s,单选框过渡,单选框状态过渡0.2s,Low
+Unchecked,Unchecked Background,#FFFFFF,未选中背景,未选中状态白色背景,High
+Unchecked,Unchecked Border,1px solid #C9CDD4,未选中边框,未选中状态灰色边框#C9CDD4,High
+Unchecked,Unchecked Inner,none,未选中内圆,未选中状态无内圆,High
+Hover,Hover Background,#FFFFFF,悬停背景,悬停状态白色背景,Medium
+Hover,Hover Border,1px solid #165DFF,悬停边框,悬停状态蓝色边框#165DFF,High
+Hover,Hover Inner,none,悬停内圆,悬停状态无内圆,Medium
+Checked,Checked Background,#FFFFFF,选中背景,选中状态白色背景,High
+Checked,Checked Border,1px solid #165DFF,选中边框,选中状态蓝色边框#165DFF,High
+Checked,Checked Inner Size,8px,选中内圆大小,选中状态内圆8px,High
+Checked,Checked Inner Color,#165DFF,选中内圆颜色,选中状态内圆蓝色#165DFF,High
+Checked,Checked Inner Border Radius,50%,选中内圆圆角,选中状态内圆圆形,Medium
+DisabledUnchecked,Disabled Unchecked Background,#F2F3F5,未选中禁用背景,未选中禁用状态灰色背景,High
+DisabledUnchecked,Disabled Unchecked Border,1px solid #E5E6EB,未选中禁用边框,未选中禁用状态浅灰边框,High
+DisabledUnchecked,Disabled Unchecked Inner,none,未选中禁用内圆,未选中禁用状态无内圆,Medium
+DisabledChecked,Disabled Checked Background,#F2F3F5,选中禁用背景,选中禁用状态灰色背景,High
+DisabledChecked,Disabled Checked Border,1px solid #E5E6EB,选中禁用边框,选中禁用状态浅灰边框,High
+DisabledChecked,Disabled Checked Inner Size,8px,选中禁用内圆大小,选中禁用状态内圆8px,Medium
+DisabledChecked,Disabled Checked Inner Color,#C9CDD4,选中禁用内圆颜色,选中禁用状态内圆灰色#C9CDD4,High
+Label,Label Font Size,14px,标签字号,单选框标签文字14px,High
+Label,Label Color,#1D2129,标签颜色,单选框标签深色文字,High
+Label,Label Disabled Color,#C9CDD4,标签禁用颜色,单选框标签禁用灰色文字,High
+Label,Label Gap,8px,标签间距,单选框与标签间距8px,High
+Label,Label Position,right,标签位置,标签在单选框右侧,Medium
+Label,Label Line Height,22px,标签行高,单选框标签行高22px,Medium
+Label,Label Cursor,pointer,标签光标,标签可点击光标,Low
+Label,Label Disabled Cursor,not-allowed,标签禁用光标,标签禁用禁止光标,Low
+Group,Group Direction Horizontal,horizontal,水平排列,单选组水平排列,High
+Group,Group Direction Vertical,vertical,垂直排列,单选组垂直排列,Medium
+Group,Group Gap Horizontal,16px,水平间距,水平排列单选项间距16px,High
+Group,Group Gap Vertical,12px,垂直间距,垂直排列单选项间距12px,Medium
+Group,Group Wrap,true,换行,单选组支持换行,Low
+ButtonRadio,Button Height,32px,按钮高度,按钮单选框高度32px,High
+ButtonRadio,Button Padding,0 16px,按钮内边距,按钮单选框左右内边距16px,High
+ButtonRadio,Button Font Size,14px,按钮字号,按钮单选框文字14px,High
+ButtonRadio,Button Border Radius,2px,按钮圆角,按钮单选框圆角2px,Medium
+ButtonRadio,Button Background,#FFFFFF,按钮背景,按钮单选框白色背景,High
+ButtonRadio,Button Border,1px solid #E5E6EB,按钮边框,按钮单选框灰色边框,High
+ButtonRadio,Button Color,#4E5969,按钮颜色,按钮单选框灰色文字,High
+ButtonRadio,Button Hover Border,1px solid #165DFF,按钮悬停边框,按钮单选框悬停蓝色边框,Medium
+ButtonRadio,Button Hover Color,#165DFF,按钮悬停颜色,按钮单选框悬停蓝色文字,Medium
+ButtonRadio,Button Checked Background,#E8F3FF,按钮选中背景,按钮单选框选中浅蓝背景,High
+ButtonRadio,Button Checked Border,1px solid #165DFF,按钮选中边框,按钮单选框选中蓝色边框,High
+ButtonRadio,Button Checked Color,#165DFF,按钮选中颜色,按钮单选框选中蓝色文字,High
+ButtonRadio,Button Disabled Background,#F2F3F5,按钮禁用背景,按钮单选框禁用灰色背景,Medium
+ButtonRadio,Button Disabled Border,1px solid #E5E6EB,按钮禁用边框,按钮单选框禁用灰色边框,Medium
+ButtonRadio,Button Disabled Color,#C9CDD4,按钮禁用颜色,按钮单选框禁用灰色文字,Medium
+ButtonRadio,Button Group Gap,0,按钮组间距,按钮单选组无间距相邻,Medium
+ButtonRadio,Button Group First Radius,2px 0 0 2px,按钮组首个圆角,按钮组首个左侧圆角,Low
+ButtonRadio,Button Group Last Radius,0 2px 2px 0,按钮组末个圆角,按钮组末个右侧圆角,Low
+ButtonRadio,Button Group Middle Radius,0,按钮组中间圆角,按钮组中间无圆角,Low
+CardRadio,Card Width,auto,卡片宽度,卡片单选框宽度自适应,Medium
+CardRadio,Card Min Width,120px,卡片最小宽度,卡片单选框最小宽度120px,Low
+CardRadio,Card Padding,16px,卡片内边距,卡片单选框内边距16px,Medium
+CardRadio,Card Border Radius,4px,卡片圆角,卡片单选框圆角4px,Medium
+CardRadio,Card Background,#FFFFFF,卡片背景,卡片单选框白色背景,Medium
+CardRadio,Card Border,1px solid #E5E6EB,卡片边框,卡片单选框灰色边框,Medium
+CardRadio,Card Hover Border,1px solid #165DFF,卡片悬停边框,卡片单选框悬停蓝色边框,Medium
+CardRadio,Card Checked Background,#E8F3FF,卡片选中背景,卡片单选框选中浅蓝背景,Medium
+CardRadio,Card Checked Border,1px solid #165DFF,卡片选中边框,卡片单选框选中蓝色边框,Medium
+CardRadio,Card Radio Position,top-right,卡片单选框位置,卡片内单选框在右上角,Low
+Focus,Focus Ring,0 0 0 2px #165DFF40,焦点环,键盘焦点蓝色环,High
+Focus,Focus Visible,true,焦点可见,键盘焦点状态可见,Medium
+Animation,Check Animation,0.2s,选中动画,选中状态动画0.2s,Medium
+Animation,Inner Scale,0 to 1,内圆缩放,内圆从0缩放到1,Low
+Animation,Hover Transition,0.15s,悬停过渡,悬停状态过渡0.15s,Low
+Responsive,Responsive Breakpoint,768px,响应式断点,小于768px切换移动端样式,Medium
+Responsive,Mobile Size,20px,移动端大小,移动端单选框20px,Medium
+Responsive,Mobile Label Gap,12px,移动端标签间距,移动端标签间距12px,Low
+Responsive,Mobile Touch Target,44px,移动端触摸目标,移动端最小触摸目标44px,Medium
+Responsive,Mobile Group Direction,vertical,移动端排列方向,移动端单选组垂直排列,Low
+Accessibility,Radio Role,radio,单选框角色,单选框ARIA角色radio,High
+Accessibility,Group Role,radiogroup,单选组角色,单选组ARIA角色radiogroup,High
+Accessibility,Aria Checked,true/false,选中状态,单选框aria-checked状态,High
+Accessibility,Aria Disabled,true/false,禁用状态,单选框aria-disabled状态,Medium
+Accessibility,Keyboard Navigation,true,键盘导航,支持上下左右箭头键盘导航,High
+Accessibility,Tab Index,0/-1,Tab索引,选中项tabindex=0其他-1,Medium
+Accessibility,Focus Ring,0 0 0 2px #165DFF40,焦点环,键盘焦点蓝色环,High
+Accessibility,Label Association,true,标签关联,标签与单选框关联,High
+Spacing,Spacing Radio Label,8px,单选框标签间距,单选框与标签间距8px,High
+Spacing,Spacing Group Item Horizontal,16px,组项水平间距,水平排列组项间距16px,High
+Spacing,Spacing Group Item Vertical,12px,组项垂直间距,垂直排列组项间距12px,Medium
+Spacing,Spacing Button Group,0,按钮组间距,按钮组项无间距,Medium
+ZIndex,Radio ZIndex,1,单选框层级,单选框z-index 1,Low
+Guideline,Primary Color,#165DFF,主色调,单选框主色调蓝色#165DFF,High
+Guideline,Text Primary,#1D2129,主要文字色,主要文字颜色#1D2129,High
+Guideline,Text Regular,#4E5969,常规文字色,常规文字颜色#4E5969,High
+Guideline,Text Disabled,#C9CDD4,禁用文字色,禁用文字颜色#C9CDD4,Medium
+Guideline,Border Default,#C9CDD4,默认边框色,默认边框颜色#C9CDD4,High
+Guideline,Border Disabled,#E5E6EB,禁用边框色,禁用边框颜色#E5E6EB,Medium
+Guideline,Background Disabled,#F2F3F5,禁用背景色,禁用背景颜色#F2F3F5,Medium
+Guideline,Background Selected,#E8F3FF,选中背景色,选中背景颜色#E8F3FF,High

@@ -1,0 +1,175 @@
+
+RangeSelector,Range Selector Layout,flex,范围选择器布局,范围选择器flex布局,High
+RangeSelector,Range Selector Align,center,范围选择器对齐,范围选择器垂直居中,Medium
+RangeSelector,Range Start Input,开始日期,开始输入框,范围选择开始日期输入框,High
+RangeSelector,Range End Input,结束日期,结束输入框,范围选择结束日期输入框,High
+RangeSelector,Range Separator Icon,SwapRightOutlined,范围分隔图标,范围选择器箭头分隔图标,Medium
+RangeSelector,Range Separator Text,~,范围分隔文字,范围选择器波浪线分隔,High
+RangeSelector,Range Separator Width,24px,范围分隔宽度,分隔符宽度24px,Medium
+RangeSelector,Range Separator Color,#86909C,范围分隔颜色,分隔符灰色,Medium
+RangeSelector,Range Separator Margin,0 8px,范围分隔间距,分隔符左右间距8px,Medium
+RangeSelector,Range Input Placeholder Start,开始日期,开始占位符,开始日期输入框占位符,High
+RangeSelector,Range Input Placeholder End,结束日期,结束占位符,结束日期输入框占位符,High
+RangeSelector,Range Combined Border,1px solid #E5E6EB,组合边框,范围选择器组合边框,Medium
+RangeSelector,Range Combined Border Radius,2px,组合圆角,范围选择器组合圆角2px,Medium
+RangeSelector,Range Active Input Border,1px solid #165DFF,激活输入框边框,激活输入框蓝色边框,High
+RangeSelector,Range Active Input Background,#FFFFFF,激活输入框背景,激活输入框白色背景,Medium
+RangePanel,Range Panel Layout,flex,范围面板布局,范围面板flex布局,High
+RangePanel,Range Panel Gap,16px,范围面板间距,两个面板间距16px,Medium
+RangePanel,Range Panel Divider,1px solid #E5E6EB,面板分隔线,范围面板中间分隔线,Medium
+RangePanel,Range Panel Divider Height,100%,分隔线高度,分隔线高度100%,Medium
+RangePanel,Range Panel Single Width,280px,单面板宽度,范围面板单侧宽度280px,High
+RangePanel,Range Active Panel,start/end,激活面板,当前激活的面板start或end,Medium
+RangePanel,Range Sync Scroll,true,同步滚动,范围面板月份同步滚动,Medium
+Layout,Layout Vertical,垂直结构,垂直布局,标签在上输入框在下的垂直布局,High
+Layout,Layout Horizontal,水平结构,水平布局,标签在左输入框在右的水平布局,High
+Layout,Vertical Label Position,top,垂直标签位置,垂直结构标签在顶部,High
+Layout,Horizontal Label Position,left,水平标签位置,水平结构标签在左侧,High
+Layout,Vertical Gap,4px,垂直间距,垂直结构标签与输入框间距4px,Medium
+Layout,Horizontal Gap,8px,水平间距,水平结构标签与输入框间距8px,Medium
+Label,Label Font Size,14px,标签字号,标签文字字号14px,High
+Label,Label Color,#1D2129,标签颜色,标签深色文字#1D2129,High
+Label,Label Font Weight,400,标签字重,标签常规字重,Medium
+Label,Label Line Height,22px,标签行高,标签行高22px,Medium
+Label,Label Required,*,必填标记,必填项显示红色星号,High
+Label,Label Required Color,#F53F3F,必填标记颜色,必填星号红色#F53F3F,High
+Label,Label Required Position,after,必填标记位置,必填星号在标签后,Medium
+DateTime,DateTime Panel Layout,flex,日期时间面板布局,日期时间面板flex布局,High
+DateTime,DateTime Date Panel Width,280px,日期面板宽度,日期时间选择器日期面板宽度,High
+DateTime,DateTime Time Panel Width,120px,时间面板宽度,日期时间选择器时间面板宽度,High
+DateTime,DateTime Divider,1px solid #E5E6EB,面板分隔线,日期和时间面板分隔线,Medium
+DateTime,DateTime Time Column Height,224px,时间列高度,时间选择列高度224px,Medium
+DateTime,DateTime Time Item Height,28px,时间项高度,时间选择项高度28px,Medium
+DateTime,DateTime Format,YYYY-MM-DD HH:mm:ss,日期时间格式,日期时间完整格式,High
+DateTime,DateTime Placeholder,请选择日期时间,日期时间占位符,日期时间选择器占位符,High
+Format,Format Date,YYYY-MM-DD,日期格式,默认日期格式年月日,High
+Format,Format Month,YYYY-MM,月格式,月选择格式年月,High
+Format,Format Year,YYYY,年格式,年选择格式年,High
+Format,Format Week,YYYY-wo,周格式,周选择格式年第几周,Medium
+Format,Format Quarter,YYYY-Q,季度格式,季度选择格式年季度,Medium
+Format,Format Display Date,YYYY年MM月DD日,显示日期格式,显示用日期格式,Medium
+Format,Format Display Month,YYYY年MM月,显示月格式,显示用月格式,Medium
+Format,Format Display Year,YYYY年,显示年格式,显示用年格式,Medium
+Format,Format Placeholder Date,请选择日期,日期占位符,日期选择器占位符,High
+Format,Format Placeholder Month,请选择月份,月占位符,月选择器占位符,Medium
+Format,Format Placeholder Year,请选择年份,年占位符,年选择器占位符,Medium
+Format,Format Placeholder Week,请选择周,周占位符,周选择器占位符,Medium
+Format,Format Placeholder Quarter,请选择季度,季度占位符,季度选择器占位符,Medium
+Format,Format Range Placeholder Start,开始日期,范围开始占位符,范围选择开始占位符,High
+Format,Format Range Placeholder End,结束日期,范围结束占位符,范围选择结束占位符,High
+Trigger,Trigger Type,click,触发类型,点击触发面板,High
+Trigger,Trigger Popup,dropdown,触发弹出方式,下拉弹出面板,Medium
+Trigger,Trigger Position,bottom-start,触发位置,面板在下方左对齐,High
+Trigger,Trigger Auto Adjust,true,触发自动调整,空间不足时自动调整位置,Medium
+Trigger,Trigger Click Outside Close,true,点击外部关闭,点击面板外部关闭,High
+Trigger,Trigger Esc Close,true,ESC关闭,按ESC键关闭面板,High
+Animation,Animation Enter,fadeIn slideDown,进入动画,面板进入淡入下滑动画,Medium
+Animation,Animation Leave,fadeOut slideUp,离开动画,面板离开淡出上滑动画,Medium
+Animation,Animation Duration,200ms,动画时长,动画持续200毫秒,Medium
+Animation,Animation Timing,ease-out,动画缓动,动画缓出效果,Low
+Responsive,Responsive Mobile Width,100%,移动端宽度,移动端全宽,Medium
+Responsive,Responsive Mobile Panel,bottom-sheet,移动端面板,移动端底部弹出,Medium
+Responsive,Responsive Touch Scroll,true,触摸滚动,支持触摸滚动选择,Medium
+Responsive,Responsive Breakpoint,768px,响应断点,移动端断点768px,Medium
+Accessibility,A11y Role,combobox,无障碍角色,日期选择器combobox角色,High
+Accessibility,A11y Aria Label,选择日期,无障碍标签,日期选择器aria标签,High
+Accessibility,A11y Aria Expanded,true/false,无障碍展开状态,面板展开状态,Medium
+Accessibility,A11y Aria Haspopup,dialog,无障碍弹出类型,弹出dialog类型,Medium
+Accessibility,A11y Keyboard Navigation,true,键盘导航,支持键盘方向键导航,High
+Accessibility,A11y Arrow Keys,日期导航,方向键,方向键导航日期,Medium
+Accessibility,A11y Enter,确认选择,回车键,回车键确认选择,Medium
+Accessibility,A11y Escape,关闭面板,ESC键,ESC键关闭面板,Medium
+Accessibility,A11y Tab,切换焦点,Tab键,Tab键切换焦点,Medium
+Accessibility,A11y Focus Visible,2px solid #165DFF,焦点可见,键盘焦点蓝色边框,Medium
+ZIndex,ZIndex Panel,1050,面板层级,日期面板层级1050,High
+ZIndex,ZIndex Above Modal,1060,模态框上层级,在模态框中时层级1060,Medium
+ZIndex,ZIndex Dropdown,1050,下拉层级,下拉面板层级1050,Medium
+Validation,Validation Trigger,blur,验证触发,失焦时触发验证,High
+Validation,Validation Error Border,1px solid #F53F3F,验证错误边框,验证错误红色边框,High
+Validation,Validation Error Message Position,bottom,错误信息位置,错误信息在输入框下方,Medium
+Validation,Validation Error Message Color,#F53F3F,错误信息颜色,错误信息红色文字,High
+Validation,Validation Error Message Font Size,12px,错误信息字号,错误信息字号12px,Medium
+Validation,Validation Error Message Margin Top,4px,错误信息顶部间距,错误信息与输入框间距4px,Medium
+Validation,Validation Range Start End,true,范围开始结束验证,验证结束日期大于开始日期,High
+DisabledDate,Disabled Date Function,function,禁用日期函数,返回禁用日期的函数,High
+DisabledDate,Disabled Before Today,disabledDate: current < today,禁用今天之前,禁用今天之前的日期,Medium
+DisabledDate,Disabled After Today,disabledDate: current > today,禁用今天之后,禁用今天之后的日期,Medium
+DisabledDate,Disabled Weekends,disabledDate: isWeekend,禁用周末,禁用周六周日,Medium
+DisabledDate,Disabled Style Color,#C9CDD4,禁用样式颜色,禁用日期灰色文字,High
+DisabledDate,Disabled Style Background,#F7F8FA,禁用样式背景,禁用日期浅灰背景,Medium
+DisabledDate,Disabled Style Cursor,not-allowed,禁用样式光标,禁用日期禁止光标,High
+Readonly,Readonly Background,#F7F8FA,只读背景,只读状态浅灰背景,Medium
+Readonly,Readonly Border,1px solid #E5E6EB,只读边框,只读状态灰色边框,Medium
+Readonly,Readonly Color,#1D2129,只读颜色,只读状态深色文字,Medium
+Readonly,Readonly Cursor,default,只读光标,只读状态默认光标,Medium
+Readonly,Readonly Icon Hidden,true,只读隐藏图标,只读状态隐藏日历图标,Low
+InputMode,Input Editable,true,可编辑输入,支持直接输入日期,High
+InputMode,Input Format Validation,true,格式验证,输入时验证格式,High
+InputMode,Input Auto Complete,true,自动补全,输入时自动补全,Medium
+InputMode,Input Mask,YYYY-MM-DD,输入掩码,输入掩码格式,Medium
+InputMode,Input Clear On Focus,false,聚焦清除,聚焦时不清除内容,Medium
+InputMode,Input Select All On Focus,true,聚焦全选,聚焦时全选内容,Medium
+Interaction,Click Select,true,点击选择,点击日期选择,High
+Interaction,Double Click Confirm,false,双击确认,双击日期确认选择,Low
+Interaction,Panel Auto Close,true,面板自动关闭,选择后面板自动关闭,High
+Interaction,Range Panel Auto Close,false,范围面板自动关闭,范围选择完成后关闭,Medium
+Interaction,Click Outside Close,true,点击外部关闭,点击面板外部关闭面板,High
+Interaction,Esc Close,true,ESC关闭,按ESC键关闭面板,High
+Annotation,Annotation Position,left/top,标注位置,标注信息位置,Low
+Annotation,Annotation Arrow,true,标注箭头,标注带箭头指向,Low
+Annotation,Annotation Background,#FFF7E8,标注背景,标注橙色浅背景,Low
+Annotation,Annotation Border,1px solid #FFCF8B,标注边框,标注橙色边框,Low
+Annotation,Annotation Text Color,#1D2129,标注文字颜色,标注深色文字,Low
+Annotation,Annotation Font Size,12px,标注字号,标注字号12px,Low
+API,API Value,string/Date/Dayjs,值类型,日期值类型,High
+API,API Default Value,undefined,默认值,默认值未定义,Medium
+API,API Format,YYYY-MM-DD,格式化,日期格式化字符串,High
+API,API Disabled,false,禁用,是否禁用日期选择器,High
+API,API Readonly,false,只读,是否只读,Medium
+API,API Clearable,true,可清除,是否显示清除按钮,High
+API,API Placeholder,请选择日期,占位符,输入框占位符文字,High
+API,API Size,default,尺寸,日期选择器尺寸large/default/small,High
+API,API Picker,date,选择器类型,选择器类型date/week/month/quarter/year,High
+API,API Show Time,false,显示时间,是否显示时间选择,Medium
+API,API Disabled Date,function,禁用日期,返回禁用日期的函数,High
+API,API Show Today,true,显示今天,是否显示今天按钮,Medium
+API,API Show Now,true,显示此刻,是否显示此刻按钮,Medium
+API,API Shortcuts,array,快捷选项,快捷选项数组,Medium
+Event,Event Change,onChange,值变化事件,日期值变化时触发,High
+Event,Event Open Change,onOpenChange,面板开关事件,面板打开关闭时触发,Medium
+Event,Event Panel Change,onPanelChange,面板变化事件,面板年月变化时触发,Medium
+Event,Event Focus,onFocus,聚焦事件,输入框聚焦时触发,Medium
+Event,Event Blur,onBlur,失焦事件,输入框失焦时触发,Medium
+Event,Event Ok,onOk,确认事件,点击确认按钮时触发,High
+Event,Event Clear,onClear,清除事件,点击清除按钮时触发,Medium
+Guideline,Guideline Label,添加标签,标签指南,日期选择器应添加标签说明,High
+Guideline,Guideline Placeholder,使用占位符,占位符指南,使用占位符提示日期格式,Medium
+Guideline,Guideline Default Value,设置默认值,默认值指南,根据场景设置合理默认值,Medium
+Guideline,Guideline Validation,即时验证,验证指南,输入后即时验证日期有效性,High
+Guideline,Guideline Error Message,显示错误信息,错误信息指南,验证失败时显示错误提示,High
+Guideline,Guideline Format Hint,格式提示,格式提示指南,在标签或占位符中提示日期格式,Medium
+Guideline,Guideline Range Logic,范围逻辑,范围逻辑指南,结束日期应大于开始日期,High
+Guideline,Guideline Disabled Reason,禁用原因,禁用原因指南,禁用日期时说明原因,Medium
+Guideline,Guideline Shortcut,快捷选项,快捷选项指南,提供常用日期快捷选项,Medium
+Guideline,Guideline Today Highlight,今日高亮,今日高亮指南,始终高亮显示今天日期,High
+Spacing,Spacing Label Input,4px,标签输入间距,标签与输入框间距4px,Medium
+Spacing,Spacing Input Panel,4px,输入面板间距,输入框与面板间距4px,Medium
+Spacing,Spacing Header Body,8px,头部内容间距,面板头部与日期网格间距8px,Medium
+Spacing,Spacing Week Date,0,周日期间距,星期行与日期网格间距0,Medium
+Spacing,Spacing Date Cell,0,日期单元格间距,日期单元格之间间距0,Medium
+Spacing,Spacing Footer Button,8px,页脚按钮间距,页脚按钮之间间距8px,Medium
+Spacing,Spacing Range Panel,16px,范围面板间距,范围选择两个面板间距16px,Medium
+Extra,Extra Slot Header,header,头部插槽,支持头部额外内容插槽,Low
+Extra,Extra Slot Footer,footer,页脚插槽,支持页脚额外内容插槽,Low
+Extra,Extra Slot Cell,dateCell,单元格插槽,支持日期单元格自定义插槽,Low
+Extra,Extra Content,自定义内容,额外内容,可在面板中添加额外内容,Low
+Preset,Preset Today,今天,预设今天,快捷选择今天,High
+Preset,Preset Yesterday,昨天,预设昨天,快捷选择昨天,Medium
+Preset,Preset This Week,本周,预设本周,快捷选择本周,Medium
+Preset,Preset Last Week,上周,预设上周,快捷选择上周,Medium
+Preset,Preset This Month,本月,预设本月,快捷选择本月,Medium
+Preset,Preset Last Month,上月,预设上月,快捷选择上月,Medium
+Preset,Preset Last 7 Days,最近7天,预设最近7天,快捷选择最近7天,Medium
+Preset,Preset Last 30 Days,最近30天,预设最近30天,快捷选择最近30天,Medium
+Preset,Preset Last 90 Days,最近90天,预设最近90天,快捷选择最近90天,Low
+Preset,Preset Custom,自定义预设,自定义预设,支持自定义快捷日期,Low

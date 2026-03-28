@@ -1,0 +1,71 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,BackTop Purpose,返回页面顶部,返回顶部用途,返回页面顶部的操作按钮,High
+Purpose,BackTop Scenario,长页面滚动,使用场景,当容器滚动到一定高度的时候在右下角会出现一个返回顶部的按钮,High
+Purpose,BackTop Behavior,点击滚动到顶部,返回顶部行为,点击按钮平滑滚动到页面顶部,High
+Type,Type Primary,主要类型,主要返回顶部,蓝色背景的主要返回顶部按钮,High
+Type,Type Default,默认类型,默认返回顶部,白色背景带边框的默认返回顶部按钮,High
+Type,Type Custom,自定义类型,自定义返回顶部,支持自定义内容的返回顶部按钮,Low
+Size,Size Default,40px,默认大小,返回顶部按钮默认40px,High
+Size,Size Small,32px,小尺寸,返回顶部按钮小尺寸32px,Medium
+Size,Size Large,48px,大尺寸,返回顶部按钮大尺寸48px,Low
+Position,Position Fixed,fixed,固定定位,返回顶部按钮固定定位,High
+Position,Position Right,24px,右侧距离,返回顶部按钮距右侧24px,High
+Position,Position Bottom,24px,底部距离,返回顶部按钮距底部24px,High
+Position,Position Custom,可自定义,自定义位置,支持自定义位置,Low
+Primary,Primary Background,#165DFF,主要背景,主要类型蓝色背景#165DFF,High
+Primary,Primary Color,#FFFFFF,主要颜色,主要类型白色图标,High
+Primary,Primary Border,none,主要边框,主要类型无边框,Medium
+Primary,Primary Hover Background,#0E42D2,主要悬停背景,主要类型悬停深蓝色背景,Medium
+Primary,Primary Active Background,#0E42D2,主要激活背景,主要类型激活深蓝色背景,Low
+Primary,Primary Shadow,0 2px 8px rgba(22 93 255 0.3),主要阴影,主要类型蓝色阴影,Medium
+Default,Default Background,#FFFFFF,默认背景,默认类型白色背景,High
+Default,Default Color,#4E5969,默认颜色,默认类型灰色图标,High
+Default,Default Border,1px solid #E5E6EB,默认边框,默认类型灰色边框,High
+Default,Default Hover Background,#FFFFFF,默认悬停背景,默认类型悬停白色背景,Medium
+Default,Default Hover Border,1px solid #165DFF,默认悬停边框,默认类型悬停蓝色边框,Medium
+Default,Default Hover Color,#165DFF,默认悬停颜色,默认类型悬停蓝色图标,Medium
+Default,Default Shadow,0 2px 8px rgba(0 0 0 0.08),默认阴影,默认类型灰色阴影,Medium
+Button,Button Width,40px,按钮宽度,返回顶部按钮宽度40px,High
+Button,Button Height,40px,按钮高度,返回顶部按钮高度40px,High
+Button,Button Border Radius,50%,按钮圆角,返回顶部按钮圆形,High
+Button,Button Cursor,pointer,按钮光标,返回顶部按钮可点击光标,Low
+Button,Button Transition,all 0.2s,按钮过渡,返回顶部按钮过渡动画0.2s,Medium
+Icon,Icon Type,VerticalAlignTopOutlined,图标类型,返回顶部使用向上箭头图标,High
+Icon,Icon Size,16px,图标大小,返回顶部图标16px,High
+Icon,Icon Color Inherit,true,图标颜色继承,图标颜色继承按钮颜色,Low
+Visibility,Visibility Threshold,400px,显示阈值,滚动超过400px显示返回顶部按钮,High
+Visibility,Visibility Default,hidden,默认可见性,默认隐藏返回顶部按钮,High
+Visibility,Visibility Target,window,监听目标,默认监听window滚动,Medium
+Visibility,Visibility Custom Target,可自定义,自定义监听目标,支持自定义滚动容器,Low
+Scroll,Scroll Behavior,smooth,滚动行为,平滑滚动到顶部,High
+Scroll,Scroll Duration,300ms,滚动时长,滚动动画时长300ms,Medium
+Scroll,Scroll Target Top,0,滚动目标位置,滚动到顶部位置0,Medium
+Scroll,Scroll Easing,ease-out,滚动缓动,滚动动画缓动函数,Low
+Animation,Show Animation,fade-in,显示动画,返回顶部按钮淡入动画,Medium
+Animation,Hide Animation,fade-out,隐藏动画,返回顶部按钮淡出动画,Medium
+Animation,Show Duration,0.2s,显示时长,显示动画时长0.2s,Low
+Animation,Hide Duration,0.15s,隐藏时长,隐藏动画时长0.15s,Low
+Animation,Hover Scale,1.05,悬停缩放,悬停时轻微放大1.05倍,Low
+Animation,Active Scale,0.95,激活缩放,点击时轻微缩小0.95倍,Low
+Animation,Easing,ease-out,动画缓动,动画缓动函数,Low
+Tooltip,Tooltip Show,false,显示提示,默认不显示tooltip提示,Low
+Tooltip,Tooltip Text,返回顶部,提示文字,tooltip提示文字,Low
+Tooltip,Tooltip Placement,left,提示位置,tooltip在按钮左侧,Low
+Responsive,Responsive Breakpoint,768px,响应式断点,小于768px切换移动端样式,Medium
+Responsive,Mobile Size,44px,移动端大小,移动端按钮44px满足触摸目标,Medium
+Responsive,Mobile Right,16px,移动端右侧距离,移动端距右侧16px,Medium
+Responsive,Mobile Bottom,16px,移动端底部距离,移动端距底部16px,Medium
+Responsive,Mobile Threshold,300px,移动端显示阈值,移动端滚动300px显示,Low
+Accessibility,Button Role,button,按钮角色,返回顶部ARIA角色button,High
+Accessibility,Aria Label,返回顶部,无障碍标签,返回顶部aria-label,High
+Accessibility,Keyboard Support,true,键盘支持,支持Enter/Space键触发,High
+Accessibility,Focus Ring,0 0 0 2px #165DFF40,焦点环,键盘焦点蓝色环,High
+Accessibility,Focus Visible,true,焦点可见,键盘焦点状态可见,Medium
+Accessibility,Tab Index,0,Tab索引,返回顶部按钮可Tab聚焦,Medium
+ZIndex,BackTop ZIndex,1000,返回顶部层级,返回顶部按钮z-index 1000,High
+Guideline,Primary Color,#165DFF,主色调,返回顶部主色调蓝色#165DFF,High
+Guideline,Text Regular,#4E5969,常规文字色,常规图标颜色#4E5969,Medium
+Guideline,Border Color,#E5E6EB,边框色,边框颜色#E5E6EB,Medium
+Guideline,Background White,#FFFFFF,白色背景,白色背景,High
+Guideline,Shadow Light,0 2px 8px rgba(0 0 0 0.08),浅色阴影,浅色阴影效果,Medium
+Guideline,Shadow Primary,0 2px 8px rgba(22 93 255 0.3),主色阴影,主色阴影效果,Medium

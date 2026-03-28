@@ -1,0 +1,139 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Cascader Purpose,级联选择,级联选择器用途,需要从一组相关联的数据集合进行选择例如省市区公司层级等分级数据,High
+Purpose,Cascader Scenario,分级数据选择,使用场景,从一个较大的数据集合中进行选择需多级分类进行分隔方便选择,High
+Purpose,Cascader Difference,比Select组件灵活,与Select区别,比Select组件灵活可选择不限层级中的选项节约纵向空间,High
+Purpose,Cascader Behavior,逐级展开选择,级联行为,点击选项逐级展开下一级面板进行选择,High
+Type,Type Single,单选类型,单选级联,单选级联选择器,High
+Type,Type Multiple,多选类型,多选级联,多选级联选择器支持复选框,High
+Type,Type Search,搜索类型,搜索级联,带搜索功能的级联选择器,Medium
+Size,Size Large,40px,大尺寸,大尺寸级联选择器高度40px,Medium
+Size,Size Default,32px,默认尺寸,默认尺寸级联选择器高度32px,High
+Size,Size Small,28px,小尺寸,小尺寸级联选择器高度28px,Medium
+Selector,Selector Height,32px,选择器高度,级联选择器高度32px,High
+Selector,Selector Padding,0 12px,选择器内边距,级联选择器左右内边距12px,High
+Selector,Selector Border Radius,2px,选择器圆角,级联选择器圆角2px,High
+Selector,Selector Border,1px solid #E5E6EB,选择器边框,级联选择器灰色边框,High
+Selector,Selector Background,#FFFFFF,选择器背景,级联选择器白色背景,High
+Selector,Selector Min Width,200px,选择器最小宽度,级联选择器最小宽度200px,Medium
+Default,Default Border,1px solid #E5E6EB,默认边框,默认状态灰色边框#E5E6EB,High
+Default,Default Color,#1D2129,默认文字颜色,默认状态深色文字,High
+Default,Default Placeholder,#C9CDD4,默认占位符颜色,默认状态占位符灰色,High
+Hover,Hover Border,1px solid #C9CDD4,悬停边框,悬停状态深灰边框,Medium
+Focus,Focus Border,1px solid #165DFF,聚焦边框,聚焦状态蓝色边框#165DFF,High
+Focus,Focus Shadow,0 0 0 2px rgba(22 93 255 0.1),聚焦阴影,聚焦状态蓝色阴影,High
+Disabled,Disabled Background,#F2F3F5,禁用背景,禁用状态灰色背景,High
+Disabled,Disabled Border,1px solid #E5E6EB,禁用边框,禁用状态灰色边框,High
+Disabled,Disabled Color,#C9CDD4,禁用文字颜色,禁用状态灰色文字,High
+Error,Error Border,1px solid #F53F3F,错误边框,错误状态红色边框,High
+Error,Error Focus Shadow,0 0 0 2px rgba(245 63 63 0.1),错误聚焦阴影,错误聚焦状态红色阴影,Medium
+Panel,Panel Background,#FFFFFF,面板背景,级联面板白色背景,High
+Panel,Panel Border,none,面板边框,级联面板无边框,Medium
+Panel,Panel Border Radius,4px,面板圆角,级联面板圆角4px,High
+Panel,Panel Shadow,0 4px 10px rgba(0 0 0 0.1),面板阴影,级联面板阴影效果,High
+Panel,Panel Margin Top,4px,面板顶部间距,级联面板与选择器间距4px,Medium
+Panel,Panel Min Width,672px,面板最小宽度,级联面板最小宽度下拉菜单宽度不低于672,Medium
+Column,Column Width,180px,列宽度,级联面板每列宽度180px,High
+Column,Column Min Width,120px,列最小宽度,级联面板每列最小宽度120px,Medium
+Column,Column Max Height,256px,列最大高度,级联面板每列最大高度256px,High
+Column,Column Border Right,1px solid #E5E6EB,列右边框,级联面板列右侧分隔线,Medium
+Column,Column Padding,4px 0,列内边距,级联面板列上下内边距4px,Medium
+Column,Column Count Max,4,最大列数,级联面板最多显示4列,Medium
+Option,Option Height,36px,选项高度,级联选项高度36px,High
+Option,Option Padding,0 12px,选项内边距,级联选项左右内边距12px,High
+Option,Option Font Size,14px,选项字号,级联选项文字14px,High
+Option,Option Color,#1D2129,选项颜色,级联选项深色文字,High
+Option,Option Background,transparent,选项背景,级联选项透明背景,Medium
+Option,Option Hover Background,#F2F3F5,选项悬停背景,级联选项悬停灰色背景,High
+Option,Option Hover Color,#1D2129,选项悬停颜色,级联选项悬停深色文字,Medium
+Option,Option Active Background,#E8F3FF,选项激活背景,级联选项激活浅蓝背景,High
+Option,Option Active Color,#165DFF,选项激活颜色,级联选项激活蓝色文字,High
+Option,Option Selected Background,#E8F3FF,选项选中背景,级联选项选中浅蓝背景,High
+Option,Option Selected Color,#165DFF,选项选中颜色,级联选项选中蓝色文字,High
+Option,Option Disabled Color,#C9CDD4,选项禁用颜色,级联选项禁用灰色文字,High
+Option,Option Disabled Background,transparent,选项禁用背景,级联选项禁用透明背景,Medium
+Option,Option Disabled Cursor,not-allowed,选项禁用光标,级联选项禁用禁止光标,Medium
+Arrow,Arrow Icon,RightOutlined,箭头图标,级联选项右箭头图标,High
+Arrow,Arrow Size,12px,箭头大小,级联箭头12px,Medium
+Arrow,Arrow Color,#86909C,箭头颜色,级联箭头灰色#86909C,Medium
+Arrow,Arrow Position,right,箭头位置,级联箭头在选项右侧,Medium
+Arrow,Arrow Gap,8px,箭头间距,级联箭头与文字间距8px,Low
+ExpandTrigger,Expand Trigger Click,click,点击展开,点击选项展开下一级,High
+ExpandTrigger,Expand Trigger Hover,hover,悬停展开,悬停选项展开下一级,Medium
+ExpandTrigger,Expand Delay,200ms,展开延迟,悬停展开延迟200ms,Low
+Path,Path Show,true,显示路径,选择器显示完整路径,High
+Path,Path Separator,/,路径分隔符,路径使用斜杠分隔,High
+Path,Path Separator Margin,0 4px,路径分隔符间距,路径分隔符左右间距4px,Low
+Path,Path Max Display,full,路径最大显示,路径完整显示,Medium
+Path,Path Ellipsis,true,路径省略,路径过长显示省略号,Low
+Multiple,Multiple Checkbox Show,true,显示复选框,多选级联显示复选框,High
+Multiple,Multiple Checkbox Size,16px,复选框大小,多选复选框16px,Medium
+Multiple,Multiple Checkbox Gap,8px,复选框间距,复选框与文字间距8px,Medium
+Multiple,Multiple Checkbox Position,left,复选框位置,复选框在选项左侧,Medium
+Multiple,Multiple Check Strictly,false,严格选中,默认父子节点关联选中,Medium
+Multiple,Multiple Tag Height,24px,多选标签高度,多选标签高度24px,High
+Multiple,Multiple Tag Padding,0 8px,多选标签内边距,多选标签左右内边距8px,Medium
+Multiple,Multiple Tag Background,#F2F3F5,多选标签背景,多选标签灰色背景,High
+Multiple,Multiple Tag Color,#1D2129,多选标签颜色,多选标签深色文字,High
+Multiple,Multiple Tag Border Radius,2px,多选标签圆角,多选标签圆角2px,Medium
+Multiple,Multiple Tag Font Size,12px,多选标签字号,多选标签文字12px,Medium
+Multiple,Multiple Tag Gap,4px,多选标签间距,多选标签之间间距4px,Medium
+Multiple,Multiple Tag Close Icon,CloseOutlined,多选标签关闭图标,多选标签关闭图标,Medium
+Multiple,Multiple Tag Close Size,12px,多选标签关闭大小,多选标签关闭图标12px,Low
+Multiple,Multiple Tag Max Count,responsive,多选标签最大数量,多选标签响应式显示,Medium
+Multiple,Multiple Collapse Tag,+X,多选折叠标签,多选折叠显示+X,Medium
+Search,Search Show,true,显示搜索,级联选择器支持搜索功能,High
+Search,Search Position,selector,搜索位置,搜索框在选择器内,Medium
+Search,Search Placeholder,请输入搜索内容,搜索占位符,搜索框占位符文字,Medium
+Search,Search Result Panel,true,搜索结果面板,搜索时显示搜索结果面板,High
+Search,Search Result Height,36px,搜索结果高度,搜索结果项高度36px,Medium
+Search,Search Result Highlight,#165DFF,搜索结果高亮,搜索关键词蓝色高亮,High
+Search,Search Result Path Show,true,搜索结果显示路径,搜索结果显示完整路径,Medium
+Search,Search Result Path Color,#86909C,搜索结果路径颜色,搜索结果路径灰色文字,Low
+Search,Search No Result Text,无匹配结果,搜索无结果文字,搜索无结果提示文字,Medium
+Clear,Clear Show,true,显示清除,级联选择器支持清除按钮,High
+Clear,Clear Icon,CloseCircleFilled,清除图标,清除按钮圆形关闭图标,High
+Clear,Clear Icon Size,14px,清除图标大小,清除图标14px,Medium
+Clear,Clear Icon Color,#C9CDD4,清除图标颜色,清除图标灰色,Medium
+Clear,Clear Icon Hover Color,#86909C,清除图标悬停颜色,清除图标悬停深灰色,Medium
+Clear,Clear Visibility,hover,清除显示时机,悬停时显示清除按钮,Medium
+SelectorArrow,Selector Arrow Icon,DownOutlined,选择器箭头图标,选择器下拉箭头图标,High
+SelectorArrow,Selector Arrow Size,12px,选择器箭头大小,选择器箭头12px,Medium
+SelectorArrow,Selector Arrow Color,#86909C,选择器箭头颜色,选择器箭头灰色,Medium
+SelectorArrow,Selector Arrow Rotate,180deg,选择器箭头旋转,展开时箭头旋转180度,Medium
+Loading,Loading Show,true,显示加载,级联选择器支持异步加载,Medium
+Loading,Loading Icon,LoadingOutlined,加载图标,加载状态旋转图标,Medium
+Loading,Loading Icon Size,14px,加载图标大小,加载图标14px,Low
+Loading,Loading Icon Color,#165DFF,加载图标颜色,加载图标蓝色,Low
+Loading,Loading Text,加载中...,加载文字,加载状态文字,Low
+Empty,Empty Show,true,显示空状态,级联选择器支持空状态,Medium
+Empty,Empty Text,暂无数据,空状态文字,空状态默认文字,Medium
+Empty,Empty Text Color,#86909C,空状态文字颜色,空状态文字灰色,Low
+Empty,Empty Padding,24px 0,空状态内边距,空状态上下内边距24px,Low
+Animation,Panel Animation,slide-down,面板动画,级联面板滑动动画,Medium
+Animation,Panel Duration,0.2s,面板时长,面板动画时长0.2s,Low
+Animation,Column Transition,0.15s,列过渡,列展开过渡0.15s,Low
+Animation,Arrow Transition,0.2s,箭头过渡,箭头旋转过渡0.2s,Low
+Responsive,Responsive Breakpoint,768px,响应式断点,小于768px切换移动端样式,Medium
+Responsive,Mobile Height,40px,移动端高度,移动端选择器高度40px,Medium
+Responsive,Mobile Column Width,100%,移动端列宽度,移动端每列全宽,Medium
+Responsive,Mobile Panel Max Height,50vh,移动端面板最大高度,移动端面板最大高度50vh,Medium
+Responsive,Mobile Stack Columns,true,移动端列堆叠,移动端列垂直堆叠,Low
+Accessibility,Cascader Role,combobox,级联角色,级联选择器ARIA角色combobox,High
+Accessibility,Panel Role,listbox,面板角色,级联面板ARIA角色listbox,High
+Accessibility,Option Role,option,选项角色,级联选项ARIA角色option,High
+Accessibility,Aria Expanded,true/false,展开状态,级联选择器aria-expanded状态,Medium
+Accessibility,Aria Selected,true/false,选中状态,选项aria-selected状态,Medium
+Accessibility,Keyboard Navigation,true,键盘导航,支持上下左右箭头键盘导航,High
+Accessibility,Enter Select,true,回车选择,回车键选择当前项,High
+Accessibility,Escape Close,true,ESC关闭,ESC键关闭面板,High
+Accessibility,Focus Ring,0 0 0 2px rgba(22 93 255 0.1),焦点环,键盘焦点蓝色环,High
+ZIndex,Panel ZIndex,1050,面板层级,级联面板z-index 1050,High
+Guideline,Primary Color,#165DFF,主色调,级联选择器主色调蓝色#165DFF,High
+Guideline,Error Color,#F53F3F,错误色,错误状态红色#F53F3F,High
+Guideline,Text Primary,#1D2129,主要文字色,主要文字颜色#1D2129,High
+Guideline,Text Regular,#4E5969,常规文字色,常规文字颜色#4E5969,High
+Guideline,Text Placeholder,#C9CDD4,占位符色,占位符颜色#C9CDD4,High
+Guideline,Text Disabled,#C9CDD4,禁用文字色,禁用文字颜色#C9CDD4,Medium
+Guideline,Border Default,#E5E6EB,默认边框色,默认边框颜色#E5E6EB,High
+Guideline,Background Hover,#F2F3F5,悬停背景色,悬停背景颜色#F2F3F5,High
+Guideline,Background Selected,#E8F3FF,选中背景色,选中背景颜色#E8F3FF,High

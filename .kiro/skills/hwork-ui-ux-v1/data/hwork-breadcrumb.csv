@@ -1,0 +1,54 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Navigation Context,显示当前页面位置,导航定位,提供标识和上下文线索-避免用户迷路,High
+Purpose,Hierarchy Display,显示系统层级结构,层级展示,显示当前页面在系统层级结构中的位置,High
+Purpose,Back Navigation,支持向上返回,返回导航,支持点击返回上级页面,High
+Purpose,Reduce Jumps,减少页面跳转,减少跳转,尽可能减少页面间的跳转-让用户移动距离保持简短,Medium
+Container,Container Height,22px,容器高度,面包屑容器高度22px,Medium
+Container,Container Margin,0 0 16px,容器外边距,面包屑底部间距16px,Medium
+Container,Container Padding,0,容器内边距,面包屑无内边距,Low
+Item,Item Font Size,14px,项目字号,面包屑项文字14px,High
+Item,Item Line Height,22px,项目行高,面包屑项行高22px,Medium
+Item,Item Gap,8px,项目间距,面包屑项之间间距8px,High
+Item,Item Color,#4E5969,项目颜色,可点击项文字颜色#4E5969,High
+Item,Item Hover Color,#165DFF,项目悬停颜色,可点击项悬停蓝色#165DFF,High
+Item,Item Active Color,#1D2129,当前项颜色,当前页面项文字颜色#1D2129,High
+Item,Item Disabled Color,#C9CDD4,禁用项颜色,禁用项文字颜色#C9CDD4,Low
+Item,Item Cursor,pointer,项目光标,可点击项鼠标指针,Medium
+Item,Item Current Cursor,default,当前项光标,当前页面项默认光标,Low
+Separator,Separator Type,/,分隔符类型,使用斜杠/作为分隔符,High
+Separator,Separator Color,#86909C,分隔符颜色,分隔符灰色#86909C,Medium
+Separator,Separator Margin,0 8px,分隔符间距,分隔符左右间距8px,Medium
+Separator,Separator Custom,>,自定义分隔符,可使用>箭头作为分隔符,Low
+Icon,Icon Size,14px,图标大小,面包屑图标14px,Medium
+Icon,Icon Gap,4px,图标间距,图标与文字间距4px,Medium
+Icon,Icon Color,#4E5969,图标颜色,图标颜色与文字一致#4E5969,Medium
+Icon,Icon Home,HomeOutlined,首页图标,首页使用HomeOutlined图标,Medium
+Icon,Icon Folder,FolderOutlined,文件夹图标,目录使用FolderOutlined图标,Low
+Icon,Icon File,FileOutlined,文件图标,页面使用FileOutlined图标,Low
+Variant,Basic,文字链接,基础用法,纯文字链接形式-一级页面 / 二级页面 / 当前页面,High
+Variant,With Icon,带图标,带图标用法,文字前带图标-增强识别性,Medium
+Variant,With Dropdown,带下拉菜单,带下拉菜单,某一级支持下拉选择同级页面,Medium
+Dropdown,Dropdown Trigger,hover,下拉触发方式,鼠标悬停触发下拉菜单,Medium
+Dropdown,Dropdown Icon,DownOutlined,下拉图标,下拉箭头图标DownOutlined,Medium
+Dropdown,Dropdown Icon Size,12px,下拉图标大小,下拉箭头图标12px,Low
+Dropdown,Dropdown Icon Gap,4px,下拉图标间距,下拉箭头与文字间距4px,Low
+Dropdown,Dropdown Menu Width,auto,下拉菜单宽度,下拉菜单宽度自适应,Low
+Dropdown,Dropdown Menu Shadow,0 4px 10px rgba(0 0 0 0.1),下拉菜单阴影,下拉菜单阴影效果,Low
+Dropdown,Dropdown Item Height,32px,下拉项高度,下拉菜单项高度32px,Medium
+Dropdown,Dropdown Item Padding,0 12px,下拉项内边距,下拉菜单项内边距,Low
+Dropdown,Dropdown Item Hover,#F2F3F5,下拉项悬停背景,下拉项悬停背景色,Medium
+Dropdown,Dropdown Item Selected,#E8F3FF,下拉项选中背景,下拉项选中背景色,Medium
+State,State Default,#4E5969,默认状态,默认文字颜色#4E5969,High
+State,State Hover,#165DFF,悬停状态,悬停文字颜色#165DFF,High
+State,State Active,#0E42D2,激活状态,点击时文字颜色#0E42D2,Medium
+State,State Current,#1D2129,当前状态,当前页面文字颜色#1D2129不可点击,High
+State,State Disabled,#C9CDD4,禁用状态,禁用文字颜色#C9CDD4,Low
+MaxItems,Max Items Display,4,最大显示数量,超过4级时中间项折叠,Medium
+MaxItems,Ellipsis Icon,EllipsisOutlined,省略图标,折叠项使用省略号图标,Low
+MaxItems,Ellipsis Dropdown,true,省略下拉,点击省略号展开折叠项,Low
+Responsive,Mobile Max Items,2,移动端最大显示,移动端最多显示2级,Medium
+Responsive,Mobile Font Size,12px,移动端字号,移动端字号12px,Low
+Guideline,Provide Context,提供标识和上下文线索,设计原则,避免用户迷路,High
+Guideline,Consistent Style,保持导航样式一致,设计原则,降低用户学习成本,High
+Guideline,Reduce Navigation,减少导航数量,设计原则,尽可能减少页面间的跳转,Medium
+Guideline,Short Distance,保持移动距离简短,设计原则,让用户移动距离保持简短,Medium

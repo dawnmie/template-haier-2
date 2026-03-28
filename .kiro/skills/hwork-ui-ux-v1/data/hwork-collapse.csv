@@ -1,0 +1,72 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Collapse Header Height,48px,折叠面板头部高度,折叠面板头部高度48px,High
+Size,Collapse Content Padding,16px 16px,折叠面板内容内边距,折叠面板内容区域内边距,Medium
+Size,Collapse Icon Size,16px,折叠面板图标大小,展开/收起图标大小16px,Medium
+Size,Collapse Icon Gap,8px,折叠面板图标间距,图标与标题间距8px,Medium
+Size,Collapse Border Width,1px,折叠面板边框宽度,折叠面板边框宽度1px,Medium
+Size,Collapse Border Radius,2px,折叠面板圆角,折叠面板圆角2px,Medium
+Size,Collapse Title Font Size,14px,折叠面板标题字号,折叠面板标题文字14px,High
+Size,Collapse Content Font Size,14px,折叠面板内容字号,折叠面板内容文字14px,Medium
+Color,Collapse Background,#FFFFFF,折叠面板背景,折叠面板白色背景,High
+Color,Collapse Border Color,#E5E6EB,折叠面板边框颜色,折叠面板灰色边框#E5E6EB,High
+Color,Collapse Header Background,#FFFFFF,折叠面板头部背景,折叠面板头部白色背景,High
+Color,Collapse Header Hover Background,#F7F8FA,折叠面板头部悬停背景,折叠面板头部悬停浅灰背景#F7F8FA,Medium
+Color,Collapse Title Color,#1D2129,折叠面板标题颜色,折叠面板标题深色文字#1D2129,High
+Color,Collapse Content Color,#4E5969,折叠面板内容颜色,折叠面板内容灰色文字#4E5969,Medium
+Color,Collapse Icon Color,#4E5969,折叠面板图标颜色,折叠面板图标灰色#4E5969,Medium
+Color,Collapse Disabled Background,#F7F8FA,折叠面板禁用背景,折叠面板禁用浅灰背景#F7F8FA,Low
+Color,Collapse Disabled Color,#C9CDD4,折叠面板禁用文字,折叠面板禁用灰色文字#C9CDD4,Low
+Type,Collapse Default,bordered,默认折叠面板,带边框的默认折叠面板,High
+Type,Collapse Borderless,borderless,无边框折叠面板,无边框的简洁折叠面板,Medium
+Type,Collapse Ghost,ghost,幽灵折叠面板,透明背景的幽灵折叠面板,Low
+State,Collapse Expanded,expanded,展开状态,折叠面板展开状态,High
+State,Collapse Collapsed,collapsed,收起状态,折叠面板收起状态,High
+State,Collapse Disabled,disabled,禁用状态,折叠面板禁用状态,Medium
+Animation,Collapse Transition Duration,0.3s,折叠动画时长,展开/收起动画时长0.3s,Medium
+Animation,Collapse Transition Timing,ease-in-out,折叠动画曲线,展开/收起动画曲线ease-in-out,Low
+Animation,Icon Rotate Angle,90deg,图标旋转角度,展开时图标旋转90度,Medium
+Icon,Icon Position,left,图标位置,图标在标题左侧,High
+Icon,Icon Expanded,arrow-down,展开图标,展开状态使用向下箭头,High
+Icon,Icon Collapsed,arrow-right,收起图标,收起状态使用向右箭头,High
+Layout,Collapse Item Margin,0 0 8px 0,折叠项间距,折叠项之间下边距8px,Medium
+Layout,Collapse Header Padding,0 16px,折叠头部内边距,折叠头部左右内边距16px,High
+Layout,Collapse Content Margin,0,折叠内容外边距,折叠内容无外边距,Low
+Layout,Collapse Nested Padding Left,24px,嵌套折叠左内边距,嵌套折叠面板左内边距24px,Medium
+Accordion,Accordion Mode,single,手风琴模式,同时只能展开一个面板,Medium
+Accordion,Multiple Mode,multiple,多选模式,可以同时展开多个面板,Medium
+Extra,Extra Position,right,额外内容位置,额外内容在头部右侧,Medium
+Extra,Extra Gap,8px,额外内容间距,额外内容与标题间距8px,Low
+Extra,Show Arrow,true,显示箭头,是否显示展开/收起箭头,High
+Extra,Collapsible,header,可折叠区域,点击头部区域可折叠,High
+Extra,Collapsible Icon,icon,可折叠图标,仅点击图标可折叠,Medium
+Extra,Collapsible Disabled,disabled,禁用折叠,禁用折叠功能,Low
+Header,Header Align,left,头部对齐方式,头部内容左对齐,High
+Header,Header Font Weight,500,头部字重,头部标题字重500,Medium
+Header,Header Line Height,48px,头部行高,头部行高48px,High
+Content,Content Background,#FFFFFF,内容区背景,内容区白色背景,Medium
+Content,Content Border Top,1px solid #E5E6EB,内容区顶部边框,内容区顶部灰色边框,Medium
+Content,Content Line Height,22px,内容区行高,内容区行高22px,Medium
+Content,Content Min Height,48px,内容区最小高度,内容区最小高度48px,Low
+Hover,Header Hover Cursor,pointer,头部悬停光标,头部悬停显示手型光标,High
+Hover,Header Hover Transition,all 0.2s,头部悬停过渡,头部悬停过渡动画0.2s,Medium
+Active,Header Active Background,#F2F3F5,头部点击背景,头部点击时浅灰背景#F2F3F5,Medium
+Active,Header Active Transition,all 0.1s,头部点击过渡,头部点击过渡动画0.1s,Low
+Shadow,Collapse Shadow,none,折叠面板阴影,折叠面板无阴影,Low
+Shadow,Collapse Hover Shadow,none,折叠面板悬停阴影,折叠面板悬停无阴影,Low
+Divider,Item Divider,1px solid #E5E6EB,折叠项分隔线,折叠项之间灰色分隔线,Medium
+Divider,Content Divider,none,内容区分隔线,内容区无分隔线,Low
+Usage,Basic Usage,基础折叠面板,基础使用场景,用于展示可折叠的内容区域,High
+Usage,Accordion Usage,手风琴模式,手风琴使用场景,用于同时只展开一个面板的场景,Medium
+Usage,Nested Usage,嵌套折叠面板,嵌套使用场景,用于多层级的折叠内容,Medium
+Usage,Borderless Usage,无边框模式,无边框使用场景,用于简洁的折叠展示,Low
+Usage,Custom Header,自定义头部,自定义头部场景,用于需要自定义头部内容的场景,Medium
+Guideline,Max Nesting Level,3,最大嵌套层级,建议最多嵌套3层,Medium
+Guideline,Default State,collapsed,默认状态,建议默认收起状态,Medium
+Guideline,Animation Required,true,动画必需,展开/收起必须有动画,High
+Guideline,Icon Consistency,consistent,图标一致性,同一页面图标样式保持一致,High
+Guideline,Content Length,适中,内容长度,单个面板内容不宜过长,Medium
+Guideline,Title Length,1-2行,标题长度,标题建议1-2行内,Medium
+Accessibility,Keyboard Support,true,键盘支持,支持键盘操作展开/收起,Medium
+Accessibility,ARIA Expanded,true/false,ARIA展开属性,使用aria-expanded属性,Medium
+Accessibility,Focus Visible,true,焦点可见,键盘焦点状态可见,High
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium

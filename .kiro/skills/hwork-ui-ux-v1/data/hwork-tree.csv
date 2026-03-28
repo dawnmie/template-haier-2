@@ -1,0 +1,206 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Tree Node Height,32px,树节点高度,树节点高度32px,High
+Size,Tree Node Padding,0 8px,树节点内边距,树节点左右内边距8px,High
+Size,Tree Node Indent,24px,树节点缩进,树节点层级缩进24px,High
+Size,Tree Node Font Size,14px,树节点字号,树节点文字14px,High
+Size,Tree Node Line Height,32px,树节点行高,树节点行高32px,Medium
+Size,Tree Icon Size,16px,树图标大小,树节点图标大小16px,Medium
+Size,Tree Icon Gap,8px,树图标间距,图标与文字间距8px,Medium
+Size,Tree Expand Icon Size,16px,展开图标大小,展开/收起图标大小16px,High
+Size,Tree Checkbox Size,16px,复选框大小,树节点复选框大小16px,Medium
+Size,Tree Checkbox Gap,8px,复选框间距,复选框与文字间距8px,Medium
+Size,Tree Min Height,200px,树最小高度,树组件最小高度200px,Medium
+Size,Tree Max Height,400px,树最大高度,树组件最大高度400px,Low
+Color,Tree Background,#FFFFFF,树背景,树组件白色背景,High
+Color,Tree Node Color,#1D2129,树节点文字,树节点深色文字#1D2129,High
+Color,Tree Node Hover Background,#F7F8FA,树节点悬停背景,树节点悬停浅灰背景#F7F8FA,High
+Color,Tree Node Selected Background,#E8F3FF,树节点选中背景,树节点选中浅蓝背景#E8F3FF,High
+Color,Tree Node Selected Color,#165DFF,树节点选中文字,树节点选中蓝色文字#165DFF,High
+Color,Tree Node Active Background,#E8F3FF,树节点激活背景,树节点激活浅蓝背景#E8F3FF,Medium
+Color,Tree Node Disabled Color,#C9CDD4,树节点禁用文字,树节点禁用灰色文字#C9CDD4,Medium
+Color,Tree Node Disabled Background,transparent,树节点禁用背景,树节点禁用透明背景,Low
+Color,Tree Icon Color,#4E5969,树图标颜色,树节点图标灰色#4E5969,Medium
+Color,Tree Icon Hover Color,#165DFF,树图标悬停颜色,树节点图标悬停蓝色#165DFF,Medium
+Color,Tree Expand Icon Color,#86909C,展开图标颜色,展开/收起图标灰色#86909C,High
+Color,Tree Expand Icon Hover Color,#165DFF,展开图标悬停颜色,展开图标悬停蓝色#165DFF,Medium
+Color,Tree Line Color,#E5E6EB,树连接线颜色,树连接线灰色#E5E6EB,Medium
+Color,Tree Border Color,#E5E6EB,树边框颜色,树组件边框灰色#E5E6EB,Low
+Expand,Expand Icon Collapsed,right,收起图标,收起状态使用向右箭头,High
+Expand,Expand Icon Expanded,down,展开图标,展开状态使用向下箭头,High
+Expand,Expand Icon Position,left,展开图标位置,展开图标在节点左侧,High
+Expand,Expand On Click Node,false,点击节点展开,点击节点不展开,High
+Expand,Expand On Click Icon,true,点击图标展开,点击图标展开/收起,High
+Expand,Default Expand All,false,默认全部展开,默认不全部展开,Medium
+Expand,Default Expand Level,1,默认展开层级,默认展开第1层,Medium
+Expand,Expand Animation,true,展开动画,启用展开/收起动画,Medium
+Expand,Expand Animation Duration,0.3s,展开动画时长,展开动画时长0.3s,Low
+Checkbox,Checkbox Enabled,false,启用复选框,不启用复选框,High
+Checkbox,Checkbox Position,left,复选框位置,复选框在节点左侧,High
+Checkbox,Checkbox Checked Color,#165DFF,复选框选中颜色,复选框选中蓝色#165DFF,High
+Checkbox,Checkbox Unchecked Color,#E5E6EB,复选框未选中颜色,复选框未选中灰色#E5E6EB,Medium
+Checkbox,Checkbox Indeterminate Color,#165DFF,复选框半选颜色,复选框半选蓝色#165DFF,Medium
+Checkbox,Checkbox Border Radius,2px,复选框圆角,复选框圆角2px,Low
+Checkbox,Checkbox Border Width,1px,复选框边框宽度,复选框边框宽度1px,Low
+Checkbox,Checkbox Cascade,true,复选框级联,启用复选框级联选择,High
+Checkbox,Checkbox Strict,false,复选框严格模式,不启用严格模式,Medium
+Selection,Selection Mode Single,single,单选模式,树节点单选模式,High
+Selection,Selection Mode Multiple,multiple,多选模式,树节点多选模式,Medium
+Selection,Selection Highlight,true,选中高亮,选中节点高亮显示,High
+Selection,Selection Persist,true,选中持久化,选中状态持久化,Medium
+Selection,Selection Clear On Click Outside,false,点击外部清除选中,点击外部不清除选中,Low
+Icon,Icon Folder,folder,文件夹图标,文件夹节点图标,Medium
+Icon,Icon File,file,文件图标,文件节点图标,Medium
+Icon,Icon Custom,custom,自定义图标,支持自定义节点图标,Medium
+Icon,Icon Position,left,图标位置,图标在文字左侧,High
+Icon,Icon Color Inherit,false,图标颜色继承,图标颜色不继承文字颜色,Low
+Line,Show Line,false,显示连接线,不显示连接线,Medium
+Line,Line Width,1px,连接线宽度,连接线宽度1px,Low
+Line,Line Style,solid,连接线样式,连接线实线样式,Low
+Line,Line Dash,none,连接线虚线,连接线无虚线,Low
+Line,Line Indent,12px,连接线缩进,连接线缩进12px,Low
+Drag,Draggable,false,可拖拽,节点不可拖拽,Medium
+Drag,Drop Allowed,false,允许放置,不允许放置节点,Medium
+Drag,Drag Ghost Opacity,0.5,拖拽幽灵透明度,拖拽幽灵透明度0.5,Low
+Drag,Drop Indicator Color,#165DFF,放置指示器颜色,放置指示器蓝色#165DFF,Low
+Drag,Drop Indicator Height,2px,放置指示器高度,放置指示器高度2px,Low
+Drag,Drop Position Before,before,放置在前,放置在节点前,Low
+Drag,Drop Position After,after,放置在后,放置在节点后,Low
+Drag,Drop Position Inner,inner,放置在内,放置在节点内,Low
+Search,Search Enabled,false,启用搜索,不启用搜索功能,Medium
+Search,Search Highlight Color,#FF7D00,搜索高亮颜色,搜索高亮橙色#FF7D00,Medium
+Search,Search Highlight Background,#FFF7E8,搜索高亮背景,搜索高亮浅橙背景#FFF7E8,Medium
+Search,Search Case Sensitive,false,搜索区分大小写,搜索不区分大小写,Low
+Search,Search Match Mode,contains,搜索匹配模式,搜索包含匹配,Medium
+Search,Search Expand Matched,true,搜索展开匹配项,搜索时展开匹配节点,Medium
+Filter,Filter Enabled,false,启用过滤,不启用过滤功能,Medium
+Filter,Filter Mode,strict,过滤模式,严格过滤模式,Low
+Filter,Filter Highlight,true,过滤高亮,过滤结果高亮显示,Medium
+Filter,Filter Show Matched Only,false,仅显示匹配项,不仅显示匹配项,Low
+Virtual,Virtual Scroll,false,虚拟滚动,不启用虚拟滚动,Medium
+Virtual,Virtual Item Height,32px,虚拟项高度,虚拟滚动项高度32px,Medium
+Virtual,Virtual Buffer Size,5,虚拟缓冲大小,虚拟滚动缓冲项数5,Low
+Virtual,Virtual Threshold,100,虚拟滚动阈值,超过100项启用虚拟滚动,Medium
+Loading,Loading State,false,加载状态,不在加载状态,Medium
+Loading,Loading Icon Size,16px,加载图标大小,加载图标大小16px,Low
+Loading,Loading Icon Color,#165DFF,加载图标颜色,加载图标蓝色#165DFF,Low
+Loading,Loading Text,加载中...,加载文字,加载状态显示文字,Low
+Empty,Empty Text,暂无数据,空状态文字,无数据时显示文字,High
+Empty,Empty Icon Size,48px,空状态图标大小,空状态图标大小48px,Medium
+Empty,Empty Icon Color,#C9CDD4,空状态图标颜色,空状态图标灰色#C9CDD4,Low
+Empty,Empty Text Color,#86909C,空状态文字颜色,空状态文字灰色#86909C,Medium
+Empty,Empty Padding,24px 0,空状态内边距,空状态上下内边距24px,Low
+Hover,Hover Enabled,true,启用悬停,启用节点悬停效果,High
+Hover,Hover Cursor,pointer,悬停光标,悬停显示手型光标,High
+Hover,Hover Transition,all 0.2s,悬停过渡,悬停过渡动画0.2s,Medium
+Hover,Hover Background Persist,false,悬停背景持久,悬停背景不持久,Low
+Active,Active Enabled,true,启用激活,启用节点激活状态,High
+Active,Active Background,#E8F3FF,激活背景,激活节点浅蓝背景#E8F3FF,Medium
+Active,Active Color,#165DFF,激活文字,激活节点蓝色文字#165DFF,Medium
+Active,Active Border,none,激活边框,激活节点无边框,Low
+Disabled,Disabled Cursor,not-allowed,禁用光标,禁用节点禁止光标,Medium
+Disabled,Disabled Opacity,0.6,禁用透明度,禁用节点透明度0.6,Low
+Disabled,Disabled Selectable,false,禁用可选,禁用节点不可选,High
+Disabled,Disabled Checkable,false,禁用可勾选,禁用节点不可勾选,Medium
+Animation,Animation Enabled,true,启用动画,启用树动画效果,Medium
+Animation,Animation Duration,0.3s,动画时长,树动画时长0.3s,Low
+Animation,Animation Timing,ease-in-out,动画曲线,树动画曲线ease-in-out,Low
+Animation,Expand Animation,true,展开动画,启用展开动画,Medium
+Animation,Collapse Animation,true,收起动画,启用收起动画,Medium
+Border,Border Enabled,false,启用边框,不启用树边框,Low
+Border,Border Width,1px,边框宽度,树边框宽度1px,Low
+Border,Border Style,solid,边框样式,树边框实线样式,Low
+Border,Border Radius,4px,边框圆角,树边框圆角4px,Low
+Padding,Container Padding,8px,容器内边距,树容器内边距8px,Medium
+Padding,Node Padding Horizontal,8px,节点水平内边距,节点左右内边距8px,High
+Padding,Node Padding Vertical,0,节点垂直内边距,节点上下内边距0,Low
+Margin,Node Margin,0,节点外边距,节点外边距0,Low
+Margin,Level Margin,0,层级外边距,层级外边距0,Low
+Context Menu,Context Menu Enabled,false,启用右键菜单,不启用右键菜单,Low
+Context Menu,Context Menu Items,custom,右键菜单项,自定义右键菜单项,Low
+Context Menu,Context Menu Background,#FFFFFF,右键菜单背景,右键菜单白色背景,Low
+Context Menu,Context Menu Shadow,0 2px 8px rgba(0 0 0 0.15),右键菜单阴影,右键菜单阴影效果,Low
+Tooltip,Tooltip Enabled,false,启用提示,不启用节点提示,Low
+Tooltip,Tooltip Trigger,hover,提示触发,悬停触发提示,Low
+Tooltip,Tooltip Position,top,提示位置,提示在节点顶部,Low
+Tooltip,Tooltip Delay,500ms,提示延迟,提示延迟500ms,Low
+Badge,Badge Enabled,false,启用徽标,不启用节点徽标,Low
+Badge,Badge Position,right,徽标位置,徽标在节点右侧,Low
+Badge,Badge Size,16px,徽标大小,徽标大小16px,Low
+Badge,Badge Color,#F53F3F,徽标颜色,徽标红色#F53F3F,Low
+Usage,Basic Usage,基础树,基础使用场景,用于展示基础树形结构,High
+Usage,Checkbox Usage,复选框树,复选框场景,用于多选树形数据,High
+Usage,Draggable Usage,可拖拽树,拖拽场景,用于拖拽排序树节点,Medium
+Usage,Search Usage,搜索树,搜索场景,用于搜索树节点,Medium
+Usage,Virtual Usage,虚拟滚动树,虚拟滚动场景,用于大数据量树形展示,Medium
+Usage,Lazy Load Usage,懒加载树,懒加载场景,用于异步加载子节点,Medium
+Usage,Custom Icon Usage,自定义图标树,自定义图标场景,用于自定义节点图标,Low
+Guideline,Max Depth,5,最大深度,建议最多5层深度,Medium
+Guideline,Max Children,100,最大子节点数,建议最多100个子节点,Medium
+Guideline,Node Text Length,适中,节点文字长度,节点文字不宜过长,High
+Guideline,Expand Default,1-2层,默认展开层级,建议默认展开1-2层,Medium
+Guideline,Virtual Threshold,100,虚拟滚动阈值,超过100项建议虚拟滚动,Medium
+Guideline,Checkbox Cascade,true,复选框级联,建议启用复选框级联,High
+Guideline,Icon Consistency,consistent,图标一致性,同类节点图标保持一致,High
+Guideline,Indent Consistency,24px,缩进一致性,层级缩进保持24px,High
+Accessibility,Keyboard Navigation,supported,键盘导航,支持键盘导航,High
+Accessibility,Arrow Keys,supported,方向键,支持方向键导航,High
+Accessibility,Enter Key,supported,回车键,支持回车键展开/收起,High
+Accessibility,Space Key,supported,空格键,支持空格键选中,High
+Accessibility,Tab Navigation,supported,Tab导航,支持Tab键导航,Medium
+Accessibility,Focus Visible,true,焦点可见,节点焦点状态可见,High
+Accessibility,ARIA Tree,true,ARIA树,使用ARIA树角色,High
+Accessibility,ARIA Expanded,true,ARIA展开,使用aria-expanded属性,High
+Accessibility,ARIA Selected,true,ARIA选中,使用aria-selected属性,High
+Accessibility,ARIA Level,true,ARIA层级,使用aria-level属性,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Performance,Lazy Load,supported,懒加载,支持懒加载子节点,High
+Performance,Virtual Scroll,supported,虚拟滚动,支持虚拟滚动,Medium
+Performance,Debounce Search,300ms,搜索防抖,搜索防抖300ms,Medium
+Performance,Throttle Scroll,16ms,滚动节流,滚动节流16ms,Low
+Performance,Cache Nodes,true,缓存节点,缓存节点数据,Medium
+Performance,Optimize Render,true,优化渲染,优化渲染性能,High
+Responsive,Mobile Node Height,40px,移动端节点高度,移动端节点高度40px,Medium
+Responsive,Mobile Indent,16px,移动端缩进,移动端节点缩进16px,Medium
+Responsive,Mobile Font Size,14px,移动端字号,移动端节点文字14px,Medium
+Responsive,Mobile Icon Size,16px,移动端图标大小,移动端图标16px,Low
+Responsive,Mobile Touch Friendly,true,移动端触摸友好,移动端触摸优化,High
+Responsive,Tablet Node Height,36px,平板端节点高度,平板端节点高度36px,Low
+Lazy Load,Lazy Load Enabled,false,启用懒加载,不启用懒加载,Medium
+Lazy Load,Lazy Load Icon,loading,懒加载图标,懒加载显示加载图标,Low
+Lazy Load,Lazy Load Text,加载中...,懒加载文字,懒加载显示文字,Low
+Lazy Load,Lazy Load Error Text,加载失败,懒加载错误文字,懒加载失败显示文字,Low
+Lazy Load,Lazy Load Retry,true,懒加载重试,支持懒加载重试,Low
+Custom,Custom Node Render,supported,自定义节点渲染,支持自定义节点渲染,Medium
+Custom,Custom Icon Render,supported,自定义图标渲染,支持自定义图标渲染,Medium
+Custom,Custom Expand Icon,supported,自定义展开图标,支持自定义展开图标,Low
+Custom,Custom Checkbox,supported,自定义复选框,支持自定义复选框,Low
+Custom,Custom Empty,supported,自定义空状态,支持自定义空状态,Low
+Custom,Custom Loading,supported,自定义加载状态,支持自定义加载状态,Low
+Event,On Select,supported,选中事件,支持节点选中事件,High
+Event,On Check,supported,勾选事件,支持节点勾选事件,High
+Event,On Expand,supported,展开事件,支持节点展开事件,High
+Event,On Collapse,supported,收起事件,支持节点收起事件,Medium
+Event,On Click,supported,点击事件,支持节点点击事件,High
+Event,On Double Click,supported,双击事件,支持节点双击事件,Low
+Event,On Context Menu,supported,右键事件,支持节点右键事件,Low
+Event,On Drag Start,supported,拖拽开始事件,支持拖拽开始事件,Low
+Event,On Drag End,supported,拖拽结束事件,支持拖拽结束事件,Low
+Event,On Drop,supported,放置事件,支持节点放置事件,Low
+Method,Expand Node,supported,展开节点,支持展开指定节点,High
+Method,Collapse Node,supported,收起节点,支持收起指定节点,High
+Method,Select Node,supported,选中节点,支持选中指定节点,High
+Method,Check Node,supported,勾选节点,支持勾选指定节点,High
+Method,Get Selected,supported,获取选中节点,支持获取选中节点,High
+Method,Get Checked,supported,获取勾选节点,支持获取勾选节点,High
+Method,Expand All,supported,展开全部,支持展开全部节点,Medium
+Method,Collapse All,supported,收起全部,支持收起全部节点,Medium
+Method,Filter,supported,过滤节点,支持过滤节点,Medium
+Method,Search,supported,搜索节点,支持搜索节点,Medium
+Data,Data Format,tree,数据格式,树形数据格式,High
+Data,Node Key,id,节点键,节点唯一标识键名,High
+Data,Node Label,label,节点标签,节点显示文字键名,High
+Data,Node Children,children,节点子级,节点子级数组键名,High
+Data,Node Disabled,disabled,节点禁用,节点禁用状态键名,Medium
+Data,Node Icon,icon,节点图标,节点图标键名,Low
+Data,Node Leaf,isLeaf,节点叶子,节点是否叶子节点键名,Low
+Data,Flat Data Support,supported,扁平数据支持,支持扁平数据格式,Medium

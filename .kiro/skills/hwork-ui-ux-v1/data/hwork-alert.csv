@@ -1,0 +1,207 @@
+Category,Name,Value,Usage,Description,Severity
+Size,Alert Height,auto,警告提示高度,警告提示高度自动,High
+Size,Alert Min Height,40px,警告提示最小高度,警告提示最小高度40px,Medium
+Size,Alert Padding,8px 12px,警告提示内边距,警告提示内边距上下8px左右12px,High
+Size,Alert Padding With Icon,8px 12px 8px 40px,带图标内边距,带图标警告提示左侧内边距40px,High
+Size,Alert Padding With Close,8px 40px 8px 12px,带关闭内边距,带关闭按钮右侧内边距40px,Medium
+Size,Alert Border Radius,4px,警告提示圆角,警告提示圆角4px,High
+Size,Alert Border Width,1px,警告提示边框宽度,警告提示边框宽度1px,Medium
+Size,Alert Icon Size,16px,警告提示图标大小,警告提示图标大小16px,High
+Size,Alert Icon Gap,8px,警告提示图标间距,图标与文字间距8px,Medium
+Size,Alert Close Icon Size,14px,关闭图标大小,关闭图标大小14px,Medium
+Size,Alert Title Font Size,14px,警告提示标题字号,警告提示标题文字14px,High
+Size,Alert Content Font Size,14px,警告提示内容字号,警告提示内容文字14px,High
+Size,Alert Title Line Height,22px,警告提示标题行高,警告提示标题行高22px,Medium
+Size,Alert Content Line Height,22px,警告提示内容行高,警告提示内容行高22px,Medium
+Size,Alert Title Margin Bottom,4px,标题下边距,标题下边距4px,Low
+Type,Type Info,info,信息类型,信息警告提示,High
+Type,Type Success,success,成功类型,成功警告提示,High
+Type,Type Warning,warning,警告类型,警告警告提示,High
+Type,Type Error,error,错误类型,错误警告提示,High
+Color Info,Info Background,#E8F3FF,信息背景,信息警告提示浅蓝背景#E8F3FF,High
+Color Info,Info Border,#BEDAFF,信息边框,信息警告提示浅蓝边框#BEDAFF,Medium
+Color Info,Info Color,#1D2129,信息文字,信息警告提示深色文字#1D2129,High
+Color Info,Info Icon Color,#165DFF,信息图标,信息警告提示蓝色图标#165DFF,High
+Color Info,Info Link Color,#165DFF,信息链接,信息警告提示蓝色链接#165DFF,Medium
+Color Success,Success Background,#E8FFEA,成功背景,成功警告提示浅绿背景#E8FFEA,High
+Color Success,Success Border,#AFF0B5,成功边框,成功警告提示浅绿边框#AFF0B5,Medium
+Color Success,Success Color,#1D2129,成功文字,成功警告提示深色文字#1D2129,High
+Color Success,Success Icon Color,#00B42A,成功图标,成功警告提示绿色图标#00B42A,High
+Color Success,Success Link Color,#00B42A,成功链接,成功警告提示绿色链接#00B42A,Medium
+Color Warning,Warning Background,#FFF7E8,警告背景,警告警告提示浅橙背景#FFF7E8,High
+Color Warning,Warning Border,#FFCF8B,警告边框,警告警告提示浅橙边框#FFCF8B,Medium
+Color Warning,Warning Color,#1D2129,警告文字,警告警告提示深色文字#1D2129,High
+Color Warning,Warning Icon Color,#FF7D00,警告图标,警告警告提示橙色图标#FF7D00,High
+Color Warning,Warning Link Color,#FF7D00,警告链接,警告警告提示橙色链接#FF7D00,Medium
+Color Error,Error Background,#FFECE8,错误背景,错误警告提示浅红背景#FFECE8,High
+Color Error,Error Border,#FBACA3,错误边框,错误警告提示浅红边框#FBACA3,Medium
+Color Error,Error Color,#1D2129,错误文字,错误警告提示深色文字#1D2129,High
+Color Error,Error Icon Color,#F53F3F,错误图标,错误警告提示红色图标#F53F3F,High
+Color Error,Error Link Color,#F53F3F,错误链接,错误警告提示红色链接#F53F3F,Medium
+Icon,Icon Position,left,图标位置,图标在左侧,High
+Icon,Icon Vertical Align,top,图标垂直对齐,图标顶部对齐,Medium
+Icon,Icon Info,InfoCircleFilled,信息图标,信息类型使用InfoCircleFilled图标,High
+Icon,Icon Success,CheckCircleFilled,成功图标,成功类型使用CheckCircleFilled图标,High
+Icon,Icon Warning,ExclamationCircleFilled,警告图标,警告类型使用ExclamationCircleFilled图标,High
+Icon,Icon Error,CloseCircleFilled,错误图标,错误类型使用CloseCircleFilled图标,High
+Icon,Show Icon,true,显示图标,显示类型图标,High
+Icon,Hide Icon,false,隐藏图标,隐藏类型图标,Low
+Close,Closable,false,可关闭,警告提示不可关闭,High
+Close,Closable Enabled,true,启用关闭,警告提示可关闭,High
+Close,Close Icon,CloseOutlined,关闭图标,使用CloseOutlined图标,High
+Close,Close Icon Position,top-right,关闭图标位置,关闭图标在右上角,High
+Close,Close Icon Color,#86909C,关闭图标颜色,关闭图标灰色#86909C,Medium
+Close,Close Icon Hover Color,#4E5969,关闭图标悬停颜色,关闭图标悬停深灰#4E5969,Medium
+Close,Close Button Size,24px,关闭按钮大小,关闭按钮大小24px,Medium
+Close,Close Button Padding,4px,关闭按钮内边距,关闭按钮内边距4px,Low
+Title,Title Visible,true,显示标题,显示警告提示标题,High
+Title,Title Hidden,false,隐藏标题,隐藏警告提示标题,Medium
+Title,Title Font Weight,500,标题字重,警告提示标题字重500,High
+Title,Title Color,#1D2129,标题颜色,警告提示标题深色#1D2129,High
+Title,Title Max Lines,1,标题最大行数,标题最多1行,Medium
+Title,Title Overflow,ellipsis,标题溢出,标题溢出显示省略号,Low
+Content,Content Visible,true,显示内容,显示警告提示内容,High
+Content,Content Hidden,false,隐藏内容,隐藏警告提示内容,Low
+Content,Content Font Weight,400,内容字重,警告提示内容字重400,High
+Content,Content Color,#4E5969,内容颜色,警告提示内容灰色#4E5969,Medium
+Content,Content Max Lines,none,内容最大行数,内容无最大行数限制,Low
+Content,Content Word Break,break-word,内容换行,内容过长自动换行,Medium
+Banner,Banner Mode,false,横幅模式,不启用横幅模式,Medium
+Banner,Banner Mode Enabled,true,启用横幅模式,启用横幅模式,Medium
+Banner,Banner Border Radius,0,横幅圆角,横幅模式圆角0,Low
+Banner,Banner Full Width,true,横幅全宽,横幅模式全宽显示,Medium
+Banner,Banner Margin,0,横幅外边距,横幅模式外边距0,Low
+Action,Action Visible,false,显示操作,不显示操作按钮,Medium
+Action,Action Enabled,true,启用操作,启用操作按钮,Medium
+Action,Action Position,right,操作位置,操作按钮在右侧,Medium
+Action,Action Gap,8px,操作间距,操作按钮间距8px,Low
+Action,Action Button Type,text,操作按钮类型,操作按钮文字类型,Medium
+Action,Action Button Size,small,操作按钮大小,操作按钮小尺寸,Low
+Animation,Animation Enabled,true,启用动画,启用警告提示动画,Medium
+Animation,Animation Duration,0.3s,动画时长,警告提示动画时长0.3s,Low
+Animation,Animation Timing,ease-in-out,动画曲线,警告提示动画曲线ease-in-out,Low
+Animation,Fade In Duration,0.3s,淡入时长,警告提示淡入时长0.3s,Low
+Animation,Fade Out Duration,0.3s,淡出时长,警告提示淡出时长0.3s,Low
+Animation,Slide Down Duration,0.3s,下滑时长,警告提示下滑时长0.3s,Low
+State,State Visible,visible,显示状态,警告提示显示状态,High
+State,State Hidden,hidden,隐藏状态,警告提示隐藏状态,High
+State,State Closing,closing,关闭中状态,警告提示关闭中状态,Medium
+Layout,Layout Horizontal,horizontal,水平布局,图标和内容水平排列,High
+Layout,Layout Vertical,vertical,垂直布局,图标和内容垂直排列,Low
+Layout,Layout Inline,inline,行内布局,行内显示警告提示,Low
+Layout,Layout Block,block,块级布局,块级显示警告提示,High
+Description,Description Visible,false,显示描述,不显示描述内容,Medium
+Description,Description Enabled,true,启用描述,启用描述内容,Medium
+Description,Description Font Size,14px,描述字号,描述内容文字14px,Medium
+Description,Description Color,#4E5969,描述颜色,描述内容灰色#4E5969,Medium
+Description,Description Line Height,22px,描述行高,描述内容行高22px,Low
+Description,Description Margin Top,4px,描述上边距,描述内容上边距4px,Low
+Link,Link Visible,false,显示链接,不显示链接,Low
+Link,Link Enabled,true,启用链接,启用链接,Low
+Link,Link Color,inherit,链接颜色,链接颜色继承类型颜色,Medium
+Link,Link Hover Color,inherit,链接悬停颜色,链接悬停颜色继承类型颜色,Low
+Link,Link Underline,none,链接下划线,链接无下划线,Low
+Link,Link Hover Underline,underline,链接悬停下划线,链接悬停显示下划线,Low
+Shadow,Shadow Enabled,false,启用阴影,不启用阴影,Low
+Shadow,Shadow Value,0 2px 8px rgba(0 0 0 0.08),阴影值,警告提示阴影效果,Low
+Border,Border Style,solid,边框样式,警告提示实线边框,High
+Border,Border Position,all,边框位置,警告提示全边框,High
+Border,Border Left Only,left,仅左边框,仅显示左边框,Medium
+Border,Border Left Width,4px,左边框宽度,左边框宽度4px,Medium
+Margin,Margin Bottom,16px,下边距,警告提示下边距16px,Medium
+Margin,Margin Top,0,上边距,警告提示上边距0,Low
+Margin,Margin Left,0,左边距,警告提示左边距0,Low
+Margin,Margin Right,0,右边距,警告提示右边距0,Low
+Usage,Info Usage,信息提示,信息提示场景,用于展示一般信息提示,High
+Usage,Success Usage,成功提示,成功提示场景,用于展示成功操作提示,High
+Usage,Warning Usage,警告提示,警告提示场景,用于展示警告信息提示,High
+Usage,Error Usage,错误提示,错误提示场景,用于展示错误信息提示,High
+Usage,Banner Usage,横幅提示,横幅提示场景,用于页面顶部全宽提示,Medium
+Usage,Closable Usage,可关闭提示,可关闭场景,用于可关闭的提示信息,High
+Usage,With Action Usage,带操作提示,带操作场景,用于需要用户操作的提示,Medium
+Guideline,Content Length,适中,内容长度,提示内容不宜过长,High
+Guideline,Title Length,1行,标题长度,标题建议1行内,High
+Guideline,Icon Visible,true,图标可见,建议显示类型图标,High
+Guideline,Type Appropriate,appropriate,类型适当,根据场景选择适当类型,High
+Guideline,Position Top,true,位置顶部,建议放置在页面或区域顶部,Medium
+Guideline,Closable Optional,optional,可关闭可选,根据场景决定是否可关闭,Medium
+Guideline,Banner For Page,true,横幅用于页面,横幅模式用于页面级提示,Medium
+Guideline,Action Clear,true,操作明确,操作按钮文字明确,High
+Accessibility,Keyboard Close,supported,键盘关闭,支持键盘关闭,Medium
+Accessibility,Focus Visible,true,焦点可见,关闭按钮焦点可见,High
+Accessibility,ARIA Role,alert,ARIA角色,使用alert角色,High
+Accessibility,ARIA Live,polite,ARIA实时,使用aria-live属性,High
+Accessibility,ARIA Atomic,true,ARIA原子,使用aria-atomic属性,Medium
+Accessibility,Screen Reader,supported,屏幕阅读器,支持屏幕阅读器,Medium
+Accessibility,Color Contrast,4.5:1,颜色对比度,文字与背景对比度至少4.5:1,High
+Performance,Lazy Render,false,延迟渲染,不延迟渲染,Low
+Performance,Destroy On Close,true,关闭时销毁,关闭时销毁DOM,Medium
+Performance,Transition,true,过渡效果,启用过渡效果,Medium
+Event,On Close,supported,关闭事件,支持关闭事件,High
+Event,On Action,supported,操作事件,支持操作按钮事件,Medium
+Event,After Close,supported,关闭后事件,支持关闭后事件,Low
+Method,Close,supported,关闭方法,支持关闭警告提示,High
+Method,Show,supported,显示方法,支持显示警告提示,Medium
+Method,Hide,supported,隐藏方法,支持隐藏警告提示,Medium
+Props,Type,supported,类型属性,支持设置类型,High
+Props,Message,supported,消息属性,支持设置消息内容,High
+Props,Title,supported,标题属性,支持设置标题,High
+Props,Description,supported,描述属性,支持设置描述,Medium
+Props,Closable,supported,可关闭属性,支持控制可关闭,High
+Props,Show Icon,supported,显示图标属性,支持控制图标显示,High
+Props,Icon,supported,图标属性,支持自定义图标,Medium
+Props,Close Text,supported,关闭文字属性,支持自定义关闭文字,Low
+Props,Banner,supported,横幅属性,支持横幅模式,Medium
+Props,Action,supported,操作属性,支持自定义操作,Medium
+Slot,Default Slot,supported,默认插槽,支持默认内容插槽,High
+Slot,Title Slot,supported,标题插槽,支持标题插槽,Medium
+Slot,Icon Slot,supported,图标插槽,支持图标插槽,Medium
+Slot,Action Slot,supported,操作插槽,支持操作插槽,Medium
+Slot,Close Slot,supported,关闭插槽,支持关闭按钮插槽,Low
+Custom,Custom Icon,supported,自定义图标,支持自定义类型图标,Medium
+Custom,Custom Close Icon,supported,自定义关闭图标,支持自定义关闭图标,Low
+Custom,Custom Action,supported,自定义操作,支持自定义操作内容,Medium
+Custom,Custom Color,supported,自定义颜色,支持自定义颜色,Low
+Responsive,Mobile Padding,8px,移动端内边距,移动端内边距8px,Medium
+Responsive,Mobile Font Size,14px,移动端字号,移动端文字14px,Medium
+Responsive,Mobile Icon Size,16px,移动端图标大小,移动端图标16px,Low
+Responsive,Mobile Close Icon Size,14px,移动端关闭图标,移动端关闭图标14px,Low
+Responsive,Tablet Padding,8px 12px,平板端内边距,平板端内边距,Low
+Group,Group Gap,8px,警告提示组间距,多个警告提示间距8px,Medium
+Group,Group Margin Bottom,16px,警告提示组下边距,警告提示组下边距16px,Low
+Group,Group Max Count,3,最大提示数,建议最多同时显示3个,Medium
+Notification,Notification Position,top-right,通知位置,通知在右上角,Medium
+Notification,Notification Duration,4500ms,通知时长,通知显示时长4500ms,Medium
+Notification,Notification Max Count,3,最大通知数,最多同时显示3个通知,Medium
+Notification,Notification Offset,24px,通知偏移,通知距离边缘24px,Low
+Notification,Notification Gap,16px,通知间距,通知之间间距16px,Low
+Message,Message Position,top,消息位置,消息在顶部,High
+Message,Message Duration,3000ms,消息时长,消息显示时长3000ms,High
+Message,Message Max Count,1,最大消息数,最多同时显示1个消息,High
+Message,Message Offset,24px,消息偏移,消息距离顶部24px,Medium
+Message,Message Gap,16px,消息间距,消息之间间距16px,Low
+Toast,Toast Position,center,提示位置,提示在中心,Medium
+Toast,Toast Duration,2000ms,提示时长,提示显示时长2000ms,Medium
+Toast,Toast Background,rgba(0 0 0 0.75),提示背景,提示半透明黑色背景,Medium
+Toast,Toast Color,#FFFFFF,提示文字,提示白色文字,Medium
+Toast,Toast Padding,12px 16px,提示内边距,提示内边距,Low
+Toast,Toast Border Radius,4px,提示圆角,提示圆角4px,Low
+Variant,Variant Filled,filled,填充变体,填充背景变体,High
+Variant,Variant Outlined,outlined,描边变体,描边变体,Medium
+Variant,Variant Standard,standard,标准变体,标准变体,High
+Filled,Filled Info Background,#165DFF,填充信息背景,填充信息蓝色背景#165DFF,Medium
+Filled,Filled Info Color,#FFFFFF,填充信息文字,填充信息白色文字,Medium
+Filled,Filled Success Background,#00B42A,填充成功背景,填充成功绿色背景#00B42A,Medium
+Filled,Filled Success Color,#FFFFFF,填充成功文字,填充成功白色文字,Medium
+Filled,Filled Warning Background,#FF7D00,填充警告背景,填充警告橙色背景#FF7D00,Medium
+Filled,Filled Warning Color,#FFFFFF,填充警告文字,填充警告白色文字,Medium
+Filled,Filled Error Background,#F53F3F,填充错误背景,填充错误红色背景#F53F3F,Medium
+Filled,Filled Error Color,#FFFFFF,填充错误文字,填充错误白色文字,Medium
+Outlined,Outlined Info Border,#165DFF,描边信息边框,描边信息蓝色边框#165DFF,Medium
+Outlined,Outlined Info Color,#165DFF,描边信息文字,描边信息蓝色文字#165DFF,Medium
+Outlined,Outlined Success Border,#00B42A,描边成功边框,描边成功绿色边框#00B42A,Medium
+Outlined,Outlined Success Color,#00B42A,描边成功文字,描边成功绿色文字#00B42A,Medium
+Outlined,Outlined Warning Border,#FF7D00,描边警告边框,描边警告橙色边框#FF7D00,Medium
+Outlined,Outlined Warning Color,#FF7D00,描边警告文字,描边警告橙色文字#FF7D00,Medium
+Outlined,Outlined Error Border,#F53F3F,描边错误边框,描边错误红色边框#F53F3F,Medium
+Outlined,Outlined Error Color,#F53F3F,描边错误文字,描边错误红色文字#F53F3F,Medium

@@ -1,0 +1,141 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Steps Purpose,引导用户完成任务,步骤条用途,引导用户按照流程完成任务的导航条,High
+Purpose,Steps Scenario,多步骤任务流程,使用场景,当任务复杂需要分步骤完成时使用,High
+Purpose,Steps Behavior,展示当前进度,步骤条行为,展示当前所处步骤和整体进度,High
+Type,Type Default,默认类型,默认步骤条,带数字圆圈的默认步骤条,High
+Type,Type Navigation,导航类型,导航步骤条,带箭头的导航样式步骤条,Medium
+Type,Type Dot,点状类型,点状步骤条,使用小圆点的简洁步骤条,Medium
+Type,Type Arrow,箭头类型,箭头步骤条,带箭头连接的步骤条,Medium
+Size,Size Large,48px,大尺寸,大尺寸步骤条图标48px,Medium
+Size,Size Default,32px,默认尺寸,默认尺寸步骤条图标32px,High
+Size,Size Small,24px,小尺寸,小尺寸步骤条图标24px,Medium
+Size,Size Mini,16px,迷你尺寸,迷你尺寸步骤条图标16px,Low
+Direction,Direction Horizontal,水平方向,水平步骤条,步骤条水平排列,High
+Direction,Direction Vertical,垂直方向,垂直步骤条,步骤条垂直排列,Medium
+Icon,Icon Size Default,32px,默认图标大小,默认步骤图标32px,High
+Icon,Icon Size Small,24px,小图标大小,小尺寸步骤图标24px,Medium
+Icon,Icon Background Wait,#F2F3F5,等待图标背景,等待状态图标灰色背景,High
+Icon,Icon Background Process,#165DFF,进行中图标背景,进行中状态图标蓝色背景,High
+Icon,Icon Background Finish,#165DFF,完成图标背景,完成状态图标蓝色背景,High
+Icon,Icon Background Error,#F53F3F,错误图标背景,错误状态图标红色背景,High
+Icon,Icon Color Wait,#86909C,等待图标颜色,等待状态图标灰色,High
+Icon,Icon Color Process,#FFFFFF,进行中图标颜色,进行中状态图标白色,High
+Icon,Icon Color Finish,#FFFFFF,完成图标颜色,完成状态图标白色,High
+Icon,Icon Color Error,#FFFFFF,错误图标颜色,错误状态图标白色,High
+Icon,Icon Border Radius,50%,图标圆角,步骤图标圆形,High
+Icon,Icon Font Size,14px,图标字号,步骤数字字号14px,Medium
+Icon,Icon Font Weight,500,图标字重,步骤数字中等字重,Medium
+Icon,Finish Icon,CheckOutlined,完成图标,完成状态使用勾选图标,High
+Icon,Error Icon,CloseOutlined,错误图标,错误状态使用关闭图标,High
+Icon,Custom Icon Enable,true,自定义图标,支持自定义步骤图标,Medium
+Title,Title Font Size,14px,标题字号,步骤标题文字14px,High
+Title,Title Font Weight,500,标题字重,步骤标题中等字重500,Medium
+Title,Title Color Wait,#86909C,等待标题颜色,等待状态标题灰色,High
+Title,Title Color Process,#1D2129,进行中标题颜色,进行中状态标题深色,High
+Title,Title Color Finish,#1D2129,完成标题颜色,完成状态标题深色,High
+Title,Title Color Error,#F53F3F,错误标题颜色,错误状态标题红色,High
+Title,Title Line Height,22px,标题行高,步骤标题行高22px,Medium
+Title,Title Margin Top,8px,标题上间距,标题与图标间距8px,Medium
+Title,Title Max Width,auto,标题最大宽度,标题宽度自适应,Low
+Title,Title Ellipsis,true,标题省略,标题过长显示省略号,Low
+Description,Description Font Size,12px,描述字号,步骤描述文字12px,Medium
+Description,Description Color,#86909C,描述颜色,步骤描述灰色文字,Medium
+Description,Description Line Height,20px,描述行高,步骤描述行高20px,Medium
+Description,Description Margin Top,4px,描述上间距,描述与标题间距4px,Medium
+Description,Description Max Lines,2,描述最大行数,描述最多显示2行,Low
+Connector,Connector Type,line,连接线类型,步骤之间使用线条连接,High
+Connector,Connector Width,1px,连接线宽度,连接线宽度1px,Medium
+Connector,Connector Color Wait,#E5E6EB,等待连接线颜色,等待状态连接线灰色,High
+Connector,Connector Color Finish,#165DFF,完成连接线颜色,完成状态连接线蓝色,High
+Connector,Connector Style Solid,solid,实线连接,连接线实线样式,High
+Connector,Connector Style Dashed,dashed,虚线连接,连接线虚线样式,Low
+Connector,Connector Gap,8px,连接线间距,连接线与图标间距8px,Medium
+Connector,Connector Horizontal Top,16px,水平连接线位置,水平步骤条连接线距顶部16px,Medium
+Connector,Connector Vertical Left,16px,垂直连接线位置,垂直步骤条连接线距左侧16px,Medium
+Status,Status Wait,wait,等待状态,步骤等待状态,High
+Status,Status Process,process,进行中状态,步骤进行中状态,High
+Status,Status Finish,finish,完成状态,步骤完成状态,High
+Status,Status Error,error,错误状态,步骤错误状态,High
+DotType,Dot Size,8px,点状大小,点状步骤条圆点8px,Medium
+DotType,Dot Size Active,10px,点状激活大小,点状步骤条激活圆点10px,Medium
+DotType,Dot Background Wait,#C9CDD4,点状等待背景,点状等待灰色背景,Medium
+DotType,Dot Background Process,#165DFF,点状进行中背景,点状进行中蓝色背景,High
+DotType,Dot Background Finish,#165DFF,点状完成背景,点状完成蓝色背景,High
+DotType,Dot Border,2px solid #FFFFFF,点状边框,点状圆点白色边框,Low
+DotType,Dot Shadow,0 0 0 2px #E8F3FF,点状阴影,点状激活状态外圈阴影,Low
+DotType,Dot Connector Top,4px,点状连接线位置,点状连接线距顶部4px,Low
+NavigationType,Nav Background Wait,#F7F8FA,导航等待背景,导航类型等待灰色背景,Medium
+NavigationType,Nav Background Process,#165DFF,导航进行中背景,导航类型进行中蓝色背景,High
+NavigationType,Nav Background Finish,#E8F3FF,导航完成背景,导航类型完成浅蓝背景,Medium
+NavigationType,Nav Height,48px,导航高度,导航类型步骤高度48px,Medium
+NavigationType,Nav Padding,0 24px,导航内边距,导航类型步骤内边距,Medium
+NavigationType,Nav Arrow Width,16px,导航箭头宽度,导航类型箭头宽度16px,Low
+NavigationType,Nav Arrow Color,#E5E6EB,导航箭头颜色,导航类型箭头颜色,Low
+NavigationType,Nav Title Color Wait,#4E5969,导航等待标题颜色,导航等待状态标题灰色,Medium
+NavigationType,Nav Title Color Process,#FFFFFF,导航进行中标题颜色,导航进行中状态标题白色,High
+NavigationType,Nav Title Color Finish,#165DFF,导航完成标题颜色,导航完成状态标题蓝色,Medium
+ArrowType,Arrow Background Wait,#F7F8FA,箭头等待背景,箭头类型等待灰色背景,Medium
+ArrowType,Arrow Background Process,#165DFF,箭头进行中背景,箭头类型进行中蓝色背景,High
+ArrowType,Arrow Background Finish,#E8F3FF,箭头完成背景,箭头类型完成浅蓝背景,Medium
+ArrowType,Arrow Background Error,#FFECE8,箭头错误背景,箭头类型错误浅红背景,Medium
+ArrowType,Arrow Height,36px,箭头高度,箭头类型步骤高度36px,Medium
+ArrowType,Arrow Padding,0 16px 0 24px,箭头内边距,箭头类型步骤内边距,Medium
+ArrowType,Arrow Shape,polygon,箭头形状,箭头类型使用多边形形状,Low
+ArrowType,Arrow Clip Path,polygon(0 0 calc(100% - 12px) 0 100% 50% calc(100% - 12px) 100% 0 100% 12px 50%),箭头裁剪路径,箭头形状CSS裁剪路径,Low
+ProgressType,Progress Show,true,显示进度,步骤条支持显示进度百分比,Medium
+ProgressType,Progress Height,4px,进度条高度,进度条高度4px,Medium
+ProgressType,Progress Background,#E5E6EB,进度条背景,进度条灰色背景,Medium
+ProgressType,Progress Fill Color,#165DFF,进度条填充颜色,进度条蓝色填充,High
+ProgressType,Progress Border Radius,2px,进度条圆角,进度条圆角2px,Low
+ProgressType,Progress Position,below icon,进度条位置,进度条在图标下方,Low
+Vertical,Vertical Item Min Height,64px,垂直步骤最小高度,垂直步骤条每项最小高度64px,Medium
+Vertical,Vertical Icon Left,0,垂直图标左侧位置,垂直步骤条图标左对齐,Medium
+Vertical,Vertical Content Left,44px,垂直内容左侧位置,垂直步骤条内容距左侧44px,Medium
+Vertical,Vertical Connector Height,auto,垂直连接线高度,垂直连接线高度自适应,Medium
+Vertical,Vertical Connector Left,16px,垂直连接线左侧位置,垂直连接线距左侧16px,Medium
+Vertical,Vertical Gap,24px,垂直步骤间距,垂直步骤条步骤间距24px,Medium
+Horizontal,Horizontal Item Width,auto,水平步骤宽度,水平步骤条每项宽度自适应,Medium
+Horizontal,Horizontal Item Min Width,120px,水平步骤最小宽度,水平步骤条每项最小宽度120px,Medium
+Horizontal,Horizontal Item Flex,1,水平步骤弹性,水平步骤条每项等分,High
+Horizontal,Horizontal Gap,16px,水平步骤间距,水平步骤条步骤间距16px,Medium
+Horizontal,Horizontal Align,center,水平对齐方式,水平步骤条居中对齐,Medium
+Horizontal,Horizontal Connector Width,auto,水平连接线宽度,水平连接线宽度自适应,Medium
+LabelPlacement,Label Horizontal,水平标签,水平标签位置,标签在图标右侧水平排列,Medium
+LabelPlacement,Label Vertical,垂直标签,垂直标签位置,标签在图标下方垂直排列,High
+LabelPlacement,Label Horizontal Gap,12px,水平标签间距,水平标签与图标间距12px,Medium
+LabelPlacement,Label Vertical Gap,8px,垂直标签间距,垂直标签与图标间距8px,Medium
+Clickable,Clickable Enable,true,可点击,步骤条支持点击切换,Medium
+Clickable,Clickable Cursor,pointer,可点击光标,可点击步骤指针光标,Low
+Clickable,Clickable Hover Background,#F2F3F5,可点击悬停背景,可点击步骤悬停灰色背景,Low
+Clickable,Clickable Disabled Cursor,not-allowed,禁用点击光标,禁用步骤禁止光标,Low
+Clickable,Clickable Finished Only,true,仅完成可点击,仅已完成步骤可点击,Medium
+SubStep,SubStep Show,true,显示子步骤,步骤条支持显示子步骤,Low
+SubStep,SubStep Indent,44px,子步骤缩进,子步骤缩进44px,Low
+SubStep,SubStep Icon Size,16px,子步骤图标大小,子步骤图标16px,Low
+SubStep,SubStep Title Font Size,13px,子步骤标题字号,子步骤标题13px,Low
+SubStep,SubStep Connector Width,1px,子步骤连接线宽度,子步骤连接线1px,Low
+Animation,Step Transition,0.3s,步骤过渡,步骤状态切换动画0.3s,Medium
+Animation,Icon Transition,0.2s,图标过渡,图标状态过渡0.2s,Low
+Animation,Connector Transition,0.3s,连接线过渡,连接线颜色过渡0.3s,Low
+Animation,Progress Transition,0.3s ease,进度过渡,进度条动画0.3s,Low
+Responsive,Responsive Breakpoint,768px,响应式断点,小于768px切换移动端样式,Medium
+Responsive,Mobile Direction,vertical,移动端方向,移动端步骤条垂直排列,Medium
+Responsive,Mobile Icon Size,24px,移动端图标大小,移动端步骤图标24px,Medium
+Responsive,Mobile Title Size,13px,移动端标题大小,移动端步骤标题13px,Medium
+Responsive,Mobile Compact,true,移动端紧凑,移动端使用紧凑样式,Low
+Accessibility,Steps Role,navigation,步骤条角色,步骤条ARIA角色navigation,High
+Accessibility,Step Role,listitem,步骤项角色,步骤项ARIA角色listitem,High
+Accessibility,Aria Current,step,当前步骤,当前步骤aria-current=step,Medium
+Accessibility,Aria Label,步骤 X 共 Y 步,无障碍标签,步骤无障碍标签格式,Medium
+Accessibility,Keyboard Navigation,true,键盘导航,支持键盘左右箭头导航,High
+Accessibility,Focus Ring,0 0 0 2px #165DFF40,焦点环,键盘焦点蓝色环,High
+ZIndex,Steps ZIndex,1,步骤条层级,步骤条z-index 1,Low
+Guideline,Primary Color,#165DFF,主色调,步骤条主色调蓝色#165DFF,High
+Guideline,Success Color,#00B42A,成功色,成功状态绿色#00B42A,Medium
+Guideline,Error Color,#F53F3F,错误色,错误状态红色#F53F3F,High
+Guideline,Text Primary,#1D2129,主要文字色,主要文字颜色#1D2129,High
+Guideline,Text Regular,#4E5969,常规文字色,常规文字颜色#4E5969,High
+Guideline,Text Secondary,#86909C,次要文字色,次要文字颜色#86909C,Medium
+Guideline,Border Color,#E5E6EB,边框色,边框颜色#E5E6EB,High
+Guideline,Background Wait,#F2F3F5,等待背景色,等待状态背景#F2F3F5,High
+Guideline,Background Active,#E8F3FF,激活背景色,激活状态背景#E8F3FF,Medium

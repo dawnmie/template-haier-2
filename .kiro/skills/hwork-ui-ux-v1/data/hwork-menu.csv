@@ -1,0 +1,276 @@
+Category,Name,Value,Usage,Description,Severity
+Purpose,Navigation Position,让用户明确知晓当前所处产品中的位置,导航定位,让用户明确知晓当前所处产品中的位置,High
+Purpose,Quick Access,方便快捷地带用户到他想去的地方,快速访问,方便快捷地带用户到他想去的地方,High
+Header,Header Height,48px,顶部导航高度,顶部导航栏高度48px,High
+Header,Header Background,#165DFF,顶部导航背景,顶部导航蓝色背景#165DFF,High
+Header,Header Text Color,#FFFFFF,顶部导航文字,顶部导航白色文字,High
+Header,Header Logo Width,120px,Logo宽度,Logo区域宽度120px,Medium
+Header,Header Logo Height,32px,Logo高度,Logo高度32px,Medium
+Header,Header Menu Gap,24px,顶部菜单间距,顶部菜单项间距24px,Medium
+Header,Header Menu Item Height,48px,顶部菜单项高度,顶部菜单项高度与导航栏一致,Medium
+Header,Header Menu Item Padding,0 16px,顶部菜单项内边距,顶部菜单项左右内边距16px,Medium
+Header,Header Menu Item Hover,rgba(255 255 255 0.1),顶部菜单项悬停,顶部菜单项悬停半透明白色背景,Medium
+Header,Header Menu Item Active,rgba(255 255 255 0.2),顶部菜单项激活,顶部菜单项激活半透明白色背景,Medium
+Header,Header Right Actions,搜索/通知/用户,顶部右侧操作,顶部导航右侧操作区域,Medium
+Header,Header Search Icon,SearchOutlined,搜索图标,顶部搜索图标,Low
+Header,Header Notification Icon,BellOutlined,通知图标,顶部通知图标,Medium
+Header,Header Notification Badge,red dot,通知徽标,通知图标红点徽标,Medium
+Sider,Sider Width Expanded,208px,侧边栏展开宽度,侧边栏展开状态宽度208px,High
+Sider,Sider Width Collapsed,48px,侧边栏收起宽度,侧边栏收起状态宽度48px,High
+Sider,Sider Background,#165DFF,侧边栏背景,侧边栏蓝色背景#165DFF,High
+Sider,Sider Text Color,rgba(255 255 255 0.65),侧边栏文字,侧边栏半透明白色文字,High
+Sider,Sider Text Hover,#FFFFFF,侧边栏文字悬停,侧边栏悬停白色文字,High
+Sider,Sider Text Active,#FFFFFF,侧边栏文字激活,侧边栏激活白色文字,High
+Sider,Sider Icon Size,16px,侧边栏图标大小,侧边栏菜单图标16px,Medium
+Sider,Sider Icon Color,rgba(255 255 255 0.65),侧边栏图标颜色,侧边栏图标半透明白色,Medium
+Sider,Sider Icon Active,#FFFFFF,侧边栏图标激活,侧边栏激活图标白色,Medium
+Sider,Sider Collapse Button,bottom,收起按钮位置,侧边栏收起按钮在底部,Medium
+Sider,Sider Collapse Icon,MenuFoldOutlined/MenuUnfoldOutlined,收起按钮图标,侧边栏收起/展开图标,Low
+MenuItem,Menu Item Height,40px,菜单项高度,侧边栏菜单项高度40px,High
+MenuItem,Menu Item Padding,0 16px,菜单项内边距,菜单项左右内边距16px,Medium
+MenuItem,Menu Item Margin,4px 8px,菜单项外边距,菜单项上下左右外边距,Medium
+MenuItem,Menu Item Border Radius,4px,菜单项圆角,菜单项圆角4px,Medium
+MenuItem,Menu Item Font Size,14px,菜单项字号,菜单项文字14px,High
+MenuItem,Menu Item Icon Gap,8px,菜单项图标间距,图标与文字间距8px,Medium
+MenuItem,Menu Item Hover Background,rgba(255 255 255 0.1),菜单项悬停背景,菜单项悬停半透明白色背景,High
+MenuItem,Menu Item Active Background,rgba(255 255 255 0.2),菜单项激活背景,菜单项激活半透明白色背景,High
+MenuItem,Menu Item Selected Background,#FFFFFF,菜单项选中背景,菜单项选中白色背景,High
+MenuItem,Menu Item Selected Color,#165DFF,菜单项选中文字,菜单项选中蓝色文字#165DFF,High
+MenuItem,Menu Item Selected Icon,#165DFF,菜单项选中图标,菜单项选中蓝色图标#165DFF,High
+MenuItem,Menu Item Arrow Icon,RightOutlined,菜单项箭头图标,子菜单展开箭头图标,Low
+MenuItem,Menu Item Arrow Size,12px,菜单项箭头大小,子菜单箭头图标12px,Low
+SubMenu,SubMenu Indent,24px,子菜单缩进,子菜单每级缩进24px,Medium
+SubMenu,SubMenu Arrow Rotate,90deg,子菜单箭头旋转,展开时箭头旋转90度,Low
+SubMenu,SubMenu Transition,0.3s,子菜单动画时长,子菜单展开收起动画0.3s,Low
+Dropdown,Dropdown Panel Background,#FFFFFF,下拉面板背景,下拉面板白色背景,High
+Dropdown,Dropdown Panel Shadow,0 6px 16px rgba(0 0 0 0.08),下拉面板阴影,下拉面板阴影效果,High
+Dropdown,Dropdown Panel Border Radius,8px,下拉面板圆角,下拉面板圆角8px,Medium
+Dropdown,Dropdown Panel Padding,8px,下拉面板内边距,下拉面板内边距8px,Medium
+Dropdown,Dropdown Item Height,36px,下拉菜单项高度,下拉菜单项高度36px,Medium
+Dropdown,Dropdown Item Padding,0 12px,下拉菜单项内边距,下拉菜单项左右内边距12px,Medium
+Dropdown,Dropdown Item Hover,#F2F3F5,下拉菜单项悬停,下拉菜单项悬停灰色背景,Medium
+Dropdown,Dropdown Item Active,#E8F3FF,下拉菜单项激活,下拉菜单项激活蓝色背景,Medium
+Dropdown,Dropdown Item Selected,#165DFF,下拉菜单项选中文字,下拉菜单项选中蓝色文字,High
+Dropdown,Dropdown Divider,1px solid #E5E6EB,下拉分割线,下拉菜单分割线样式,Low
+MegaMenu,MegaMenu Panel Width,auto,超级菜单面板宽度,超级菜单面板自适应宽度,High
+MegaMenu,MegaMenu Panel Max Width,1200px,超级菜单最大宽度,超级菜单面板最大宽度1200px,High
+MegaMenu,MegaMenu Panel Background,#FFFFFF,超级菜单背景,超级菜单白色背景,High
+MegaMenu,MegaMenu Panel Shadow,0 6px 20px rgba(0 0 0 0.1),超级菜单阴影,超级菜单面板阴影效果,High
+MegaMenu,MegaMenu Panel Border Radius,8px,超级菜单圆角,超级菜单面板圆角8px,Medium
+MegaMenu,MegaMenu Column Width,200px,超级菜单列宽,超级菜单每列宽度200px,Medium
+MegaMenu,MegaMenu Column Gap,24px,超级菜单列间距,超级菜单列间距24px,Medium
+MegaMenu,MegaMenu Group Title,14px bold #1D2129,超级菜单分组标题,超级菜单分组标题样式,High
+MegaMenu,MegaMenu Group Title Margin,0 0 8px 0,超级菜单分组标题边距,分组标题下边距8px,Medium
+MegaMenu,MegaMenu Item Font Size,14px,超级菜单项字号,超级菜单项文字14px,Medium
+MegaMenu,MegaMenu Item Color,#4E5969,超级菜单项颜色,超级菜单项灰色文字,Medium
+MegaMenu,MegaMenu Item Hover Color,#165DFF,超级菜单项悬停颜色,超级菜单项悬停蓝色文字,Medium
+MegaMenu,MegaMenu Item Line Height,32px,超级菜单项行高,超级菜单项行高32px,Medium
+MegaMenu,MegaMenu Highlight Background,linear-gradient(135deg #E8F7E8 #F0FFF0),超级菜单高亮背景,超级菜单高亮区域渐变绿色背景,Medium
+MegaMenu,MegaMenu Highlight Border Radius,8px,超级菜单高亮圆角,超级菜单高亮区域圆角8px,Medium
+MegaMenu,MegaMenu Badge,#FF4D4F,超级菜单徽标,超级菜单NEW/HOT徽标红色,Medium
+MegaMenu,MegaMenu Badge Font Size,10px,超级菜单徽标字号,超级菜单徽标文字10px,Low
+MegaMenu,MegaMenu Badge Padding,2px 6px,超级菜单徽标内边距,超级菜单徽标内边距,Low
+MegaMenu,MegaMenu Badge Border Radius,10px,超级菜单徽标圆角,超级菜单徽标圆角10px,Low
+Responsive,Breakpoint XL,1920px,超大屏断点,1920px及以上超大屏布局,High
+Responsive,Breakpoint LG,1440px,大屏断点,1440px大屏布局,High
+Responsive,Breakpoint MD,992px,中屏断点,992px中屏布局,High
+Responsive,Breakpoint SM,768px,小屏断点,768px小屏布局,High
+Responsive,Layout XL Fixed Width,208px,超大屏固定区域,1920px以上侧边栏固定208px,High
+Responsive,Layout XL Adaptive,calc(100% - 208px),超大屏适配区域,1920px以上内容区域自适应,High
+Responsive,Layout LG Fixed Width,208px,大屏固定区域,1440px侧边栏固定208px,High
+Responsive,Layout LG Adaptive,calc(100% - 208px),大屏适配区域,1440px内容区域自适应宽度280px起,High
+Responsive,Layout MD Fixed Width,208px,中屏固定区域,992px以下侧边栏固定208px,High
+Responsive,Layout MD Adaptive,calc(100% - 208px),中屏适配区域,992px以下内容区域最小宽度784px,High
+Responsive,Layout Right Panel,固定区域/比例适配,右侧面板布局,右侧面板固定或比例适配,Medium
+Responsive,Content Min Width,784px,内容最小宽度,内容区域最小宽度784px,High
+SiderInteraction,Sider Expand Trigger,hover/click,侧边栏展开触发,一级有收缩点击展开/二级有收缩悬停展开,High
+SiderInteraction,Sider Expand Animation,0.2s ease,侧边栏展开动画,侧边栏展开收起动画0.2s,Medium
+SiderInteraction,Sider Level 1 Behavior,点击展开,一级菜单行为,一级有收缩点击展开没有则打开,High
+SiderInteraction,Sider Level 2 Behavior,悬停展开,二级菜单行为,二级有收缩悬停展开没有则打开,High
+SiderInteraction,Sider Keep Expanded,true,菜单展开保持,菜单展开时切页面保持状态,Medium
+SiderInteraction,Sider Scroll Behavior,内部滚动,侧边栏滚动,侧边栏内容超出时内部滚动,Medium
+SpaceSwitcher,Space Switcher Width,208px,空间切换器宽度,空间切换器宽度与侧边栏一致,High
+SpaceSwitcher,Space Switcher Background,#165DFF,空间切换器背景,空间切换器蓝色背景,High
+SpaceSwitcher,Space Switcher Height,48px,空间切换器高度,空间切换器高度48px,Medium
+SpaceSwitcher,Space Switcher Padding,8px 12px,空间切换器内边距,空间切换器内边距,Medium
+SpaceSwitcher,Space Switcher Dropdown Background,#FFFFFF,空间切换下拉背景,空间切换下拉白色背景,High
+SpaceSwitcher,Space Switcher Dropdown Shadow,0 6px 16px rgba(0 0 0 0.12),空间切换下拉阴影,空间切换下拉阴影效果,Medium
+SpaceSwitcher,Space Switcher Dropdown Border Radius,8px,空间切换下拉圆角,空间切换下拉圆角8px,Medium
+SpaceSwitcher,Space Switcher Item Height,40px,空间切换项高度,空间切换项高度40px,Medium
+SpaceSwitcher,Space Switcher Item Hover,#F2F3F5,空间切换项悬停,空间切换项悬停灰色背景,Medium
+SpaceSwitcher,Space Switcher Item Selected,#E8F3FF,空间切换项选中,空间切换项选中蓝色背景,High
+SpaceSwitcher,Space Switcher Search,true,空间切换搜索,空间切换器支持搜索功能,Medium
+SpaceSwitcher,Space Switcher Search Height,32px,空间切换搜索高度,空间切换搜索框高度32px,Low
+SpaceSwitcher,Space Switcher Icon,SwapOutlined,空间切换图标,空间切换下拉箭头图标,Low
+ScrollBar,ScrollBar Width,6px,滚动条宽度,侧边栏滚动条宽度6px,Medium
+ScrollBar,ScrollBar Background,transparent,滚动条背景,滚动条轨道透明背景,Low
+ScrollBar,ScrollBar Thumb,rgba(255 255 255 0.3),滚动条滑块,滚动条滑块半透明白色,Medium
+ScrollBar,ScrollBar Thumb Hover,rgba(255 255 255 0.5),滚动条滑块悬停,滚动条滑块悬停更亮,Medium
+ScrollBar,ScrollBar Border Radius,3px,滚动条圆角,滚动条滑块圆角3px,Low
+Avatar,Avatar Size Default,32px,头像默认大小,头像默认尺寸32px,High
+Avatar,Avatar Size Small,24px,头像小尺寸,头像小尺寸24px,Medium
+Avatar,Avatar Size Large,40px,头像大尺寸,头像大尺寸40px,Medium
+Avatar,Avatar Background,#165DFF,头像背景色,头像蓝色背景#165DFF,High
+Avatar,Avatar Text Color,#FFFFFF,头像文字颜色,头像白色文字,High
+Avatar,Avatar Font Size,14px,头像文字大小,头像文字14px,Medium
+Avatar,Avatar Border Radius,50%,头像圆角,头像圆形50%,High
+Avatar,Avatar Display Rule,显示名字最后1-2字,头像显示规则,默认显示名字最后1字/2字中英文最多2字,High
+Avatar,Avatar Fallback,姓名首字母,头像降级显示,无图片时显示姓名首字母,Medium
+AvatarDropdown,Avatar Dropdown Width,280px,头像下拉宽度,头像下拉面板宽度280px,High
+AvatarDropdown,Avatar Dropdown Background,#FFFFFF,头像下拉背景,头像下拉白色背景,High
+AvatarDropdown,Avatar Dropdown Shadow,0 6px 16px rgba(0 0 0 0.12),头像下拉阴影,头像下拉阴影效果,Medium
+AvatarDropdown,Avatar Dropdown Border Radius,8px,头像下拉圆角,头像下拉圆角8px,Medium
+AvatarDropdown,Avatar Dropdown Padding,16px,头像下拉内边距,头像下拉内边距16px,Medium
+AvatarDropdown,Avatar Info Section Height,auto,头像信息区高度,头像信息区域自适应高度,Medium
+AvatarDropdown,Avatar Info Avatar Size,48px,头像信息头像大小,下拉面板中头像48px,Medium
+AvatarDropdown,Avatar Info Name Font,16px bold #1D2129,头像信息姓名样式,姓名16px加粗深色,High
+AvatarDropdown,Avatar Info ID Font,12px #86909C,头像信息工号样式,工号12px灰色,Medium
+AvatarDropdown,Avatar Info Label Font,12px #86909C,头像信息标签样式,部门/职位标签12px灰色,Medium
+AvatarDropdown,Avatar Info Value Font,12px #1D2129,头像信息值样式,部门/职位值12px深色,Medium
+AvatarDropdown,Avatar Info Email Font,12px #165DFF,头像信息邮箱样式,邮箱12px蓝色可点击,Medium
+AvatarDropdown,Avatar Dropdown Divider,1px solid #E5E6EB,头像下拉分割线,头像下拉分割线样式,Low
+AvatarDropdown,Avatar Action Item Height,36px,头像操作项高度,切换皮肤/退出登录高度36px,Medium
+AvatarDropdown,Avatar Action Item Color,#1D2129,头像操作项颜色,操作项深色文字,Medium
+AvatarDropdown,Avatar Action Item Hover,#F2F3F5,头像操作项悬停,操作项悬停灰色背景,Medium
+AvatarDropdown,Avatar Action Icon Size,16px,头像操作图标大小,操作项图标16px,Low
+AvatarDropdown,Avatar Action Icon Gap,8px,头像操作图标间距,图标与文字间距8px,Low
+AvatarDropdown,Avatar Switch Skin Icon,SkinOutlined,切换皮肤图标,切换皮肤操作图标,Low
+AvatarDropdown,Avatar Logout Icon,LogoutOutlined,退出登录图标,退出登录操作图标,Low
+AvatarDropdown,Avatar Logout Color,#F53F3F,退出登录颜色,退出登录红色文字,Medium
+AvatarDropdown,Avatar Role Badge Background,#E8F3FF,角色徽标背景,管理员等角色徽标蓝色背景,Medium
+AvatarDropdown,Avatar Role Badge Color,#165DFF,角色徽标颜色,角色徽标蓝色文字,Medium
+AvatarDropdown,Avatar Role Badge Padding,2px 8px,角色徽标内边距,角色徽标内边距,Low
+AvatarDropdown,Avatar Role Badge Border Radius,4px,角色徽标圆角,角色徽标圆角4px,Low
+AvatarDropdown,Avatar Role Badge Font Size,12px,角色徽标字号,角色徽标文字12px,Low
+AvatarDropdown,Avatar Text Ellipsis,true,头像文字省略,长文字超出显示省略号,Medium
+AvatarDropdown,Avatar Text Max Width,180px,头像文字最大宽度,文字最大宽度180px后省略,Medium
+Tabs,Tab Bar Background,#FFFFFF,标签栏背景,标签栏白色背景,High
+Tabs,Tab Bar Height,40px,标签栏高度,标签栏高度40px,High
+Tabs,Tab Bar Border Bottom,1px solid #E5E6EB,标签栏底边框,标签栏底部分割线,Medium
+Tabs,Tab Item Padding,0 16px,标签项内边距,标签项左右内边距16px,Medium
+Tabs,Tab Item Font Size,14px,标签项字号,标签项文字14px,Medium
+Tabs,Tab Item Color,#4E5969,标签项颜色,标签项灰色文字,Medium
+Tabs,Tab Item Hover Color,#165DFF,标签项悬停颜色,标签项悬停蓝色文字,Medium
+Tabs,Tab Item Active Color,#165DFF,标签项激活颜色,标签项激活蓝色文字,High
+Tabs,Tab Item Active Border,2px solid #165DFF,标签项激活边框,标签项激活底部蓝色边框,High
+Tabs,Tab Close Icon,CloseOutlined,标签关闭图标,标签关闭图标,Low
+Tabs,Tab Close Icon Size,12px,标签关闭图标大小,标签关闭图标12px,Low
+Tabs,Tab Close Icon Color,#86909C,标签关闭图标颜色,标签关闭图标灰色,Low
+Tabs,Tab Close Icon Hover,#F53F3F,标签关闭图标悬停,标签关闭图标悬停红色,Low
+Breadcrumb,Breadcrumb Height,22px,面包屑高度,面包屑行高22px,Medium
+Breadcrumb,Breadcrumb Font Size,14px,面包屑字号,面包屑文字14px,Medium
+Breadcrumb,Breadcrumb Color,#86909C,面包屑颜色,面包屑灰色文字,Medium
+Breadcrumb,Breadcrumb Active Color,#1D2129,面包屑激活颜色,面包屑当前页深色文字,High
+Breadcrumb,Breadcrumb Link Hover,#165DFF,面包屑链接悬停,面包屑链接悬停蓝色,Medium
+Breadcrumb,Breadcrumb Separator,/,面包屑分隔符,面包屑分隔符斜杠,Low
+Breadcrumb,Breadcrumb Separator Color,#C9CDD4,面包屑分隔符颜色,面包屑分隔符浅灰色,Low
+Breadcrumb,Breadcrumb Separator Margin,0 8px,面包屑分隔符边距,面包屑分隔符左右边距8px,Low
+Notification,Notification Icon Size,20px,通知图标大小,通知图标20px,Medium
+Notification,Notification Badge Size,8px,通知徽标大小,通知红点徽标8px,Medium
+Notification,Notification Badge Color,#F53F3F,通知徽标颜色,通知红点颜色,High
+Notification,Notification Badge Position,top-right,通知徽标位置,通知徽标右上角,Medium
+Notification,Notification Count Background,#F53F3F,通知数量背景,通知数量红色背景,High
+Notification,Notification Count Color,#FFFFFF,通知数量颜色,通知数量白色文字,High
+Notification,Notification Count Font Size,10px,通知数量字号,通知数量文字10px,Low
+Notification,Notification Count Min Width,16px,通知数量最小宽度,通知数量最小宽度16px,Low
+Notification,Notification Count Border Radius,8px,通知数量圆角,通知数量圆角8px,Low
+Search,Search Input Height,32px,搜索框高度,搜索框高度32px,Medium
+Search,Search Input Background,rgba(255 255 255 0.1),搜索框背景,搜索框半透明白色背景,Medium
+Search,Search Input Border,none,搜索框边框,搜索框无边框,Low
+Search,Search Input Border Radius,4px,搜索框圆角,搜索框圆角4px,Medium
+Search,Search Input Placeholder,#FFFFFF80,搜索框占位符,搜索框占位符半透明白色,Low
+Search,Search Input Text Color,#FFFFFF,搜索框文字颜色,搜索框白色文字,Medium
+Search,Search Icon Size,16px,搜索图标大小,搜索图标16px,Low
+Search,Search Icon Color,#FFFFFF,搜索图标颜色,搜索图标白色,Low
+ColorScheme,Primary Color,#165DFF,主色,品牌主色蓝色#165DFF,High
+ColorScheme,Primary Hover,#4080FF,主色悬停,主色悬停浅蓝色,High
+ColorScheme,Primary Active,#0E42D2,主色激活,主色激活深蓝色,High
+ColorScheme,Success Color,#00B42A,成功色,成功状态绿色,High
+ColorScheme,Warning Color,#FF7D00,警告色,警告状态橙色,High
+ColorScheme,Error Color,#F53F3F,错误色,错误状态红色,High
+ColorScheme,Text Primary,#1D2129,主文字色,主要文字深色,High
+ColorScheme,Text Secondary,#4E5969,次文字色,次要文字灰色,High
+ColorScheme,Text Tertiary,#86909C,三级文字色,辅助文字浅灰色,Medium
+ColorScheme,Text Disabled,#C9CDD4,禁用文字色,禁用状态文字色,Medium
+ColorScheme,Border Color,#E5E6EB,边框色,默认边框颜色,High
+ColorScheme,Border Hover,#C9CDD4,边框悬停色,边框悬停颜色,Medium
+ColorScheme,Background Primary,#FFFFFF,主背景色,主要背景白色,High
+ColorScheme,Background Secondary,#F7F8FA,次背景色,次要背景浅灰色,High
+ColorScheme,Background Tertiary,#F2F3F5,三级背景色,三级背景灰色,Medium
+ColorScheme,Background Hover,#E8F3FF,悬停背景色,悬停状态蓝色背景,Medium
+ColorScheme,Background Selected,#E8F3FF,选中背景色,选中状态蓝色背景,High
+MegaMenuPanel,Panel Section Background Green,linear-gradient(135deg #E8F7E8 0% #F0FFF0 100%),面板区块绿色背景,超级菜单绿色渐变区块背景,Medium
+MegaMenuPanel,Panel Section Background Blue,linear-gradient(135deg #E8F3FF 0% #F0F7FF 100%),面板区块蓝色背景,超级菜单蓝色渐变区块背景,Medium
+MegaMenuPanel,Panel Section Background Purple,linear-gradient(135deg #F5E8FF 0% #FAF0FF 100%),面板区块紫色背景,超级菜单紫色渐变区块背景,Medium
+MegaMenuPanel,Panel Section Background Orange,linear-gradient(135deg #FFF7E8 0% #FFFAF0 100%),面板区块橙色背景,超级菜单橙色渐变区块背景,Medium
+MegaMenuPanel,Panel Section Padding,16px,面板区块内边距,超级菜单区块内边距16px,Medium
+MegaMenuPanel,Panel Section Border Radius,8px,面板区块圆角,超级菜单区块圆角8px,Medium
+MegaMenuPanel,Panel Section Title Font,14px bold,面板区块标题字体,超级菜单区块标题14px加粗,Medium
+MegaMenuPanel,Panel Section Title Color,#1D2129,面板区块标题颜色,超级菜单区块标题深色,Medium
+MegaMenuPanel,Panel Section Item Font,13px,面板区块项字体,超级菜单区块项13px,Medium
+MegaMenuPanel,Panel Section Item Color,#4E5969,面板区块项颜色,超级菜单区块项灰色,Medium
+MegaMenuPanel,Panel Section Item Hover,#165DFF,面板区块项悬停,超级菜单区块项悬停蓝色,Medium
+MegaMenuPanel,Panel Section Item Line Height,28px,面板区块项行高,超级菜单区块项行高28px,Medium
+MegaMenuPanel,Panel User Card Width,240px,用户卡片宽度,超级菜单用户卡片宽度240px,Medium
+MegaMenuPanel,Panel User Card Background,#FFFFFF,用户卡片背景,超级菜单用户卡片白色背景,Medium
+MegaMenuPanel,Panel User Card Shadow,0 2px 8px rgba(0 0 0 0.08),用户卡片阴影,超级菜单用户卡片阴影,Medium
+MegaMenuPanel,Panel User Card Border Radius,8px,用户卡片圆角,超级菜单用户卡片圆角8px,Medium
+MegaMenuPanel,Panel User Card Padding,16px,用户卡片内边距,超级菜单用户卡片内边距16px,Medium
+MegaMenuPanel,Panel User Avatar Size,64px,用户头像大小,超级菜单用户头像64px,Medium
+MegaMenuPanel,Panel User Name Font,16px bold #1D2129,用户姓名样式,超级菜单用户姓名16px加粗,Medium
+MegaMenuPanel,Panel User Info Font,12px #86909C,用户信息样式,超级菜单用户信息12px灰色,Medium
+Animation,Menu Expand Duration,0.2s,菜单展开时长,菜单展开动画0.2s,Medium
+Animation,Menu Expand Easing,ease-in-out,菜单展开缓动,菜单展开缓动函数,Low
+Animation,Dropdown Show Duration,0.15s,下拉显示时长,下拉菜单显示动画0.15s,Medium
+Animation,Dropdown Hide Duration,0.1s,下拉隐藏时长,下拉菜单隐藏动画0.1s,Medium
+Animation,Hover Transition,0.2s,悬停过渡时长,悬停状态过渡0.2s,Medium
+Animation,Color Transition,0.15s,颜色过渡时长,颜色变化过渡0.15s,Low
+Animation,Transform Transition,0.2s,变换过渡时长,变换动画过渡0.2s,Low
+ZIndex,Header ZIndex,100,顶部导航层级,顶部导航z-index 100,High
+ZIndex,Sider ZIndex,99,侧边栏层级,侧边栏z-index 99,High
+ZIndex,Dropdown ZIndex,1050,下拉菜单层级,下拉菜单z-index 1050,High
+ZIndex,Modal ZIndex,1000,弹窗层级,弹窗z-index 1000,High
+ZIndex,Tooltip ZIndex,1070,提示层级,提示z-index 1070,Medium
+ZIndex,Message ZIndex,1010,消息层级,消息z-index 1010,Medium
+Interaction,Click Feedback,scale(0.98),点击反馈,点击时轻微缩放反馈,Low
+Interaction,Focus Ring,0 0 0 2px #165DFF40,焦点环,键盘焦点蓝色环,High
+Interaction,Disabled Opacity,0.5,禁用透明度,禁用状态50%透明度,Medium
+Interaction,Cursor Pointer,pointer,可点击光标,可点击元素指针光标,High
+Interaction,Cursor Not Allowed,not-allowed,禁用光标,禁用状态禁止光标,Medium
+ChatPanel,Chat Panel Width,360px,聊天面板宽度,右侧聊天面板宽度360px,High
+ChatPanel,Chat Panel Background,#FFFFFF,聊天面板背景,聊天面板白色背景,High
+ChatPanel,Chat Panel Shadow,-6px 0 16px rgba(0 0 0 0.08),聊天面板阴影,聊天面板左侧阴影,Medium
+ChatPanel,Chat Header Height,56px,聊天头部高度,聊天面板头部高度56px,Medium
+ChatPanel,Chat Header Background,#F7F8FA,聊天头部背景,聊天面板头部灰色背景,Medium
+ChatPanel,Chat Header Title Font,16px bold #1D2129,聊天头部标题,聊天面板标题16px加粗,Medium
+ChatPanel,Chat Message Padding,12px 16px,聊天消息内边距,聊天消息内边距,Medium
+ChatPanel,Chat Message Background Self,#E8F3FF,自己消息背景,自己发送消息蓝色背景,Medium
+ChatPanel,Chat Message Background Other,#F2F3F5,他人消息背景,他人发送消息灰色背景,Medium
+ChatPanel,Chat Message Border Radius,8px,聊天消息圆角,聊天消息圆角8px,Medium
+ChatPanel,Chat Message Font Size,14px,聊天消息字号,聊天消息文字14px,Medium
+ChatPanel,Chat Message Time Font,12px #86909C,聊天时间样式,聊天时间12px灰色,Low
+ChatPanel,Chat Input Height,48px,聊天输入框高度,聊天输入框高度48px,Medium
+ChatPanel,Chat Input Background,#FFFFFF,聊天输入框背景,聊天输入框白色背景,Medium
+ChatPanel,Chat Input Border,1px solid #E5E6EB,聊天输入框边框,聊天输入框边框,Medium
+ChatPanel,Chat Input Border Radius,24px,聊天输入框圆角,聊天输入框圆角24px,Medium
+ChatPanel,Chat Send Button Size,32px,发送按钮大小,聊天发送按钮32px,Medium
+ChatPanel,Chat Send Button Background,#165DFF,发送按钮背景,聊天发送按钮蓝色背景,Medium
+ChatPanel,Chat Send Button Icon Color,#FFFFFF,发送按钮图标颜色,聊天发送按钮白色图标,Medium
+Accessibility,Focus Visible Outline,2px solid #165DFF,键盘焦点轮廓,键盘导航焦点轮廓,High
+Accessibility,Skip Link,position absolute top -40px,跳过链接,跳过导航链接样式,Medium
+Accessibility,Min Touch Target,44px,最小触摸目标,移动端最小触摸目标44px,High
+Accessibility,Color Contrast Ratio,4.5:1,颜色对比度,文字颜色对比度至少4.5:1,High
+Accessibility,Reduced Motion,prefers-reduced-motion,减少动画,尊重用户减少动画偏好,Medium
+Accessibility,Screen Reader Only,sr-only class,屏幕阅读器专用,仅屏幕阅读器可见样式,Medium
+IconSet,Menu Icon Set,Outlined,菜单图标集,菜单使用线性图标,High
+IconSet,Menu Icon Size,16px,菜单图标大小,菜单图标16px,High
+IconSet,Menu Icon Stroke Width,1.5px,菜单图标线宽,菜单图标线宽1.5px,Medium
+IconSet,Action Icon Set,Outlined,操作图标集,操作按钮使用线性图标,High
+IconSet,Action Icon Size,20px,操作图标大小,操作图标20px,Medium
+IconSet,Brand Icon Set,Filled,品牌图标集,品牌Logo使用填充图标,Medium
+Typography,Menu Font Family,PingFang SC/Microsoft YaHei/sans-serif,菜单字体族,菜单使用系统字体,High
+Typography,Menu Font Weight Normal,400,菜单正常字重,菜单正常文字400字重,Medium
+Typography,Menu Font Weight Medium,500,菜单中等字重,菜单中等文字500字重,Medium
+Typography,Menu Font Weight Bold,600,菜单加粗字重,菜单加粗文字600字重,Medium
+Typography,Menu Line Height,1.5,菜单行高,菜单文字行高1.5,Medium
+Typography,Menu Letter Spacing,0,菜单字间距,菜单文字无额外字间距,Low
