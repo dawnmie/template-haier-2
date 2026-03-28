@@ -78,7 +78,7 @@ import { ConfigProvider } from '@hwork/ant-design-vue'
 
 > **📁 目录规范**: **表 DDL** → `sqls/tables/` 或 `powerbase/migrations/`；**存储过程/函数 DDL** → `sqls/routines/`。版本切换、回滚时会按 `sqls/routines/` 恢复，请严格遵守。
 
-> **📌 开发方式**: **默认只在根路径 `/` 上开发**：在 `src/views/welcome.vue`（或把根路由组件换成你的单页入口）中实现界面与业务逻辑。**非必要不要新增路由**；若产品确实需要多页面，再在 `src/router/index.js` 中补充路由，并新增对应视图文件。
+> **📌 开发方式**: **默认只在根路径 `/` 上开发**：在 `src/views/index.vue`（或把根路由组件换成你的单页入口）中实现界面与业务逻辑。**非必要不要新增路由**；若产品确实需要多页面，再在 `src/router/index.js` 中补充路由，并新增对应视图文件。
 
 > **🔑 环境变量**: 对接实例时配置 **`VITE_SUPABASE_ANON_KEY`**（匿名密钥）。**生产构建**须在对应 `.env.*` 中配置 **`VITE_OBAAS_INSTANCE_ID`**，用于拼接 `origin + /rd/obaas/instances/{id}`；**Vite 开发模式**下 Supabase URL 仅为 `origin`（不加该前缀）。见 `src/services/supabase.js`。
 
