@@ -6,8 +6,6 @@ alwaysApply: true
 
 # UI 开发规范（沙箱可安装）
 
-模板使用 **公共 npm** 的 **`@hwork/ant-design-vue` 4.x**（`.npmrc` 指向 `registry.npmmirror.com`），避免海尔内网 `@hwork/*` 源超时。若接入 Hwork 主应用，可按需改回内网包与业务组件。
-
 > **📂 工作目录（OpenCode / 文件类工具）**: 沙箱内**工程根目录**为 **`/home/user/project`**。列举、读取、编辑文件时请使用该路径下的绝对路径（例如 `/home/user/project/apps/web/src/...`）。**不要**单独使用 **`/src`**——在 Linux 上那是**系统根目录**下的 `/src`，不是本仓库路径，易触发权限错误（如 `PermissionRejectedError`）。
 
 ## 组件库
