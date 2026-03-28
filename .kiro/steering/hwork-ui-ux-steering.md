@@ -5,7 +5,7 @@
 ## 组件库
 
 - 使用 **`ant-design-vue`**
-- 列表页用 **`a-card` + `a-form` + `a-table`** 等标准组件（参考 `src/views/route-config.vue`）
+- 列表页用 **`a-card` + `a-form` + `a-table`** 等标准组件；表单提交示例见 **`src/examples/antd-form-submit.vue`**
 
 ## 导入规范
 
@@ -42,6 +42,12 @@ import { message, Modal } from 'ant-design-vue'
 ## 页面开发
 
 生成列表页时，使用 Card + Form 查询区 + Table；需要时再引入 `@ant-design/icons-vue`。
+
+### `a-form` 与 `@finish`（避免踩坑）
+
+- **`@finish`** 仅在**校验通过**后触发；无 **`rules`**、**`a-form-item` 无 `name`** 时不要依赖 `@finish` 做提交。
+- 简单场景：提交按钮 **`html-type="button"`** + **`@click`**；**`a-form` 上 `@submit.prevent`** 防止回车原生提交。
+- 需要内置校验：再配 **`rules` + `name`**，再用 **`@finish`** 或 **`html-type="submit"`**。
 
 ## 规范搜索
 

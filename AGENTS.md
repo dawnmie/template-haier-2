@@ -55,6 +55,13 @@ import { ConfigProvider } from 'ant-design-vue'
 - Default: 32px
 - Large: 36px
 
+### `a-form` 提交（易踩坑）
+
+- **`@finish`** 只在**校验通过**后触发。未配置 **`:rules`**、**`a-form-item` 无 `name`**（或未形成可校验字段）时，容易出现「点了没反应」或表现依赖版本，**不要把业务提交只绑在 `@finish` 上**。
+- **无内置校验或自管校验**：提交按钮用 **`html-type="button"`** + **`@click="handleSubmit"`**；外层 **`a-form` 可加 `@submit.prevent`**，避免回车触发原生 `<form>` 提交整页刷新，且**不必**使用 `@finish`。
+- **要用 Ant Design 内置校验**：再配 **`:model` + `:rules`**，各 **`a-form-item` 设 `name`**，此时可用 **`@finish`**，或 **`html-type="submit"`** 走校验通过后进入 `finish`。
+- 可复制示例：**`src/examples/antd-form-submit.vue`**。
+
 ---
 
 # SeekDB BaaS（OBaaS 开发沙箱）数据访问与 SQL
@@ -81,7 +88,7 @@ import { ConfigProvider } from 'ant-design-vue'
 - **数据访问**: 通过 Supabase RPC 调用存储过程（兼容 PostgREST）
 - **文件存储**: 通过 **`supabase.storage`** 访问与 Supabase Storage REST 兼容的 **`/storage/v1`**
 - **API 服务**: 使用 Supabase SDK 的 **`supabase.rpc()`**（表数据）与 **`supabase.storage`**（文件）
-- **客户端**: `src/services/supabase.js`；可复用封装：`src/examples/supabase-rpc.js`、`src/examples/supabase-storage.js`
+- **客户端**: `src/services/supabase.js`；可复用封装：`src/examples/supabase-rpc.js`、`src/examples/supabase-storage.js`；Ant Design 表单提交参考 **`src/examples/antd-form-submit.vue`**
 
 ## 技术栈（节选）
 
