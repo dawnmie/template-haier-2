@@ -110,8 +110,10 @@ if (!Const.IS_HWORK_QIANKUN) {
       })
       window.$hwork_qiankun_styleList = headStyles
 
-      app?.unmount()
-
+      if (app) {
+        app.unmount()
+        app = null
+      }
       if (router) {
         router = null
       }
