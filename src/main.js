@@ -19,6 +19,7 @@ let globals = null
 let hworkJSApi = null
 let container = null
 let EventEmitter = null
+let router
 const i18n = createI18nInstance()
 
 const userInfoStore = userStore()
@@ -110,6 +111,14 @@ if (!Const.IS_HWORK_QIANKUN) {
       window.$hwork_qiankun_styleList = headStyles
 
       app?.unmount()
+
+      if (router) {
+        router = null
+      }
+      // 销毁 history 监听器，避免内存泄漏
+      if (history) {
+        history.destroy()
+      }
     }
   })
 }
@@ -120,9 +129,11 @@ function createDefaultApp(props = {}) {
 
   const branch = (import.meta.env.VITE_GIT_BRANCH || '').trim()
   const isNonMainBranch = branch && branch !== 'main' && branch !== 'master'
-  history = createWebHistory(Const.IS_HWORK_QIANKUN ? props?.routerBase || '' : (isNonMainBranch ? '' : name))
+  history = createWebHistory(
+    Const.IS_HWORK_QIANKUN ? props?.routerBase || '' : isNonMainBranch ? '' : name
+  )
 
-  const router = createRouter({
+  router = createRouter({
     history,
     routes
   })
