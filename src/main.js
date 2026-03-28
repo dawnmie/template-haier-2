@@ -20,6 +20,7 @@ let hworkJSApi = null
 let container = null
 let EventEmitter = null
 let router
+let history = null
 const i18n = createI18nInstance()
 
 const userInfoStore = userStore()
@@ -127,14 +128,12 @@ if (!Const.IS_HWORK_QIANKUN) {
 
 function createDefaultApp(props = {}) {
   // app.config.globalProperties.$echarts = echarts
-  let history = null
 
   const branch = (import.meta.env.VITE_GIT_BRANCH || '').trim()
   const isNonMainBranch = branch && branch !== 'main' && branch !== 'master'
   history = createWebHistory(
     Const.IS_HWORK_QIANKUN ? props?.routerBase || '' : isNonMainBranch ? '' : name
   )
-
   router = createRouter({
     history,
     routes
