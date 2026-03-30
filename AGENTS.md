@@ -4,6 +4,37 @@ globs: []
 alwaysApply: true
 ---
 
+# 🚨 强制技能要求（MANDATORY）
+
+**在进行任何 UI 开发、页面生成、组件使用之前，必须先读取并遵循 `hwork-ui-ux-v1` 技能！**
+
+## 技能文件位置
+
+- **技能主文档**: `.opencode/skills/hwork-ui-ux-v1/SKILL.md`
+- **组件文档目录**: `.opencode/skills/hwork-ui-ux-v1/reference/hwork-ant-design-vue/`
+- **图标列表**: `.opencode/skills/hwork-ui-ux-v1/reference/hwork-icon/references/icon_list.md`
+- **业务组件**: `.opencode/skills/hwork-ui-ux-v1/reference/hwork-business-components/`
+- **设计规范数据**: `.opencode/skills/hwork-ui-ux-v1/data/`
+
+## 强制执行步骤
+
+**每次生成 Vue 页面代码前，必须按顺序执行：**
+
+1. **读取技能文档** → `cat .opencode/skills/hwork-ui-ux-v1/SKILL.md`
+2. **读取相关组件文档** → 根据需求读取 `reference/hwork-ant-design-vue/a-[组件名].md`
+3. **搜索设计规范** → `python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "<关键词>" --category <类别>`
+4. **搜索图标** → `python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "<图标用途>" --category icon`
+
+## 禁止行为
+
+- ❌ 禁止跳过技能文档直接生成代码
+- ❌ 禁止使用 `ant-design-vue`（必须用 `@hwork/ant-design-vue`）
+- ❌ 禁止使用 `@ant-design/icons-vue`（必须用 `@hwork/icon`）
+- ❌ 禁止猜测图标名称（必须搜索确认）
+- ❌ 禁止使用 Ant Design Vue 2.x/3.x 旧语法
+
+---
+
 # UI 开发规范（沙箱可安装）
 
 > **📂 工作目录（OpenCode / 文件类工具）**: 沙箱内**工程根目录**为 **`/home/user/project`**。列举、读取、编辑文件时请使用该路径下的绝对路径（例如 `/home/user/project/apps/web/src/...`）。**不要**单独使用 **`/src`**——在 Linux 上那是**系统根目录**下的 `/src`，不是本仓库路径，易触发权限错误（如 `PermissionRejectedError`）。
