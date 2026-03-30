@@ -56,10 +56,14 @@ function resolveGatewayInstancePathSegment() {
 
 /** 与 createClient 使用的绝对 URL 一致（OAuth authorize 也必须指向此根路径） */
 export function getSupabaseUrl() {
-  const origin = (import.meta.env.VITE_BASE_URL || '').trim().replace(/\/$/, '') || getSiteOrigin()
-  const segment = resolveGatewayInstancePathSegment()
-  if (!segment) return origin
-  return `${origin}/rd/obaas/instances/${segment}`
+  if (Const.IS_HWORK_QIANKUN || location.host.indexOf('preview') === 0){
+    const origin = (import.meta.env.VITE_BASE_URL || '').trim().replace(/\/$/, '') || getSiteOrigin()
+    const segment = resolveGatewayInstancePathSegment()
+    if (!segment) return origin
+    return `${origin}/rd/obaas/instances/${segment}`
+  }else{
+    return location.origin;
+  }
 }
 
 const SUPABASE_URL = getSupabaseUrl()
