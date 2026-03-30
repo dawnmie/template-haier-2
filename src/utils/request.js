@@ -25,6 +25,13 @@ const error2Message = throttle((error) => {
     message = '请求错误'
   } else if ([401, 403].includes(error.response?.status)) {
     message = '登录失效'
+    if (Const.IS_HWORK_QIANKUN) {
+      location.href =
+        location.origin + '/register?redirect_uri=' + encodeURIComponent(location.href)
+    } else {
+      location.href =
+        '/auth/v1/authorize?provider=hwork&redirect_to=' + encodeURIComponent(location.href)
+    }
   } else if (error.response?.status === 404) {
     message = '请求地址错误'
   } else {
