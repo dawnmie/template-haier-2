@@ -1,8 +1,42 @@
 import { ref, onMounted, onUnmounted } from 'vue'
-import { supabase, getSupabaseUrl } from '@/services/supabase'
+import {
+  supabase,
+  getSupabaseUrl,
+  urlAuthBootstrapPromise,
+  isUrlInjectedBearerActive,
+  getUrlInjectedAccessToken,
+  stripCallbackTokensFromBrowserUrl
+} from '@/services/supabase'
 import { getHaierAuthorizeUrl } from '@/services/config'
 
-/** 用 GoTrue 校验 JWT；短延迟二次请求便于微前端异步注入 token / session */
+function jwtPayload(accessToken) {
+  try {
+    const part = accessToken.split('.')[1]
+    if (!part) return null
+    const b64 = part.replace(/-/g, '+').replace(/_/g, '/')
+    const pad = b64.length % 4
+    const padded = pad ? b64 + '='.repeat(4 - pad) : b64
+    return JSON.parse(atob(padded))
+  } catch {
+    return null
+  }
+}
+
+function userStubFromUrlToken(accessToken) {
+  const p = jwtPayload(accessToken)
+  if (!p) {
+    return { id: 'url-bearer', app_metadata: {}, user_metadata: {} }
+  }
+  return {
+    id: String(p.sub ?? 'url-bearer'),
+    email: p.email,
+    app_metadata: p.app_metadata ?? {},
+    user_metadata: p.user_metadata ?? {},
+    aud: p.aud,
+    role: p.role
+  }
+}
+
 async function fetchValidatedUser() {
   const {
     data: { user }
@@ -16,8 +50,8 @@ async function fetchValidatedUser() {
 }
 
 /**
- * 与 template-haier 一致：OAuth 回调带 token 时 setSession；否则依赖持久化 session + Hwork 注入的 Bearer。
- * 仍无用户则整页跳转 hwork OAuth（authorize URL 须指向与 Supabase client 相同的 api 根）。
+ * 与 template-haier 对齐：URL token 走 supabase.js 的 setSession + custom fetch；
+ * setSession 失败但 URL Bearer 仍注入时不再整页跳转 OAuth（仅依赖 Bearer 调 REST）。
  */
 export function useAppAuth() {
   const user = ref(null)
@@ -36,37 +70,16 @@ export function useAppAuth() {
     }
 
     void (async () => {
-      const hash = window.location.hash?.replace(/^#/, '') || ''
-      const search = window.location.search?.replace(/^\?/, '') || ''
-      const params = new URLSearchParams(hash || search)
-      const accessToken = params.get('access_token')
-      const refreshToken = params.get('refresh_token')
-
       try {
-        if (accessToken) {
-          const {
-            data: { session },
-            error
-          } = await supabase.auth.setSession({
-            access_token: accessToken,
-            refresh_token: refreshToken || ''
-          })
-          if (!mounted) return
-          if (error || !session) {
-            redirectToHaierOAuth()
-            return
-          }
-          const {
-            data: { user: validated },
-            error: userErr
-          } = await supabase.auth.getUser()
-          if (!mounted) return
-          if (userErr || !validated) {
-            redirectToHaierOAuth()
-            return
-          }
-          user.value = validated
-          window.history.replaceState(null, '', window.location.pathname + window.location.search)
+        const bootstrap = await urlAuthBootstrapPromise
+        if (!mounted) return
+
+        if (bootstrap?.data?.session?.user) {
+          user.value = bootstrap.data.session.user
+        } else if (isUrlInjectedBearerActive()) {
+          const token = getUrlInjectedAccessToken()
+          user.value = userStubFromUrlToken(token)
+          stripCallbackTokensFromBrowserUrl()
         } else {
           const validated = await fetchValidatedUser()
           if (!mounted) return
@@ -88,6 +101,10 @@ export function useAppAuth() {
         data: { subscription: sub }
       } = supabase.auth.onAuthStateChange(async (event, session) => {
         if (!mounted) return
+        if (isUrlInjectedBearerActive()) {
+          if (session?.user) user.value = session.user
+          return
+        }
         if (!session) {
           user.value = null
           if (event === 'SIGNED_OUT') {

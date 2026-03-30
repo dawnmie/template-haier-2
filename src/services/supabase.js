@@ -1,6 +1,16 @@
 import { createClient } from '@supabase/supabase-js'
 import { resolveHworkBearerToken } from '@/services/hwork-context.js'
 import * as Const from '@/tool/const.js'
+
+const AUTH_LOG = '[obaas-auth]'
+
+function tokenPreview(t) {
+  if (!t || typeof t !== 'string') return '(empty)'
+  const n = t.length
+  if (n <= 12) return `len=${n} <redacted>`
+  return `len=${n} ${t.slice(0, 8)}…${t.slice(-4)}`
+}
+
 /**
  * 页面与应用 API 同源时用 location.origin；若前端与网关不同源，可设 VITE_SUPABASE_PUBLIC_URL。
  */
@@ -58,14 +68,90 @@ export function getSupabaseUrl() {
 const SUPABASE_URL = getSupabaseUrl()
 const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || 'your-anon-key'
 
+function hashQueryString() {
+  const h = window.location.hash?.replace(/^#/, '') || ''
+  if (!h) return ''
+  const qMark = h.indexOf('?')
+  if (qMark !== -1) return h.slice(qMark + 1)
+  if (h.includes('access_token=') || h.includes('refresh_token=')) return h
+  return ''
+}
+
+function parseAuthParamsFromLocation() {
+  if (typeof window === 'undefined') return null
+  const fromSearch = new URLSearchParams(window.location.search)
+  const fromHash = new URLSearchParams(hashQueryString())
+  const accessToken =
+    fromSearch.get('access_token') || fromHash.get('access_token')
+  if (!accessToken) return null
+  const refreshToken =
+    fromSearch.get('refresh_token') || fromHash.get('refresh_token') || ''
+  console.info(
+    AUTH_LOG,
+    'URL callback: access_token (search and/or hash fragment)',
+    tokenPreview(accessToken),
+    'refresh_token:',
+    refreshToken ? tokenPreview(refreshToken) : '(none)'
+  )
+  return { accessToken, refreshToken }
+}
+
+let urlAuthFromCallback =
+  typeof window !== 'undefined' ? parseAuthParamsFromLocation() : null
+
+export function isUrlInjectedBearerActive() {
+  return !!urlAuthFromCallback?.accessToken
+}
+
+export function getUrlInjectedAccessToken() {
+  return urlAuthFromCallback?.accessToken ?? null
+}
+
+const URL_AUTH_STRIP_KEYS = ['access_token', 'refresh_token', 'type', 'expires_in']
+
+export function stripCallbackTokensFromBrowserUrl() {
+  if (typeof window === 'undefined') return
+  const url = new URL(window.location.href)
+  let changed = false
+  for (const k of URL_AUTH_STRIP_KEYS) {
+    if (url.searchParams.has(k)) {
+      url.searchParams.delete(k)
+      changed = true
+    }
+  }
+  const hash = window.location.hash
+  if (hash && (hash.includes('access_token') || hash.includes('refresh_token'))) {
+    const inner = hash.startsWith('#') ? hash.slice(1) : hash
+    const qIdx = inner.indexOf('?')
+    if (qIdx !== -1) {
+      const pathPart = inner.slice(0, qIdx)
+      const sp = new URLSearchParams(inner.slice(qIdx + 1))
+      for (const k of URL_AUTH_STRIP_KEYS) sp.delete(k)
+      const q = sp.toString()
+      url.hash = q ? `#${pathPart}?${q}` : pathPart ? `#${pathPart}` : ''
+    } else {
+      const sp = new URLSearchParams(inner)
+      for (const k of URL_AUTH_STRIP_KEYS) sp.delete(k)
+      const q = sp.toString()
+      url.hash = q ? `#${q}` : ''
+    }
+    changed = true
+  }
+  if (changed) {
+    window.history.replaceState(null, '', url.pathname + url.search + url.hash)
+  }
+}
+
 /**
- * 在 Supabase 未自带 Authorization 时注入 Hwork / iamToken（便于 getUser 等 /auth/v1 请求）。
- * 已有 session 时客户端会设置 Bearer，此处不覆盖。
+ * 1) URL access_token：为 REST/auth 请求注入 Bearer（与是否乾坤无关）。
+ * 2) 否则乾坤下且无 Authorization 时注入 Hwork / iamToken。
  */
 async function supabaseCustomFetch(input, init = {}) {
   const h = init.headers
   const headers = h instanceof Headers ? new Headers(h) : new Headers(h || {})
-  if (Const.IS_HWORK_QIANKUN) {
+  if (urlAuthFromCallback?.accessToken) {
+    headers.set('Authorization', `Bearer ${urlAuthFromCallback.accessToken}`)
+  } else if (!headers.get('Authorization') && Const.IS_HWORK_QIANKUN) {
     const bearer = await resolveHworkBearerToken()
     if (bearer) headers.set('Authorization', `Bearer ${bearer}`)
   }
@@ -76,7 +162,7 @@ export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
   auth: {
     persistSession: true,
     autoRefreshToken: true,
-    detectSessionInUrl: true,
+    detectSessionInUrl: false,
     storageKey: 'supabase-auth-haier2'
   },
   global: {
@@ -84,7 +170,47 @@ export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
   }
 })
 
+export const urlAuthBootstrapPromise = urlAuthFromCallback?.accessToken
+  ? supabase.auth
+      .setSession({
+        access_token: urlAuthFromCallback.accessToken,
+        refresh_token: urlAuthFromCallback.refreshToken || ''
+      })
+      .then(({ error, data }) => {
+        if (!error && data?.session) {
+          urlAuthFromCallback = null
+          if (typeof window !== 'undefined') {
+            window.history.replaceState(
+              null,
+              '',
+              window.location.pathname + window.location.search
+            )
+          }
+          console.info(
+            AUTH_LOG,
+            'setSession from URL OK, user:',
+            data.session.user?.id ?? '(unknown)',
+            'expires_at:',
+            data.session.expires_at ?? '?'
+          )
+        } else if (error) {
+          console.warn(AUTH_LOG, 'setSession from URL failed:', error.message)
+        }
+        return { error, data }
+      })
+      .catch((err) => {
+        console.warn(
+          AUTH_LOG,
+          'setSession from URL error:',
+          err instanceof Error ? err.message : String(err)
+        )
+        return { error: err, data: null }
+      })
+  : Promise.resolve({ error: null, data: null })
+
 export async function getAccessToken() {
+  const fromUrl = getUrlInjectedAccessToken()
+  if (fromUrl) return fromUrl
   const {
     data: { session }
   } = await supabase.auth.getSession()
@@ -92,6 +218,7 @@ export async function getAccessToken() {
 }
 
 export async function signOut() {
+  urlAuthFromCallback = null
   const { error } = await supabase.auth.signOut()
   if (error) throw error
 }
