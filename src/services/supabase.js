@@ -63,7 +63,7 @@ export function getSupabaseUrl() {
 }
 
 const SUPABASE_URL = getSupabaseUrl()
-const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || 'your-anon-key'
+const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || ''
 
 function hashQueryString() {
   const h = window.location.hash?.replace(/^#/, '') || ''
