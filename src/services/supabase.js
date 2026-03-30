@@ -63,7 +63,7 @@ export function getSupabaseUrl() {
 }
 
 const SUPABASE_URL = getSupabaseUrl()
-const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || ''
+const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || 'your-anon-key'
 
 function hashQueryString() {
   const h = window.location.hash?.replace(/^#/, '') || ''
@@ -78,11 +78,9 @@ function parseAuthParamsFromLocation() {
   if (typeof window === 'undefined') return null
   const fromSearch = new URLSearchParams(window.location.search)
   const fromHash = new URLSearchParams(hashQueryString())
-  const accessToken =
-    fromSearch.get('access_token') || fromHash.get('access_token')
+  const accessToken = fromSearch.get('access_token') || fromHash.get('access_token')
   if (!accessToken) return null
-  const refreshToken =
-    fromSearch.get('refresh_token') || fromHash.get('refresh_token') || ''
+  const refreshToken = fromSearch.get('refresh_token') || fromHash.get('refresh_token') || ''
   console.info(
     AUTH_LOG,
     'URL callback: access_token (search and/or hash fragment)',
@@ -93,8 +91,7 @@ function parseAuthParamsFromLocation() {
   return { accessToken, refreshToken }
 }
 
-let urlAuthFromCallback =
-  typeof window !== 'undefined' ? parseAuthParamsFromLocation() : null
+let urlAuthFromCallback = typeof window !== 'undefined' ? parseAuthParamsFromLocation() : null
 
 export function isUrlInjectedBearerActive() {
   return !!urlAuthFromCallback?.accessToken
@@ -148,7 +145,7 @@ async function supabaseCustomFetch(input, init = {}) {
   const headers = h instanceof Headers ? new Headers(h) : new Headers(h || {})
   if (urlAuthFromCallback?.accessToken) {
     headers.set('Authorization', `Bearer ${urlAuthFromCallback.accessToken}`)
-  } else if (!headers.get('Authorization') && Const.IS_HWORK_QIANKUN) {
+  } else if (Const.IS_HWORK_QIANKUN) {
     const bearer = await resolveHworkBearerToken()
     if (bearer) headers.set('Authorization', `Bearer ${bearer}`)
   }
@@ -177,11 +174,7 @@ export const urlAuthBootstrapPromise = urlAuthFromCallback?.accessToken
         if (!error && data?.session) {
           urlAuthFromCallback = null
           if (typeof window !== 'undefined') {
-            window.history.replaceState(
-              null,
-              '',
-              window.location.pathname + window.location.search
-            )
+            window.history.replaceState(null, '', window.location.pathname + window.location.search)
           }
           console.info(
             AUTH_LOG,
