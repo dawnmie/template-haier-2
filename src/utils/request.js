@@ -43,13 +43,18 @@ const error2Message = throttle((error) => {
   }
 }, 3000)
 
+// 优先从 URL search 获取 access_token
+const urlParams = new URLSearchParams(window.location.search)
+const urlAccessToken = urlParams.get('access_token')
+
 service.interceptors.request.use(
   async (config) => {
     if (config.needRefreshToken && window?.hwork?.getToken) {
       const obj = await window.hwork.getToken(config.needRefreshToken)
       console.log('401第二次获取', obj)
     }
-    const hworkToken = hworkJSApi?.getToken()
+
+    const hworkToken = urlAccessToken || hworkJSApi?.getToken()
 
     if (hworkToken) {
       config.headers.Authorization = 'Bearer ' + hworkToken
