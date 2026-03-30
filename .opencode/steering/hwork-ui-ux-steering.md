@@ -1,3 +1,9 @@
+---
+description: Hwork UI/UX 开发规范
+globs: []
+alwaysApply: true
+---
+
 # Hwork UI/UX 开发规范
 
 本项目使用 Hwork UI 设计规范，所有 UI 开发必须遵循以下规则。
@@ -78,5 +84,5 @@ import { Button } from 'ant-design-vue'
 查询设计规范：
 
 ```bash
-python3 ../.kiro/skills/hwork-ui-ux-v1/scripts/search.py "<关键词>" --category <类别>
+python3 ../.opencode/skills/hwork-ui-ux-v1/scripts/search.py "<关键词>" --category <类别>
 ```
