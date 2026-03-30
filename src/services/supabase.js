@@ -41,28 +41,25 @@ function resolveInstanceIdForProd() {
   return resolveInstanceIdFromHost()
 }
 
-/** 构建阶段已注入完整实例 API 根路径（含 /rd/obaas/instances/{id}）时为 true */
-function isFullHworkInstanceApiBase(u) {
-  return typeof u === 'string' && /\/rd\/obaas\/instances\/[^/]+/.test(u)
+/**
+ * 网关把路径段 `/rd/obaas/instances/{segment}` 转发到与实例域名一致的 host：
+ * - main/master：{instanceId}.xxx.com → segment = instanceId
+ * - 其他分支：preview-{branch}--{instanceId}.xxx.com → segment = preview-{branch}--{instanceId}
+ */
+function resolveGatewayInstancePathSegment() {
+  const instanceId = resolveInstanceIdForProd()
+  if (!instanceId) return ''
+  const branch = (import.meta.env.VITE_GIT_BRANCH || '').trim()
+  if (!branch || branch === 'main' || branch === 'master') return instanceId
+  return `preview-${branch}--${instanceId}`
 }
 
 /** 与 createClient 使用的绝对 URL 一致（OAuth authorize 也必须指向此根路径） */
 export function getSupabaseUrl() {
-  if (Const.IS_HWORK_QIANKUN) {
-    const raw = (import.meta.env.VITE_BASE_URL || '').trim().replace(/\/$/, '')
-    const origin = raw || getSiteOrigin()
-    const branch = (import.meta.env.VITE_GIT_BRANCH || '').trim()
-    if (branch && branch !== 'main' && branch !== 'master') {
-      return origin
-    }
-    if (isFullHworkInstanceApiBase(origin)) {
-      return origin
-    }
-    const id = resolveInstanceIdForProd()
-    if (!id) return origin
-    return `${origin}/rd/obaas/instances/${id}`
-  }
-  return getSiteOrigin()
+  const origin = (import.meta.env.VITE_BASE_URL || '').trim().replace(/\/$/, '') || getSiteOrigin()
+  const segment = resolveGatewayInstancePathSegment()
+  if (!segment) return origin
+  return `${origin}/rd/obaas/instances/${segment}`
 }
 
 const SUPABASE_URL = getSupabaseUrl()
