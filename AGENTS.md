@@ -41,8 +41,8 @@ alwaysApply: true
 
 ## 组件库
 
-- 使用 **`@hwork/ant-design-vue`**（基于 Ant Design Vue 4 二次开发）使用方式 ，禁止使用 `ant-design-vue` 组件库。所有可用组件文档阅读 `skills/hwork-ui-ux-v1/reference/hwork-ant-design-vue/a-[组件名称].md`
-- 图标库使用 `@hwork/icon` 禁止使用 `@ant-design/icons-vue`，@hwork/icon 包中的图标是 Web Components 格式，所有图标请阅读 `skills/hwork-ui-ux-v1/reference/hwork-icon/references/icon_list.md`
+- 使用 **`@hwork/ant-design-vue`**（基于 Ant Design Vue 4 二次开发）使用方式 ，禁止使用 `ant-design-vue` 组件库。所有可用组件文档阅读 `.opencode/skills/hwork-ui-ux-v1/reference/hwork-ant-design-vue/a-[组件名称].md`
+- 图标库使用 `@hwork/icon` 禁止使用 `@ant-design/icons-vue`，@hwork/icon 包中的图标是 Web Components 格式，所有图标请阅读 `.opencode/skills/hwork-ui-ux-v1/reference/hwork-icon/references/icon_list.md`
 - 按需自动引入：`@hwork/unplugin-vue-components` + `AntDesignVueResolver`（见 `vite.config.js`）
 
 ## 导入规范

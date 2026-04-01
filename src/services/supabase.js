@@ -56,14 +56,14 @@ function resolveGatewayInstancePathSegment() {
 
 /** 与 createClient 使用的绝对 URL 一致（OAuth authorize 也必须指向此根路径） */
 export function getSupabaseUrl() {
-  if (Const.IS_HWORK_QIANKUN || location.host.indexOf('preview') === 0){
-    const origin = (import.meta.env.VITE_BASE_URL || '').trim().replace(/\/$/, '') || getSiteOrigin()
+  if (Const.IS_HWORK_QIANKUN || location.host.indexOf('preview') === 0) {
+    const origin =
+      (import.meta.env.VITE_BASE_URL || '').trim().replace(/\/$/, '') || getSiteOrigin()
     const segment = resolveGatewayInstancePathSegment()
     if (!segment) return origin
     return `${origin}/rd/obaas/instances/${segment}`
-  }else{
-    return location.origin;
   }
+  return location.origin
 }
 
 const SUPABASE_URL = getSupabaseUrl()
@@ -105,7 +105,7 @@ export function getUrlInjectedAccessToken() {
   return urlAuthFromCallback?.accessToken ?? null
 }
 
-const URL_AUTH_STRIP_KEYS = ['access_token', 'refresh_token', 'type', 'expires_in']
+const URL_AUTH_STRIP_KEYS = ['access_token', 'refresh_token', 'type', 'expires_in', 'token_type']
 
 export function stripCallbackTokensFromBrowserUrl() {
   if (typeof window === 'undefined') return
@@ -175,11 +175,10 @@ export const urlAuthBootstrapPromise = urlAuthFromCallback?.accessToken
         refresh_token: urlAuthFromCallback.refreshToken || ''
       })
       .then(({ error, data }) => {
+        // 无论成功失败，都清除 URL 中的 token
+        stripCallbackTokensFromBrowserUrl()
         if (!error && data?.session) {
           urlAuthFromCallback = null
-          if (typeof window !== 'undefined') {
-            window.history.replaceState(null, '', window.location.pathname + window.location.search)
-          }
           console.info(
             AUTH_LOG,
             'setSession from URL OK, user:',
@@ -193,6 +192,8 @@ export const urlAuthBootstrapPromise = urlAuthFromCallback?.accessToken
         return { error, data }
       })
       .catch((err) => {
+        // 出错也要清除 URL 中的 token
+        stripCallbackTokensFromBrowserUrl()
         console.warn(
           AUTH_LOG,
           'setSession from URL error:',
