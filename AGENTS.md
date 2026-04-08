@@ -1,9 +1,3 @@
----
-description: Vue UI（Ant Design Vue）+ OBaaS SeekDB（Qiankun 子应用模版 template-haier-2）
-globs: []
-alwaysApply: true
----
-
 # 🚨 强制技能要求（MANDATORY）
 
 **在进行任何 UI 开发、页面生成、组件使用之前，必须先读取并遵循 `hwork-ui-ux-v1` 技能！**
@@ -32,6 +26,48 @@ alwaysApply: true
 - ❌ 禁止使用 `@ant-design/icons-vue`（必须用 `@hwork/icon`）
 - ❌ 禁止猜测图标名称（必须搜索确认）
 - ❌ 禁止使用 Ant Design Vue 2.x/3.x 旧语法
+
+---
+
+# 🔌 接口请求规范（MANDATORY）
+
+**根据接口来源选择正确的请求方式：**
+
+## 1. 用户提供的外部接口 → 使用 `service`
+
+当用户提供了外部 API 接口（如 Hwork 平台接口、第三方服务接口等），必须使用 `src/utils/request.js` 导出的 `service` 实例：
+
+```javascript
+import service from '@/utils/request'
+
+// GET 请求
+const res = await service.get('/api/xxx', { params: { id: 1 } })
+
+// POST 请求
+const res = await service.post('/api/xxx', { name: 'test' })
+```
+
+使用用户提供的 API 前缀作为环境变量 VITE_HWORK_URL，写入环境变量文件 .env 里
+
+## 2. 本模板扩展功能（数据库操作）→ 使用 `supabase`
+
+当基于本模板开发新功能，需要进行数据库增删改查时，必须使用 `src/services/supabase.js` 导出的 `supabase` 实例：
+
+```javascript
+import { supabase } from '@/services/supabase'
+
+// 调用存储过程
+const { data, error } = await supabase.rpc('sp_procedure_name', { p_param: value })
+
+// 文件存储
+const { data, error } = await supabase.storage.from('bucket').upload('path', file)
+```
+
+## 禁止行为
+
+- ❌ 禁止用 `supabase` 请求用户提供的外部接口
+- ❌ 禁止用 `service` 请求本模板的数据库存储过程
+- ❌ 禁止直接使用 `axios` 或 `fetch`（除非有特殊需求）
 
 ---
 

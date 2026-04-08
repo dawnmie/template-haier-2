@@ -7,6 +7,12 @@ description: '基于 H-work UI 标准生成 Vue 应用，H-work UI组件规范�
 
 使用模板和标准组件来生成企业级中台原型。包含组件的详细设计规范、16 种色彩体系、完整的字体排版系统，以及布局、间距、圆角、阴影等基础规范。
 
+## 路径说明
+
+> **`<skill-dir>`** 代表此技能的根目录：`.opencode/skills/hwork-ui-ux-v1`
+>
+> 文档中所有路径均使用此占位符，实际使用时替换为完整路径。
+
 ## 何时应用
 
 在以下情况下参考这些规范：
@@ -16,12 +22,12 @@ description: '基于 H-work UI 标准生成 Vue 应用，H-work UI组件规范�
 - 选择组件的颜色、尺寸、间距等样式
 - 构建表单、表格、数据展示等业务场景
 - 优先使用 `@hwork/ant-design-vue`,`@hwork/hwork-business-components`,`@hwork/icon` 组件库生成页面
-- 读取组件库使用文档，reference目录下是所有组件的使用文档
+- 读取组件库使用文档，`<skill-dir>/reference/` 目录下是所有组件的使用文档
 - 严格遵循 H-work UI 设计规范（品牌色、尺寸、间距等）
 
 ## 如何使用
 
-组件库基于 **vue@3.5.26** 进行开发，使用 `@hwork/ant-design-vue`(**基于ant-design-vue@4.1.2二次开发**) 组件库进行开发，请注意版本，使用api 请参考 reference/hwork-ant-design-vue/a-[组件名称].md;图标必须使用 `@hwork/icon`; 人员选择相关组件优先使用 `@hwork/hwork-business-components`。
+组件库基于 **vue@3.5.26** 进行开发，使用 `@hwork/ant-design-vue`(**基于ant-design-vue@4.1.2二次开发**) 组件库进行开发，请注意版本，使用api 请参考 `<skill-dir>/reference/hwork-ant-design-vue/a-[组件名称].md`;图标必须使用 `@hwork/icon`; 人员选择相关组件优先使用 `@hwork/hwork-business-components`。
 
 ## 规范优先级
 
@@ -211,8 +217,11 @@ description: '基于 H-work UI 标准生成 Vue 应用，H-work UI组件规范�
 | PageLayout       | 其他     | 页面布局      | `<a-page-layout><template #header>标题</template>内容</a-page-layout>`                                               |
 | Watermark        | 其他     | 水印组件      | `<a-watermark content="水印内容"><div>内容</div></a-watermark>`                                                      |
 
-每个组件的详情可以从 `reference/hwork-ant-design-vue/` 目录读取相关组件文档，文件路径在
-`<skill-dir>/reference/hwork-ant-design-vue/a-{{组件的串行命名}}.md`
+每个组件的详情可以从 `<skill-dir>/reference/hwork-ant-design-vue/` 目录读取相关组件文档，文件路径格式：
+
+```
+<skill-dir>/reference/hwork-ant-design-vue/a-{{组件的串行命名}}.md
+```
 
 比如 ListLayout，使用 Read 工具读取：`<skill-dir>/reference/hwork-ant-design-vue/a-list-layout.md`
 
@@ -227,7 +236,12 @@ description: '基于 H-work UI 标准生成 Vue 应用，H-work UI组件规范�
 | UserSelect    | 用户选择组件，适合弹窗内以穿梭框形式批量选择用户 | hwComps.hwUserSelect.init(element, options);          |
 
 **如果在组件的挂载点在模板的 `slot` 里 请在 `nextTick` 里 `init` 组件**
-每个组件的详细文档及 options 详细参数可以查看： `reference/hwork-business-components/{{组件的串行命名}}/index.md`
+
+每个组件的详细文档及 options 详细参数可以查看：
+
+```
+<skill-dir>/reference/hwork-business-components/{{组件的串行命名}}/index.md
+```
 
 比如查看 **PersonnelList 组件** 的用法，对此组件请一直使用 ` style: { width: "100%" }` ，来实现宽度自适应。
 
@@ -251,9 +265,9 @@ hwComps.hwPersonnelListSelect.init(personnelSelectRef.value, {
 
 比如查看 **PersonnelList 组件** 的详细文档，使用 Read 工具读取：
 
-- 业务组件文档：`reference/hwork-business-components/personnel-list/index.md`
-- 组件参数详细文档：`reference/hwork-business-components/personnel-list/references/api_reference.md`
-- 组件使用示例：`reference/hwork-business-components/personnel-list/references/code_examples.md`
+- 业务组件文档：`<skill-dir>/reference/hwork-business-components/personnel-list/index.md`
+- 组件参数详细文档：`<skill-dir>/reference/hwork-business-components/personnel-list/references/api_reference.md`
+- 组件使用示例：`<skill-dir>/reference/hwork-business-components/personnel-list/references/code_examples.md`
 
 #### 🚨 图表组件（强制读取）
 
@@ -290,7 +304,7 @@ import '@hwork/icon/align-center'
 
 ##### 所有图标
 
-所有图标请读取 `reference/hwork-icon/references/icon_list.md`
+所有图标请读取 `<skill-dir>/reference/hwork-icon/references/icon_list.md`
 
 **🚨🚨🚨 严格限制：只能使用搜索到的图标，禁止猜测或编造图标名！🚨🚨🚨**
 
@@ -304,9 +318,9 @@ import '@hwork/icon/align-center'
 
 ```bash
 # 按用途搜索图标（推荐）
-python3 scripts/search.py "删除" --category icon
-python3 scripts/search.py "设置" --category icon
-python3 scripts/search.py "用户" --category icon
+python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "删除" --category icon
+python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "设置" --category icon
+python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "用户" --category icon
 ```
 
 搜索结果中的 `Value` 字段即为可用的图标组件名。找不到合适的图标时，使用 `h-icon-settings` 作为默认图标，绝对不要编造图标名称。
@@ -318,7 +332,7 @@ python3 scripts/search.py "用户" --category icon
 **🚫 禁止行为：直接跳到步骤 4 生成代码**
 
 对于不能使用组件的UI元素，需要遵循设计规范来实现;
-使用 `search.py` 搜索相关设计规范，确保符合 H-work 设计标准。
+使用 `<skill-dir>/scripts/search.py` 搜索相关设计规范，确保符合 H-work 设计标准。
 
 #### 必须执行的搜索命令
 
@@ -326,19 +340,14 @@ python3 scripts/search.py "用户" --category icon
 
 ```bash
 # 1. 颜色规范（必须）
-python3 scripts/search.py "brand color" --category color
+python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "brand color" --category color
 
 # 2. 文字色规范（必须）
-python3 scripts/search.py "text color" --category color
+python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "text color" --category color
 
 # 3. 间距规范（必须）
-python3 scripts/search.py "spacing" --category margin
+python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "spacing" --category margin
 ```
-
-#### 搜索脚本路径说明
-
-- 搜索脚本位于：`scripts/search.py`
-- 使用绝对路径执行，无需切换目录
 
 #### 完成标志
 
@@ -368,7 +377,7 @@ python3 scripts/search.py "spacing" --category margin
 | `this.$message.success()`                 | `message.success()`                                   |
 | `this.$modal.confirm()`                   | `Modal.confirm()`                                     |
 
-**如果你不确定某个 API 是否属于旧版本，请先查阅 `reference/hwork-ant-design-vue/` 下的组件文档。**
+**如果你不确定某个 API 是否属于旧版本，请先查阅 `<skill-dir>/reference/hwork-ant-design-vue/` 下的组件文档。**
 
 ---
 
@@ -456,10 +465,10 @@ python3 scripts/search.py "spacing" --category margin
 
 ```bash
 # 搜索表格规范
-python3 scripts/search.py "table header" --category table
+python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "table header" --category table
 
 # 搜索按钮规范
-python3 scripts/search.py "primary button" --category button
+python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "primary button" --category button
 ```
 
 ---
@@ -520,16 +529,16 @@ python3 scripts/search.py "primary button" --category button
 
 ```bash
 # 颜色检查
-python3 scripts/search.py "brand color" --category color
+python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "brand color" --category color
 
 # 组件检查
-python3 scripts/search.py "button size" --category button
+python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "button size" --category button
 
 # 字体检查
-python3 scripts/search.py "font size" --category font
+python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "font size" --category font
 
 # 间距检查
-python3 scripts/search.py "padding" --category margin
+python3 .opencode/skills/hwork-ui-ux-v1/scripts/search.py "padding" --category margin
 ```
 
 ## 注意事项
