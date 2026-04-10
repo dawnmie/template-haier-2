@@ -127,7 +127,6 @@ module.exports = {
     'no-ex-assign': 2,
     'no-extend-native': 2,
     'no-extra-bind': 2,
-    'no-extra-boolean-cast': 2,
     'no-extra-parens': [2, 'functions'], // 禁止不必要的括号
     'no-else-return': 2, // 禁止if语句中return语句之后有else块
     'no-fallthrough': 2,

@@ -109,6 +109,14 @@ const URL_AUTH_STRIP_KEYS = ['access_token', 'refresh_token', 'type', 'expires_i
 
 export function stripCallbackTokensFromBrowserUrl() {
   if (typeof window === 'undefined') return
+
+  // preview-init-- 开头的域名跳过清除 URL 逻辑
+  const hostname = window.location.hostname
+  if (hostname.startsWith('preview-init--')) {
+    console.info(AUTH_LOG, 'skip stripCallbackTokensFromBrowserUrl for preview-init domain')
+    return
+  }
+
   const url = new URL(window.location.href)
   let changed = false
   for (const k of URL_AUTH_STRIP_KEYS) {
