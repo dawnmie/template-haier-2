@@ -21,17 +21,17 @@ const name = import.meta.env.VITE_SUB_APP_NAME
 const appendTo = container ? container.querySelector('#app') : '#app'
 const ENV_QIANKUN = qiankunWindow.__POWERED_BY_QIANKUN__
 
-if (!ENV_QIANKUN) {
-  const { loading } = useAppAuth()
-  watch(
-    () => loading.value,
-    () => {
-      pageLoading.value = loading.value
-    }
-  )
-} else {
-  pageLoading.value = false
-}
+// if (!ENV_QIANKUN) {
+//   const { loading } = useAppAuth()
+//   watch(
+//     () => loading.value,
+//     () => {
+//       pageLoading.value = loading.value
+//     }
+//   )
+// } else {
+pageLoading.value = false
+// }
 </script>
 
 <style lang="scss">
