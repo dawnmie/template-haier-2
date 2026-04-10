@@ -1,0 +1,291 @@
+.flex(@direction: row, @row: flex-start, @column: stretch, @wrap: nowrap) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @row;
+  align-items: @column;
+  flex-wrap: @wrap;
+}
+
+.scroll(@track-bg-color: #fff, @thumb-bg-color: #C9CDD4, @thumb-bg-color-hover: #C9CDD4, @scrollbar-display: none) {
+  &:hover {
+    &::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+      display: block;
+    }
+  }
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    display: @scrollbar-display;
+  }
+  &::-webkit-scrollbar-track {
+    width: 8px;
+    background: @track-bg-color;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: @thumb-bg-color;
+    background-clip: padding-box;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: @thumb-bg-color-hover;
+    border: 2px solid @thumb-bg-color-hover;
+  }
+  &::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+}
+
+.scrollbar( @thumb-bg-color: #C9CDD4) {
+  &::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  &:hover {
+    &::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-left: 2px solid transparent;
+      border-right: 2px solid transparent;
+      border-radius: 4px;
+      background-clip: padding-box;
+      background-color: @thumb-bg-color;
+    }
+    &::-webkit-scrollbar-track {
+      margin: 12px 0;
+      background-color: transparent;
+    }
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    border: 0;
+    border-radius: 5px;
+  }
+}
+
+.scroll-hide {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.arrow-transform(@deg: 0) {
+  transform-origin: center;
+  transform: rotate(unit(@deg, deg));
+  -webkit-transform: rotate(unit(@deg, deg));
+  transition: transform 0.3s;
+}
+
+.unselected {
+  user-select: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+// 清除浮动
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+
+// 菜单的width
+.ant-menu-width() {
+  .@{ant-prefix}-menu-inline .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu-inline .@{ant-prefix}-menu-submenu-title {
+    width: 100%;
+  }
+}
+
+// 菜单的margin
+.ant-menu-margin(@margin: 0px) {
+  .@{ant-prefix}-menu-vertical .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu-vertical-left .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu-vertical-right .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu-inline .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu-vertical .@{ant-prefix}-menu-submenu-title,
+  .@{ant-prefix}-menu-vertical-left .@{ant-prefix}-menu-submenu-title,
+  .@{ant-prefix}-menu-vertical-right .@{ant-prefix}-menu-submenu-title,
+  .@{ant-prefix}-menu-inline .@{ant-prefix}-menu-submenu-title {
+    margin-top: @margin;
+    margin-bottom: @margin;
+  }
+}
+
+// 菜单的border
+.ant-menu-border-right() {
+  .@{ant-prefix}-menu-inline,
+  .@{ant-prefix}-menu-vertical,
+  .@{ant-prefix}-menu-vertical-left {
+    border-right: 0;
+  }
+  .@{ant-prefix}-menu-vertical .@{ant-prefix}-menu-item::after,
+  .@{ant-prefix}-menu-vertical-left .@{ant-prefix}-menu-item::after,
+  .@{ant-prefix}-menu-vertical-right .@{ant-prefix}-menu-item::after,
+  .@{ant-prefix}-menu-inline .@{ant-prefix}-menu-item::after {
+    border-right: 0;
+  }
+}
+
+// 菜单展开后 每一级菜单的padding-left
+.ant-menu-padding(@level1: 12px, @level2: 44px, @level3: 60px, @level4: 76px, @level5: 92px) {
+  // 菜单展开后 每一级菜单的padding-left
+  .@{ant-prefix}-menu.ant-menu-root > .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu.ant-menu-root > .@{ant-prefix}-menu-submenu > .ant-menu-submenu-title {
+    padding-left: @level1 !important;
+  }
+  .@{ant-prefix}-menu.ant-menu-root
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu.ant-menu-root
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-submenu-title {
+    padding-left: @level2 !important;
+  }
+  .@{ant-prefix}-menu.ant-menu-root
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu.ant-menu-root
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-submenu-title {
+    padding-left: @level3 !important;
+  }
+  .@{ant-prefix}-menu.ant-menu-root
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu.ant-menu-root
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-submenu-title {
+    padding-left: @level4 !important;
+  }
+  .@{ant-prefix}-menu.ant-menu-root
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu.ant-menu-root
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-sub
+    > .@{ant-prefix}-menu-submenu
+    > .ant-menu-submenu-title {
+    padding-left: @level5 !important;
+  }
+}
+
+// 菜单的箭头
+.ant-menu-arrow(@color: #86909c) {
+  .ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow::before,
+  .ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow::before,
+  .ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow::before,
+  .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::before,
+  .ant-menu-submenu-vertical > .ant-menu-submenu-title .ant-menu-submenu-arrow::after,
+  .ant-menu-submenu-vertical-left > .ant-menu-submenu-title .ant-menu-submenu-arrow::after,
+  .ant-menu-submenu-vertical-right > .ant-menu-submenu-title .ant-menu-submenu-arrow::after,
+  .ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::after {
+    background: @color;
+    background-image: none;
+  }
+}
+
+// 菜单的箭头hover
+.ant-menu-arrow-hover(@color: #86909c) {
+  .ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+  .ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+  .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+  .ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+  .ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+  .ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+  .ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+  .ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before {
+    background: @color;
+  }
+}
+
+// 骨架屏颜色
+.ant-menu-skeleton() {
+  .@{ant-prefix}-skeleton.@{ant-prefix}-skeleton-active .@{ant-prefix}-skeleton-avatar,
+  .@{ant-prefix}-skeleton.@{ant-prefix}-skeleton-active
+    .@{ant-prefix}-skeleton-content
+    .@{ant-prefix}-skeleton-paragraph
+    > li,
+  .@{ant-prefix}-skeleton.@{ant-prefix}-skeleton-active
+    .@{ant-prefix}-skeleton-content
+    .@{ant-prefix}-skeleton-title {
+    background: linear-gradient(90deg, rgba(#4e5969, 0.1) 25%, #e5eef7 37%, rgba(#4e5969, 0.1) 63%);
+    background-size: 400% 100%;
+  }
+}
+
+// 菜单文字颜色
+.ant-sidemenu-font-color(@color: #fff) {
+  .@{ant-prefix}-menu-vertical > .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu-vertical-left > .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu-vertical-right > .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu-inline > .@{ant-prefix}-menu-item,
+  .@{ant-prefix}-menu-vertical > .@{ant-prefix}-menu-submenu > .@{ant-prefix}-menu-submenu-title,
+  .@{ant-prefix}-menu-vertical-left
+    > .@{ant-prefix}menu-submenu
+    > .@{ant-prefix}-menu-submenu-title,
+  .@{ant-prefix}-menu-vertical-right
+    > .@{ant-prefix}-menu-submenu
+    > .@{ant-prefix}-menu-submenu-title,
+  .@{ant-prefix}-menu-inline > .@{ant-prefix}-menu-submenu > .@{ant-prefix}-menu-submenu-title {
+    color: @color;
+  }
+}

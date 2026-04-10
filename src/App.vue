@@ -34,7 +34,7 @@ pageLoading.value = false
 // }
 </script>
 
-<style lang="scss">
+<style lang="less">
 body {
   margin: 0;
 }
