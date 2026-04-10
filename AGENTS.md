@@ -290,6 +290,7 @@ const { error: e5 } = await supabase.storage.from(bucket).remove(['docs/readme.t
 
 - **不支持**官方 **图片 transform**（`download` / `getPublicUrl` 的 `transform`、`render/image`）。
 - 业务表引用文件时，自行存 **path** 或 **publicUrl**，用 RPC 维护业务字段。
+- **容量限制**：**单个上传文件/对象必须小于等于 50 MB**。请在前端先做体积校验，超过限制要直接提示并拒绝上传（不要让用户等待失败）。
 
 ---
 
