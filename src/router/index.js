@@ -7,7 +7,12 @@ const routes = [
   {
     path: '/demo/table',
     name: 'demo-table',
-    component: () => import('@/views/demo/table.vue')
+    component: () => import('@/examples/table.vue')
+  },
+  {
+    path: '/demo/app-layout',
+    name: 'demo-app-layout',
+    component: () => import('@/examples/useLayout/index.vue')
   }
 ]
 
