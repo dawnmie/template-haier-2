@@ -527,6 +527,19 @@ DROP PROCEDURE IF EXISTS procedure_name;
 - **错误处理**: `supabase.rpc` 返回 `{ data, error }`，失败时检查 `error` 并抛出
 - **参数传递**: 使用**命名参数对象**，key 与存储过程 IN 参数名一致
 
+### 4. ECharts 6 默认采用 tree-shaking 模式，不再自动注册图表类型和组件。如果只写了 `import VChart from 'vue-echarts'`，没有注册任何 ECharts 模块（Renderer、Chart、Component），会导致运行时找不到 `LineChart` / `BarChart` 等构造函数。
+
+**示例**:
+
+```javascript
+import { use } from 'echarts/core'
+import { CanvasRenderer } from 'echarts/renderers'
+import { LineChart } from 'echarts/charts'
+import { GridComponent, TooltipComponent } from 'echarts/components'
+
+use([CanvasRenderer, LineChart, GridComponent, TooltipComponent])
+```
+
 ---
 
 ## 📚 API 快速参考
