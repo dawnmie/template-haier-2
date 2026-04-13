@@ -41,13 +41,14 @@
 import service from '@/utils/request'
 
 // GET 请求
-const res = await service.get('/api/xxx', { params: { id: 1 } })
+const res = await service.get('https://api.example.com/api/xxx', { params: { id: 1 } })
 
 // POST 请求
-const res = await service.post('/api/xxx', { name: 'test' })
+const res = await service.post('https://api.example.com/api/xxx', { name: 'test' })
 ```
 
-使用用户提供的 API 前缀作为环境变量 VITE_HWORK_URL，写入环境变量文件 .env 里
+- `service` 的 `baseURL` 为空，请在第一个参数传入**用户提供的完整 API URL（含协议与域名）**。
+- 令牌获取逻辑保持模板默认实现，预览环境由预览 URL 注入 token，发布环境由微前端注入，无需额外修改。
 
 ## 2. 本模板扩展功能（数据库操作）→ 使用 `supabase`
 
@@ -240,6 +241,23 @@ const first = Array.isArray(row) ? row[0] : row
 - **表数据**：必须用 **`supabase.rpc()`** 调存储过程（见上文 CRITICAL）。
 - **文件二进制**：用 **`supabase.storage`**，**不要**把大文件写入 RPC / SQL。
 - Storage 的 **bucket** 由平台在 OSS 侧维护；**不是** SeekDB 表，**无需**用 `sqls/` 建 bucket。
+
+### 🪣Supabase Storage 使用规范（防止路径拼接错误）
+
+⚠️ 核心原则：**上传时把文件直接放到 bucket 根目录，不要自行添加子目录前缀（例如 `uploads/`）**。
+
+为什么？`supabase.storage.from(bucket).list(folder)` 返回的 `name` 字段在不同平台实现中不一致：有的只返回文件名，有的包含 `folder/` 前缀。Agent 若自行追加子目录，再拼接 URL 时极易出现双重路径（如 `uploads/uploads/file.png`），导致 404。
+
+正确做法：
+1. **上传**：文件名直接作为 path，不加子目录：`storageUpload(supabase, bucket, filename, file)`。
+2. **列表**：`supabase.storage.from(bucket).list('', { limit: 200 })`，仅列根目录文件。
+3. **生成预览 URL**：不要用 `getPublicUrl()`；手动拼接保证可控：
+   ```typescript
+   const url = `${window.location.origin}/storage/v1/object/public/${bucket}/${filename}`
+   ```
+   > ⚠️ 即便是 `public` bucket，访问上述 URL 仍需带上 Supabase token，必须通过 Supabase Storage 接口获取（SDK 会自动注入凭证），不要直接裸访问 URL。
+4. **删除**：直接用文件名：`storageRemove(supabase, bucket, [filename])`。
+5. **确需子目录时**：上传后必须使用 **API 实际返回的 `data.path`** 来生成 URL；绝对不要用 `list` 返回的 `name` 再手动拼接 `folder` 前缀。
 
 ### 必须先创建 bucket（首次上传前）
 
