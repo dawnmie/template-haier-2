@@ -37,13 +37,12 @@
 
     <!-- 底部操作区域 -->
     <footer class="ant-sidemenu-collapse">
-      <div v-show="!isCollapsed" class="ant-sidemenu-collapse-nav" @click="handleNavModeClick">
+      <!-- <div v-show="!isCollapsed" class="ant-sidemenu-collapse-nav" @click="handleNavModeClick">
         <h-icon-settings />
         <span class="ant-sidemenu-collapse-nav-text">导航模式切换</span>
-      </div>
+      </div> -->
       <div class="ant-sidemenu-collapse-wrapper" @click="toggleCollapsed">
-        <h-icon-menu-fold v-if="!isCollapsed" />
-        <h-icon-menu-unfold v-else />
+        <h-icon-menu-fold :class="{ 'is-collapsed': isCollapsed }" />
       </div>
     </footer>
   </div>
@@ -52,7 +51,6 @@
 <script setup>
 import { ref, computed, watch, h } from 'vue'
 import '@hwork/icon/menu-fold'
-import '@hwork/icon/menu-unfold'
 import '@hwork/icon/settings'
 
 const props = defineProps({
@@ -473,7 +471,7 @@ const handleNavModeClick = () => {
     height: 48px;
     width: inherit;
     box-sizing: border-box;
-    .flex(row, space-between, center);
+    .flex(row, flex-end, center);
     &-nav {
       .flex(row, flex-start, center);
       padding-left: 16px;
@@ -495,8 +493,8 @@ const handleNavModeClick = () => {
       .flex(row, center, center);
       .cursor();
       .h-icon {
-        width: 20px;
-        height: 20px;
+        // width: 20px;
+        // height: 20px;
         font-size: 18px;
         .arrow-transform(0);
       }
