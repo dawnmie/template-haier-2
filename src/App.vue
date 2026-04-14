@@ -1,5 +1,5 @@
 <template>
-  <StyleProvider :container="styleContainer">
+  <StyleProvider :hash-priority="hashPriority">
     <ConfigProvider :locale="zhCN" :get-popup-container="getPopupContainer" :namespace="name">
       <div v-if="pageLoading" class="auth-boot">
         <a-spin size="large" tip="加载中…" />
@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-import { ref, watch, computed } from 'vue'
+import { ref, watch } from 'vue'
 import { ConfigProvider, StyleProvider } from '@hwork/ant-design-vue'
 import zhCN from '@hwork/ant-design-vue/es/locale/zh_CN'
 import { useAppAuth } from '@/composables/useAppAuth'
@@ -23,18 +23,15 @@ const name = import.meta.env.VITE_SUB_APP_NAME
 const ENV_QIANKUN = qiankunWindow.__POWERED_BY_QIANKUN__
 
 /**
- * 获取 CSS-in-JS 样式注入的目标容器
- * 在 qiankun strictStyleIsolation (Shadow DOM) 模式下，
- * 需要将样式注入到 Shadow DOM 内部，而不是 document.head
+ * CSS-in-JS 选择器优先级配置
+ *
+ * 问题：qiankun experimentalStyleIsolation 会给静态 CSS 添加 div[data-qiankun="xxx"] 前缀
+ * 但 Ant Design Vue 4.x CSS-in-JS 默认使用 :where(.css-xxx) 选择器（优先级为 0）
+ * 导致被 qiankun 处理过的 reset.css 样式覆盖了组件样式
+ *
+ * 解决：设置 hashPriority="high" 将 :where(.css-xxx) 改为 .css-xxx（正常优先级）
  */
-const styleContainer = computed(() => {
-  if (ENV_QIANKUN && container) {
-    // qiankun Shadow DOM 模式：返回子应用容器
-    // StyleProvider 会将 CSS-in-JS 生成的 <style> 标签注入到此容器
-    return container.querySelector('#app') || document.body
-  }
-  return undefined // 默认使用 document.head
-})
+const hashPriority = ENV_QIANKUN ? 'high' : 'low'
 
 /**
  * 弹出层渲染容器
