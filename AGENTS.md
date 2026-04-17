@@ -249,13 +249,10 @@ const first = Array.isArray(row) ? row[0] : row
 为什么？`supabase.storage.from(bucket).list(folder)` 返回的 `name` 字段在不同平台实现中不一致：有的只返回文件名，有的包含 `folder/` 前缀。Agent 若自行追加子目录，再拼接 URL 时极易出现双重路径（如 `uploads/uploads/file.png`），导致 404。
 
 正确做法：
+
 1. **上传**：文件名直接作为 path，不加子目录：`storageUpload(supabase, bucket, filename, file)`。
 2. **列表**：`supabase.storage.from(bucket).list('', { limit: 200 })`，仅列根目录文件。
-3. **生成预览 URL**：不要用 `getPublicUrl()`；手动拼接保证可控：
-   ```typescript
-   const url = `${window.location.origin}/storage/v1/object/public/${bucket}/${filename}`
-   ```
-   > ⚠️ 即便是 `public` bucket，访问上述 URL 仍需带上 Supabase token，必须通过 Supabase Storage 接口获取（SDK 会自动注入凭证），不要直接裸访问 URL。
+3. **上传图片后预览** 要使用 supabase.storage.download() 下载 Blob 再生成 URL.createObjectURL() 的方式展示图片。
 4. **删除**：直接用文件名：`storageRemove(supabase, bucket, [filename])`。
 5. **确需子目录时**：上传后必须使用 **API 实际返回的 `data.path`** 来生成 URL；绝对不要用 `list` 返回的 `name` 再手动拼接 `folder` 前缀。
 
