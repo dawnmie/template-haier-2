@@ -112,12 +112,12 @@ export function useAppAuth() {
           }
           return
         }
-        const {
-          data: { user: u },
-          error
-        } = await supabase.auth.getUser()
-        if (!mounted) return
-        user.value = !error && u ? u : null
+        // const {
+        //   data: { user: u },
+        //   error
+        // } = await supabase.auth.getUser()
+        // if (!mounted) return
+        // user.value = !error && u ? u : null
       })
       if (!mounted) {
         sub.unsubscribe()
