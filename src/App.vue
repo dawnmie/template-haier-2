@@ -13,7 +13,7 @@
 import { ref, watch } from 'vue'
 import { ConfigProvider, StyleProvider } from '@hwork/ant-design-vue'
 import zhCN from '@hwork/ant-design-vue/es/locale/zh_CN'
-import { useAppAuth } from '@/composables/useAppAuth'
+// import { useAppAuth } from '@/composables/useAppAuth'
 import { container } from '@/main'
 import { qiankunWindow } from 'vite-plugin-qiankun/dist/helper'
 
@@ -49,17 +49,17 @@ const getPopupContainer = (triggerNode) => {
   return document.body
 }
 
-if (!ENV_QIANKUN) {
-  const { loading } = useAppAuth()
-  watch(
-    () => loading.value,
-    () => {
-      pageLoading.value = loading.value
-    }
-  )
-} else {
-  pageLoading.value = false
-}
+// if (!ENV_QIANKUN) {
+//   const { loading } = useAppAuth()
+//   watch(
+//     () => loading.value,
+//     () => {
+//       pageLoading.value = loading.value
+//     }
+//   )
+// } else {
+//   pageLoading.value = false
+// }
 </script>
 
 <style lang="scss">

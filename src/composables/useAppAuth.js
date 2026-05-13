@@ -25,7 +25,7 @@ function jwtPayload(accessToken) {
 function userStubFromUrlToken(accessToken) {
   const p = jwtPayload(accessToken)
   if (!p) {
-    return { id: 'url-bearer', app_metadata: {}, user_metadata: {} }
+    return { id: 'url-bearer', app_metadata: {}, user_metadata: {}}
   }
   return {
     id: String(p.sub ?? 'url-bearer'),
@@ -110,7 +110,6 @@ export function useAppAuth() {
           if (event === 'SIGNED_OUT') {
             redirectToHaierOAuth()
           }
-          return
         }
         // const {
         //   data: { user: u },

@@ -1,30 +1,29 @@
 import axios from 'axios'
-import { messageTip } from '@/tool/tool'
+import { messageTip, getToken } from '@/tool/tool'
 import throttle from 'lodash.throttle'
 import * as Tool from '@/tool/tool.js'
-import { globals, hworkJSApi } from '../main'
+import { globals } from '../main'
 import * as Const from '@/tool/const.js'
-
-const HWORK_URL = import.meta.env.VITE_HWORK_URL
-const HWORK_INTERNAL = import.meta.env.VITE_HWORK_INTERNAL
+import { message } from '@hwork/ant-design-vue'
+import { isPreviewEnv } from '@tool/tool'
 
 const service = axios.create({
-  baseURL: HWORK_URL,
+  // baseURL: '',
   timeout: 180 * 1000
 })
 
 const error2Message = throttle((error) => {
-  let message = ''
+  let errorMsg = ''
   if (Const.HWORK_DOMAIN_INNER_ARR.includes(error?.config?.baseURL)) {
     return
   }
 
   if (error.code === 'ERR_NETWORK' || (error.message || '').toLowerCase() === 'network error') {
-    message = '网络不可用'
+    errorMsg = '网络不可用'
   } else if (error.response?.status === 400) {
-    message = '请求错误'
+    errorMsg = '请求错误'
   } else if ([401, 403].includes(error.response?.status)) {
-    message = '登录失效'
+    errorMsg = '登录失效'
     if (Const.IS_HWORK_QIANKUN) {
       location.href =
         location.origin + '/register?redirect_uri=' + encodeURIComponent(location.href)
@@ -33,59 +32,33 @@ const error2Message = throttle((error) => {
         '/auth/v1/authorize?provider=hwork&redirect_to=' + encodeURIComponent(location.href)
     }
   } else if (error.response?.status === 404) {
-    message = '请求地址错误'
+    errorMsg = '请求地址错误'
   } else {
-    message = '系统异常'
+    errorMsg = '系统异常'
   }
 
-  if (message) {
+  if (errorMsg) {
     if (Const.IS_NEW_DESKTOP) {
       window?.hwork?.showToast({
         type: 'error',
-        content: message
+        content: errorMsg
       })
     } else {
-      messageTip.error({ message })
+      messageTip.error({ message: errorMsg })
     }
   }
 }, 3000)
 
-// 优先从 URL search 获取 access_token
-const urlParams = new URLSearchParams(window.location.search)
-const urlAccessToken = urlParams.get('access_token')
-
 service.interceptors.request.use(
   async (config) => {
-    if (config.needRefreshToken && window?.hwork?.getToken) {
-      const obj = await window.hwork.getToken(config.needRefreshToken)
-      console.log('401第二次获取', obj)
-    }
-
-    const hworkToken = urlAccessToken || hworkJSApi?.getToken()
+    // 使用统一的 getToken 方法获取 token
+    const hworkToken = await getToken()
 
     if (hworkToken) {
       config.headers.Authorization = 'Bearer ' + hworkToken
     }
     if (config.limit) {
       config.headers.ignoreTip = true
-    }
-
-    if (config.params?.hwork) {
-      config.baseURL = HWORK_URL
-      delete config.params.hwork
-    } else if (config.data?.hwork) {
-      config.baseURL = HWORK_URL
-      delete config.data.hwork
-    } else if (config.params?.internal) {
-      config.baseURL = HWORK_INTERNAL
-      delete config.params.internal
-    } else if (config.data?.internal) {
-      config.baseURL = HWORK_INTERNAL
-      delete config.data.internal
-    } else if (config.data?.refreshToken) {
-      config.baseURL = HWORK_URL
-      config.headers.Authorization = 'Bearer ' + config.data.refreshToken
-      delete config.data.refreshToken
     }
 
     if (config.params?.extraHeader) {
@@ -157,6 +130,10 @@ service.interceptors.response.use(
 )
 
 function handle_401(error) {
+  if (isPreviewEnv()) {
+    message.error('请token过期，请刷新页面')
+    return
+  }
   let errMsg = ''
 
   if (typeof error === 'string') {

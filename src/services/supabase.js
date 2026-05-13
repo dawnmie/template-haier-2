@@ -178,37 +178,37 @@ export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
 
 export const urlAuthBootstrapPromise = urlAuthFromCallback?.accessToken
   ? supabase.auth
-      .setSession({
-        access_token: urlAuthFromCallback.accessToken,
-        refresh_token: urlAuthFromCallback.refreshToken || ''
-      })
-      .then(({ error, data }) => {
-        // 无论成功失败，都清除 URL 中的 token
-        stripCallbackTokensFromBrowserUrl()
-        if (!error && data?.session) {
-          urlAuthFromCallback = null
-          console.info(
-            AUTH_LOG,
-            'setSession from URL OK, user:',
-            data.session.user?.id ?? '(unknown)',
-            'expires_at:',
-            data.session.expires_at ?? '?'
-          )
-        } else if (error) {
-          console.warn(AUTH_LOG, 'setSession from URL failed:', error.message)
-        }
-        return { error, data }
-      })
-      .catch((err) => {
-        // 出错也要清除 URL 中的 token
-        stripCallbackTokensFromBrowserUrl()
-        console.warn(
+    .setSession({
+      access_token: urlAuthFromCallback.accessToken,
+      refresh_token: urlAuthFromCallback.refreshToken || ''
+    })
+    .then(({ error, data }) => {
+      // 无论成功失败，都清除 URL 中的 token
+      stripCallbackTokensFromBrowserUrl()
+      if (!error && data?.session) {
+        urlAuthFromCallback = null
+        console.info(
           AUTH_LOG,
-          'setSession from URL error:',
-          err instanceof Error ? err.message : String(err)
+          'setSession from URL OK, user:',
+          data.session.user?.id ?? '(unknown)',
+          'expires_at:',
+          data.session.expires_at ?? '?'
         )
-        return { error: err, data: null }
-      })
+      } else if (error) {
+        console.warn(AUTH_LOG, 'setSession from URL failed:', error.message)
+      }
+      return { error, data }
+    })
+    .catch((err) => {
+      // 出错也要清除 URL 中的 token
+      stripCallbackTokensFromBrowserUrl()
+      console.warn(
+        AUTH_LOG,
+        'setSession from URL error:',
+        err instanceof Error ? err.message : String(err)
+      )
+      return { error: err, data: null }
+    })
   : Promise.resolve({ error: null, data: null })
 
 export async function getAccessToken() {
